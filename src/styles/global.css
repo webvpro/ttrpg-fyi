@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "@tailwindcss/typography";
+
+@theme {
+    --font-outfit: 'Outfit Variable', 'comic-sans';
+  }
+  

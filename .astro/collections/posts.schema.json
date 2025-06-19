@@ -1,0 +1,53 @@
+{
+  "$ref": "#/definitions/posts",
+  "definitions": {
+    "posts": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        },
+        "authorImage": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "featuredPost": {
+          "type": "boolean"
+        },
+        "topArticle": {
+          "type": "boolean"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "date",
+        "image",
+        "author",
+        "authorImage",
+        "category",
+        "featuredPost",
+        "topArticle"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
