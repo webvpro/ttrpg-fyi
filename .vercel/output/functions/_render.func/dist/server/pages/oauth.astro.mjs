@@ -1,4 +1,4 @@
-import { a as createAdminClient, S as SESSION_COOKIE } from '../chunks/appwrite_Bx-qy3kT.mjs';
+import { a as createAdminClient, S as SESSION_COOKIE } from '../chunks/appwrite_CdyEDrVh.mjs';
 import { OAuthProvider } from 'node-appwrite';
 export { renderers } from '../renderers.mjs';
 
@@ -8,7 +8,7 @@ const POST = async ({ redirect, url }) => {
     OAuthProvider.Github,
     // Use the enum instead of string
     `${url.origin}/oauth`,
-    `${url.origin}/signin`
+    `${url.origin}/login`
   );
   return redirect(redirectUrl);
 };

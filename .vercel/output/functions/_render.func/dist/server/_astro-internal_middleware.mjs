@@ -1,9 +1,9 @@
-import { d as defineMiddleware, s as sequence } from './chunks/index_B6t-tXnL.mjs';
-import { c as createSessionClient } from './chunks/appwrite_Bx-qy3kT.mjs';
+import { d as defineMiddleware, s as sequence } from './chunks/index_BWiHUotM.mjs';
+import { c as createSessionClient } from './chunks/appwrite_CdyEDrVh.mjs';
 import 'es-module-lexer';
-import './chunks/astro-designed-error-pages_CK1D8HK3.mjs';
+import './chunks/astro-designed-error-pages_CfnAVzCX.mjs';
 import 'kleur/colors';
-import './chunks/astro/server_BV1jJfoF.mjs';
+import './chunks/astro/server_DpDTV1Jg.mjs';
 import 'clsx';
 import 'cookie';
 
