@@ -100,9 +100,17 @@ if (Astro.request.method === "POST") {
 						<div class="divider w-full">Other</div>
             
 						<form method="POST" action="/oauth">
+							<input type="hidden" name="provider" value="github" />
 							<button class="btn btn-soft w-full align-middle">
 								<Icon name="mdi:github" class="text-2xl" />
 								Login with GitHub
+							</button>
+						</form>
+						<form method="POST" action="/oauth">
+							<input type="hidden" name="provider" value="discord" />
+							<button class="btn btn-soft w-full align-middle">
+								<Icon name="mdi:discord" class="text-2xl" />
+								Login with Discord
 							</button>
 						</form>
 						<a class="btn btn-link w-full " href="/signup">Sign Up</a

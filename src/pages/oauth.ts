@@ -2,16 +2,31 @@ import type { APIRoute } from "astro";
 import { createAdminClient, SESSION_COOKIE } from "../server/appwrite";
 import { OAuthProvider } from "node-appwrite";
 
-export const POST: APIRoute = async ({ redirect, url }) => {
+export const POST: APIRoute = async ({ redirect, url, request }) => {
   const { account } = createAdminClient();
+  
+  // Get the provider from form data or query params
+  const formData = await request.formData();
+  const provider = formData.get("provider") as string || url.searchParams.get("provider");
+  
+  let oauthProvider: OAuthProvider;
+  
+  switch (provider) {
+    case "discord":
+      oauthProvider = OAuthProvider.Discord;
+      break;
+    case "github":
+    default:
+      oauthProvider = OAuthProvider.Github;
+      break;
+  }
 
   const redirectUrl = await account.createOAuth2Token(
-    OAuthProvider.Github,
+    oauthProvider,
     `${url.origin}/oauth`, // This should handle the callback
     `${url.origin}/login`  // This is the failure redirect
   );
 
-  
   return redirect(redirectUrl);
 };
 
