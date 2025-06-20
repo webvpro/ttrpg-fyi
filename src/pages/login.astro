@@ -60,9 +60,11 @@ if (Astro.request.method === "POST") {
 										></path>
 									</svg>
 									<input
-										type="text"
-										class="grow"
+										id="email"
+										name="email"
 										placeholder="Email"
+										type="email"
+										class="grow"
 									/>
 								</label>
 								<label
@@ -80,9 +82,12 @@ if (Astro.request.method === "POST") {
 											clip-rule="evenodd"></path>
 									</svg>
 									<input
+										id="password"
+										name="password"
+										placeholder="Password"
+										minlength="8"
 										type="password"
 										class="grow"
-										value="password"
 									/>
 								</label>
 							</div>
