@@ -2,7 +2,7 @@ import { c as createComponent, m as maybeRenderHead, d as renderComponent, f as 
 import 'kleur/colors';
 import '../chunks/index_DfOMS8cV.mjs';
 import { $ as $$Image } from '../chunks/_astro_assets_C6rWLV7L.mjs';
-import { g as getCollection } from '../chunks/_astro_content_DTSq3Fbj.mjs';
+import { g as getCollection } from '../chunks/_astro_content_D8vXd-u8.mjs';
 import { $ as $$BlogCard } from '../chunks/BlogCard_C0cZixkV.mjs';
 import { $ as $$Navbar, a as $$Footer } from '../chunks/Navbar_BWb5uyr8.mjs';
 /* empty css                                 */
