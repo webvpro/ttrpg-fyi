@@ -7,7 +7,7 @@ export const POST: APIRoute = async ({ redirect, url }) => {
   const redirectUrl = await account.createOAuth2Token(
     OAuthProvider.Github, // Use the enum instead of string
     `${url.origin}/oauth`,
-    `${url.origin}/account`
+    `${url.origin}/login`
   );
 
   return redirect(redirectUrl);
