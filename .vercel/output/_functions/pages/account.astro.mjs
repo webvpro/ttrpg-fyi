@@ -9,13 +9,13 @@ const $$Account = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Account;
   const { user } = Astro2.locals;
-  if (!user) {
-    return Astro2.redirect("/login");
-  }
   if (Astro2.request.method === "POST") {
     const { account } = createSessionClient(Astro2.request);
     await account.deleteSession("current");
     Astro2.cookies.delete(SESSION_COOKIE);
+    return Astro2.redirect("/login");
+  }
+  if (!user) {
     return Astro2.redirect("/login");
   }
   function getInitials(name) {

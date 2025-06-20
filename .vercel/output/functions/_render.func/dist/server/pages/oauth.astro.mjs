@@ -6,9 +6,10 @@ const POST = async ({ redirect, url }) => {
   const { account } = createAdminClient();
   const redirectUrl = await account.createOAuth2Token(
     OAuthProvider.Github,
-    // Use the enum instead of string
     `${url.origin}/oauth`,
+    // This should handle the callback
     `${url.origin}/login`
+    // This is the failure redirect
   );
   return redirect(redirectUrl);
 };
@@ -19,18 +20,23 @@ const GET = async ({ cookies, redirect, url }) => {
     throw new Error("OAuth2 did not provide userId or secret");
   }
   const { account } = createAdminClient();
-  const session = await account.createSession(userId, secret);
-  if (!session || !session.secret) {
-    throw new Error("Failed to create session from token");
+  try {
+    const session = await account.createSession(userId, secret);
+    if (!session || !session.secret) {
+      throw new Error("Failed to create session from token");
+    }
+    cookies.set(SESSION_COOKIE, session.secret, {
+      sameSite: "strict",
+      expires: new Date(session.expire),
+      secure: true,
+      httpOnly: true,
+      path: "/"
+    });
+    return redirect("/account");
+  } catch (error) {
+    console.error("OAuth session creation failed:", error);
+    return redirect("/login?error=oauth_failed", 302);
   }
-  cookies.set(SESSION_COOKIE, session.secret, {
-    sameSite: "strict",
-    expires: new Date(session.expire),
-    secure: true,
-    httpOnly: true,
-    path: "/"
-  });
-  return redirect("/account");
 };
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
