@@ -10,11 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.1.0",
-    "@astrojs/vercel": "^8.0.4",
+    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/vercel": "^8.2.0",
     "@fontsource-variable/outfit": "^5.2.5",
     "@tailwindcss/vite": "^4.0.9",
-    "astro": "^5.4.1",
+    "astro": "^5.10.0",
     "date-fns": "^4.1.0",
     "i": "^0.3.7",
     "node-appwrite": "^17.0.0",

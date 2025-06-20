@@ -1,7 +1,7 @@
-import { c as createComponent, a as createAstro, d as renderComponent, f as renderTemplate, m as maybeRenderHead } from '../chunks/astro/server_DpDTV1Jg.mjs';
+import { c as createComponent, a as createAstro, d as renderComponent, f as renderTemplate, m as maybeRenderHead } from '../chunks/astro/server_BoQdInc3.mjs';
 import 'kleur/colors';
 import { ID } from 'node-appwrite';
-import { $ as $$Layout } from '../chunks/Layout_3Ip0gijX.mjs';
+import { $ as $$Layout } from '../chunks/Layout_Bs0W172F.mjs';
 import { a as createAdminClient, S as SESSION_COOKIE } from '../chunks/appwrite_CdyEDrVh.mjs';
 export { renderers } from '../renderers.mjs';
 

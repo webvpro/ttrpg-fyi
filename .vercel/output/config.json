@@ -13,35 +13,35 @@
 		},
 		{
 			"src": "^/_server-islands/([^/]+?)/?$",
-			"dest": "_render"
+			"dest": "_middleware"
 		},
 		{
 			"src": "^/_image/?$",
-			"dest": "_render"
+			"dest": "_middleware"
 		},
 		{
 			"src": "^/about/?$",
-			"dest": "_render"
+			"dest": "_middleware"
 		},
 		{
 			"src": "^/account/?$",
-			"dest": "_render"
+			"dest": "_middleware"
 		},
 		{
 			"src": "^/login/?$",
-			"dest": "_render"
+			"dest": "_middleware"
 		},
 		{
 			"src": "^/oauth/?$",
-			"dest": "_render"
+			"dest": "_middleware"
 		},
 		{
 			"src": "^/signup/?$",
-			"dest": "_render"
+			"dest": "_middleware"
 		},
 		{
 			"src": "^/$",
-			"dest": "_render"
+			"dest": "_middleware"
 		}
 	]
 }
