@@ -9,6 +9,13 @@ const navigation = [
   { name: "About", href: "/about" },
 ];
 
+if (user) {
+  navigation.push({ name: "Dashboard", href: "/account" });
+} else {
+  navigation.push({ name: "Login", href: "/login" });
+  navigation.push({ name: "Sign Up", href: "/signup" });
+}
+
 const pathname = new URL(Astro.request.url).pathname;
 ---
 
@@ -49,12 +56,7 @@ const pathname = new URL(Astro.request.url).pathname;
             ))
           } 
         </ul>
-      </div> { user ? (
-        <a class="btn btn-ghost text-xl" href="/account"> Account</a>
-      ):(
-        <a class="btn btn-ghost text-xl" href="/login"> Login</a>
-        <a class="btn btn-ghost text-xl" href="/signup"> Sign Up</a>
-      )}
+      </div> 
       <a class="btn btn-ghost text-xl" href="/"> Blog</a>
     </div>
     <div class="navbar-center hidden lg:flex">

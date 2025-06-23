@@ -55,7 +55,7 @@ export const GET: APIRoute = async ({ cookies, redirect, url }) => {
     });
     
     // Redirect to account page after successful session creation
-    return redirect("/account");
+    return redirect("/");
   } catch (error) {
     console.error("OAuth session creation failed:", error);
     return redirect("/login?error=oauth_failed", 302);
