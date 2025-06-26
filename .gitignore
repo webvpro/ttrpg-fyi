@@ -1,4 +1,6 @@
 node_modules
 src/env.d.ts
 .env
+.astro
 .vercel
+dist/
