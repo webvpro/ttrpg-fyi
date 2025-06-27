@@ -7,8 +7,6 @@ import FeaturedPost from "../components/FeaturedPost.astro";
 import { getCollection } from "astro:content";
 import HomeLayout from "../layouts/HomeLayout.astro";
 
-const { user } = Astro.locals;
-
 
 const posts = await getCollection("posts");
 const featuredPost = posts.find((post) => post.data.featuredPost === true);
