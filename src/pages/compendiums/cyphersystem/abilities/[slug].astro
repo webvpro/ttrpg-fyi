@@ -4,13 +4,14 @@ import Layout from "../../layouts/Layout.astro";
 import { Image } from "astro:assets";
 export const prerender = true;
 export const getStaticPaths = async () => {
-  const abilities = await getCollection("cs_abilities", {
-    sort: "data.title",
-  });
-  const path = abilities.map((ability) => {
+  const posts = await getCollection("posts");
+  const path = posts.map((post) => {
     return {
+      params: {
+        slug: post.slug,
+      },
       props: {
-        ability,
+        post,
       },
     };
   });
@@ -18,21 +19,21 @@ export const getStaticPaths = async () => {
 };
 
 type Props = {
-  ability: CollectionEntry<"csrdabilities">;
+  post: CollectionEntry<"posts">;
 };
 
-const { ability } = Astro.props;
+const { post } = Astro.props;
 
-const { Content } = await ability.render();
+const { Content } = await post.render();
 ---
 
-<Layout title="Ability" description="A detailed view of the ability">
+<Layout title={post.data.title} description={post.data.description}>
   <article class="w-full flex flex-col items-center font-outfit">
     <header class="max-w-2xl mt-5">
       <div class="badge badge-outline italic">
         {post.data.category}
       </div>
-      <h1 class="md:text-4xl text-2xl font-extrabold mb-4">a
+      <h1 class="md:text-4xl text-2xl font-extrabold mb-4">
         {post.data.title}
       </h1>
       <section class="flex mb-10">
@@ -47,7 +48,12 @@ const { Content } = await ability.render();
         </div>
       </section>
     </header>
-    
+    <Image
+      src={post.data.image}
+      alt={post.data.title}
+      format="webp"
+      class="rounded-xl md:max-w-2xl mb-6 w-full h-96 object-cover"
+    />
 
     <section class="prose md:prose-md mb-20"><Content /></section>
   </article>

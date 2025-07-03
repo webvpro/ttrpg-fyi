@@ -1,17 +1,17 @@
 ---
 import { getCollection } from "astro:content";
-import BlogCard from "../../components/BlogCard.astro";
-import Layout from "../../layouts/Layout.astro";
-import Pagination from "../../components/Pagination.astro";
+import BlogCard from "../../../../components/BlogCard.astro";
+import Layout from "../../../../layouts/Layout.astro";
+import Pagination from "../../../../components/Pagination.astro";
 import type { GetStaticPathsOptions } from "astro";
 export const prerender = true;
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
-  const allAbilities = await getCollection("cs_abilities");
+  const allAbilities = await getCollection("csrdabilities");
   return paginate(allAbilities, { pageSize: 6 });
 }
 
 const { page } = Astro.props;
-const { data: allAbilities } = page;
+const { data: allPosts } = page;
 ---
 
 <Layout title="Articles" description="All articles">
@@ -21,7 +21,7 @@ const { data: allAbilities } = page;
     </h1>
   </div>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-20 mt-16">
-    <BlogCard posts={allAbilities} />
+    <BlogCard posts={allPosts} />
   </div>
   <Pagination nextPosts={page.url.next} prevPosts={page.url.prev} />
 </Layout>
