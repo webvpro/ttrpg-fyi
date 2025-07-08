@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Vocal Translator
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Vocal Translator    
 >[!info] Stats    
 > **Level:** 1d6    

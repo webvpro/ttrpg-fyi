@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
   - Ability/Categories/Task
+title: See the Future
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Protection
+  - Task
 ---
-  
-    
 ## See the Future    
 >**Enabler**    
 >6 Intellect points  

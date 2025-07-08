@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Control
+title: Community Activist
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Control
 ---
-  
-    
 ## Community Activist    
 >**Enabler**  
     

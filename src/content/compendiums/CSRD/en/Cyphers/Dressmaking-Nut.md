@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Dressmaking Nut
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Dressmaking Nut    
 >[!info] Stats    
 > **Level:** 1d6+2    

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Pack of Storage
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Pack of Storage    
 >[!info] Stats    
 > **Level:** 1d6+1    

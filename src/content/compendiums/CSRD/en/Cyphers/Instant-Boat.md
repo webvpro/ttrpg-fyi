@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Instant Boat
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Instant Boat    
 >[!info] Stats    
 > **Level:** 1d6+2    

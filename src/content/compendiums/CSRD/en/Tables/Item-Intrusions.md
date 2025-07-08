@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Intrusion/Item-Intrusions
+title: Item Intrusions
+collection: Tables
+kind: Table
 ---
-  
 ## Item Intrusions Table  
 |  Roll &nbsp; &nbsp; | Item Intrusions  |  
 | ------------- | :----------- |  

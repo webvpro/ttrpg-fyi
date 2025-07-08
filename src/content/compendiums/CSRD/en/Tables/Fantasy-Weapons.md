@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/RulesWeapons/Fantasy
   - Rule/Weapons/Fantasy
+title: Fantasy Weapons Descriptions
+collection: RulesWeapons
+kind: Rule
 ---
-  
 ## Fantasy Weapons  
   
 - [Battleaxe](Battleaxe.md)  

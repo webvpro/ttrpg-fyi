@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Attack-Skill
+title: Hunter's Drive
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '5'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Attack-Skill
 ---
-  
-    
 ## Hunter's Drive    
 >**Enabler**    
 >5 Intellect points  

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
+title: Magnetic Field
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Protection
 ---
-  
-    
 ## Magnetic Field    
 >**Enabler**    
 >4 Intellect points  

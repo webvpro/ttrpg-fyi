@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Science-Fiction
+title: Dimensional Modulator
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Dimensional Modulator    
 >[!info] Stats    
 > **Level:** 1d6+3    

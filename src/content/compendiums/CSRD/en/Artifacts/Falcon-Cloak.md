@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Falcon Cloak
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Falcon Cloak    
 >[!info] Stats    
 > **Level:** 1d6    

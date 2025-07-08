@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Phase Changer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Phase Changer    
 >[!info] Stats    
 > **Level:** 1d6+1    

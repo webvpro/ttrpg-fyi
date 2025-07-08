@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/5
   - Equipment/Value/Exorbitant-X2
+title: Land Ark, Battle
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Land Ark, Battle    
     
 >As land ark (and sometimes called a "battle ark"), but sports superior weapons, though half the interior space.    

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Protection
+title: Tumbling Moves
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '5'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Protection
 ---
-  
-    
 ## Tumbling Moves    
 >**Enabler**    
 >5 Speed points  

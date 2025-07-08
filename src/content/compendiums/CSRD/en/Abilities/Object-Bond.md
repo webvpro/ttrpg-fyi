@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Object Bond
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Object Bond    
 >**Enabler**    
 >3 Intellect points  

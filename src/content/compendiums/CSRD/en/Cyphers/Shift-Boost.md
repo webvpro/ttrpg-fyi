@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Power-Boost
+title: Shift Boost
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Shift Boost    
 >[!info] Stats    
 > **Level:** 1d6+2    

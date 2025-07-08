@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Speed
   - Ability/Categories/Movement
+title: Impossible Walk
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '5'
+tier: High
+pools:
+  - Speed
+categories:
+  - Movement
 ---
-  
-    
 ## Impossible Walk    
 >**Enabler**    
 >5+ Speed points  

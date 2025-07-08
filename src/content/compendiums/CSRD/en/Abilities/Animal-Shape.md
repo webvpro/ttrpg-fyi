@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Animal Shape
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Animal Shape    
 >**Action**    
 >3+ Intellect points  

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Might
   - Ability/Categories/Transform
+title: Enlarge
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Might
+categories:
+  - Transform
 ---
-  
-    
 ## Enlarge    
 >**Action**    
 >1+ Might point  

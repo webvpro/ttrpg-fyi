@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Influence
+title: Is Idolized by Millions
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Is Idolized by Millions    
 You're a celebrity and most people adore you.    
   

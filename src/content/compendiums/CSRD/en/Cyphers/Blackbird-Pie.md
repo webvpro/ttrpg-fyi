@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Blackbird Pie
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Blackbird Pie    
 >[!info] Stats    
 > **Level:** 1d6    

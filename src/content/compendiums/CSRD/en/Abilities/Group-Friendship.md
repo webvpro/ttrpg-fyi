@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Social
+title: Group Friendship
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Social
 ---
-  
-    
 ## Group Friendship    
 >**Action**    
 >4 Intellect points  

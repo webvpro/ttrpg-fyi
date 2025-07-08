@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Frenzy
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '1'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Frenzy    
 >**Enabler**    
 >1 Intellect point  

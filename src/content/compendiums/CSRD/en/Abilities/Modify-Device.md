@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Craft
   - Ability/Categories/Meta
+title: Modify Device
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Craft
+  - Meta
 ---
-  
-    
 ## Modify Device    
 >**Action**    
 >4 Intellect points  

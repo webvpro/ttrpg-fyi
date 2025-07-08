@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Magnetic Attack Drill
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Magnetic Attack Drill    
 >[!info] Stats    
 > **Level:** 1d6+2    

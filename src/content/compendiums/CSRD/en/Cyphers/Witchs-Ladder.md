@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers/Witchs-Ladder
   - Cypher
   - Cypher/Fairy-Tale
+title: Witch's Ladder
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Witch's Ladder    
 >[!info] Stats    
 > **Level:** 1d6+2    

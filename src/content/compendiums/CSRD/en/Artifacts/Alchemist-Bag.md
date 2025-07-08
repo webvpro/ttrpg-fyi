@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Alchemist Bag
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Alchemist Bag    
 >[!info] Stats    
 > **Level:** 1d6    

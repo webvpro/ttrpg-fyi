@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Craft
+title: Innovator
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Craft
 ---
-  
-    
 ## Innovator    
 >**Enabler**  
     

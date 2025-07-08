@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Task
+title: Knowledge of the Law
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Task
 ---
-  
-    
 ## Knowledge of the Law    
 >**Enabler**  
     

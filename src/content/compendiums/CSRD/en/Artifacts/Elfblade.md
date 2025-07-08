@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Elfblade
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Elfblade    
 >[!info] Stats    
 > **Level:** 1d6+3    

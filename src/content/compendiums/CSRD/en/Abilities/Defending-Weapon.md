@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/NA
   - Ability/Categories/NA
+title: Defending Weapon
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: NA
+pools: []
+categories:
+  - NA
 ---
-  
-    
 ## Defending Weapon    
 >**Enabler**  
     

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Shirt of Nettles
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Shirt of Nettles    
 >[!info] Stats    
 > **Level:** 1d6+4    

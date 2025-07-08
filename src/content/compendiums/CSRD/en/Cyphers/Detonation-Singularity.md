@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Detonation Singularity
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Detonation Singularity    
 >[!info] Stats    
 > **Level:** +10    

@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Mid
   - Ability/Categories/Cure
+title: Unraveling Consumption
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Cure
 ---
-  
-    
 ## Unraveling Consumption    
 >**Action**  
     

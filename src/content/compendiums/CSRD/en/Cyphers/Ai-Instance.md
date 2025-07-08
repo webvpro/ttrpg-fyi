@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Ai Instance
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Ai Instance    
 >[!info] Stats    
 > **Level:** 1d6+1  

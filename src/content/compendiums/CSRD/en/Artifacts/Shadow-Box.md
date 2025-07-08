@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Horror
+title: Shadow Box
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Shadow Box    
 >[!info] Stats    
 > **Level:** +7    

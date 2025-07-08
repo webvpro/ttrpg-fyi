@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/NA
   - Ability/Categories/NA
+title: Automatic Glow
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: NA
+pools: []
+categories:
+  - NA
 ---
-  
-    
 ## Automatic Glow    
 >**Enabler**  
     

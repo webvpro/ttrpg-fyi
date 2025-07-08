@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Information
   - Ability/Categories/Task
+title: Salvage and Comfort
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Information
+  - Task
 ---
-  
-    
 ## Salvage and Comfort    
 >**Action**    
 >2 Intellect points  

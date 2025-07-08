@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Control
+title: Word of Command
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Control
 ---
-  
-    
 ## Word of Command    
 >**Action**    
 >6 Intellect points + level 6 cypher  

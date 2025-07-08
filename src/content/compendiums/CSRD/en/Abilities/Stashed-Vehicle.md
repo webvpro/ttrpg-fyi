@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/NA
   - Ability/Categories/NA
+title: Stashed Vehicle
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: NA
+pools: []
+categories:
+  - NA
 ---
-  
-    
 ## Stashed Vehicle    
 >**Action**  
     

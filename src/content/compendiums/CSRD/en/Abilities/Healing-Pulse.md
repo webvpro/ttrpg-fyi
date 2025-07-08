@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
+title: Healing Pulse
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Cure
 ---
-  
-    
 ## Healing Pulse    
 >**Action**    
 >3 Intellect points  

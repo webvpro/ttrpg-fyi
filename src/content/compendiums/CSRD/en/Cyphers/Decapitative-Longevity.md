@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Decapitative Longevity
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Decapitative Longevity    
 >[!info] Stats    
 > **Level:** 1d6+4    

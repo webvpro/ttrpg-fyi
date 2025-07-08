@@ -4,6 +4,9 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules
   - Foci/Create
+title: Creating New Foci
+collection: Rules
+kind: Foci
 ---
 # Creating New Foci  
 This section provides everything you need to create your own foci.  

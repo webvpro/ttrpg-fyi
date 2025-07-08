@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Flame-Retardant Wall
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Flame-Retardant Wall    
 >[!info] Stats    
 > **Level:** 1d6    

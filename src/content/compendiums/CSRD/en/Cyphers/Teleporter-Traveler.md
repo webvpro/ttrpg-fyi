@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Teleporter Traveler
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Teleporter Traveler    
 >[!info] Stats    
 > **Level:** 1d6+4    

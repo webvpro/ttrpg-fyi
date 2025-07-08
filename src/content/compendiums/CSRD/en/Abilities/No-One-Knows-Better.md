@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Task
+title: No One Knows Better
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Task
 ---
-  
-    
 ## No One Knows Better    
 >**Enabler**  
     

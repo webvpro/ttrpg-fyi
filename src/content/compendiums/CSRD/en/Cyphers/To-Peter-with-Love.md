@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: To Peter with Love
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## To Peter with Love    
 >[!info] Stats    
 > **Level:** 1d6+3    

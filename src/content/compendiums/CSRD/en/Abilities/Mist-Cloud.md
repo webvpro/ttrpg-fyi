@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Mist Cloud
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Mist Cloud    
 >**Action**    
 >1+ Intellect points  

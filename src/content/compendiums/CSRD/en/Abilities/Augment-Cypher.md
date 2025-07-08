@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Augment Cypher
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Augment Cypher    
 >**Enabler**    
 >2+ Intellect points  

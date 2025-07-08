@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Greater Frenzy
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Greater Frenzy    
 >**Enabler**    
 >4 Intellect points  

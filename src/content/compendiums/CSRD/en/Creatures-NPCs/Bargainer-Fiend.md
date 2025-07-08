@@ -7,10 +7,13 @@ tags:
   - Creature/Level/3
   - Creature/Armor/2
   - Creature/Health/9
+title: Bargainer Fiend
+collection: Creatures-NPCs
+kind: Creature
+level: 3
+armor: 2
+health: 9
 ---
-  
-  
-    
 ## Bargainer Fiend  
   
 Description text  

@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Environment
   - Ability/Categories/Protection
+title: Force Field Barrier
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Environment
+  - Protection
 ---
-  
-    
 ## Force Field Barrier    
 >**Action**    
 >3+ Intellect points  

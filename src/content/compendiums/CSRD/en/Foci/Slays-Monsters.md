@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Striker-Combat
+title: Slays Monsters
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Slays Monsters    
 You kill monsters.    
   

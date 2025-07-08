@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Beast Shape
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Beast Shape    
 >[!info] Stats    
 > **Level:** 1d6    

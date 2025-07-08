@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Transform
+title: Golem Healing
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Transform
 ---
-  
-    
 ## Golem Healing    
 >**Enabler**  
     

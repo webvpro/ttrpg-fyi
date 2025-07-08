@@ -8,9 +8,10 @@ tags:
   - Equipment/Value/Expensive
   - Equipment/Value/2-Sp
   - Equipment/Weapon/Medium
+title: Quarterstaff
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Quarterstaff    
     
 >A wooden pole about 4 to 5 feet (1.2 to 1.5 m) long.    

@@ -4,6 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Character-Arcs/Train-a-Creature
   - Character-Arc
+title: Train a Creature
+collection: Character-Arcs
+kind: Arc
+categories: []
 ---
 ## Train a Creature  
 >You want to domesticate and train an animal or other creature. While the beast doesn’t need to be wild, it must not already be domesticated and trained.  

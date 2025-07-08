@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Wonder-Onesie
   - Artifact
   - Artifact/Modern-Fantasy
+title: Wonder Onesie
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Wonder Onesie  
   
 >1d6 + 4  

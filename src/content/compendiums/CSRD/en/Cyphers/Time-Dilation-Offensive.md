@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Time Dilation Offensive
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Time Dilation Offensive    
 >[!info] Stats    
 > **Level:** 1d6    

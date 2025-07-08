@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Staff of the Prophet
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Staff of the Prophet    
 >[!info] Stats    
 > **Level:** 1d6+2    

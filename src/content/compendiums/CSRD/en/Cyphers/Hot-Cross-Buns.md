@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Hot Cross Buns
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Hot Cross Buns    
 >[!info] Stats    
 > **Level:** 1d6    

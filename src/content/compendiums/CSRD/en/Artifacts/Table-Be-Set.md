@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Table Be Set
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Table Be Set  
 >[!info] Stats    
 > **Level:** 1d6    

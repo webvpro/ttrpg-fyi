@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Detonation Sonic
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Detonation Sonic    
 >[!info] Stats    
 > **Level:** 1d6+2    

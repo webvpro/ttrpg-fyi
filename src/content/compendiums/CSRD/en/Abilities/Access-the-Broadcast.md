@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Magic
   - Ability/Categories/Fantasy/Modern
+title: Access the Broadcast
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Magic
+  - Fantasy
 ---
-  
-    
 ## Access the Broadcast  
 >**Action**    
 >2+ Intellect point  

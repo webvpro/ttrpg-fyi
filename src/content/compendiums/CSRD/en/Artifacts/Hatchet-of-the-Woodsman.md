@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Hatchet of the Woodsman
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Hatchet of the Woodsman    
 >[!info] Stats    
 > **Level:** 1d6+4    

@@ -8,9 +8,13 @@ tags:
   - Creature/Level/5
   - Creature/Armor/1
   - Creature/Health/25
+title: Cambion
+collection: Creatures-NPCs
+kind: Creature
+level: 5
+armor: 1
+health: 25
 ---
-  
-    
 ## Cambion    
 Fine ebony scales cover a cambion's perfectly athletic figure. Two reddish horns grow from  
 its brow, and the tips of fangs emerge from between its dusky lips. Its eyes, absent iris and  

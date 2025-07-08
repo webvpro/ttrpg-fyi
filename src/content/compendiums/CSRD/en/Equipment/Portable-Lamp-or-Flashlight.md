@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
+title: Portable Lamp or Flashlight
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Portable Lamp or Flashlight    
     
 >Requires batteries (expensive version recharges with sunlight or crank)    

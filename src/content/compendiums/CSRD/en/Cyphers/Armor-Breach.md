@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Armor Breach
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Armor Breach    
 >[!info] Stats    
 > **Level:** 1d6  

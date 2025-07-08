@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Environment
+title: Define Down
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Environment
 ---
-  
-    
 ## Define Down    
 >**Action**    
 >4 Intellect points  

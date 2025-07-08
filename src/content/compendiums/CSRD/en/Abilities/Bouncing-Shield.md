@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Special-Attack
+title: Bouncing Shield
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: High
+pools: []
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Bouncing Shield    
 >**Action**  
     

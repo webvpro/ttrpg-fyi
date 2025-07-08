@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Armor Reinforcer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Armor Reinforcer    
 >[!info] Stats    
 > **Level:** 1d6+1    

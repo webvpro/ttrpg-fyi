@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Intrusion/Blessing-Intrusions
+title: Blessing Intrusions
+collection: Tables
+kind: Table
 ---
-  
 ## Blessing Intrusions Table  
 |  Roll &nbsp; &nbsp; | Blessing Intrusions  |  
 | ------------- | :----------- |  

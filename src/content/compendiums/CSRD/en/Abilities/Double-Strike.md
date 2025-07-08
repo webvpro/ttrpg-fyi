@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Might
   - Ability/Categories/Meta
+title: Double Strike
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Might
+categories:
+  - Meta
 ---
-  
-    
 ## Double Strike    
 >**Action**    
 >3 Might points  

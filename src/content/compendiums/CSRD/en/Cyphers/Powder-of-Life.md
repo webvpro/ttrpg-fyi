@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Powder of Life
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Powder of Life    
 >[!info] Stats    
 > **Level:** 1d6+3    

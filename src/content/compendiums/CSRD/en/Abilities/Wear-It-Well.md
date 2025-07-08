@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Protection
+title: Wear It Well
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Protection
 ---
-  
-    
 ## Wear It Well    
 >**Enabler**  
     

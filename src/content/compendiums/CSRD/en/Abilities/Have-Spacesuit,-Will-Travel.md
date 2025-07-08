@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Protection
+title: Have Spacesuit, Will Travel
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Protection
 ---
-  
-    
 ## Have Spacesuit, Will Travel    
 >**Enabler**  
     

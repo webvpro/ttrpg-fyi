@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers/Emperors-New-Clothes
   - Cypher
   - Cypher/Fairy-Tale
+title: Emperor's New Clothes
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Emperor's New Clothes    
 >[!info] Stats    
 > **Level:** 1d6    

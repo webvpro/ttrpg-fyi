@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Explorer's Gloves
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Explorer's Gloves    
 >[!info] Stats    
 > **Level:** 1d6    

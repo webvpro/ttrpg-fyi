@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Support
+title: Metes Out Justice
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Metes Out Justice    
 You right wrongs, protect the innocent, and punish the guilty.    
   

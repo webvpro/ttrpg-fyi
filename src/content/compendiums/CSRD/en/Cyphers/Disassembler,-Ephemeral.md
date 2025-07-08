@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Disassembler, Ephemeral
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Disassembler, Ephemeral    
 >[!info] Stats    
 > **Level:** 1d6+2  

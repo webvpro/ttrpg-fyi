@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Hunter/Seeker
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Hunter/Seeker    
 >[!info] Stats    
 > **Level:** 1d6    

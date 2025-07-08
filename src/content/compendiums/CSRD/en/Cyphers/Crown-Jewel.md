@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Crown Jewel
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Crown Jewel    
 >[!info] Stats    
 > **Level:** 1d6+2    

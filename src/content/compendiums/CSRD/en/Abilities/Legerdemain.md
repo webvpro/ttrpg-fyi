@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Speed
   - Ability/Categories/Environment
+title: Legerdemain
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Speed
+categories:
+  - Environment
 ---
-  
-    
 ## Legerdemain    
 >**Action**    
 >1 Speed point  

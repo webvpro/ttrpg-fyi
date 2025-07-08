@@ -7,9 +7,13 @@ tags:
   - Creature/Level/8
   - Creature/Armor/4
   - Creature/Health/75
+title: Divinity of the City
+collection: Creatures-NPCs
+kind: Creature
+level: 8
+armor: 4
+health: 75
 ---
-  
-    
 ## Divinity of the City  
   
 Description text  

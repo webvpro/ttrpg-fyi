@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Power-Boost
+title: Energy Boost
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Energy Boost    
 >[!info] Stats    
 > **Level:** 1d6    

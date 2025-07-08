@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Protection
+title: Force Field Shield
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Protection
 ---
-  
-    
 ## Force Field Shield    
 >**Action**  
     

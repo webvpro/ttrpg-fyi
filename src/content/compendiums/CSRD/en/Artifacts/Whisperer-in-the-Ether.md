@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Whisperer in the Ether
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Whisperer in the Ether    
 >[!info] Stats    
 > **Level:** 1d6+1    

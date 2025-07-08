@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Superhero
+title: Omni Orb
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Omni Orb    
 >[!info] Stats    
 > **Level:** 1d6+4    

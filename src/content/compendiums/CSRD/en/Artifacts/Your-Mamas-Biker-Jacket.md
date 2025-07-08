@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Your-Mamas-Biker-Jacket
   - Artifact
   - Artifact/Modern-Fantasy
+title: Your Mama’s Biker Jacket
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Your Mama’s Biker Jacket  
   
 >1d6 + 4  

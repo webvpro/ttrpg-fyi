@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Storm Shack
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Storm Shack    
 >[!info] Stats    
 > **Level:** 1d6+3    

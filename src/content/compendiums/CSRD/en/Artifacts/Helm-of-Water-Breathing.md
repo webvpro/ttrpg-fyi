@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Helm of Water Breathing
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Helm of Water Breathing    
 >[!info] Stats    
 > **Level:** 1d6    

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Speed-Readers
   - Artifact
   - Artifact/Modern-Fantasy
+title: Speed Readers
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Speed Readers  
   
 >1d6  

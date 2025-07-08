@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Fire Tendrils
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '5'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Fire Tendrils    
 >**Enabler**    
 >5 Intellect points  

@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/5-Sp
   - Equipment/Range/Can-Be-Thrown-up-to-Long
+title: Javelin
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Javelin    
     
 >A light spear that's designed to be thrown.    

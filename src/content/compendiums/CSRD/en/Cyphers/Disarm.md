@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Disarm
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Disarm    
 >[!info] Stats    
 > **Level:** 1d6+1    

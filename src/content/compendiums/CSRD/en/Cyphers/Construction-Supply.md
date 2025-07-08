@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Scavenger-Subtle
+title: Construction Supply
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Construction Supply    
 >[!info] Stats    
 > **Level:** 1d6+1    

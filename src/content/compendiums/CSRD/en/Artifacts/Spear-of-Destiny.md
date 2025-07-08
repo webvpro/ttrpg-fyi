@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Spear of Destiny
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Spear of Destiny    
 >[!info] Stats    
 > **Level:** +7    

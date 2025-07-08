@@ -11,9 +11,20 @@ tags:
   - Ability/Categories/Meta
   - Ability/Categories/Movement
   - Ability/Categories/Protection
+title: Masterful Armor Modification
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: High
+pools: []
+categories:
+  - Companion
+  - Meta
+  - Movement
+  - Protection
 ---
-  
-    
 ## Masterful Armor Modification    
 >**Action**  
     

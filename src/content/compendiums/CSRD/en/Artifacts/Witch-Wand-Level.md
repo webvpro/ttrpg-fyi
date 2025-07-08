@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Witch-Wand-Level
   - Artifact
   - Artifact/Modern-Fantasy
+title: Witch Wand Level
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Witch Wand Level  
   
 >1d6  

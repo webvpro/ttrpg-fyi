@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Snake Leaves
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Snake Leaves    
 >[!info] Stats    
 > **Level:** 1d6+2    

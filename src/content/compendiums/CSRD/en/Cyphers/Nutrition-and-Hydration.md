@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Nutrition and Hydration
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Nutrition and Hydration    
 >[!info] Stats    
 > **Level:** 1d6+1    

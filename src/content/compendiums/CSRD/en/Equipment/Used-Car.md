@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/3
   - Equipment/Value/Very-Expensive
+title: Used Car
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Used Car    
     
 >    

@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Very-Expensive
   - Equipment/Asset
+title: Handheld Scanner
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Handheld Scanner    
     
 >    

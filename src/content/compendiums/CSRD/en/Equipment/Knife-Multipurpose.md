@@ -8,9 +8,10 @@ tags:
   - Equipment/Value/Moderate
   - Equipment/Asset
   - Equipment/Weapon/Light
+title: Knife, Multipurpose
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Knife, Multipurpose    
     
 >    

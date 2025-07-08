@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Categories/Meta
   - Ability/Categories/Protection
+title: Enhanced Body
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Meta
+  - Protection
 ---
-  
-    
 ## Enhanced Body    
 >**Enabler**  
     

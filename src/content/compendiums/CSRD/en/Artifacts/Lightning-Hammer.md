@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Lightning Hammer
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Lightning Hammer    
 >[!info] Stats    
 > **Level:** 1d6+2    

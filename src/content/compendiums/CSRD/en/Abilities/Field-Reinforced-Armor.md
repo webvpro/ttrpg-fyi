@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Protection
+title: Field-Reinforced Armor
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Protection
 ---
-  
-    
 ## Field-Reinforced Armor    
 >**Enabler**  
     

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Categories/Meta
   - Ability/Categories/Protection
+title: Resilient Ice Armor
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Meta
+  - Protection
 ---
-  
-    
 ## Resilient Ice Armor    
 >**Enabler**  
     

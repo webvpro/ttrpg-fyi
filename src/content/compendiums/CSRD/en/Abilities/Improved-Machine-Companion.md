@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Categories/Companion
   - Ability/Categories/Meta
+title: Improved Machine Companion
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Companion
+  - Meta
 ---
-  
-    
 ## Improved Machine Companion    
 >**Enabler**  
     

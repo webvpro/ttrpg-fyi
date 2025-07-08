@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors
   - Descriptor
+title: Stealthy
+collection: Descriptors
+kind: Descriptor
 ---
-  
 ## Stealthy    
 You're sneaky, slippery, and fast. These talents help you hide, move quietly, and pull off tricks that require sleight of hand. Most likely, you're wiry and small. However, you're not much of a sprinter-you're more dexterous than fleet of foot.  
 ### You gain the following characteristics    

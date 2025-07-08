@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Pictureless Book
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Pictureless Book    
 >[!info] Stats    
 > **Level:** 1d6    

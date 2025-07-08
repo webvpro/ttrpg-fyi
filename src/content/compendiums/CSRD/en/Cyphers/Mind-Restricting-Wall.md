@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Mind-Restricting Wall
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Mind-Restricting Wall    
 >[!info] Stats    
 > **Level:** 1d6+2    

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Armored Cloth
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Armored Cloth    
 >[!info] Stats    
 > **Level:** 1d6    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Effort Enhancer Combat
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Effort Enhancer Combat    
 >[!info] Stats    
 > **Level:** 1d6+1    

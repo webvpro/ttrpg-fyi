@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
   - Ability/Categories/Special-Attack
+title: Arcane Flare
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Meta
+  - Special-Attack
 ---
-  
-    
 ## Arcane Flare    
 >**Action**    
 >1 Intellect point  

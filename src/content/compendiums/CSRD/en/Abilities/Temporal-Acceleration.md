@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
   - Ability/Categories/Task
+title: Temporal Acceleration
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Protection
+  - Task
 ---
-  
-    
 ## Temporal Acceleration    
 >**Action**    
 >5 Intellect points  

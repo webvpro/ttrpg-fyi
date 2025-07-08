@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Might
   - Ability/Categories/Special-Attack
+title: Bloodlust
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Low
+pools:
+  - Might
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Bloodlust    
 >**Enabler**    
 >3 Might points  

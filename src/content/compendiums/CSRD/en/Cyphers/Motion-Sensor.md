@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Motion Sensor
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Motion Sensor    
 >[!info] Stats    
 > **Level:** 1d6+2    

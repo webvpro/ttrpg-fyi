@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table
+title: Power Origin Table
+collection: Tables
+kind: Table
 ---
-  
 ## Power Origin Table  
 |  d100 &nbsp; &nbsp; | Power Origin Table  |  
 | ------------- | :----------- |  

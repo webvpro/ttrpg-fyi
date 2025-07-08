@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Rocket-Propelled Grenade
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Rocket-Propelled Grenade    
 >[!info] Stats    
 > **Level:** 1d6+3    

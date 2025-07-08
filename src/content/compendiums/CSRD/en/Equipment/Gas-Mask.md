@@ -9,9 +9,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
+title: Gas Mask
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Gas Mask    
     
 >Breathable air for four hours    

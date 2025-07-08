@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Movement
+title: Mobile Fighter
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Movement
 ---
-  
-    
 ## Mobile Fighter    
 >**Enabler**    
 >3 Speed points  

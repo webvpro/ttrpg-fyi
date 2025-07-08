@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Social
+title: Flamboyant Boast
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '1'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Social
 ---
-  
-    
 ## Flamboyant Boast    
 >**Enabler**    
 >1 Intellect point  

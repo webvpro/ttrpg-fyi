@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Magic
   - Ability/Categories/Fantasy/Modern
+title: Statue Stasis
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Magic
+  - Fantasy
 ---
-  
-    
 ## Statue Stasis  
 >**Action**    
 >3 Intellect point  

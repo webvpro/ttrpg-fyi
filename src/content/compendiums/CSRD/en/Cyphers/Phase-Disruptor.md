@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Phase Disruptor
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Phase Disruptor    
 >[!info] Stats    
 > **Level:** 1d6+2    

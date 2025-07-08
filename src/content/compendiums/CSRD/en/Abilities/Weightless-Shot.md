@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Categories/Meta
   - Ability/Categories/Special-Attack
+title: Weightless Shot
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Meta
+  - Special-Attack
 ---
-  
-    
 ## Weightless Shot    
 >**Enabler**  
     

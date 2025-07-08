@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Burning Light
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Burning Light    
 >**Action**    
 >3 Intellect points  

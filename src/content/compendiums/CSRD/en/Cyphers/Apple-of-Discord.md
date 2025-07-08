@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Apple of Discord
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Apple of Discord    
 >[!info] Stats    
 > **Level:** 1d6+1    

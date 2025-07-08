@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Solvent
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Solvent    
 >[!info] Stats    
 > **Level:** 1d10    

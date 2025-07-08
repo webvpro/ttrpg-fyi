@@ -8,9 +8,10 @@ tags:
   - Equipment/Value/Moderate
   - Equipment/Value/10-Gp
   - Equipment/Armor/Light
+title: Hides and Furs
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Hides and Furs    
     
 >Made from thick or poorly cured animal skins. It's heavier and bulkier than other kinds of leather armor, but easier to make, especially by resource-poor crafters.    

@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules/Descriptor
   - Rule/Descriptor
+title: Descriptor
+collection: Rules
+kind: Rule
 ---
-  
 # Descriptor  
   
 Your descriptor defines your character it flavors everything you do. The differences between a [Charming](Charming.md) Explorer and a [Vicious](Vicious.md) Explorer are considerable. The descriptor changes the way those characters go about every action. Your descriptor places your character in the situation (the first adventure, which starts the campaign) and helps provide motivation. It is the adjective of the sentence “I am an adjective noun who verbs.”  

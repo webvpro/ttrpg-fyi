@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Vanisher
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Vanisher    
 >[!info] Stats    
 > **Level:** 1d6+2    

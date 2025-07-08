@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Skill Boost
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Skill Boost    
 >[!info] Stats    
 > **Level:** 1d6    

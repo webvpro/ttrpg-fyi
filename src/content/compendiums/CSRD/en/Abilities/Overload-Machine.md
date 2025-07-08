@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Overload Machine
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Overload Machine    
 >**Action**    
 >3+ Intellect points  

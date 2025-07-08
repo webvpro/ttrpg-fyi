@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Copy Power
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Copy Power    
 >**Action**    
 >2+ Intellect points  

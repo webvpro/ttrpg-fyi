@@ -8,9 +8,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/5
   - Equipment/Value/Very-Expensive
+title: Lock Infiltrator
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Lock Infiltrator    
     
 >Advanced tech electronic and digital locks are amazingly advanced--so is this item that provides an asset to picking them (including a surelock).    

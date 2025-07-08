@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Might
   - Ability/Categories/Special-Attack
+title: Scratch Existence
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '1'
+tier: Low
+pools:
+  - Might
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Scratch Existence    
 >**Enabler**    
 >1+ Might points  

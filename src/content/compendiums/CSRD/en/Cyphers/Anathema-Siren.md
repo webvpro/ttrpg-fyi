@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Anathema Siren
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Anathema Siren    
 >[!info] Stats    
 > **Level:** 1d6+2    

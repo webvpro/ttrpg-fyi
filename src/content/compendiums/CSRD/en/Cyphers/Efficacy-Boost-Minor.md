@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Efficacy Boost Minor
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Efficacy Boost Minor    
 >[!info] Stats    
 > **Level:** 1d6  

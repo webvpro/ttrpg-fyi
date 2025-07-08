@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Crystal Ball
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Crystal Ball    
 >[!info] Stats    
 > **Level:** 1d6+3    

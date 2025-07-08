@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Book
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Book    
 >[!info] Stats    
 > **Level:** 1d6    

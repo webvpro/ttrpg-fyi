@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Special-Attack
+title: Special Shot
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Special Shot    
 >**Enabler**  
     

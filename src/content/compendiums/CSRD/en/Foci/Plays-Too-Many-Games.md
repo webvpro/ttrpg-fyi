@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+title: Plays Too Many Games
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Plays Too Many Games    
 Lessons, reflexes, and strategies you've learned by playing too many games have applications in the real world, where people who don't play enough toil and live their dreary lives.    
   

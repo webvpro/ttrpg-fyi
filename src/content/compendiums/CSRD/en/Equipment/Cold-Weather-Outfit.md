@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/6-Gp
+title: Cold-Weather Outfit
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Cold-Weather Outfit    
     
 >A heavier set of clothing for protection against cold weather.    

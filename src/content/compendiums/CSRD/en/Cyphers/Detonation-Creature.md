@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Detonation Creature
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Detonation Creature    
 >[!info] Stats    
 > **Level:** 1d6+1    

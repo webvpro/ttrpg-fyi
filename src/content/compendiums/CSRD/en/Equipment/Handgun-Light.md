@@ -15,9 +15,10 @@ tags:
   - Equipment/Value/Expensive
   - Equipment/Weapon/Light
   - Equipment/Range/Short
+title: Handgun, Light
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Handgun, Light    
     
 >    

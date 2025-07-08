@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci/Doesnt-Do-Much
   - Focus/Category/Basic
+title: Doesn't Do Much
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Doesn't Do Much    
 You're a slacker, but you know a little about a lot of things.    
   

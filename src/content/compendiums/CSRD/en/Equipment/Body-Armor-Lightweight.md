@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/4
   - Equipment/Value/Expensive
   - Equipment/Armor/Heavy
+title: Body Armor, Lightweight
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Body Armor, Lightweight    
     
 >Functions as heavy armor (+3 Armor), encumbers as if wearing medium armor.    

@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/5
   - Equipment/Value/Exorbitant
+title: Luxury Hovercar
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Luxury Hovercar    
     
 >    

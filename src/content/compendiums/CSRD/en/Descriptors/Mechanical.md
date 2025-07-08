@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors
   - Descriptor
+title: Mechanical
+collection: Descriptors
+kind: Descriptor
 ---
-  
 ## Mechanical    
 You have a special talent with machines of all kinds, and you're adept at understanding and, if need be, repairing them. Perhaps you're a bit of an inventor, creating new machines from time to time. You get called "techie," "tech," "mech," "gear-head," "motor-head," or any of a number of other nicknames. Mechanics usually wear practical work clothes and carry around a lot of tools.  
 ### You gain the following characteristics    

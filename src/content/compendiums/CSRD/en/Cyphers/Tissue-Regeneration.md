@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Tissue Regeneration
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Tissue Regeneration    
 >[!info] Stats    
 > **Level:** 1d6+4    

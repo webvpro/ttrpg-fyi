@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Categories/Cure
   - Ability/Categories/Meta
+title: Store Energy
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Cure
+  - Meta
 ---
-  
-    
 ## Store Energy    
 >**Enabler**  
     

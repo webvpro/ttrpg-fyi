@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Ring of Invisibility
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Ring of Invisibility    
 >[!info] Stats    
 > **Level:** 1d6    

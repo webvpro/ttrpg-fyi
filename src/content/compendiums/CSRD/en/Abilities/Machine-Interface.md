@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Task
+title: Machine Interface
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Task
 ---
-  
-    
 ## Machine Interface    
 >**Enabler**    
 >2 Intellect points  

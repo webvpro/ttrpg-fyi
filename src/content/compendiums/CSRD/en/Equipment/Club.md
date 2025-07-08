@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/1-Sp
   - Equipment/Weapon/Medium
+title: Club
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Club    
     
 >A simple bludgeon, such as a sturdy tree branch, board, or improvised weapon.    

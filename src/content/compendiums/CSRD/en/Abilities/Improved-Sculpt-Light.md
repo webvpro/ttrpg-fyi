@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Craft
+title: Improved Sculpt Light
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '7'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Craft
 ---
-  
-    
 ## Improved Sculpt Light    
 >**Action**    
 >7+ Intellect points  

@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/5Gp
+title: Mirror
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Mirror    
     
 >    

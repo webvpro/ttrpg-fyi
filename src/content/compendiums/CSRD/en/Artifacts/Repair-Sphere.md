@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Science-Fiction
+title: Repair Sphere
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Repair Sphere    
 >[!info] Stats    
 > **Level:** 1d6+2    

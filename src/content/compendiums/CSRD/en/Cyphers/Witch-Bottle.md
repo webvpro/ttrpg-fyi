@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Witch Bottle
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Witch Bottle    
 >[!info] Stats    
 > **Level:** 1d6+1    

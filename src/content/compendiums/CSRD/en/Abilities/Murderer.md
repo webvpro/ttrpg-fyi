@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Speed
   - Ability/Categories/Special-Attack
+title: Murderer
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '8'
+tier: High
+pools:
+  - Speed
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Murderer    
 >**Action**    
 >8+ Speed points  

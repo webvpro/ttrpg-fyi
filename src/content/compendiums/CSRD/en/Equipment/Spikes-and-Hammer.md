@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
+title: Spikes and Hammer
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Spikes and Hammer    
     
 >10 spikes    

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Psychosis
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Psychosis    
 >**Action**    
 >4 Intellect points  

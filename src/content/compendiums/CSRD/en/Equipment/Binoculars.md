@@ -16,9 +16,10 @@ tags:
   - Equipment/Sense-Enhancing-Tools
   - Equipment/Level/2
   - Equipment/Value/Moderate
+title: Binoculars
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Binoculars    
     
 >    

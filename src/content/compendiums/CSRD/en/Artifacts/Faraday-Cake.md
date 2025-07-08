@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Faraday Cake
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Faraday Cake    
 >[!info] Stats    
 > **Level:** +3    

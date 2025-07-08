@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Special-Attack
+title: Slice
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Slice    
 >**Action**    
 >2 Speed points  

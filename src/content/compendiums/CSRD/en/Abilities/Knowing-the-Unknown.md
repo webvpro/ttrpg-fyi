@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Information
+title: Knowing the Unknown
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Information
 ---
-  
-    
 ## Knowing the Unknown    
 >**Action**    
 >6 Intellect points  

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Environment
+title: Inferno Trail
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Environment
 ---
-  
-    
 ## Inferno Trail    
 >**Action**    
 >6 Intellect points  

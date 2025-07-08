@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Expensive
   - Equipment/Weapon/Medium
+title: Cutlass
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Cutlass    
     
 >    

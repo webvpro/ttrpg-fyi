@@ -10,9 +10,19 @@ tags:
   - Ability/Categories/Meta
   - Ability/Categories/Protection
   - Ability/Categories/Task
+title: Minor Wish
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Meta
+  - Protection
+  - Task
 ---
-  
-    
 ## Minor Wish    
 >**Action**  
     

@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Cypher/Manifest
+title: Manifest
+collection: Tables
+kind: Table
 ---
-  
 ## Manifest Table  
 |  Roll &nbsp; &nbsp; | Manifest  |  
 | ------------- | :----------- |  

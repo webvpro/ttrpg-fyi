@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Restorative Aura
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Restorative Aura    
 >[!info] Stats    
 > **Level:** 1d6    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Scavenger-Subtle
+title: Medicine
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Medicine    
 >[!info] Stats    
 > **Level:** 1d6+1    

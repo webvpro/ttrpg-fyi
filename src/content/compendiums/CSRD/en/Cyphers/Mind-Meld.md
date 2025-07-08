@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Mind Meld
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Mind Meld    
 >[!info] Stats    
 > **Level:** 1d6+1    

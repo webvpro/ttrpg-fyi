@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Senses
+title: Detect Life
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Senses
 ---
-  
-    
 ## Detect Life    
 >**Action**    
 >3+ Might points  

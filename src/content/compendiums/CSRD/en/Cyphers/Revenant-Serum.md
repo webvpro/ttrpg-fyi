@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Revenant Serum
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Revenant Serum    
 >[!info] Stats    
 > **Level:** 1d6+4    

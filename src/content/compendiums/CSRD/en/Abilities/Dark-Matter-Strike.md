@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Dark Matter Strike
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Dark Matter Strike    
 >**Enabler**    
 >4 Intellect points  

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Crown of Eyes
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Crown of Eyes    
 >[!info] Stats    
 > **Level:** 1d6    

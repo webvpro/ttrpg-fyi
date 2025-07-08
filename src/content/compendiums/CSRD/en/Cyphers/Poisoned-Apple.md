@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Poisoned Apple
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Poisoned Apple    
 >[!info] Stats    
 > **Level:** 1d6+2    

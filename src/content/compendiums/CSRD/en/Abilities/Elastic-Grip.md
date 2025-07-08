@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Might
   - Ability/Categories/NA
+title: Elastic Grip
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: NA
+pools:
+  - Might
+categories:
+  - NA
 ---
-  
-    
 ## Elastic Grip    
 >**Enabler**    
 >3 Might points  

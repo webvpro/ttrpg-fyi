@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
   - Ability/Categories/Social
+title: Perfect Stranger
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Meta
+  - Social
 ---
-  
-    
 ## Perfect Stranger    
 >**Action**    
 >3 Intellect points  

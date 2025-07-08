@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Movement
+title: Traverse the Worlds
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '8'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Movement
 ---
-  
-    
 ## Traverse the Worlds    
 >**Action**    
 >8+ Intellect points  

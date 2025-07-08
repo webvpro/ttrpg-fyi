@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Meta
+title: Fury
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Meta
 ---
-  
-    
 ## Fury    
 >**Action**    
 >3 Might points  

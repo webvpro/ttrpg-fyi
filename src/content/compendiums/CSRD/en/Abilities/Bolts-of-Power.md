@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Bolts of Power
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Bolts of Power    
 >**Action**    
 >5+ Intellect points  

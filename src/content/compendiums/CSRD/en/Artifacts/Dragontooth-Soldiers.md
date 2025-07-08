@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Dragontooth Soldiers
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Dragontooth Soldiers    
 >[!info] Stats    
 > **Level:** 1d6+1    

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Special-Attack
+title: Knock Out
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Knock Out    
 >**Action**    
 >5+ Might points  

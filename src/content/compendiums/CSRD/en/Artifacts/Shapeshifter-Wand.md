@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Shapeshifter Wand
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Shapeshifter Wand    
 >[!info] Stats    
 > **Level:** 1d6    

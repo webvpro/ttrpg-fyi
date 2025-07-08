@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Movement
+title: Time Travel
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '10'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Movement
 ---
-  
-    
 ## Time Travel    
 >**Action**    
 >10+ Intellect points  

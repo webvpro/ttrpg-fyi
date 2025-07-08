@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Tiny Size
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Tiny Size    
 >[!info] Stats    
 > **Level:** 1d6    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Adderstone
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Adderstone    
 >[!info] Stats    
 > **Level:** 1d6+3    

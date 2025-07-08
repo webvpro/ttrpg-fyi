@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+title: Crafts Illusions
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Crafts Illusions    
 You fashion images from light that are so perfect they seem real.    
   

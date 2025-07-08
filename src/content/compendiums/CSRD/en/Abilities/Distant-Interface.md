@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Distant Interface
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Distant Interface    
 >**Action**    
 >2 Intellect points  

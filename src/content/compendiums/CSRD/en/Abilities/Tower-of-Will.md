@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Categories/Meta
   - Ability/Categories/Protection
+title: Tower of Will
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Meta
+  - Protection
 ---
-  
-    
 ## Tower of Will    
 >**Enabler**  
     

@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+title: Has a Thousand Faces
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Has a Thousand Faces    
 You can change your appearance to look like anyone else.    
   

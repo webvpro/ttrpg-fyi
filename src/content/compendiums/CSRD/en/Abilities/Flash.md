@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Flash
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Flash    
 >**Action**    
 >4 Intellect points  

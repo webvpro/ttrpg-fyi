@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci/Made-a-Deal-With-Death
   - Focus/Category/Fairytale
+title: Made a Deal With Death
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Made a Deal With Death  
 Death eternally walks the labyrinth of the Heartwood, touching those who pass by, but few notice this ever-changing figure. You, however, are intimate with Death in all their many forms. Perhaps you are both drawn to and frightened of them. Perhaps you’ve spent too much time in their company, and have become infatuated with them. Perhaps you’ve lost friends and loved ones to their dark embrace. Whatever your feelings about Death, you’ve made a deal with them, one you hope will bring you the closure that you seek.  
   

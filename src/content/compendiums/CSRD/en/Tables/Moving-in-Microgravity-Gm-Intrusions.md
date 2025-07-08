@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Intrusion/Moving-in-Microgravity-Gm-Intrusions
+title: Moving in Microgravity Gm Intrusions
+collection: Tables
+kind: Table
 ---
-  
 ## Moving in Microgravity Gm Intrusions Table  
 |  Roll &nbsp; &nbsp; | Moving in Microgravity Gm Intrusions  |  
 | ------------- | :----------- |  

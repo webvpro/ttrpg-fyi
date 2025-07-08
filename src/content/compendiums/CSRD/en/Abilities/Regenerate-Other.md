@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Might
   - Ability/Categories/Support
+title: Regenerate Other
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '9'
+tier: High
+pools:
+  - Might
+categories:
+  - Support
 ---
-  
-    
 ## Regenerate Other    
 >**Action**    
 >9 Might points  

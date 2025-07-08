@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Protection
+title: Nothing but Defend
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: High
+pools: []
+categories:
+  - Protection
 ---
-  
-    
 ## Nothing but Defend    
 >**Action**  
     

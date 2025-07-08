@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/4
   - Equipment/Value/Expensive
   - Equipment/Weapon/Thrown
+title: Plasma Grenade
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Plasma Grenade    
     
 >Single use; explodes to inflict 8 points of damage in immediate radius and targets descend one step on the damage track. It ignores 2 points of Armor value (except from force fields).    

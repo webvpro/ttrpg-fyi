@@ -4,6 +4,9 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Spacecraft/Collision/Damage
+title: Ship Collision Damage Track
+collection: Tables
+kind: Table
 ---
 ## Ship Collision Damage Track  
   

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Infiltrator
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Infiltrator    
 >[!info] Stats    
 > **Level:** 1d6    

@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Protection
+title: Mastery With Defense
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Protection
 ---
-  
-    
 ## Mastery With Defense    
 >**Enabler**  
     

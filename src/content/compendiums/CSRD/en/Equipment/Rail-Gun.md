@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/5
   - Equipment/Value/Exorbitant
   - Equipment/Range/Long
+title: Rail Gun
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Rail Gun    
     
 >Long-barreled rifle with computer sight assistance fires magnetically accelerated slugs; heavy-plus weapon (8 points of damage, both hands), range is 3,050 m (10,000 feet).    

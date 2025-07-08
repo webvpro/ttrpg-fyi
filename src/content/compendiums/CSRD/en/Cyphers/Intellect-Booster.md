@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Intellect Booster
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Intellect Booster    
 >[!info] Stats    
 > **Level:** 1d6+2    

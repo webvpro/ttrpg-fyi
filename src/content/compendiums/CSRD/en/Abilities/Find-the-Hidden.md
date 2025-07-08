@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Information
+title: Find the Hidden
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Information
 ---
-  
-    
 ## Find the Hidden    
 >**Action**    
 >4+ Intellect points  

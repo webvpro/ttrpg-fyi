@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Mastercraft Armor
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Mastercraft Armor    
 >[!info] Stats    
 > **Level:** 1d6    

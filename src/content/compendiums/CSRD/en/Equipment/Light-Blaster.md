@@ -8,9 +8,10 @@ tags:
   - Equipment/Value/Expensive
   - Equipment/Weapon/Light
   - Equipment/Range/Short
+title: Light Blaster
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Light Blaster    
     
 >    

@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
   - Ability/Categories/Support
+title: Petrify
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Protection
+  - Support
 ---
-  
-    
 ## Petrify    
 >**Action**    
 >4+ Intellect points  

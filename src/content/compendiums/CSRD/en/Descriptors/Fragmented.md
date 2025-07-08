@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors/Fragmented
   - Descriptor/Fairytale
+title: Fragmented
+collection: Descriptors
+kind: Descriptor
 ---
-  
 ## Fragmented    
 Sometimes you feel like you are a single being, and other times you think you mightbe more. You feel torn into pieces, unsure which elements are you and which belong to someone else. Or perhaps they’re all you, and you want to find a way to embrace all of your selves.  
 ### You gain the following characteristics:  

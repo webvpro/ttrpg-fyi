@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Three Needles
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Three Needles    
 >[!info] Stats    
 > **Level:** 1d6    

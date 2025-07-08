@@ -15,9 +15,10 @@ tags:
   - Equipment/Level/3
   - Equipment/Value/Very-Expensive
   - Equipment/Weapon/Rapid-Fire
+title: Submachine Gun
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Submachine Gun    
     
 >    

@@ -11,9 +11,10 @@ tags:
   - Equipment/Contemporary
   - Equipment/Modern
   - Equipment/Sense-Enhancing-Tools
+title: Mystical Hazard Suit
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Magic Detector    
 >This full-body protective suit is cumbersome and clumsy, not unlike a hazmat suit. However, all of the wearer’s tasks to resist magical effects are eased. If the wearer takes even 1 point of physical damage, the suit rips and no longer functions until it is repaired and resealed.   
     

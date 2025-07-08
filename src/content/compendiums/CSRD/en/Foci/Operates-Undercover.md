@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Exploration
+title: Operates Undercover
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Operates Undercover    
 Under the guise of someone else, you seek to find answers the powerful do not want divulged.    
   

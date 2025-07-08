@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/3
   - Equipment/Value/Exorbitant
+title: VTOL Stealthjet
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## VTOL Stealthjet    
     
 >As VTOL hyperjet, but with superior stealth instead of superior weapons.    

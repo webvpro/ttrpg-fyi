@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Rapunzel Leaf
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Rapunzel Leaf    
 >[!info] Stats    
 > **Level:** 1d6+3    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Frigid Wall
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Frigid Wall    
 >[!info] Stats    
 > **Level:** 1d6+2    

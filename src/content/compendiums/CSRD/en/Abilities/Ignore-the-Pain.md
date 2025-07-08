@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Cure
+title: Ignore the Pain
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Cure
 ---
-  
-    
 ## Ignore the Pain    
 >**Enabler**  
     

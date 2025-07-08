@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+title: Speaks for the Land
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Speaks for the Land    
 Your spiritual connection to nature and the environment grants you mystical abilities.    
   

@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/5
   - Equipment/Value/Very-Expensive
+title: Holobit
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Holobit    
     
 >Not armor; wearable device projects an offset hologram of the wearer, providing an asset to Speed defense tasks.    

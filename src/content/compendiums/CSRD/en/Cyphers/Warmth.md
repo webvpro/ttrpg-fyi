@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Warmth
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Warmth    
 >[!info] Stats    
 > **Level:** 1d6    

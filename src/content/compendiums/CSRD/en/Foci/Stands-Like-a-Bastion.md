@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+title: Stands Like a Bastion
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Stands Like a Bastion    
 Your armor, along with your size, strength, incredible training, or machine enhancement, makes you difficult to move or hurt.    
   

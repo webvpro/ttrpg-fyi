@@ -9,9 +9,10 @@ tags:
   - Equipment/Range/Long
   - Equipment/Weapon/Medium
   - Equipment/Weapon/Rapid-Fire
+title: Pulse Laser Gun
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Pulse Laser Gun    
     
 >    

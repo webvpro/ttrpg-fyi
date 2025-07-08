@@ -8,9 +8,10 @@ tags:
   - Equipment/Modern
   - Equipment/Level/3
   - Equipment/Value/Expensive
+title: Cold Weather Gear
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Cold Weather Gear    
     
 >Insulated clothing, including gloves, boots, and facemask, that allows wearer to function in extremely cold environments for several hours at temperatures down to -90 degrees C (-130 degrees F).    

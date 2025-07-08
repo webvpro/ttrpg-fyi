@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Radiation Spike
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Radiation Spike    
 >[!info] Stats    
 > **Level:** 1d6+4    

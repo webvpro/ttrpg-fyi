@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Attack-Skill
   - Ability/Categories/Task
+title: Quarry
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Attack-Skill
+  - Task
 ---
-  
-    
 ## Quarry    
 >**Action**    
 >2 Intellect points  

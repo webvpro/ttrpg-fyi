@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Dreadwood
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Dreadwood    
 >**Action**    
 >6 Intellect points  

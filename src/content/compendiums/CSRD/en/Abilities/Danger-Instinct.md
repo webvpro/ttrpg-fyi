@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Speed
   - Ability/Categories/Movement
+title: Danger Instinct
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Low
+pools:
+  - Speed
+categories:
+  - Movement
 ---
-  
-    
 ## Danger Instinct    
 >**Enabler**    
 >3 Speed points  

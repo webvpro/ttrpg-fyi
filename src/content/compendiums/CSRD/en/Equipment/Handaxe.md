@@ -9,9 +9,10 @@ tags:
   - Equipment/Value/5-Gp
   - Equipment/Range/Can-Be-Thrown-up-to-Short
   - Equipment/Weapon/Light
+title: Handaxe
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Handaxe    
     
 >A light, one-handed axe that's good for melee or throwing.    

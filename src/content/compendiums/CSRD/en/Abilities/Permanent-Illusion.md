@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Environment
+title: Permanent Illusion
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '9'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Environment
 ---
-  
-    
 ## Permanent Illusion    
 >**Enabler**    
 >9 Intellect points  

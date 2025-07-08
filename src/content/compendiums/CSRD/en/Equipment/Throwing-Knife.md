@@ -8,9 +8,10 @@ tags:
   - Equipment/Value/Moderate
   - Equipment/Weapon/Light
   - Equipment/Range/Short
+title: Throwing Knife
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Throwing Knife    
     
 >    

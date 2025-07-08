@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/1
   - Equipment/Value/Inexpensive
   - Equipment/Weapon/Light
+title: Knife, Simple
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Knife, Simple    
     
 >breaks on attack roll of 1-2.    

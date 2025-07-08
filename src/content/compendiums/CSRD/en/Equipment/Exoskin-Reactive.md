@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/4
   - Equipment/Value/Very-Expensive
+title: Exoskin, Reactive
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Exoskin, Reactive    
     
 >As grav-assist exoskin, but integrated memory fibers ease all tasks related to Speed.    

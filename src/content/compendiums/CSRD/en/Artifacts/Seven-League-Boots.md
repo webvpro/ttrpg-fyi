@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Seven-League Boots
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Seven-League Boots    
 >[!info] Stats    
 > **Level:** 1d6+3    

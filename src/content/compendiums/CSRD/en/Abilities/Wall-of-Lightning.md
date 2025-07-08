@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Environment
+title: Wall of Lightning
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Environment
 ---
-  
-    
 ## Wall of Lightning    
 >**Action**    
 >6 Intellect points  

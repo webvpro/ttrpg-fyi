@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Ascendant Brain Vivisector
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Ascendant Brain Vivisector    
 >[!info] Stats    
 > **Level:** 1d6+4    

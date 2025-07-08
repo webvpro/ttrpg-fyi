@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Categories/Social
   - Ability/Categories/Task
+title: Privileged Nobility
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Social
+  - Task
 ---
-  
-    
 ## Privileged Nobility    
 >**Enabler**  
     

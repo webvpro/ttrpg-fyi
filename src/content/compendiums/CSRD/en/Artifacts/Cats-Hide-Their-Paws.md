@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Cats-Hide-Their-Paws
   - Artifact
   - Artifact/Modern-Fantasy
+title: Cats Hide Their Paws
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Cats Hide Their Paws  
 #### Level   
 >1d6 +2  

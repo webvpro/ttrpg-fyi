@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Cloud-Storage
   - Artifact
   - Artifact/Modern-Fantasy
+title: Cloud Storage
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Cloud Storage  
 >1d6 +2  
 #### Form  

@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/3
   - Equipment/Value/Exorbitant
+title: VTOL Seawing
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## VTOL Seawing    
     
 >As VTOL hyperjet, but sacrifices weapons so it can operate both in the air and underwater as a submersible. Able to move a long distance each round underwater or 80 km/h (50 mph) during extended trips underwater.    

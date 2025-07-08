@@ -8,9 +8,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/3
   - Equipment/Value/Moderate
+title: Electric Lantern
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Electric Lantern    
     
 >Provides bright light within 9 m (30 feet) for several hours before requiring new batteries/a charge.    

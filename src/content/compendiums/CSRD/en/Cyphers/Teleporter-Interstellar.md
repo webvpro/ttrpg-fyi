@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Teleporter Interstellar
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Teleporter Interstellar    
 >[!info] Stats    
 > **Level:** 1d6+4    

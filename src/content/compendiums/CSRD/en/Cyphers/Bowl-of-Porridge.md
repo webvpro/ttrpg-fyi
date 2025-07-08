@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Bowl of Porridge
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Bowl of Porridge    
 >[!info] Stats    
 > **Level:** 1d6+3    

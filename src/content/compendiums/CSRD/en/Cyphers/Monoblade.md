@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Monoblade
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Monoblade    
 >[!info] Stats    
 > **Level:** 1d6+2    

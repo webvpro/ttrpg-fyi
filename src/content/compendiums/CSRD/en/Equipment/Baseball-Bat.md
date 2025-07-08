@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
   - Equipment/Weapon/Medium
+title: Baseball Bat
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Baseball Bat    
     
 >    

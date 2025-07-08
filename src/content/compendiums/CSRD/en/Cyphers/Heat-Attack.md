@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Heat Attack
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Heat Attack    
 >[!info] Stats    
 > **Level:** 1d6    

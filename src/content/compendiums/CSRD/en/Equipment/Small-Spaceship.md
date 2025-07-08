@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/4
   - Equipment/Value/Exorbitant
+title: Small Spaceship
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Small Spaceship    
     
 >    

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Movement
+title: Bypass Barrier
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Movement
 ---
-  
-    
 ## Bypass Barrier    
 >**Action**    
 >6+ Intellect points  

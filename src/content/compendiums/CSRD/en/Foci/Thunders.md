@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Energy-Manipulation
+title: Thunders
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Thunders    
 You emit destructive sound and manipulate soundscapes.    
   

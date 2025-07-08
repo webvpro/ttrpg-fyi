@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Mutation Inducer
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Mutation Inducer    
 >[!info] Stats    
 > **Level:** 1d6+1    

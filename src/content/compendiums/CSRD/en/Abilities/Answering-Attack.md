@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Special-Attack
+title: Answering Attack
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Answering Attack    
 >**Enabler**    
 >3 Speed points  

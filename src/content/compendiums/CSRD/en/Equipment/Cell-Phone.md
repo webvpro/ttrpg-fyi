@@ -6,9 +6,10 @@ tags:
   - Equipment/Modern
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
+title: Cell Phone
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Cell Phone    
     
 >    

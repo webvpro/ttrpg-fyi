@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Intelligence Enhancement
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Intelligence Enhancement    
 >[!info] Stats    
 > **Level:** 1d6    

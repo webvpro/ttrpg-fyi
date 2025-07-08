@@ -8,9 +8,13 @@ tags:
   - Creature/Level/4
   - Creature/Armor/0
   - Creature/Health/15
+title: Melted
+collection: Creatures-NPCs
+kind: Creature
+level: 4
+armor: 0
+health: 15
 ---
-  
-    
 ## Melted    
 Survivors assume the melted are another strain of mutants. Maybe so, but they're not originally from Earth. Or rather, not this Earth. The melted leaked in from a parallel world's apocalypse caused by a snafu with a high energy supercollider. Dozens of different but parallel timelines smashed into each other. The few survivors were fused beings composed of many different alternate versions of the same person, each still "radioactive" with latent transdimensional energy.    
   

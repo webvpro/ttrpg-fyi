@@ -5,8 +5,10 @@ tags:
   - Compendium/CSRD/en/Rules/Vehicles/Basic
   - Vehicle/Movement
   - Vehicle/Combat
+title: Vehicular Movement and Combat
+collection: Rules
+kind: Vehicle
 ---
-  
 ## Vehicular Movement    
   
   

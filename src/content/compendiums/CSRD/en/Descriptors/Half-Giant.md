@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors
   - Descriptor
+title: Half-Giant
+collection: Descriptors
+kind: Descriptor
 ---
-  
 ## Half-Giant    
 You stand at least 12 feet (4 m) tall and tower over everyone around you. Whether you are a full-blooded giant or merely have giant heritage from large ancestors, you're massive. Always large for your age, it became an issue only once you reached puberty and topped 7 feet (2 m) in height, and kept growing from there.  
 ### You gain the following characteristics    

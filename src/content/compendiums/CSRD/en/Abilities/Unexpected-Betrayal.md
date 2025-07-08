@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Social
+title: Unexpected Betrayal
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Social
 ---
-  
-    
 ## Unexpected Betrayal    
 >**Enabler**  
     

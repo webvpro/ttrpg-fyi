@@ -8,9 +8,13 @@ tags:
   - Creature/Level/5
   - Creature/Armor/1
   - Creature/Health/15
+title: Killing White Light
+collection: Creatures-NPCs
+kind: Creature
+level: 5
+armor: 1
+health: 15
 ---
-  
-    
 ## Killing White Light    
 A killing white light isn't a subtle hunter. At a distance, the creature is an eye-watering point of brilliance. When it closes in, it is nothing less than blinding, though its emanation isn't warm. Despite the blazing intensity, a killing white light is as cold as starlight on a December night, sapping heat and life from living things caught in its radiance.  
 By day, a killing white light is usually inactive. During this period, the creature hibernates in darkened areas, as if unwilling or unable to compete against the sun.    

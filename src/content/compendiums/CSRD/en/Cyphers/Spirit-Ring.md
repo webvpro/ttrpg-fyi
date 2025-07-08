@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Spirit Ring
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Spirit Ring    
 >[!info] Stats    
 > **Level:** 1d6    

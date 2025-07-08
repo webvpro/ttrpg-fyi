@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Speed
   - Ability/Categories/Meta
   - Ability/Categories/Special-Attack
+title: Disarming Attack
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: High
+pools:
+  - Speed
+categories:
+  - Meta
+  - Special-Attack
 ---
-  
-    
 ## Disarming Attack    
 >**Action**    
 >5 Speed points  

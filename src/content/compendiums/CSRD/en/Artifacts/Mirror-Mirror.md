@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Mirror Mirror
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Mirror Mirror    
 >[!info] Stats    
 > **Level:** 1d6+4    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Density
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Density    
 >[!info] Stats    
 > **Level:** 1d6    

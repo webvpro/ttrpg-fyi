@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Detonation Desiccating
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Detonation Desiccating    
 >[!info] Stats    
 > **Level:** 1d6+2    

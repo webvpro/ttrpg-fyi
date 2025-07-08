@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
   - Ability/Categories/Task
+title: Precognition
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Protection
+  - Task
 ---
-  
-    
 ## Precognition    
 >**Enabler**    
 >6 Intellect points  

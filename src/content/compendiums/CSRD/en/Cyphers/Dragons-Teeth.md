@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers/Dragons-Teeth
   - Cypher
   - Cypher/Fairy-Tale
+title: Dragon's Teeth
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Dragon's Teeth    
 >[!info] Stats    
 > **Level:** 1d6    

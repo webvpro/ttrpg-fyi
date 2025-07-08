@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Information
+title: Mind of a Leader
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Information
 ---
-  
-    
 ## Mind of a Leader    
 >**Action**    
 >6 Intellect points  

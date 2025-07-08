@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Corrupted Canopic Jar
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Corrupted Canopic Jar    
 >[!info] Stats    
 > **Level:** 1d6+1    

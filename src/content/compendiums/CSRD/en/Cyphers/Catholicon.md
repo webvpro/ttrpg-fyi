@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Catholicon
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Catholicon    
 >[!info] Stats    
 > **Level:** 1d6+2    

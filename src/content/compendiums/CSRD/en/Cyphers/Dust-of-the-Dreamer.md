@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Dust of the Dreamer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Dust of the Dreamer    
 >[!info] Stats    
 > **Level:** 1d6    

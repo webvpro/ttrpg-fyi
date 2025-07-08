@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+title: Sailed Beneath the Jolly Roger
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Sailed Beneath the Jolly Roger    
 You sailed with a crew of dread pirates, but you've decided to end your days as a pirate and join some other cause. The question is, will your past let you go so easily?    
   

@@ -11,9 +11,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/1
   - Equipment/Value/Inexpensive
+title: Flashlight
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Flashlight    
     
 >    

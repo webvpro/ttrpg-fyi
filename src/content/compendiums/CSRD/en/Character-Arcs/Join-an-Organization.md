@@ -4,6 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Character-Arcs/Join-an-Organization
   - Character-Arc
+title: Join an Organization
+collection: Character-Arcs
+kind: Arc
+categories: []
 ---
 ## Join an Organization  
 >You want to join an organization. This might be a military organization, a corporation, a secret society, a religion, or something else.  

@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/7
   - Equipment/Value/Priceless
+title: Nano Tab, Immolating
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Nano Tab, Immolating    
     
 >As general nano tab, but explosively distributes nano-threads deep into the body, turning it into mostly weaponry, effectively granting five posthuman upgrade power shifts. However, this quickly burns out the user, who dies within a solar standard month.    

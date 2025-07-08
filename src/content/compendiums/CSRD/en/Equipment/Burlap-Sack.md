@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
+title: Burlap Sack
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Burlap Sack    
     
 >    

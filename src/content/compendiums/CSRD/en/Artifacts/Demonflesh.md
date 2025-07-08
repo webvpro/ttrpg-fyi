@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Demonflesh
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Demonflesh    
 >[!info] Stats    
 > **Level:** 1d6+1    

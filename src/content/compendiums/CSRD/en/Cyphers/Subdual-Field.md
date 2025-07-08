@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Subdual Field
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Subdual Field    
 >[!info] Stats    
 > **Level:** 1d6+3    

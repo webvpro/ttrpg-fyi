@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Control
+title: Psychic Suggestion
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Control
 ---
-  
-    
 ## Psychic Suggestion    
 >**Action**    
 >4 Intellect points  

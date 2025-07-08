@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Speed
   - Ability/Categories/Meta
+title: Again and Again
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '8'
+tier: High
+pools:
+  - Speed
+categories:
+  - Meta
 ---
-  
-    
 ## Again and Again    
 >**Enabler**    
 >8 Speed points  

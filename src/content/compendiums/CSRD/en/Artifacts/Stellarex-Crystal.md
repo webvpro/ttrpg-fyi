@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Superhero
+title: Stellarex Crystal
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Stellarex Crystal    
 >[!info] Stats    
 > **Level:** 1d6+4    

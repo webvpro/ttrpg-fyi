@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Companion
+title: True Necromancy
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '8'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Companion
 ---
-  
-    
 ## True Necromancy    
 >**Action**    
 >8+ Intellect points  

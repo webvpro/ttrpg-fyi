@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
+title: Medication, One Bottle
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Medication, One Bottle    
     
 >Pain relief, allergy, antacid, antibiotic, anti-nausea, or another drug in a bottle    

@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors
   - Descriptor
+title: Swift
+collection: Descriptors
+kind: Descriptor
 ---
-  
 ## Swift    
 You move quickly, able to sprint in short bursts and work with your hands with dexterity. You're great at crossing distances quickly but not always smoothly. You are likely slim and muscular.  
 ### You gain the following characteristics    

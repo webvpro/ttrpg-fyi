@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: X-Ray Viewer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## X-Ray Viewer    
 >[!info] Stats    
 > **Level:** 1d6+4    

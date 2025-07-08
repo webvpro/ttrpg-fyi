@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
+title: Bicycle or Skateboard or Inline Skates
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Bicycle or Skateboard or Inline Skates    
     
 >Use requires same attention as other vehicular movement    

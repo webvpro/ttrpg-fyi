@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/4
   - Equipment/Value/Expensive
   - Equipment/Armor/Medium
+title: Armored Bodysuit
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Armored Bodysuit    
     
 >Functions as medium armor (+2 Armor), encumbers as if not wearing any armor.    

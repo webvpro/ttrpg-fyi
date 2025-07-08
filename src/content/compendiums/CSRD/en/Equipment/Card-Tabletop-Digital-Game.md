@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/2
   - Equipment/Value/Inexpensive
   - Equipment/Value/Moderate
+title: Card Tabletop Digital Game
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Card Tabletop Digital Game    
     
 >Suitable for passing the time and building bonds between friends and strangers alike.    

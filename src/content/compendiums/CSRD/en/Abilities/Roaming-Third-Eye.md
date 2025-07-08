@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Roaming Third Eye
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Roaming Third Eye    
 >**Enabler**    
 >3 Intellect points  

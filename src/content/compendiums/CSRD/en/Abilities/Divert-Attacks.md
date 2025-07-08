@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Protection
+title: Divert Attacks
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Protection
 ---
-  
-    
 ## Divert Attacks    
 >**Action**    
 >4 Speed points  

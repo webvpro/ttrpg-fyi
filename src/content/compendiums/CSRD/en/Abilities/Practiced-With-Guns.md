@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Attack-Skill
+title: Practiced With Guns
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Attack-Skill
 ---
-  
-    
 ## Practiced With Guns    
 >**Enabler**  
     

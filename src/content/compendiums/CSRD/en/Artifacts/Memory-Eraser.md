@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Memory Eraser
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Memory Eraser    
 >[!info] Stats    
 > **Level:** 1d6+1    

@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Companion
+title: Spirit Accomplice
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Companion
 ---
-  
-    
 ## Spirit Accomplice    
 >**Action**  
     

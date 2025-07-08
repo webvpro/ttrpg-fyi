@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Might
   - Ability/Categories/Protection
   - Ability/Categories/Support
+title: Energize Creature
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Might
+categories:
+  - Protection
+  - Support
 ---
-  
-    
 ## Energize Creature    
 >**Action**    
 >6+ Might points  

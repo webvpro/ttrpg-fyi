@@ -8,9 +8,10 @@ tags:
   - Equipment/Value/Expensive
   - Equipment/Value/200-Gp
   - Equipment/Armor/Medium
+title: Brigandine
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Brigandine    
     
 >Long strips of metal attached to a cloth or leather backing. Often called "splint mail."    

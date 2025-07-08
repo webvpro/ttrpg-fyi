@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Superhero
+title: Doctor Dread's Time Portal
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Doctor Dread's Time Portal    
 >[!info] Stats    
 > **Level:** +9    

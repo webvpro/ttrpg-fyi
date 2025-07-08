@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Craft
   - Ability/Categories/Meta
+title: Quick Work
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Craft
+  - Meta
 ---
-  
-    
 ## Quick Work    
 >**Action**    
 >3+ Intellect points  

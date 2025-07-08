@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Data Wipe
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Data Wipe    
 >[!info] Stats    
 > **Level:** 1d6+2  

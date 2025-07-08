@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Horrific Face
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Horrific Face    
 >[!info] Stats    
 > **Level:** 1d6+1    

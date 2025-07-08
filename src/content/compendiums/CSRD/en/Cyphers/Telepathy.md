@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Telepathy
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Telepathy    
 >[!info] Stats    
 > **Level:** 1d6+2    

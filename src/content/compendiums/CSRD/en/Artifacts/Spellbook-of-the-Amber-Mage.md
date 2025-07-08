@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Spellbook of the Amber Mage
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Spellbook of the Amber Mage    
 >[!info] Stats    
 > **Level:** 1d6    

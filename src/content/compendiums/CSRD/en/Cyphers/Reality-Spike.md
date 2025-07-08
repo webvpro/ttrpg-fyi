@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Reality Spike
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Reality Spike    
 >[!info] Stats    
 > **Level:** 1d6+4    

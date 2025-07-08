@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/4
   - Equipment/Value/Expensive
+title: Serum, Antivenom
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Serum, Antivenom    
     
 >As remedial serum, but grants a Might task eased by four steps to withstand and clear poison from the user's system and provides similar poison resistance for one day.    

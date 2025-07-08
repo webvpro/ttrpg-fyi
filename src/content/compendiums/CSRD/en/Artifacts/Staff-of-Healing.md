@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Staff of Healing
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Staff of Healing    
 >[!info] Stats    
 > **Level:** 1d6+4    

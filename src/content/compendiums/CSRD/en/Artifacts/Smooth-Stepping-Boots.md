@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Smooth-Stepping Boots
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Smooth-Stepping Boots    
 >[!info] Stats    
 > **Level:** 1d6+1    

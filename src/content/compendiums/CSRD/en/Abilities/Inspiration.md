@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
   - Ability/Categories/Support
+title: Inspiration
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Cure
+  - Support
 ---
-  
-    
 ## Inspiration    
 >**Action**    
 >6 Intellect points  

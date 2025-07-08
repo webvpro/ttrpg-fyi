@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Categories/Protection
   - Ability/Categories/Special-Attack
+title: Defense Master
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Protection
+  - Special-Attack
 ---
-  
-    
 ## Defense Master    
 >**Enabler**  
     

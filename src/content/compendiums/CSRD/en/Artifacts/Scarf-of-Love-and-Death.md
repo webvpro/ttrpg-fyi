@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Scarf-of-Love-and-Death
   - Artifact
   - Artifact/Modern-Fantasy
+title: Scarf of Love and Death
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Scarf of Love and Death  
   
 >1d6   

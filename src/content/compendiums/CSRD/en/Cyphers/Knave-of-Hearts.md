@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Knave of Hearts
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Knave of Hearts    
 >[!info] Stats    
 > **Level:** 1d6+2    

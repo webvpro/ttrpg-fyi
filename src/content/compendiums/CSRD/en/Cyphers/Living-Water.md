@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Living Water
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Living Water    
 >[!info] Stats    
 > **Level:** 1d6+3    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Sound Dampener
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Sound Dampener    
 >[!info] Stats    
 > **Level:** 1d6+2    

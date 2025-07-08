@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Environment
+title: Terrifying Image
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Environment
 ---
-  
-    
 ## Terrifying Image    
 >**Action**    
 >6 Intellect points  

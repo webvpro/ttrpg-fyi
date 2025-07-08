@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Scavenger-Subtle
+title: Useful Clothing
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Useful Clothing    
 >[!info] Stats    
 > **Level:** 1d6+1    

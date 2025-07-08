@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Attempted-Murder
   - Artifact
   - Artifact/Fairy-Tale
+title: Attempted Murder
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Attempted Murder   
 #### Level   
 >1d6  + 4  

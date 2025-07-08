@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Companion
+title: Improved Apportation
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Companion
 ---
-  
-    
 ## Improved Apportation    
 >**Action**    
 >6 Intellect points  

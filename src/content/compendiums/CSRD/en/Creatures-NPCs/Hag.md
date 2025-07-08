@@ -8,9 +8,13 @@ tags:
   - Creature/Level/6
   - Creature/Armor/1
   - Creature/Health/25
+title: Hag
+collection: Creatures-NPCs
+kind: Creature
+level: 6
+armor: 1
+health: 25
 ---
-  
-    
 ## Hag    
 Hags are evil magical creatures distantly related to the fey. They resemble withered ancient humans with obvious inhuman features-dead eyes, green or purple skin, metal teeth, webbed fingers, and seaweed-like hair are common traits. They love corrupting pure and innocent things, and feast on the dreams and flesh of their victims.    
   

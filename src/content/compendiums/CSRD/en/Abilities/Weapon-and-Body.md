@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Speed
   - Ability/Categories/Special-Attack
+title: Weapon and Body
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: High
+pools:
+  - Speed
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Weapon and Body    
 >**Action**    
 >5 Speed points  

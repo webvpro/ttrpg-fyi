@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Anywhere Door
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Anywhere Door    
 >[!info] Stats    
 > **Level:** 1d6+3    

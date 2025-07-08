@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Friction Reducer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Friction Reducer    
 >[!info] Stats    
 > **Level:** 1d6    

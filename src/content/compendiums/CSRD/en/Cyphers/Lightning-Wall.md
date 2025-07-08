@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Lightning Wall
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Lightning Wall    
 >[!info] Stats    
 > **Level:** 1d6+2    

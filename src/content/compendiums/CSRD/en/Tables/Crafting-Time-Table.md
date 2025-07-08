@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables/Crafting-Time-Table
   - Table
+title: Crafting Time Table"
+collection: Tables
+kind: Table
 ---
-  
 ## Crafting Time Table  
 | Assessed Difficulty | Time to Craft |  
 |---------------------|---------------|  

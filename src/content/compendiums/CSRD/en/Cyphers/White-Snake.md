@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: White Snake
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## White Snake    
 >[!info] Stats    
 > **Level:** 1d6+2    

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Might
   - Ability/Categories/Protection
+title: Fortified Position
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Might
+categories:
+  - Protection
 ---
-  
-    
 ## Fortified Position    
 >**Action**    
 >2 Might points  

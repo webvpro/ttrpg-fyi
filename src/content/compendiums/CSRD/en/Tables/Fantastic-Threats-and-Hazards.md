@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table
+title: Fantastic Threats and Hazards
+collection: Tables
+kind: Table
 ---
-  
 ## Fantastic Threats and Hazards Table  
 |  Roll &nbsp; &nbsp; | Fantastic Threats and Hazards  |  
 | ------------- | :----------- |  

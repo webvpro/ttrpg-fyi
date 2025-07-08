@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Intrusion/Space-Suits-Gm-Intrusions
+title: Acceleration and High-g Maneuver Gm Intrusions
+collection: Tables
+kind: Table
 ---
-  
 ## Acceleration and High-g Maneuver Gm Intrusions  
 |  Roll &nbsp; &nbsp; | Space Suits Gm Intrusions  |  
 | ------------- | :----------- |  

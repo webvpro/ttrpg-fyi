@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Control
+title: Show Them the Way
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Control
 ---
-  
-    
 ## Show Them the Way    
 >**Action**    
 >6+ Intellect points  

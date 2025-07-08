@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Cure
+title: Ignore Affliction
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Cure
 ---
-  
-    
 ## Ignore Affliction    
 >**Action**    
 >5 Might points  

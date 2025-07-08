@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Might
   - Ability/Categories/Special-Attack
+title: Aggression
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Low
+pools:
+  - Might
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Aggression    
 >**Enabler**    
 >2 Might points  

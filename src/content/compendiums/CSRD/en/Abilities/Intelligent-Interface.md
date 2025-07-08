@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Task
+title: Intelligent Interface
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Task
 ---
-  
-    
 ## Intelligent Interface    
 >**Enabler**    
 >3 Intellect points  

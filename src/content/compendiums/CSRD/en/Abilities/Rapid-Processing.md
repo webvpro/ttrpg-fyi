@@ -11,9 +11,20 @@ tags:
   - Ability/Categories/Meta
   - Ability/Categories/Protection
   - Ability/Categories/Task
+title: Rapid Processing
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Meta
+  - Protection
+  - Task
 ---
-  
-    
 ## Rapid Processing    
 >**Action**    
 >6 Intellect points  

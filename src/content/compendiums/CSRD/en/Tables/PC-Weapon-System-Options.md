@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/PC/Options/System/Weapon
+title: Player Weapon System Options
+collection: Tables
+kind: Table
 ---
-  
 ## Player Weapon System Options  
   
 | Targeting Task                    | Hindrance   | Effect on Target Craft                                                                                                                                  |  

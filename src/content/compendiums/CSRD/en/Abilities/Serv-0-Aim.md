@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Categories/Attack-Skill
   - Ability/Categories/Task
+title: Serv-0 Aim
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Attack-Skill
+  - Task
 ---
-  
-    
 ## Serv-0 Aim    
 >**Enabler**  
     

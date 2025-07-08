@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Entangling Force
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Entangling Force    
 >**Action**    
 >1+ Intellect point  

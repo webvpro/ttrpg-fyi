@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Cypher/Subtle
+title: Subtle
+collection: Tables
+kind: Table
 ---
-  
 ## Subtle Table  
 |  Roll &nbsp; &nbsp; | Subtle  |  
 | ------------- | :----------- |  

@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/10-Gp
+title: Battering Ram
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Battering Ram    
     
 >This sturdy plank is capped with hard metal. It provides an asset for breaking down doors.    

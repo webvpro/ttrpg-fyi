@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Movement
+title: Walk Through Walls
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Movement
 ---
-  
-    
 ## Walk Through Walls    
 >**Action**    
 >2 Intellect points  

@@ -8,9 +8,13 @@ tags:
   - Creature/Level/8
   - Creature/Armor/1
   - Creature/Health/30
+title: Wolf, Big Bad
+collection: Creatures-NPCs
+kind: Creature
+level: 8
+armor: 1
+health: 30
 ---
-  
-    
 ## Wolf, Big Bad    
 The Big Bad Wolf (just call him the Wolf, for he is truly the only one worthy of that title) is a beast of near immortality, kept alive by the legends that swirl around him, the constant stream of terrorizing tales. Once the stalker of the woods, now he stalks the streets and towns, no longer staying to the shadows, no longer merely hunting girls and grandmothers. As his reputation has grown, so has his appetite. He hungers. He swallows worlds. He will not be contained.    
   

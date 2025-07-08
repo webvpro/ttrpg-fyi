@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/2
   - Equipment/Value/Expensive
   - Equipment/Weapon/Heavy
+title: Broad Sword, Replica
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Broad Sword, Replica    
     
 >    

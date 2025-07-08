@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Thought Listening
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Thought Listening    
 >[!info] Stats    
 > **Level:** 1d6+1    

@@ -6,6 +6,9 @@ tags:
   - Character/Tiers
   - Character/Benefits
   - Character/Advancement
+title: Character Tiers
+collection: Rules
+kind: Character
 ---
 ## Character Tiers  
   

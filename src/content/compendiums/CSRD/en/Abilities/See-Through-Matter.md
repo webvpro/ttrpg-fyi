@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Senses
+title: See Through Matter
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Senses
 ---
-  
-    
 ## See Through Matter    
 >**Action**    
 >3+ Intellect points  

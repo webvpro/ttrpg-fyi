@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Horn of Thunder
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Horn of Thunder    
 >[!info] Stats    
 > **Level:** 1d6+4    

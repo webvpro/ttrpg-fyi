@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Divine Radiance
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Divine Radiance    
 >**Action**    
 >2 Intellect points  

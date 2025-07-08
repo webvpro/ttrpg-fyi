@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Bone Key
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Bone Key    
 >[!info] Stats    
 > **Level:** 1d6+2    

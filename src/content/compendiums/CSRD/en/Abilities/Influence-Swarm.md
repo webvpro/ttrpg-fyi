@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Companion
+title: Influence Swarm
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Companion
 ---
-  
-    
 ## Influence Swarm    
 >**Action**    
 >1 Intellect point  

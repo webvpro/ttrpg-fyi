@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Cutting Light
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Cutting Light    
 >**Action**    
 >2 Intellect points  

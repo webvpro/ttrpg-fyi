@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Tank-Combat
+title: Fuses Flesh and Steel
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Fuses Flesh and Steel    
 Your body is part machine.    
   

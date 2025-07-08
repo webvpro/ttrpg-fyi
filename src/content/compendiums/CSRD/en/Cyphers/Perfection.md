@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Perfection
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Perfection    
 >[!info] Stats    
 > **Level:** 1d6+2    

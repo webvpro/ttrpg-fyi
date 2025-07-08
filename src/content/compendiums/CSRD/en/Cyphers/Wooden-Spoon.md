@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Wooden Spoon
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Wooden Spoon    
 >[!info] Stats    
 > **Level:** 1d6+4    

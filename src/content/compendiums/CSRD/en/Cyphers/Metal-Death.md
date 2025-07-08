@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Metal Death
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Metal Death    
 >[!info] Stats    
 > **Level:** 1d6+2    

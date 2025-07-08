@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Craft
+title: Ice Creation
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Craft
 ---
-  
-    
 ## Ice Creation    
 >**Action**    
 >4+ Intellect points  

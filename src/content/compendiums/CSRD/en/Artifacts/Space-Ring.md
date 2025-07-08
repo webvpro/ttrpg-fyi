@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Superhero
+title: Space Ring
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Space Ring    
 >[!info] Stats    
 > **Level:** 1d6+1    

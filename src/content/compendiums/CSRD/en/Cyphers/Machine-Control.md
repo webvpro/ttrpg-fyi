@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Machine Control
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Machine Control    
 >[!info] Stats    
 > **Level:** 1d6+2    

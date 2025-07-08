@@ -11,9 +11,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
   - Equipment/Weapon/Light
+title: Wooden Club
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Wooden Club    
     
 >    

@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Intrusion/World-Intrusions
+title: World Intrusions
+collection: Tables
+kind: Table
 ---
-  
 ## World Intrusions Table  
 |  Roll &nbsp; &nbsp; | World Intrusions  |  
 | ------------- | :----------- |  

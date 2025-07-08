@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/2-Cp
+title: Ink Pen
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Ink Pen    
     
 >    

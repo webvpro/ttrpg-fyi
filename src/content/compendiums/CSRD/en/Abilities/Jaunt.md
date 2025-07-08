@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Movement
+title: Jaunt
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Movement
 ---
-  
-    
 ## Jaunt    
 >**Action**    
 >5+ Intellect points  

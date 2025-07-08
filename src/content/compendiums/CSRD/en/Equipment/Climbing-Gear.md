@@ -16,9 +16,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/3
   - Equipment/Value/Moderate
+title: Climbing Gear
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Climbing Gear    
     
 >    

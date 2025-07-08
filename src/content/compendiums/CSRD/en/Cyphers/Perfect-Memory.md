@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Perfect Memory
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Perfect Memory    
 >[!info] Stats    
 > **Level:** 1d6    

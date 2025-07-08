@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Pandora's Box
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Pandora's Box    
 >[!info] Stats    
 > **Level:** 1d6+4    

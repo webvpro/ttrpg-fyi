@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Support
+title: Inspire Coordinated Actions
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '9'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Support
 ---
-  
-    
 ## Inspire Coordinated Actions    
 >**Action**    
 >9 Intellect points  

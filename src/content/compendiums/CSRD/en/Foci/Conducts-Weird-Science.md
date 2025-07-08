@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Influence
+title: Conducts Weird Science
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Conducts Weird Science    
 Your preternatural insight and ability make you a scientist capable of amazing feats.    
   

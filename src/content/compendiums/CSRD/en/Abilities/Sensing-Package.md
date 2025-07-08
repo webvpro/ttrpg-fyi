@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Categories/Senses
   - Ability/Categories/Task
+title: Sensing Package
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Senses
+  - Task
 ---
-  
-    
 ## Sensing Package    
 >**Enabler**  
     

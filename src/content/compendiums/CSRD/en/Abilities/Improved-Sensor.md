@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Improved Sensor
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Improved Sensor    
 >**Enabler**    
 >2 Intellect points  

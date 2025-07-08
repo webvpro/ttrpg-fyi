@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Enviroscanner
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Enviroscanner    
 >[!info] Stats    
 > **Level:** 1d6    

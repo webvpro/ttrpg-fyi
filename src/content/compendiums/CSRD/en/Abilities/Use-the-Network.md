@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Use the Network
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Use the Network    
 >**Action**    
 >5 Intellect points  

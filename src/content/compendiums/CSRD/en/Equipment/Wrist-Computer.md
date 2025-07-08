@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Expensive
   - Equipment/Asset
+title: Wrist Computer
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Wrist Computer    
     
 >    

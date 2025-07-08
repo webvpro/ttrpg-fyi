@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Concussion
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '7'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Concussion    
 >**Action**    
 >7 Intellect points  

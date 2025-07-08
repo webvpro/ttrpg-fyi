@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Defensive Blinking
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Defensive Blinking    
 >**Action**    
 >4 Intellect points  

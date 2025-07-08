@@ -15,9 +15,10 @@ tags:
   - Equipment/Value/Expensive
   - Equipment/Range/Long
   - Equipment/Weapon/Medium
+title: Handgun, Medium
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Handgun, Medium    
     
 >    

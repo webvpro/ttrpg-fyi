@@ -8,9 +8,10 @@ tags:
   - Equipment/Value/Expensive
   - Equipment/Weapon/Light
   - Equipment/Range/Long
+title: Needler
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Needler    
     
 >    

@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Ally-Use
+title: Exists in Two Places at Once
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Exists in Two Places at Once    
 You exist in two places at once.    
   

@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Homunculus Flask
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Homunculus Flask    
 >[!info] Stats    
 > **Level:** 1d6+1    

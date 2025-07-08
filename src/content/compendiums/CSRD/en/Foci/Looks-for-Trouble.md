@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Striker-Combat
+title: Looks for Trouble
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Looks for Trouble    
 You're a scrapper and love a good fight.    
   

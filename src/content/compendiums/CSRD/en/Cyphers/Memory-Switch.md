@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Memory Switch
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Memory Switch    
 >[!info] Stats    
 > **Level:** 1d6+2    

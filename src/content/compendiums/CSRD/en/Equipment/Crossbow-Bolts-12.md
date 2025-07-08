@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
+title: Crossbow Bolts (12)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Crossbow Bolts (12)    
     
 >    

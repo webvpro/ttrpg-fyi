@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Special-Attack
+title: Ice Storm
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Ice Storm    
 >**Enabler**  
     

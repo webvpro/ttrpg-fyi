@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/3
   - Equipment/Value/Moderate
   - Equipment/Weapon/Thrown
+title: Hand Grenade
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Hand Grenade    
     
 >explodes to inflict 6 points of damage in an immediate radius.    

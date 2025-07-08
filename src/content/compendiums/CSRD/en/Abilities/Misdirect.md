@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Speed
   - Ability/Categories/Special-Attack
+title: Misdirect
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Low
+pools:
+  - Speed
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Misdirect    
 >**Enabler**    
 >3 Speed points  

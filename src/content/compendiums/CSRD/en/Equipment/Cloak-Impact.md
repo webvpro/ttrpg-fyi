@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/5
   - Equipment/Value/Very-Expensive
   - Equipment/Armor/Heavy
+title: Cloak, Impact
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Cloak, Impact    
     
 >Fashionable cloak with attached hood. If the wearer is subjected to a physical or energy attack, the garment strategically hardens, functioning as heavy armor (+3 Armor), and encumbering as light armor.    

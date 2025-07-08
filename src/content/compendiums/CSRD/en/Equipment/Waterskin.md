@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/2-Sp
+title: Waterskin
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Waterskin    
     
 >    

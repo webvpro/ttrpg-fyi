@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Darning Needle
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Darning Needle    
 >[!info] Stats    
 > **Level:** 1d6    

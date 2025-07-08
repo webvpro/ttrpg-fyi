@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Fabricator, Civil
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Fabricator, Civil    
 >[!info] Stats    
 > **Level:** 1d6+1  

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Remote Viewer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Remote Viewer    
 >[!info] Stats    
 > **Level:** 1d6    

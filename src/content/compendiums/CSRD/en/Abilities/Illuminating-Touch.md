@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Environment
+title: Illuminating Touch
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Environment
 ---
-  
-    
 ## Illuminating Touch    
 >**Action**    
 >1 Intellect point  

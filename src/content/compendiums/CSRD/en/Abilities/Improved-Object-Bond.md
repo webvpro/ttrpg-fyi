@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Companion
   - Ability/Categories/Special-Attack
+title: Improved Object Bond
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '5'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Companion
+  - Special-Attack
 ---
-  
-    
 ## Improved Object Bond    
 >**Enabler**    
 >5 Intellect points  

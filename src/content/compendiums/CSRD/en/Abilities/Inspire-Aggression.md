@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Support
   - Ability/Categories/Task
+title: Inspire Aggression
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Support
+  - Task
 ---
-  
-    
 ## Inspire Aggression    
 >**Action**    
 >2 Intellect points  

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Guardian Idol
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Guardian Idol    
 >[!info] Stats    
 > **Level:** 1d6+3    

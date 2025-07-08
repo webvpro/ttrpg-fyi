@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
+title: Deflect Attacks
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Protection
 ---
-  
-    
 ## Deflect Attacks    
 >**Action**    
 >1 Intellect point  

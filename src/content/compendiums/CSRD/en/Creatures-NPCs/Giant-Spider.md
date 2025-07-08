@@ -8,9 +8,13 @@ tags:
   - Creature/Level/3
   - Creature/Armor/0
   - Creature/Health/12
+title: Giant Spider
+collection: Creatures-NPCs
+kind: Creature
+level: 3
+armor: 0
+health: 12
 ---
-  
-    
 ## Giant Spider    
 Giant spiders result most commonly from radioactive accidents, magic, or genetic manipulation. Whatever their origin, they're terrifying hunters large enough to predate people. The creatures range from the size of a large dog to the size of a large horse.    
   

@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Magic
   - Ability/Categories/Fantasy/Modern
+title: Blood Magician
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: ''
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Magic
+  - Fantasy
 ---
-  
-    
 ## Blood Magician  
 >**Enabler**    
   

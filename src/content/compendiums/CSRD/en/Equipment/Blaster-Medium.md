@@ -10,9 +10,10 @@ tags:
   - Equipment/Value/Expensive
   - Equipment/Range/Long
   - Equipment/Weapon/Medium
+title: Blaster, Medium
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Blaster, Medium    
     
 >Handgun that projects an energetic plasma-particle beam; It ignores 1 point of Armor value (except from force fields).    

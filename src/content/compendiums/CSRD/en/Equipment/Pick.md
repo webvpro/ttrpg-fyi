@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/10-Gp
   - Equipment/Weapon/Medium
+title: Pick
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Pick    
     
 >A hafted weapon with a sideways metal spike on the end, similar to a miner's tool.    

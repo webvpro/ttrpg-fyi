@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Mid
   - Ability/Categories/Support
+title: Defend All the Innocent
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Support
 ---
-  
-    
 ## Defend All the Innocent    
 >**Enabler**  
     

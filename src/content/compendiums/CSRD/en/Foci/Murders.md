@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Striker-Combat
+title: Murders
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Murders    
 You're an assassin, whether by trade, by inclination, or because it was that or be killed yourself.    
   

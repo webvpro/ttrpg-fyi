@@ -13,9 +13,10 @@ tags:
   - Equipment/Level/2
   - Equipment/Value/Moderate
   - Equipment/Armor/Light
+title: Leather Jacket
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Leather Jacket    
     
 >    

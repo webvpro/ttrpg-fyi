@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Mid
   - Ability/Categories/Support
+title: Applying Your Knowledge
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Support
 ---
-  
-    
 ## Applying Your Knowledge    
 >**Action**  
     

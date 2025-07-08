@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Charge Weapon
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Charge Weapon    
 >**Enabler**    
 >2+ Intellect points  

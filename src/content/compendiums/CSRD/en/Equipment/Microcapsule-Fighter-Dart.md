@@ -8,9 +8,10 @@ tags:
   - Equipment/Spacecraft
   - Equipment/Level/1
   - Equipment/Value/Very-Expensive-X2
+title: Microcapsule, Fighter (Dart)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Microcapsule, Fighter (Dart)    
     
 >As microcapsule, but with a laser cannon weapon system capable of targeting another craft.    

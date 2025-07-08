@@ -11,9 +11,20 @@ tags:
   - Ability/Categories/Attack-Skill
   - Ability/Categories/Senses
   - Ability/Categories/Task
+title: Heads-Up Display
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Attack-Skill
+  - Senses
+  - Task
 ---
-  
-    
 ## Heads-Up Display    
 >**Enabler**    
 >2+ Intellect points  

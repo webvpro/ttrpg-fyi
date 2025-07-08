@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Divide Your Mind
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '7'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Divide Your Mind    
 >**Action**    
 >7 Intellect points  

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Special-Attack
+title: Disable Mechanisms
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Disable Mechanisms    
 >**Action**    
 >3 Speed points  

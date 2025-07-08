@@ -8,9 +8,10 @@ tags:
   - Equipment/Sense-Enhancing-Tools
   - Equipment/Level/4
   - Equipment/Value/Very-Expensive
+title: Tactile Drone
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Tactile Drone    
     
 >As research drone, except without the suite of analysis tools, providing only audible and visual feeds back to controller (if there is one), but with physical options; tactile drones can accomplish routine tasks and attempt those of level 4 or less, or allow a remote operator to attempt more difficult tasks at a distance.    

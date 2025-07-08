@@ -13,9 +13,10 @@ tags:
   - Equipment/Value/Very-Expensive
   - Equipment/Range/Long
   - Equipment/Weapon/Heavy
+title: Heavy Blaster
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Heavy Blaster    
     
 >    

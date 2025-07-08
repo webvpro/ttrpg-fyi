@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/4
   - Equipment/Value/Exorbitant
+title: Yacht, Hydroplane
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Yacht, Hydroplane    
     
 >As yacht, but can cut through the sea at speeds of up to 480 km/h (300 mph) in calm or stormy weather without risk of capsizing.    

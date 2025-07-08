@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Adamantine Rope
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Adamantine Rope    
 >[!info] Stats    
 > **Level:** 1d6+4    

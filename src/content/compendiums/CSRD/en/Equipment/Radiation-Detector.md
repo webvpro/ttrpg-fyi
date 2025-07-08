@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Expensive
+title: Radiation Detector
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Radiation Detector    
     
 >    

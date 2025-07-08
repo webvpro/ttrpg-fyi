@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Weird Science Breakthrough
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Weird Science Breakthrough    
 >**Action**    
 >5+ Intellect points  

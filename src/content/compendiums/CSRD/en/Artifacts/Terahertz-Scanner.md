@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Terahertz Scanner
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Terahertz Scanner    
 >[!info] Stats    
 > **Level:** 1d6+1    

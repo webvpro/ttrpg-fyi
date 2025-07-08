@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/6
   - Equipment/Value/Exorbitant
+title: Nano Tab, Acceleration
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Nano Tab, Acceleration    
     
 >As general nano tab, but permanently grants the benefits of an ampule of acceleration serum.    

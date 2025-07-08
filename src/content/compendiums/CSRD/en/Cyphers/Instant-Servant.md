@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Instant Servant
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Instant Servant    
 >[!info] Stats    
 > **Level:** 1d6    

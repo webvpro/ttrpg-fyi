@@ -8,9 +8,13 @@ tags:
   - Creature/Level/4
   - Creature/Armor/2
   - Creature/Health/15
+title: Paladin
+collection: Creatures-NPCs
+kind: NPC
+level: 4
+armor: 2
+health: 15
 ---
-  
-    
 ## Paladin    
 Paladins are heroes who swear a holy oath to vanquish evil. Their power and righteousness are a gift and a heavy burden, and most of them expect to die in battle against an evil foe.    
   

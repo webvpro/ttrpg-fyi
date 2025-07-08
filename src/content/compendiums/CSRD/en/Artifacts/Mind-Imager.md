@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Science-Fiction
+title: Mind Imager
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Mind Imager    
 >[!info] Stats    
 > **Level:** 1d6+2    

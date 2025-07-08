@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Boy Blue's Horn
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Boy Blue's Horn    
 >[!info] Stats    
 > **Level:** 1d6    

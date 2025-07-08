@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Neverlost
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Neverlost    
 >[!info] Stats    
 > **Level:** 1d6    

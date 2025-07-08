@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Might
   - Ability/Pool/Intellect
   - Ability/Categories/Support
+title: True Guardian
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Mid
+pools:
+  - Might
+  - Intellect
+categories:
+  - Support
 ---
-  
-    
 ## True Guardian    
 >**Enabler**    
 >2 Might or Intellect points  

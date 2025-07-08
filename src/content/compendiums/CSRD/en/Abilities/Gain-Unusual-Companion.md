@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Mid
   - Ability/Categories/Companion
+title: Gain Unusual Companion
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Companion
 ---
-  
-    
 ## Gain Unusual Companion    
 >**Enabler**  
     

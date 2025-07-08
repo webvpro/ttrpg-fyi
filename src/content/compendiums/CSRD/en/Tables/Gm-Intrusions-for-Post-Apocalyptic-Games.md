@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Intrusion/Gm-Intrusions-for-Post-Apocalyptic-Games
+title: Gm Intrusions for Post-Apocalyptic Games
+collection: Tables
+kind: Table
 ---
-  
 ## Gm Intrusions for Post-Apocalyptic Games Table  
 |  Roll &nbsp; &nbsp; | Gm Intrusions for Post-Apocalyptic Games  |  
 | ------------- | :----------- |  

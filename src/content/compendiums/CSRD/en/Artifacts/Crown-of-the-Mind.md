@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Crown of the Mind
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Crown of the Mind    
 >[!info] Stats    
 > **Level:** 1d6    

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Might
   - Ability/Categories/Cure
+title: Vigilant
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '5'
+tier: High
+pools:
+  - Might
+categories:
+  - Cure
 ---
-  
-    
 ## Vigilant    
 >**Enabler**    
 >5 Might points  

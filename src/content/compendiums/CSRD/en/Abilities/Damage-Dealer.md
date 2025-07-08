@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Meta
+title: Damage Dealer
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Meta
 ---
-  
-    
 ## Damage Dealer    
 >**Enabler**  
     

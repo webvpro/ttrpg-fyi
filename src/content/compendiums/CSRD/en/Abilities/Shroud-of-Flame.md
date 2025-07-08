@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
+title: Shroud of Flame
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '1'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Protection
 ---
-  
-    
 ## Shroud of Flame    
 >**Enabler**    
 >1 Intellect point  

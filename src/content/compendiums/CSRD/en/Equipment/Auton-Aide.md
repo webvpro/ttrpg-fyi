@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/2
   - Equipment/Value/Expensive
+title: Auton, Aide
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Auton, Aide    
     
 >Treat as a level 2 follower, which allows the auton modifications in up to two tasks, depending on the particular aide.    

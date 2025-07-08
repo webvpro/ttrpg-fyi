@@ -8,9 +8,10 @@ tags:
   - Equipment/Value/1-Gp
   - Equipment/Weapon/Light
   - Equipment/Range/Short
+title: Sickle
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Sickle    
     
 >A one-handed hafted weapon with a sharply curved blade, originally used for harvesting crops but adapted for use as a weapon.    

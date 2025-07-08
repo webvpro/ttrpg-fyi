@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
+title: Noble's Courage
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Cure
 ---
-  
-    
 ## Noble's Courage    
 >**Enabler**    
 >3+ Intellect points  

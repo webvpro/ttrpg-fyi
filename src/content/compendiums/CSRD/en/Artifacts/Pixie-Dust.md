@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Pixie Dust
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Pixie Dust    
 >[!info] Stats    
 > **Level:** 1d6    

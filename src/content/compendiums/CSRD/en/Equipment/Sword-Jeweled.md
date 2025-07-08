@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Very-Expensive
   - Equipment/Weapon/Medium
+title: Sword (Jeweled)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Sword (Jeweled)    
     
 >    

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Vorpal Sword
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Vorpal Sword    
 >[!info] Stats    
 > **Level:** 1d6+3    

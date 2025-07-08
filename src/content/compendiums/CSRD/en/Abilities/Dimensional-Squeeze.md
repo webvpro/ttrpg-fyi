@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Dimensional Squeeze
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Dimensional Squeeze    
 >**Action**    
 >2+ Intellect points  

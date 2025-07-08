@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Categories/Craft
   - Ability/Categories/Meta
+title: Natural Crafter
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Craft
+  - Meta
 ---
-  
-    
 ## Natural Crafter    
 >**Enabler**  
     

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/My-Friend-Lockness
   - Artifact
   - Artifact/Modern-Fantasy
+title: My Friend Lockness
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## My Friend Lockness  
   
 >1d6  + 3  

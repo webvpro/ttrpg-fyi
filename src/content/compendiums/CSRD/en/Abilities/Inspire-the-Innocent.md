@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
+title: Inspire the Innocent
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Cure
 ---
-  
-    
 ## Inspire the Innocent    
 >**Action**    
 >3 Intellect points  

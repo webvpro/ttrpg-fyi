@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Environment
+title: The Wild Is on Your Side
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Environment
 ---
-  
-    
 ## The Wild Is on Your Side    
 >**Action**    
 >5 Intellect points  

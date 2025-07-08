@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Ring of Wishes
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Ring of Wishes    
 >[!info] Stats    
 > **Level:** 1d6+4    

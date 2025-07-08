@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Unphantomed Limb
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Unphantomed Limb    
 >[!info] Stats    
 > **Level:** 1d6    

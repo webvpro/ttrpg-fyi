@@ -10,9 +10,10 @@ tags:
   - Equipment/Value/Expensive
   - Equipment/Weapon/Light
   - Equipment/Range/Long
+title: Needler Syringer
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Needler Syringer    
     
 >Injects soporific that dazes target on a successful Might defense roll for one minute, or puts them into a light sleep for one minute on a failed roll.    

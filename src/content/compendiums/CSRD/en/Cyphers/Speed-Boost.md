@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Speed Boost
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Speed Boost    
 >[!info] Stats    
 > **Level:** 1d6+2    

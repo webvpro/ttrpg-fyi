@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
+title: Confounding Banter
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Protection
 ---
-  
-    
 ## Confounding Banter    
 >**Action**    
 >4 Intellect points  

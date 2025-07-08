@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Visual Displacement Device
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Visual Displacement Device    
 >[!info] Stats    
 > **Level:** 1d6    

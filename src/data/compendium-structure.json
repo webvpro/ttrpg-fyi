@@ -1,0 +1,163 @@
+{
+  "systems": {
+    "CSRD": {
+      "name": "Cypher System Reference Document",
+      "collections": {
+        "Abilities": {
+          "name": "Abilities",
+          "kind": "Ability",
+          "schema": {
+            "tier": "number",
+            "prerequisite": "string"
+          }
+        },
+        "Artifacts": {
+          "name": "Artifacts", 
+          "kind": "Artifact",
+          "schema": {
+            "level": "number",
+            "form": "string",
+            "effect": "string",
+            "depletion": "string"
+          }
+        },
+        "Cantrips": {
+          "name": "Cantrips",
+          "kind": "Cantrip", 
+          "schema": {
+            "pools": ["Intellect", "Might", "Speed"],
+            "cost": "string"
+          }
+        },
+        "Character-Arcs": {
+          "name": "Character Arcs",
+          "kind": "Character-Arc",
+          "schema": {
+            "category": "string",
+            "difficulty": "string",
+            "duration": "string",
+            "opening": "string",
+            "steps": "array",
+            "climax": "string",
+            "resolution": "string"
+          }
+        },
+        "Character-Options": {
+          "name": "Character Options",
+          "kind": "Character",
+          "schema": {
+            "category": "string",
+            "genre": "string",
+            "descriptors": "array",
+            "foci": "array",
+            "abilities": "array",
+            "equipment": "array"
+          }
+        },
+        "Creatures-NPCs": {
+          "name": "Creatures",
+          "kind": "Creature",
+          "schema": {
+            "level": "number",
+            "health": "number", 
+            "armor": "number",
+            "damage": "number",
+            "movement": "string",
+            "modifications": "array"
+          }
+        },
+        "Cyphers": {
+          "name": "Cyphers",
+          "kind": "Cypher",
+          "schema": {
+            "level": "string",
+            "type": "array",
+            "effect": "string"
+          }
+        },
+        "Equipment": {
+          "name": "Equipment",
+          "kind": "Equipment",
+          "schema": {
+            "category": "string",
+            "price": "string",
+            "weight": "string"
+          }
+        },
+        "Rituals": {
+          "name": "Rituals",
+          "kind": "Ritual",
+          "schema": {
+            "category": "string",
+            "level": "number",
+            "castingTime": "string",
+            "duration": "string",
+            "components": "array",
+            "effect": "string",
+            "prerequisite": "string"
+          }
+        },
+        "Rules": {
+          "name": "Rules",
+          "kind": "Rule",
+          "schema": {
+            "category": "string",
+            "subcategory": "string",
+            "references": {
+              "abilities": "array",
+              "cantrips": "array", 
+              "artifacts": "array",
+              "creatures": "array",
+              "equipment": "array",
+              "cyphers": "array",
+              "rituals": "array"
+            },
+            "relatedRules": "array"
+          }
+        },
+        "Descriptors": {
+          "name": "Descriptors",
+          "kind": "Descriptor",
+          "schema": {
+            "category": "string",
+            "characteristics": "array",
+            "playerIntrusions": "array",
+            "gmIntrusions": "array",
+            "initialLink": "string",
+            "additionalEquipment": "array"
+          }
+        },
+        "Foci": {
+          "name": "Foci",
+          "kind": "Focus",
+          "schema": {
+            "category": "string",
+            "connection": "string",
+            "additionalEquipment": "array",
+            "minorEffect": "string",
+            "majorEffect": "string"
+          }
+        },
+        "Types": {
+          "name": "Types",
+          "kind": "Type",
+          "schema": {
+            "category": "string",
+            "statPools": "object",
+            "background": "string",
+            "cypher": "number",
+            "equipment": "array",
+            "specialAbilities": "array"
+          }
+        }
+      }
+    }
+  },
+  "baseSchema": {
+    "title": "string",
+    "aliases": "array",
+    "tags": "array", 
+    "collection": "string",
+    "kind": "string"
+  }
+}

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Sovereign Key
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Sovereign Key    
 >[!info] Stats    
 > **Level:** 1d6+2    

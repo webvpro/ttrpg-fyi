@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Environment-Manipulation
+title: Employs Magnetism
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Employs Magnetism    
 You command metal and the power of magnetism.    
   

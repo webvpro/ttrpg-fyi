@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Speed
   - Ability/Categories/Special-Attack
+title: Whirlwind of Throws
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: High
+pools:
+  - Speed
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Whirlwind of Throws    
 >**Action**    
 >5 Speed points  

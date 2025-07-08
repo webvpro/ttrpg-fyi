@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Magic/Modern
+title: Moon Adaptation
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: ''
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Magic
 ---
-  
-    
 ## Moon Adaptation  
 >**Enabler**    
 You can survive indefinitely in a vacuum environment (such as the moon or space).	  

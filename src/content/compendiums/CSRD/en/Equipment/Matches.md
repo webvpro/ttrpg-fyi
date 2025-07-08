@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
+title: Matches
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Matches    
     
 >Single box or book    

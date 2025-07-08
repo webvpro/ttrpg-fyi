@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Burst of Speed
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Burst of Speed    
 >[!info] Stats    
 > **Level:** 1d6    

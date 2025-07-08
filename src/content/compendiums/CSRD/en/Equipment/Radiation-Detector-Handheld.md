@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Expensive
+title: Radiation Detector, Handheld
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Radiation Detector, Handheld    
     
 >Immediate range    

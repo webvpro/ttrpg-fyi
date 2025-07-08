@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Steadfast Tin Soldier
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Steadfast Tin Soldier    
 >[!info] Stats    
 > **Level:** 1d6+2    

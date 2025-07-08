@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Companion
   - Ability/Categories/Senses
+title: Beast Eyes
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Companion
+  - Senses
 ---
-  
-    
 ## Beast Eyes    
 >**Action**    
 >3 Intellect points  

@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Control
   - Ability/Categories/Environment
+title: Daydream
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Control
+  - Environment
 ---
-  
-    
 ## Daydream    
 >**Action**    
 >4 Intellect points  

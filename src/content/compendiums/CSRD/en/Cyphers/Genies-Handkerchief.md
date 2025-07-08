@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Genie's Handkerchief
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Genie's Handkerchief    
 >[!info] Stats    
 > **Level:** 1d6    

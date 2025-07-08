@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Nullification Ray
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Nullification Ray    
 >[!info] Stats    
 > **Level:** 1d6+3    

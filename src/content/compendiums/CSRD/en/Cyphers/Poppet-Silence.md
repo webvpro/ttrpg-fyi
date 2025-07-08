@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Poppet Silence
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Poppet Silence    
 >[!info] Stats    
 > **Level:** 1d6+2    

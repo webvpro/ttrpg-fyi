@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/
+title: Lightning Flash
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - ''
 ---
-  
-    
 ## Lightning Flash    
 >**Action**    
 >4 Intellect points  

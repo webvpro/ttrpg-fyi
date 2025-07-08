@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Cloak of Elfkind
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Cloak of Elfkind    
 >[!info] Stats    
 > **Level:** 1d6+2    

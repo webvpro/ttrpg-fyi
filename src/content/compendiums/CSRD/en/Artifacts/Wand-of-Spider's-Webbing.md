@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Wand of Spider's Webbing
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Wand of Spider's Webbing    
 >[!info] Stats    
 > **Level:** 1d6+1    

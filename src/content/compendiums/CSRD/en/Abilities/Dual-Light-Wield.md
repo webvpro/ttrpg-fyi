@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Special-Attack
+title: Dual Light Wield
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Dual Light Wield    
 >**Enabler**  
     

@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
   - Ability/Categories/Meta
+title: One With the Wild
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Cure
+  - Meta
 ---
-  
-    
 ## One With the Wild    
 >**Action**    
 >6 Intellect points  

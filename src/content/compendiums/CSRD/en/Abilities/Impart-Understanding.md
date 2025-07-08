@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Categories/Meta
   - Ability/Categories/Support
+title: Impart Understanding
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Meta
+  - Support
 ---
-  
-    
 ## Impart Understanding    
 >**Enabler**  
     

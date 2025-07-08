@@ -10,9 +10,10 @@ tags:
   - Equipment/Value/Very-Expensive
   - Equipment/Weapon/Heavy
   - Equipment/Range/Long
+title: Vacuum Rifle, Assault
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Vacuum Rifle, Assault  
     
 >As contemporary handgun, but uses special rounds designed to fire in a zero-oxygen environment, and that are self-propelling so firing this gun in zero or low gravity doesn't spin wielder backward.    

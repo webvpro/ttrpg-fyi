@@ -8,9 +8,10 @@ tags:
   - Equipment/Stellar-Gate
   - Equipment/Level/5
   - Equipment/Value/Priceless
+title: Gate, Star
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Gate, Star    
     
 >As planetary gate, but four times as large and connects gate structures that lie between locations within a few thousand light-years.    

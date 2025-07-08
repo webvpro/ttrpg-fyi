@@ -4,6 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Character-Arcs/Become-an-Advocate
   - Character-Arc
+title: Become an Advocate
+collection: Character-Arcs
+kind: Arc
+categories: []
 ---
 ## Become an Advocate  
 >You desire to help and support others, especially those who are dealing with difficult situations. This might be related to something you’ve personally experienced, something you’re knowledgeable about, or both. You can advocate in any number of ways, including being an emotional support system, helping other voices be heard, defending and safeguarding others’ rights, and generally being an ally.  

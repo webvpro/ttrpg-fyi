@@ -8,9 +8,13 @@ tags:
   - Creature/Level/3
   - Creature/Armor/1
   - Creature/Health/12
+title: Crime Boss
+collection: Creatures-NPCs
+kind: NPC
+level: 3
+armor: 1
+health: 12
 ---
-  
-    
 ## Crime Boss    
 A crime boss usually isn't physically powerful but wields power through lies, bribery, and control. Rarely encountered alone, they rely on guards, thugs, and other measures to provide physical security. A crime boss could be a petty noble, a mafia king, or the captain of a pirate ship that sails the seas or glides the space lanes.    
   

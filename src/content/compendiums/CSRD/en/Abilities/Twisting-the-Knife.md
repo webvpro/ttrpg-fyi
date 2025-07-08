@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Speed
   - Ability/Categories/Special-Attack
+title: Twisting the Knife
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: High
+pools:
+  - Speed
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Twisting the Knife    
 >**Action**    
 >4 Speed points  

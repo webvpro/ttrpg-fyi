@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Movement
   - Ability/Categories/Task
+title: Ghost
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Movement
+  - Task
 ---
-  
-    
 ## Ghost    
 >**Action**    
 >4 Intellect points  

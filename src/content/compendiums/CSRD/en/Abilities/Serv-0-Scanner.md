@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Information
+title: Serv-0 Scanner
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Information
 ---
-  
-    
 ## Serv-0 Scanner    
 >**Enabler**    
 >2 Intellect points  

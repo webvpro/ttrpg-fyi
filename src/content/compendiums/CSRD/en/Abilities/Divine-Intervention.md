@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Divine Intervention
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Divine Intervention    
 >**Action**    
 >2 Intellect points  

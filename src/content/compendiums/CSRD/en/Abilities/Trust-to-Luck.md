@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Trust to Luck
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Trust to Luck    
 >**Enabler**    
 >3 Intellect points  

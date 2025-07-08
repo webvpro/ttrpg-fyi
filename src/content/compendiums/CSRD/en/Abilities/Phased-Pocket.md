@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Transform
+title: Phased Pocket
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Transform
 ---
-  
-    
 ## Phased Pocket    
 >**Enabler**    
 >2+ Intellect points  

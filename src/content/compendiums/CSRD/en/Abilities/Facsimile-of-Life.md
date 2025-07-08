@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Magic
   - Ability/Categories/Fantasy/Modern
+title: Facsimile of Life
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Magic
+  - Fantasy
 ---
-  
-    
 ## Facsimile of Life  
 >**Action**    
 >3 Intellect point  

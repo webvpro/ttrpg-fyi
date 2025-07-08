@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Categories/Support
   - Ability/Categories/Task
+title: Good Advice
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Support
+  - Task
 ---
-  
-    
 ## Good Advice    
 >**Enabler**  
     

@@ -8,9 +8,13 @@ tags:
   - Creature/Level/3
   - Creature/Armor/1
   - Creature/Health/10
+title: Fusion Hound
+collection: Creatures-NPCs
+kind: Creature
+level: 3
+armor: 1
+health: 10
 ---
-  
-    
 ## Fusion Hound    
 In radiation-scoured wastelands, either creatures adapt to the deadly energies of their environment, or they die. Fusion hounds are mutant canines able to absorb unbelievable amounts of radiation and thrive on it. They roam in packs, killing and devouring everything they come upon.  
 A fusion hound's entire head appears to be a blast of flame, and gouts of dangerous radiation flare from its body.    

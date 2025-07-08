@@ -8,9 +8,13 @@ tags:
   - Creature/Level/5
   - Creature/Armor/2
   - Creature/Health/20
+title: Enchanter
+collection: Creatures-NPCs
+kind: Creature
+level: 5
+armor: 2
+health: 20
 ---
-  
-    
 ## Enchanter    
 Enchanters include magic-users of all genders. They may choose to call themselves wizards, sorcerers, mages, or diviners, depending on their strengths, abilities, and desired reputations.  
 Enchanters usually take great pride in their appearance, including their outfits, accouterments, and equipment. They often incorporate living or dead elements of dangerous creatures, such as spiders, snakes, crocodiles, and dragons, into the objects that matter to them. Additionally, they may imbue objects with powerful magic.  

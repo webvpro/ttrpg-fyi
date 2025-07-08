@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Force Field
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Force Field    
 >[!info] Stats    
 > **Level:** 1d6    

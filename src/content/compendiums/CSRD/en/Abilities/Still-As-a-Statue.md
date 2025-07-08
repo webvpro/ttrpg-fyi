@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Might
   - Ability/Categories/Protection
+title: Still As a Statue
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: High
+pools:
+  - Might
+categories:
+  - Protection
 ---
-  
-    
 ## Still As a Statue    
 >**Action**    
 >5 Might points  

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Trick Embedder
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Trick Embedder    
 >[!info] Stats    
 > **Level:** 1d6    

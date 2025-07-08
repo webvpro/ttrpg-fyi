@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Horrific Arm
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Horrific Arm    
 >[!info] Stats    
 > **Level:** 1d6+1    

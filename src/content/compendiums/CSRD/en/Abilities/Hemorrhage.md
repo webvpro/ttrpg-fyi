@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Might
   - Ability/Categories/Special-Attack
+title: Hemorrhage
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Might
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Hemorrhage    
 >**Action**    
 >2+ Might points  

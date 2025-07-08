@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+title: Wears Power Armor
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Wears Power Armor    
 Tier 1: Powered Armor    
   

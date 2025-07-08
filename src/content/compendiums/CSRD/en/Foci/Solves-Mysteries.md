@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Influence
+title: Solves Mysteries
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Solves Mysteries    
 You're a master of deduction, using evidence to find the answer.    
   

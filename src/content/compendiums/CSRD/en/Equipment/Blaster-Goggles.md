@@ -10,9 +10,10 @@ tags:
   - Equipment/Value/Very-Expensive
   - Equipment/Weapon/Light
   - Equipment/Range/Long
+title: Blaster, Goggles
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Blaster, Goggles    
     
 >Thick goggles that project twin energetic plasma-particle beams; It ignores 1 point of Armor value (except from force fields).    

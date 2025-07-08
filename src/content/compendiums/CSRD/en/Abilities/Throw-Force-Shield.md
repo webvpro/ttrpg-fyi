@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Mid
   - Ability/Categories/Special-Attack
+title: Throw Force Shield
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Throw Force Shield    
 >**Enabler**  
     

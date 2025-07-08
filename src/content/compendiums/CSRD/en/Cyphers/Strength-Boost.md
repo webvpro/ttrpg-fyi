@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Strength Boost
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Strength Boost    
 >[!info] Stats    
 > **Level:** 1d6+2    

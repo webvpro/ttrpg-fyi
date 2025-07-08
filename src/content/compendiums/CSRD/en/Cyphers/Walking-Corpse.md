@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Walking Corpse
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Walking Corpse    
 >[!info] Stats    
 > **Level:** 1d6    

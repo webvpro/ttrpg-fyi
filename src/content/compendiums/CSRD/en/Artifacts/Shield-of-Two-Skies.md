@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Shield of Two Skies
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Shield of Two Skies    
 >[!info] Stats    
 > **Level:** 1d6+2    

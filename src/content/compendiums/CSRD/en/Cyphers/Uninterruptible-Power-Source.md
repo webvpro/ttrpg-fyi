@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Uninterruptible Power Source
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Uninterruptible Power Source    
 >[!info] Stats    
 > **Level:** 1d6+4    

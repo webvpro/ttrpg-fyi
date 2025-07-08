@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Speed
   - Ability/Categories/Special-Attack
+title: Break the Ranks
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Speed
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Break the Ranks    
 >**Action**    
 >6 Speed points  

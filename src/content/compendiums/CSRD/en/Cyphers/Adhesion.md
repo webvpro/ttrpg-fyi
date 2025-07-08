@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Adhesion
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Adhesion    
 >[!info] Stats    
 > **Level:** 1d6    

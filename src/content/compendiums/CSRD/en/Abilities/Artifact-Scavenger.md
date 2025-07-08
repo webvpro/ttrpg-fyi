@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Artifact Scavenger
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Artifact Scavenger    
 >**Action**    
 >6 Intellect points + 2 XP  

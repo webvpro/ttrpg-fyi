@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Weight of the World
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Weight of the World    
 >**Action**    
 >6+ Intellect points  

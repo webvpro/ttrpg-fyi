@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Fireproofing
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Fireproofing    
 >[!info] Stats    
 > **Level:** 1d6+4    

@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors
   - Descriptor
+title: Beneficent
+collection: Descriptors
+kind: Descriptor
 ---
-  
 ## Beneficent    
 Helping others is your calling. It's why you're here. Others delight in your outgoing and charitable nature, and you delight in their happiness. You're at your best when you're aiding people, either by explaining how they can best overcome a challenge or by demonstrating how to do so yourself.  
 ### You gain the following characteristics    

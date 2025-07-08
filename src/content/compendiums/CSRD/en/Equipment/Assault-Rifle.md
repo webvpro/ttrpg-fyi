@@ -9,9 +9,10 @@ tags:
   - Equipment/Weapon/Heavy
   - Equipment/Range/Long
   - Equipment/Weapon/Rapid-Fire
+title: Assault Rifle
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Assault Rifle    
     
 >    

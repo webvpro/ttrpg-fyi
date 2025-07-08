@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Exploration
+title: Explores Dark Places
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Explores Dark Places    
 You're the archetypal treasure hunter, scavenger, and finder of lost things.    
   

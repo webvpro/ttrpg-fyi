@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Science-Fiction
+title: Empathetic Ray
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Empathetic Ray    
 >[!info] Stats    
 > **Level:** 1d6+2    

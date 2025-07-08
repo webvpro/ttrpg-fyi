@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Transform
+title: Outside Reality
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Transform
 ---
-  
-    
 ## Outside Reality    
 >**Enabler**    
 >6+ Intellect points  

@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/6
   - Equipment/Value/Exorbitant
+title: Wardroid
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Wardroid    
     
 >As free synth, but outfitted for war, including modifications in attack and defense. A wardroid often has many additional customizations and abilities.    

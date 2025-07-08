@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Superhero
+title: Serum X
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Serum X    
 >[!info] Stats    
 > **Level:** 1d6+2    

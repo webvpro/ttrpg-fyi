@@ -8,9 +8,10 @@ tags:
   - Equipment/Value/Expensive
   - Equipment/Range/Long
   - Equipment/Weapon/Medium
+title: Rifle
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Rifle    
     
 >    

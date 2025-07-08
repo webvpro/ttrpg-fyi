@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Poppet Damage
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Poppet Damage    
 >[!info] Stats    
 > **Level:** 1d6+4    

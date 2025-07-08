@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Stasis Keeper
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Stasis Keeper    
 >[!info] Stats    
 > **Level:** 1d6    

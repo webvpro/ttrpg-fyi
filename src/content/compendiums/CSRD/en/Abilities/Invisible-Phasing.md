@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Transform
+title: Invisible Phasing
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '4'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Transform
 ---
-  
-    
 ## Invisible Phasing    
 >**Enabler**    
 >4 Might points  

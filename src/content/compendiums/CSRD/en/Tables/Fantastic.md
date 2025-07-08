@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Cypher/Fantastic
+title: Fantastic
+collection: Tables
+kind: Table
 ---
-  
 ## Fantastic Table  
 |  Roll &nbsp; &nbsp; | Fantastic  |  
 | ------------- | :----------- |  

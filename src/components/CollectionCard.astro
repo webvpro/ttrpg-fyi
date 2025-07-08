@@ -1,0 +1,46 @@
+---
+import { Image } from "astro:assets";
+
+const { posts, maxCardsToShow } = Astro.props;
+
+const postEntries = Object.entries(posts);
+const postKeys = Object.keys(posts);
+---
+
+{
+  
+  Object.entries(posts).map((post) => (
+    
+    <article class="card lg:card-side ring-1 ring-base-content/10 bg-base-300/20 p-7 rounded-3xl">
+      <div class="card-body p-0 lg:ml-7 font-outfit">
+        
+        <a href={`/blog/`}>
+          <h1 class="font-semibold text-lg lg:text-xl">{post[1][1].name}</h1>
+        </a>
+
+        <div>
+          <p class="text-sm lg:text-base opacity-70 line-clamp-2 xl:line-clamp-3">
+            {post[1][1].kind}
+          </p>
+        </div>
+
+        <a href={`/blog/`} class="mt-auto flex items-center">
+          <h2 class="text-sm font-semibold text-primary">{post[1][1].name}</h2>
+          <svg
+            viewBox="0 0 16 16"
+            fill="none"
+            aria-hidden="true"
+            class="ml-1 h-4 w-4 stroke-current text-primary"
+          >
+            <path
+              d="M6.75 5.75 9.25 8l-2.5 2.25"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+      </div>
+    </article>
+  ))
+}

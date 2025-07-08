@@ -8,9 +8,13 @@ tags:
   - Creature/Level/5
   - Creature/Armor/0
   - Creature/Health/21
+title: Witch
+collection: Creatures-NPCs
+kind: Creature
+level: 5
+armor: 0
+health: 21
 ---
-  
-    
 ## Witch    
 Witches are complex beings of myriad personalities, desires, and abilities. Sometimes they're the stuff of nightmares, with tales of their exploits keeping children safe in their beds during the darkest hours. Other times they're wise helpers--at least for a little  
 while, or possibly for a price. Often, they're a little of everything, taking on no end of roles throughout their lifetime. They may isolate themselves deep in the dark woods, falsify their way into a royal family, or reside in the middle of town, hiding their identity.  

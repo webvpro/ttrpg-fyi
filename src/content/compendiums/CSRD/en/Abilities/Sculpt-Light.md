@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Craft
+title: Sculpt Light
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Craft
 ---
-  
-    
 ## Sculpt Light    
 >**Action**    
 >4 Intellect points  

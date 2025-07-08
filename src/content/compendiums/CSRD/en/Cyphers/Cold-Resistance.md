@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Cold Resistance
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Cold Resistance    
 >[!info] Stats    
 > **Level:** 1d6+3    

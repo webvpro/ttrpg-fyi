@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/4
   - Equipment/Value/Very-Expensive
+title: Exoskin, Brute
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Exoskin, Brute    
     
 >As grav-assist exoskin, but high-tensile effectors ease all tasks related to Might.    

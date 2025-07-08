@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Intrusion/Space-Suits-Gm-Intrusions
+title: Space Suits Gm Intrusions
+collection: Tables
+kind: Table
 ---
-  
 ## Space Suits Gm Intrusions Table  
 |  Roll &nbsp; &nbsp; | Space Suits Gm Intrusions  |  
 | ------------- | :----------- |  

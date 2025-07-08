@@ -8,9 +8,13 @@ tags:
   - Creature/Level/3
   - Creature/Armor/1
   - Creature/Health/15
+title: Deinonychus
+collection: Creatures-NPCs
+kind: Creature
+level: 3
+armor: 1
+health: 15
 ---
-  
-    
 ## Deinonychus    
 Popularly known as the velociraptor, the dinosaur genus called deinonychus doesn't care if its prey gets the proper terminology sorted. Meat tastes like meat. The "terrible claw" these carnivores are named after refers to their massive, sickle-shaped claws, which are unsheathed from their hind legs when attacking prey.  
 Deinonychus are pack hunters, which means they work together as a unit, each taking on different roles to scare, flush, and direct even intelligent prey into the claws of an ambush.    

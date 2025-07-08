@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Expensive
   - Equipment/Armor/Medium
+title: Riot Gear
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Riot Gear    
     
 >    

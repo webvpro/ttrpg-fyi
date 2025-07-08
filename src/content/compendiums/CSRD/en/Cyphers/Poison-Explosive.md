@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Poison Explosive
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Poison Explosive    
 >[!info] Stats    
 > **Level:** 1d6+1    

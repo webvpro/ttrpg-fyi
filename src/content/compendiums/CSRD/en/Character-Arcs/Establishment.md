@@ -4,6 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Character-Arcs/Establishment
   - Character-Arc
+title: Establishment
+collection: Character-Arcs
+kind: Arc
+categories: []
 ---
 ## Establishment  
 >You want to prove yourself as someone of importance. This can take many forms—socially, within your order, financially, or even romantically.  

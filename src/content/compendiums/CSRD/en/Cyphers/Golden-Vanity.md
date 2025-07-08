@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Golden Vanity
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Golden Vanity    
 >[!info] Stats    
 > **Level:** 1d6    

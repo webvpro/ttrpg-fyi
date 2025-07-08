@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Time Dilation Defensive
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Time Dilation Defensive    
 >[!info] Stats    
 > **Level:** 1d6    

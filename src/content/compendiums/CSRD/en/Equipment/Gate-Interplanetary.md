@@ -8,9 +8,10 @@ tags:
   - Equipment/Stellar-Gate
   - Equipment/Level/4
   - Equipment/Value/Priceless
+title: Gate, Interplanetary
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Gate, Interplanetary    
     
 >As planetary gate, but twice as large and connects gate structures that lie between locations within a single solar system.    

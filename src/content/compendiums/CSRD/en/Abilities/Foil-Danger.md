@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
+title: Foil Danger
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Cure
 ---
-  
-    
 ## Foil Danger    
 >**Action**    
 >2 Intellect points  

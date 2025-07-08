@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Visage Changer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Visage Changer    
 >[!info] Stats    
 > **Level:** 1d6    

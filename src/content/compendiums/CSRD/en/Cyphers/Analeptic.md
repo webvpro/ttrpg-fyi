@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Analeptic
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Analeptic    
 >[!info] Stats    
 > **Level:** 1d6+2    

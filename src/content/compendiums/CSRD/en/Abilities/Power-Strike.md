@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Special-Attack
+title: Power Strike
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Power Strike    
 >**Enabler**    
 >3+ Might points  

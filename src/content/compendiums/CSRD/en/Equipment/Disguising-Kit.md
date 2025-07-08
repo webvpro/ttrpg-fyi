@@ -8,9 +8,10 @@ tags:
   - Equipment/Value/Very-Expensive
   - Equipment/Value/25-Gp
   - Equipment/Asset
+title: Disguising Kit
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Disguising Kit    
     
 >Makeup, simple prosthetics, and a wig or two, suitable for disguises for a theatrical production. Provides an asset on disguise tasks. Some parts are reusable, but the kit runs out after about five uses.    

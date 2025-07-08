@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
   - Ability/Categories/Task
+title: Coordinated Effort
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Meta
+  - Task
 ---
-  
-    
 ## Coordinated Effort    
 >**Action**    
 >3 Intellect points  

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Might
   - Ability/Categories/Movement
+title: Juggernaut
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '5'
+tier: High
+pools:
+  - Might
+categories:
+  - Movement
 ---
-  
-    
 ## Juggernaut    
 >**Enabler**    
 >5 Might points  

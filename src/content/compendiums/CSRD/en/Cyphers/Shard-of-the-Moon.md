@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Shard of the Moon
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Shard of the Moon    
 >[!info] Stats    
 > **Level:** 1d6+2    

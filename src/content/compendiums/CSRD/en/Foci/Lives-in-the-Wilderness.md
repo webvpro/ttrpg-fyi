@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Tank-Combat
+title: Lives in the Wilderness
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Lives in the Wilderness    
 You can survive in badlands where others perish.    
   

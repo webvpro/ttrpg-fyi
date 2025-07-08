@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Water Adapter
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Water Adapter    
 >[!info] Stats    
 > **Level:** 1d6    

@@ -8,9 +8,13 @@ tags:
   - Creature/Level/2
   - Creature/Armor/2
   - Creature/Health/6
+title: Hooked Blossom
+collection: Creatures-NPCs
+kind: Creature
+level: 2
+armor: 2
+health: 6
 ---
-  
-    
 ## Hooked Blossom    
 Hooked blossoms germinate almost like regular plants but can root even on constructed surfaces, including cement and sometimes metal. Rooted juveniles display pinkish flowers--which some equate to the color of an open wound--that give off an alluring perfume.   
 If they mature, they uproot themselves, revealing an ambulatory body plated in a dull grey metallic hide and limbs that end in a single hook like digit.   

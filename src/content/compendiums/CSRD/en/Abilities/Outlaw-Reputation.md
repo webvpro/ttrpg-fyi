@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
+title: Outlaw Reputation
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Protection
 ---
-  
-    
 ## Outlaw Reputation    
 >**Enabler**    
 >3 Intellect points  

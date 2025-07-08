@@ -6,9 +6,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Utility-Gear
   - Equipment/Value/Exorbitant
+title: Force Field
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Force Field    
     
 >Not armor, offers +1 to Armor;    

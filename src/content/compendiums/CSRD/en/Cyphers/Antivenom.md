@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Antivenom
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Antivenom    
 >[!info] Stats    
 > **Level:** 1d6+2    

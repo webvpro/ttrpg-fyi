@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
   - Ability/Categories/Special-Attack
+title: Drain Machine
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Cure
+  - Special-Attack
 ---
-  
-    
 ## Drain Machine    
 >**Action**    
 >3+ Intellect points  

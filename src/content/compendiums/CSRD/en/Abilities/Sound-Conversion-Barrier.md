@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Protection
+title: Sound Conversion Barrier
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Protection
 ---
-  
-    
 ## Sound Conversion Barrier    
 >**Enabler**  
     

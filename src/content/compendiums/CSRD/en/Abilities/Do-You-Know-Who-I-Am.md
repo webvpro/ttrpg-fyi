@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Do You Know Who I Am?
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Do You Know Who I Am?    
 >**Action**    
 >3 Intellect points  

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Bounding Boots
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Bounding Boots    
 >[!info] Stats    
 > **Level:** 1d6+1    

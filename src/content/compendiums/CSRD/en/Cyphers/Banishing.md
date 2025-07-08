@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Banishing
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Banishing    
 >[!info] Stats    
 > **Level:** 1d6    

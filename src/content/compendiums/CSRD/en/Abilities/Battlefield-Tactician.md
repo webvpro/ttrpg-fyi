@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Senses
+title: Battlefield Tactician
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Senses
 ---
-  
-    
 ## Battlefield Tactician    
 >**Enabler**    
 >2+ Intellect points  

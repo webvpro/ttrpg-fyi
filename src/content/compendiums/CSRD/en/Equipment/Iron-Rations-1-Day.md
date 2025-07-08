@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
+title: Iron Rations (1 Day)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Iron Rations (1 Day)    
     
 >    

@@ -5,8 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers/Power-Device
   - Cypher
   - Cypher/Magical-Technology
+title: Power Device
+collection: Cyphers
+kind: Cypher
 ---
-    
 ## Power Device   
 >[!info] Stats    
 > **Level:** 1d6+2   

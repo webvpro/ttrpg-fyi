@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Meta
+title: Deadly Aim
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Meta
 ---
-  
-    
 ## Deadly Aim    
 >**Action**    
 >3 Speed points  

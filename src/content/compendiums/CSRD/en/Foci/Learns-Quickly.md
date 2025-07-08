@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Basic
+title: Learns Quickly
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Learns Quickly    
 You deal with bad situations as they arise, learning new lessons each time.    
   

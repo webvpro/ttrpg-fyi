@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Attack-Skill
+title: Greater Skill With Attacks
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Attack-Skill
 ---
-  
-    
 ## Greater Skill With Attacks    
 >**Enabler**  
     

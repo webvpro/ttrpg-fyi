@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+title: Keeps a Magic Ally
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Keeps a Magic Ally    
 An allied magic creature bound to an object (such as a minor djinn in a lamp, or a ghost in a pipe) is your friend, protector, and weapon.    
   

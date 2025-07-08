@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Magnetic Master
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Magnetic Master    
 >[!info] Stats    
 > **Level:** 1d6+2    

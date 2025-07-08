@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Influence
+title: Fuses Mind and Machine
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Fuses Mind and Machine    
 Electronic aids implanted in your brain make you a mental powerhouse.    
   

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Companion
+title: Fiery Hand of Doom
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Companion
 ---
-  
-    
 ## Fiery Hand of Doom    
 >**Action**    
 >3 Intellect points  

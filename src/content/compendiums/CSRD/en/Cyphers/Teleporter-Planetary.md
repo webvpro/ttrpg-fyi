@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Teleporter Planetary
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Teleporter Planetary    
 >[!info] Stats    
 > **Level:** 1d6+4    

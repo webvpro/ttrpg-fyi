@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
+title: Greater Healing Touch
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Cure
 ---
-  
-    
 ## Greater Healing Touch    
 >**Action**    
 >4 Intellect points  

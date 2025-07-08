@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Speed
   - Ability/Categories/Protection
+title: Parry
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '5'
+tier: High
+pools:
+  - Speed
+categories:
+  - Protection
 ---
-  
-    
 ## Parry    
 >**Enabler**    
 >5 Speed points  

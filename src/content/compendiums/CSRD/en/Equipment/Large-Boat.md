@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/5
   - Equipment/Value/Exorbitant
+title: Large Boat
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Large Boat    
     
 >    

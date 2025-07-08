@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers/Lions-Courage
   - Cypher
   - Cypher/Fairy-Tale
+title: Lion's Courage
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Lion's Courage    
 >[!info] Stats    
 > **Level:** 1d6+1    

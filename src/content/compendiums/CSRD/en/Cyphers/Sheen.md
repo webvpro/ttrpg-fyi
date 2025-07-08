@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Sheen
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Sheen    
 >[!info] Stats    
 > **Level:** 1d6    

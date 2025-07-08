@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Ray Emitter
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Ray Emitter    
 >[!info] Stats    
 > **Level:** 1d6+2    

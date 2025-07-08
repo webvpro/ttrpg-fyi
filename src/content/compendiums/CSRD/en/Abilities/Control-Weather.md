@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Environment
+title: Control Weather
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '10'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Environment
 ---
-  
-    
 ## Control Weather    
 >**Action**    
 >10 Intellect points  

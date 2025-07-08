@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Discipline of Watchfulness
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '7'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Discipline of Watchfulness    
 >**Enabler**    
 >7 Intellect points  

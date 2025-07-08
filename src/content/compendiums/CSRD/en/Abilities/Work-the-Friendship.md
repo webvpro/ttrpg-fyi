@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Support
+title: Work the Friendship
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Support
 ---
-  
-    
 ## Work the Friendship    
 >**Action**    
 >4 Intellect points  

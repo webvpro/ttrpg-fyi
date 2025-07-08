@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/5
   - Equipment/Value/Very-Expensive
+title: Nano Tab, Rejuvenator
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Nano Tab, Rejuvenator    
     
 >As general nano tab, but refills 4 points to 1 Pool and raises user one step on damage track.    

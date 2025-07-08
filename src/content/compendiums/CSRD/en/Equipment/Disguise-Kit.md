@@ -12,9 +12,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/3
   - Equipment/Value/Very-Expensive
+title: Disguise Kit
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Disguise Kit    
     
 >    

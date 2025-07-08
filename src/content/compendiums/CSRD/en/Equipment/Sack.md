@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/1-Cp
+title: Sack
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Sack    
     
 >    

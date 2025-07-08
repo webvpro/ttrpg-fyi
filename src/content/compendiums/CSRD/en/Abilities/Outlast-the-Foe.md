@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Categories/Meta
   - Ability/Categories/Task
+title: Outlast the Foe
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Meta
+  - Task
 ---
-  
-    
 ## Outlast the Foe    
 >**Enabler**  
     

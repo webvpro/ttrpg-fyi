@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Might
   - Ability/Categories/Special-Attack
+title: Protective Wall
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '6'
+tier: High
+pools:
+  - Might
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Protective Wall    
 >**Enabler**    
 >6+ Might points  

@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Speed
   - Ability/Categories/Movement
   - Ability/Categories/Task
+title: Contortionist
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Low
+pools:
+  - Speed
+categories:
+  - Movement
+  - Task
 ---
-  
-    
 ## Contortionist    
 >**Enabler**    
 >2 Speed points  

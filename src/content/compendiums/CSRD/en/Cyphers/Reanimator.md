@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Reanimator
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Reanimator    
 >[!info] Stats    
 > **Level:** 1d6+2    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Remembering
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Remembering    
 >[!info] Stats    
 > **Level:** 1d6    

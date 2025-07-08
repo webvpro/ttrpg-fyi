@@ -8,9 +8,10 @@ tags:
   - Equipment/Modern
   - Equipment/Level/1
   - Equipment/Value/Inexpensive
+title: Ammo (Box of 50 Rounds)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Ammo (Box of 50 Rounds)    
     
 >Caliber varies by specific firearm, used in most contemporary ranged weapons    

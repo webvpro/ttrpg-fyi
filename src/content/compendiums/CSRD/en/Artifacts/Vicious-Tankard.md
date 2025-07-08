@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Vicious Tankard
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Vicious Tankard    
 >[!info] Stats    
 > **Level:** 1d6+2    

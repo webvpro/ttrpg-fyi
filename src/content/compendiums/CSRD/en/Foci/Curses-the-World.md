@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci/Curses-the-World
   - Focus/Category/Fairytale
+title: Curses the World
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Curses the World  
 Fuck the world and its horrors. You have a mean streak living inside you that you can’t control—and honestly have no desire to. You’d never hurt your friends and family, of course. But everyone and everything else? Curse them.  
   

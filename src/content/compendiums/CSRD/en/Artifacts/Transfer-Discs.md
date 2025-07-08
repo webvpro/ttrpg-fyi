@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Transfer Discs
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Transfer Discs    
 >[!info] Stats    
 > **Level:** 1d6+1    

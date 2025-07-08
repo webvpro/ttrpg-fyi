@@ -4,6 +4,9 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules/Skills
   - Character/Skills
+title: Skills
+collection: Rules
+kind: Character
 ---
 ## Skills  
   

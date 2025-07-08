@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Might
   - Ability/Categories/NA
+title: Shrink
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: NA
+pools:
+  - Might
+categories:
+  - NA
 ---
-  
-    
 ## Shrink    
 >**Action**    
 >1+ Might points  

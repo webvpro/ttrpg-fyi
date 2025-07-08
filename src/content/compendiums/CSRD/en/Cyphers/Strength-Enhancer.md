@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Strength Enhancer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Strength Enhancer    
 >[!info] Stats    
 > **Level:** 1d6    

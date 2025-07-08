@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: She Bear
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## She Bear    
 >[!info] Stats    
 > **Level:** 1d6    

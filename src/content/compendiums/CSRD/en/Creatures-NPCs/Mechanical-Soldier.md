@@ -8,9 +8,13 @@ tags:
   - Creature/Level/4
   - Creature/Armor/3
   - Creature/Health/15
+title: Mechanical Soldier
+collection: Creatures-NPCs
+kind: Creature
+level: 4
+armor: 3
+health: 15
 ---
-  
-    
 ## Mechanical Soldier    
 Clockwork automatons powered by steam, these mechanical men patrol about and guard locations of importance to their makers. Lanky and awkward in their movements, these quasi-humanoid automatons stand almost 8 feet (2 m) tall. In their three-fingered hands, they wield a variety of weapons.  
 A few people have wondered if a gear-driven soldier could ever truly attain sentience. Most scoff at the suggestion, but is that a gleam in the glass lens of its eye?    

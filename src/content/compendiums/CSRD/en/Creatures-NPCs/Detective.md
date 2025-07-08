@@ -8,9 +8,13 @@ tags:
   - Creature/Level/3
   - Creature/Armor/0
   - Creature/Health/12
+title: Detective
+collection: Creatures-NPCs
+kind: NPC
+level: 3
+armor: 0
+health: 12
 ---
-  
-    
 ## Detective    
 Detectives are usually veterans of their organization (such as the police, city watch, marshals, space command, and so on) with extensive experience. Some detectives are freelance sleuths whose uncanny ability to see the truth comes from personal training combined with an underlying talent for noticing clues that others miss.    
   

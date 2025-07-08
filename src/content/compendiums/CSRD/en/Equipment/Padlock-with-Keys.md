@@ -15,9 +15,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/3
   - Equipment/Value/Inexpensive
+title: Padlock with Keys
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Padlock with Keys    
     
 >    

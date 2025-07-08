@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/10-Gp
+title: Banquet (1 Person)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Banquet (1 Person)    
     
 >    

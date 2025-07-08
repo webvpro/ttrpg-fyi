@@ -6,8 +6,10 @@ tags:
   - Compendium/CSRD/en/Rules/Fantasy-Armor
   - Rule/Optional/Fantasy
   - Rule/Armor
+title: Fantasy Armor
+collection: Rules
+kind: Rule
 ---
-  
 ## Fantasy Armor  
 You can wear only one kind of armor at a time (wearing more than one only gives the Armor from the best one and the Speed Effort cost of the worst one).   
 - [Beastskin](Beastskin.md)  

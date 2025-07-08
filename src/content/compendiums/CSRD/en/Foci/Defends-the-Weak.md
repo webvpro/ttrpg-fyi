@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Support
+title: Defends the Weak
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Defends the Weak    
 You stand up for the helpless, the weak, and the unprotected.    
   

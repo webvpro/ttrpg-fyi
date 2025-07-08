@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Attack-Skill
+title: Unarmed Fighting Style
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Attack-Skill
 ---
-  
-    
 ## Unarmed Fighting Style    
 >**Enabler**  
     

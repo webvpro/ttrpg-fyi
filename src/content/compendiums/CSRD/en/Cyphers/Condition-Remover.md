@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Condition Remover
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Condition Remover    
 >[!info] Stats    
 > **Level:** 1d6+3    

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Tattoo-of-Tomorrows-Edge
   - Artifact
   - Artifact/Modern-Fantasy
+title: Tattoo of Tomorrow’s Edge
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Tattoo of Tomorrow’s Edge  
   
 >1d6 + 3  

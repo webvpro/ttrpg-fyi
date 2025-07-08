@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Speed
   - Ability/Categories/Meta
+title: Burst of Escape
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '5'
+tier: High
+pools:
+  - Speed
+categories:
+  - Meta
 ---
-  
-    
 ## Burst of Escape    
 >**Enabler**    
 >5 Speed points  

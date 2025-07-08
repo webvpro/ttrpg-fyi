@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Special-Attack
+title: Golem Stomp
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Golem Stomp    
 >**Action**    
 >4 Might points  

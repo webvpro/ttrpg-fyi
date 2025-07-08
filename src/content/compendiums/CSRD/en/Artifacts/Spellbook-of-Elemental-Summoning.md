@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Spellbook of Elemental Summoning
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Spellbook of Elemental Summoning    
 >[!info] Stats    
 > **Level:** 1d6+1    

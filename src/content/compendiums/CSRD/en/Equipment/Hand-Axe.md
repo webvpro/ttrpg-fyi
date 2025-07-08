@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
   - Equipment/Weapon/Light
+title: Hand Axe
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Hand Axe    
     
 >    

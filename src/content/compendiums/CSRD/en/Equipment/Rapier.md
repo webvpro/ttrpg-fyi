@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/25-Gp
   - Equipment/Weapon/Light
+title: Rapier
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Rapier    
     
 >A light sword with a thin blade used for stabbing and slashing.    

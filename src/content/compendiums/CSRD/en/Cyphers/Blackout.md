@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Blackout
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Blackout    
 >[!info] Stats    
 > **Level:** 1d6+2    

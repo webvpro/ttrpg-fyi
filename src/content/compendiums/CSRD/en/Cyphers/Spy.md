@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Spy
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Spy    
 >[!info] Stats    
 > **Level:** 1d6+2    

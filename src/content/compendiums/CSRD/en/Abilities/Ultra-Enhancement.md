@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Categories/Meta
   - Ability/Categories/Protection
+title: Ultra Enhancement
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Meta
+  - Protection
 ---
-  
-    
 ## Ultra Enhancement    
 >**Enabler**  
     

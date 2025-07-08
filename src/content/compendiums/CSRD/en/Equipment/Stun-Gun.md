@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/3
   - Equipment/Value/Expensive
   - Equipment/Weapon/Light
+title: Stun "Gun"
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Stun "Gun"    
     
 >Handheld device with two prongs that must contact target; light weapon (2 points of electrical damage, difficulty of attack is eased, and on additional failed Might defense roll, target is dazed 1 round).    

@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/5
   - Equipment/Value/Exorbitant
+title: Luxury Car
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Luxury Car    
     
 >    

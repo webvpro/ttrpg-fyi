@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Categories/Meta
   - Ability/Categories/Protection
+title: Hard to Kill
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Meta
+  - Protection
 ---
-  
-    
 ## Hard to Kill    
 >**Enabler**  
     

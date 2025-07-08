@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Angelic Ward
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Angelic Ward    
 >[!info] Stats    
 > **Level:** 1d6+2    

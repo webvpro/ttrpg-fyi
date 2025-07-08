@@ -4,6 +4,9 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules
   - Stats
+title: Stat Examples
+collection: Rules
+kind: Stats
 ---
 ## Stat Examples  
   

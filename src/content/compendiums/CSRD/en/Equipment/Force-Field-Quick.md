@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/4
   - Equipment/Value/Very-Expensive
+title: Force Field, Quick
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Force Field, Quick    
     
 >Not armor; belt generates an almost transparent force field to surround the user for up to one hour, providing +1 Armor. Once used, must be recharged for several hours.    

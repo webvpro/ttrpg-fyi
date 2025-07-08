@@ -8,9 +8,13 @@ tags:
   - Creature/Level/1
   - Creature/Armor/1
   - Creature/Health/3
+title: Shadow
+collection: Creatures-NPCs
+kind: Creature
+level: 1
+armor: 1
+health: 3
 ---
-  
-    
 ## Shadow    
 Shadows are semi-intelligent patches of darkness roughly in the shape of a humanoid creature's silhouette. They creep along walls, floors, and ceilings, blending in with actual shadows, peeling themselves free only when they're ready to clutch at a victim with their cold claws.    
   

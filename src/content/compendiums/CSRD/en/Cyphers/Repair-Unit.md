@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Repair Unit
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Repair Unit    
 >[!info] Stats    
 > **Level:** 1d10    

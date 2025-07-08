@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Cloak of Finery
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Cloak of Finery    
 >[!info] Stats    
 > **Level:** 1d6+1    

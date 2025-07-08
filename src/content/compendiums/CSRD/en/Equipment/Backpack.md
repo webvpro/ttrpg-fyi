@@ -18,9 +18,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/2
   - Equipment/Value/Moderate
+title: Backpack
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Backpack    
     
 >    

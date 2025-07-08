@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Knowledge Enhancement
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Knowledge Enhancement    
 >[!info] Stats    
 > **Level:** 1d6    

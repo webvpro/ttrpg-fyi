@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Ghostly Armor
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Ghostly Armor    
 >[!info] Stats    
 > **Level:** 1d6+3    

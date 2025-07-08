@@ -8,9 +8,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/3
   - Equipment/Value/Moderate
+title: Bolt Cutters
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Bolt Cutters    
     
 >Enables and eases tasks to cut through metal bars.    

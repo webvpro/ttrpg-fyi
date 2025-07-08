@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Mind Stabilizer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Mind Stabilizer    
 >[!info] Stats    
 > **Level:** 1d6    

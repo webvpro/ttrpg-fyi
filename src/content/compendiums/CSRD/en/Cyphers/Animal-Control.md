@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Animal Control
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Animal Control    
 >[!info] Stats    
 > **Level:** 1d6+2    

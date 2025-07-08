@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Power-Boost
+title: Area Boost
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Area Boost    
 >[!info] Stats    
 > **Level:** 1d6+1    

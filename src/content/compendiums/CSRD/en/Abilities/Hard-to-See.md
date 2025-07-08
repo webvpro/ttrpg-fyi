@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Categories/Task
   - Ability/Categories/Transform
+title: Hard to See
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Task
+  - Transform
 ---
-  
-    
 ## Hard to See    
 >**Enabler**  
     

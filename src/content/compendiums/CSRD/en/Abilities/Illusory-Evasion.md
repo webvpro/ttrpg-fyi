@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
+title: Illusory Evasion
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '5'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Protection
 ---
-  
-    
 ## Illusory Evasion    
 >**Enabler**    
 >5 Intellect points  

@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Cure
+title: Infuse Spirit
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Cure
 ---
-  
-    
 ## Infuse Spirit    
 >**Enabler**  
     

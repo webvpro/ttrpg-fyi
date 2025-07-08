@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Environment
+title: Living Wall
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Environment
 ---
-  
-    
 ## Living Wall    
 >**Enabler**    
 >3 Might points  

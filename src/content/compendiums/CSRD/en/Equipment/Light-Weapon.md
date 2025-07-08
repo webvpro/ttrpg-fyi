@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
   - Equipment/Weapon/Light
+title: Light Weapon
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Light Weapon    
     
 >    

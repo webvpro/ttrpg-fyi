@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Flowers for Grandmother
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Flowers for Grandmother    
 >[!info] Stats    
 > **Level:** 1d6+2    

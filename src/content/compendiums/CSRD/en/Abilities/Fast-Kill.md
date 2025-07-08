@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Meta
+title: Fast Kill
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Meta
 ---
-  
-    
 ## Fast Kill    
 >**Action**    
 >2 Speed points  

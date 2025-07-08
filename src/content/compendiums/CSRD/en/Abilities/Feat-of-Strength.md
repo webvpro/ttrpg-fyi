@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Might
   - Ability/Categories/Task
+title: Feat of Strength
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '1'
+tier: Low
+pools:
+  - Might
+categories:
+  - Task
 ---
-  
-    
 ## Feat of Strength    
 >**Enabler**    
 >1 Might point  

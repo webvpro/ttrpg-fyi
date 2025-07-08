@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
+title: Duct Tape
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Duct Tape    
     
 >Useful and ubiquitous    

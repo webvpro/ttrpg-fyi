@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Information Sensor
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Information Sensor    
 >[!info] Stats    
 > **Level:** 1d6+2    

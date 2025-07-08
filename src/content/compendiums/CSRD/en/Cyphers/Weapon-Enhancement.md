@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Weapon Enhancement
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Weapon Enhancement    
 >[!info] Stats    
 > **Level:** 1d6+2    

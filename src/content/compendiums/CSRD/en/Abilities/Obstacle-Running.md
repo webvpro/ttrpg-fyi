@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Movement
+title: Obstacle Running
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Movement
 ---
-  
-    
 ## Obstacle Running    
 >**Enabler**    
 >3 Speed points  

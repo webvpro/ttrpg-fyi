@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Attack-Skill
+title: Mastery With Attacks
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: High
+pools: []
+categories:
+  - Attack-Skill
 ---
-  
-    
 ## Mastery With Attacks    
 >**Action**  
     

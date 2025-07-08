@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Speed
   - Ability/Categories/Meta
+title: Go to Ground
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: High
+pools:
+  - Speed
+categories:
+  - Meta
 ---
-  
-    
 ## Go to Ground    
 >**Action**    
 >4 Speed points  

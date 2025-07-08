@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Might
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
+title: Taunt Foe
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '4'
+tier: High
+pools:
+  - Might
+  - Intellect
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Taunt Foe    
 >**Enabler**    
 >4 Might or Intellect points  

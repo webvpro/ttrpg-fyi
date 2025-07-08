@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Gingerbread Man
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Gingerbread Man    
 >[!info] Stats    
 > **Level:** 1d6    

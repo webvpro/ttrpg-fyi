@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Detonation Pressure
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Detonation Pressure    
 >[!info] Stats    
 > **Level:** 1d6+2    

@@ -11,9 +11,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
   - Equipment/Weapon/Light
+title: Hunting Knife
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Hunting Knife    
     
 >    

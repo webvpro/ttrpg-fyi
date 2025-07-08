@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
   - Equipment/Armor/Light
+title: Animal Hide
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Animal Hide    
     
 >Smell hinders stealth tasks    

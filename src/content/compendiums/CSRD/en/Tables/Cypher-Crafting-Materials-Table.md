@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables/Cypher-Crafting-Materials
   - Table
+title: Cypher Crafting Materials Table
+collection: Tables
+kind: Table
 ---
-  
 ## Cypher Crafting Materials Table  
 | Cypher Level | Materials Cost           |  
 |--------------|--------------------------|  

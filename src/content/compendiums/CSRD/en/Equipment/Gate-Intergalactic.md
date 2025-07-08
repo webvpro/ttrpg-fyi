@@ -8,9 +8,10 @@ tags:
   - Equipment/Stellar-Gate
   - Equipment/Level/7
   - Equipment/Value/Priceless
+title: Gate, Intergalactic
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Gate, Intergalactic    
     
 >As planetary gate, but six times as large and connects gate structures that lie between locations in different galaxies across the entire breadth of the universe.    

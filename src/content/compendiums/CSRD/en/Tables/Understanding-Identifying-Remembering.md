@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules
   - Difficulty/table/
+title: Understanding, Identifying, Or Remembering"
+collection: Rules
+kind: Difficulty
 ---
-  
 # Understanding, Identifying, Or Remembering    
   
   

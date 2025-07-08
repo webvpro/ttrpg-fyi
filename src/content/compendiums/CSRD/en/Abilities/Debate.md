@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Social
   - Ability/Categories/Task
+title: Debate
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Social
+  - Task
 ---
-  
-    
 ## Debate    
 >**Action**    
 >3 Intellect points  

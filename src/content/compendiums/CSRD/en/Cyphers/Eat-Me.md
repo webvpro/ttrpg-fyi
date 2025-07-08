@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Eat Me
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Eat Me    
 >[!info] Stats    
 > **Level:** 1d6    

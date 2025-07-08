@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Speed
   - Ability/Categories/Meta
+title: Quick Death
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Speed
+categories:
+  - Meta
 ---
-  
-    
 ## Quick Death    
 >**Action**    
 >2 Speed points  

@@ -8,9 +8,13 @@ tags:
   - Creature/Level/3
   - Creature/Armor/0
   - Creature/Health/12
+title: Vampire, Transitional
+collection: Creatures-NPCs
+kind: Creature
+level: 3
+armor: 0
+health: 12
 ---
-  
-    
 ## Vampire, Transitional    
 When humans are "visited upon" (bitten) by a vampire, they might be killed, or they might be left alive to begin a slow transformation into a creature of the night. If victims are bitten three times, they become a vampire forever under the control of the one that bit them. From the time of the first bite until their complete transformation after the third bite, they are transitional vampires. Ways to return transitional vampires to normal include using special ancient rituals or destroying the vampire that bit them in the first place.  
 Transitional vampires usually serve as guardians, consorts, or spies for their masters.    

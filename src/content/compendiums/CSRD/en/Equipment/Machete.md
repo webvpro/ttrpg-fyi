@@ -17,9 +17,10 @@ tags:
   - Equipment/Level/2
   - Equipment/Value/Moderate
   - Equipment/Weapon/Medium
+title: Machete
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Machete    
     
 >    

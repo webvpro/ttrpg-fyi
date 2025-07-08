@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Categories/Protection
   - Ability/Categories/Task
+title: Courageous
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Protection
+  - Task
 ---
-  
-    
 ## Courageous    
 >**Enabler**  
     

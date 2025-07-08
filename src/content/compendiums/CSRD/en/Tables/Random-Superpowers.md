@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table
+title: Random Superpowers
+collection: Tables
+kind: Table
 ---
-  
 ## Random Superpowers Table  
 |  Roll &nbsp; &nbsp; | Random Superpowers  |  
 | ------------- | :----------- |  

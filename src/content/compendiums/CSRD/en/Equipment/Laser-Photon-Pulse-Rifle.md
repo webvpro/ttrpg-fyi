@@ -10,9 +10,10 @@ tags:
   - Equipment/Value/Very-Expensive-X2
   - Equipment/Range/Long
   - Equipment/Weapon/Rapid-Fire
+title: Laser Photon Pulse Rifle
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Laser Photon Pulse Rifle    
     
 >Rifle fires coherent light beams;    

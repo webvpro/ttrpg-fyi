@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Categories/Cure
   - Ability/Categories/Special-Attack
+title: Drain Charge
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Cure
+  - Special-Attack
 ---
-  
-    
 ## Drain Charge    
 >**Action**  
     

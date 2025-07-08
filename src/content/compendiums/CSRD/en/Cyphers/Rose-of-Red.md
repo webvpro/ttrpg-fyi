@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Rose of Red
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Rose of Red    
 >[!info] Stats    
 > **Level:** 1d6+1    

@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Special-Attack
+title: Surprise Attack
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Surprise Attack    
 >**Enabler**  
     

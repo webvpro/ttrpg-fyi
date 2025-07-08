@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
+title: Wind Armor
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '1'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Protection
 ---
-  
-    
 ## Wind Armor    
 >**Enabler**    
 >1 Intellect point  

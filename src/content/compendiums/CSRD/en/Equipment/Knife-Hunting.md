@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/2
   - Equipment/Value/Moderate
   - Equipment/Weapon/Light
+title: Knife, Hunting
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Knife, Hunting    
     
 >    

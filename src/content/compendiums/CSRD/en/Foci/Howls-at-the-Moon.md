@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Tank-Combat
+title: Howls at the Moon
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Howls at the Moon    
 For brief periods, you become a fearsome and powerful creature with control issues.    
   

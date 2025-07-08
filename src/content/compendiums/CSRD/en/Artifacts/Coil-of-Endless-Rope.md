@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Coil of Endless Rope
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Coil of Endless Rope    
 >[!info] Stats    
 > **Level:** 1d6    

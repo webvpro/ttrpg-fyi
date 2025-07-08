@@ -10,9 +10,10 @@ tags:
   - Equipment/Value/Very-Expensive
   - Equipment/Range/Long
   - Equipment/Weapon/Rapid-Fire
+title: Rifle, Assault
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Rifle, Assault    
     
 >    

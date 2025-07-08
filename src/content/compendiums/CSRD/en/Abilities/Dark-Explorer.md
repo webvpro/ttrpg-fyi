@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Categories/Senses
   - Ability/Categories/Task
+title: Dark Explorer
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Senses
+  - Task
 ---
-  
-    
 ## Dark Explorer    
 >**Enabler**  
     

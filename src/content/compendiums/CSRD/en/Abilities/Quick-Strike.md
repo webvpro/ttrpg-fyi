@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Special-Attack
+title: Quick Strike
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Quick Strike    
 >**Action**    
 >4 Speed points  

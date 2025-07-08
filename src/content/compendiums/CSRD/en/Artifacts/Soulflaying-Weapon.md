@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Soulflaying Weapon
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Soulflaying Weapon    
 >[!info] Stats    
 > **Level:** 1d6+1    

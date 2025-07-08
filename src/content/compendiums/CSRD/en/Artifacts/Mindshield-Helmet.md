@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Mindshield Helmet
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Mindshield Helmet    
 >[!info] Stats    
 > **Level:** 1d6+2    

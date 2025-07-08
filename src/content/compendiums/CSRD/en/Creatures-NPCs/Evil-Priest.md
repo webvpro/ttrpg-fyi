@@ -8,9 +8,13 @@ tags:
   - Creature/Level/7
   - Creature/Armor/1
   - Creature/Health/28
+title: Evil Priest
+collection: Creatures-NPCs
+kind: Creature
+level: 7
+armor: 1
+health: 28
 ---
-  
-    
 ## Evil Priest    
 Evil priests are worshippers of evil gods, demons, devils, strange malevolent forces from beyond known dimensions, or even death itself. They lead cults, corrupt the innocent with lies and twisted ideologies, and enact the will of their patron in the mortal world. The most insidious ones are able to infiltrate good churches and secular organizations in order to tear them down from the inside.    
   

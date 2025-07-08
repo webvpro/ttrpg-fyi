@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
   - Ability/Categories/Support
+title: Elemental Protection
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Protection
+  - Support
 ---
-  
-    
 ## Elemental Protection    
 >**Action**    
 >4+ Intellect points  

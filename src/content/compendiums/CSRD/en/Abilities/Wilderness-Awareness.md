@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Information
+title: Wilderness Awareness
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Information
 ---
-  
-    
 ## Wilderness Awareness    
 >**Action**    
 >4 Intellect points  

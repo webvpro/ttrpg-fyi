@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/3
   - Equipment/Value/Very-Expensive
+title: Small Boat
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Small Boat    
     
 >    

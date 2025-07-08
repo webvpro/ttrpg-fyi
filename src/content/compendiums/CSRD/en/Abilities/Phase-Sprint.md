@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Speed
   - Ability/Categories/Movement
   - Ability/Categories/Protection
+title: Phase Sprint
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Speed
+categories:
+  - Movement
+  - Protection
 ---
-  
-    
 ## Phase Sprint    
 >**Action**    
 >1+ Speed points  

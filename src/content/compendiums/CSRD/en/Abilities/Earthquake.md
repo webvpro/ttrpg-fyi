@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Might
   - Ability/Categories/Special-Attack
+title: Earthquake
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '7'
+tier: High
+pools:
+  - Might
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Earthquake    
 >**Action**    
 >7 Might points  

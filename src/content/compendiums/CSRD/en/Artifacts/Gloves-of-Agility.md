@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Gloves of Agility
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Gloves of Agility    
 >[!info] Stats    
 > **Level:** 1d6    

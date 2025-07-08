@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Scavenger-Subtle
+title: Transport
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Transport    
 >[!info] Stats    
 > **Level:** 1d6+1    

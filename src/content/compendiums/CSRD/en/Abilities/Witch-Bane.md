@@ -9,8 +9,18 @@ tags:
   - Ability/Tier/low
   - Ability/Pool/Speed
   - Ability/Categories/
+title: Witch Bane
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: ''
+tier: low
+pools:
+  - Speed
+categories:
+  - ''
 ---
-    
 ## Witch Bane                                                       
 >**Enabler**    
     

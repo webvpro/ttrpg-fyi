@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Might
   - Ability/Categories/Meta
+title: Horde Tactics
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '7'
+tier: High
+pools:
+  - Might
+categories:
+  - Meta
 ---
-  
-    
 ## Horde Tactics    
 >**Enabler**    
 >7 Might points  

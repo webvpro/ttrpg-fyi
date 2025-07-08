@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Categories/Cure
   - Ability/Categories/Task
+title: Preternatural Senses
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Cure
+  - Task
 ---
-  
-    
 ## Preternatural Senses    
 >**Enabler**  
     

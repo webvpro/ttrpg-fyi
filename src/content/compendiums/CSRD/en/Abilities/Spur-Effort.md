@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Support
+title: Spur Effort
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '5'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Support
 ---
-  
-    
 ## Spur Effort    
 >**Enabler**    
 >5 Intellect points  

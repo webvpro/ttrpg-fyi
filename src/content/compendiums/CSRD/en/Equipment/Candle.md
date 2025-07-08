@@ -10,9 +10,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
+title: Candle
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Candle    
     
 >A candle burns for one hour and creates dim light in an immediate area.    

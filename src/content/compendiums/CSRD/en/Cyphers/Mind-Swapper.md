@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Mind Swapper
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Mind Swapper    
 >[!info] Stats    
 > **Level:** 1d6+2    

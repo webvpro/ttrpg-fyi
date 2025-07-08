@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Meta
+title: Lunge
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Meta
 ---
-  
-    
 ## Lunge    
 >**Action**    
 >2 Might points  

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Undead Ward
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Undead Ward    
 >[!info] Stats    
 > **Level:** 1d6    

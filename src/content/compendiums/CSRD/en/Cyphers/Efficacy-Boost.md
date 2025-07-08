@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Power-Boost
+title: Efficacy Boost
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Efficacy Boost    
 >[!info] Stats    
 > **Level:** 1d6+1    

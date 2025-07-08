@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Chemical Factory
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Chemical Factory    
 >[!info] Stats    
 > **Level:** 1d6    

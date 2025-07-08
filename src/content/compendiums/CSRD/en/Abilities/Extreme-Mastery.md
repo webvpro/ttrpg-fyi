@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Might
   - Ability/Pool/Speed
   - Ability/Categories/Meta
+title: Extreme Mastery
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '6'
+tier: High
+pools:
+  - Might
+  - Speed
+categories:
+  - Meta
 ---
-  
-    
 ## Extreme Mastery    
 >**Enabler**    
 >6 Might or 6 Speed points  

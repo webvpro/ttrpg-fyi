@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Eagleseye
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Eagleseye    
 >[!info] Stats    
 > **Level:** 1d6    

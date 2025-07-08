@@ -5,6 +5,9 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules/Cypher-Shorts-Scenarios
   - Cypher-Shorts/Scenario/Modern
+title: Trapped in Flamese
+collection: Rules
+kind: Cypher-Shorts
 ---
 ## Trapped in Flames   
 The Premise: The characters work in a tall skyscraper. Suddenly, there’s an explosion, and the fire alarms start ringing!  

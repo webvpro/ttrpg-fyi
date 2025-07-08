@@ -8,9 +8,13 @@ tags:
   - Creature/Level/3
   - Creature/Armor/1
   - Creature/Health/9
+title: Nightgaunt
+collection: Creatures-NPCs
+kind: Creature
+level: 3
+armor: 1
+health: 9
 ---
-  
-    
 ## Nightgaunt    
 A nightgaunt's hands and feet have no opposable digits. All its fingers and toes can grasp with firm but unpleasant boneless strength. Hungry nightgaunts swoop out of the night, grab prey, and fly off into darkness. The creatures sometimes "work" for other agencies, though often enough, their goals are obscure.    
   

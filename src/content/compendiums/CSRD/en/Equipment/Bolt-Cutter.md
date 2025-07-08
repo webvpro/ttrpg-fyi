@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
+title: Bolt Cutter
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Bolt Cutter    
     
 >Cuts bolts, chains, bars, etc. of up to level 5    

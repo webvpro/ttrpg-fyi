@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Control
+title: Calm Stranger
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Control
 ---
-  
-    
 ## Calm Stranger    
 >**Action**    
 >2+ Intellect points  

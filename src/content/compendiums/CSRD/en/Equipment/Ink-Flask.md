@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/10-Gp
+title: Ink (Flask)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Ink (Flask)    
     
 >    

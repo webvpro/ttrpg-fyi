@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Categories/Attack-Skill
   - Ability/Categories/Protection
+title: Blood Fever
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Attack-Skill
+  - Protection
 ---
-  
-    
 ## Blood Fever    
 >**Enabler**  
     

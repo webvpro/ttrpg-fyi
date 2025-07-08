@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Cheshire Smile
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Cheshire Smile    
 >[!info] Stats    
 > **Level:** 1d6    

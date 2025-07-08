@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Movement-Expertise
+title: Travels Through Time
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Travels Through Time    
 You can see through time, try to reach through it, and eventually even travel through it.    
   

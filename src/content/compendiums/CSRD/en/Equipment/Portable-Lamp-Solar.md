@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
+title: Portable Lamp, Solar
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Portable Lamp, Solar    
     
 >    

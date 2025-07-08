@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Support
+title: In Harm's Way
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Support
 ---
-  
-    
 ## In Harm's Way    
 >**Enabler**    
 >3 Intellect points  

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Story Knife
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Story Knife    
 >[!info] Stats    
 > **Level:** 1d6+2    

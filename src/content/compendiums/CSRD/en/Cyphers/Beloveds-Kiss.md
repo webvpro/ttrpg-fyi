@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers/Beloveds-Kiss
   - Cypher
   - Cypher/Fairy-Tale
+title: Beloved's Kiss
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Beloved's Kiss    
 >[!info] Stats    
 > **Level:** 1d6+3    

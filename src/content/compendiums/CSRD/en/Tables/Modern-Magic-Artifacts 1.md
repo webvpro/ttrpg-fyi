@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables/Modern-Magic-Artifacts
   - Table/Modern-Magic/Artifacts
+title: Modern Magic Artifacts
+collection: Tables
+kind: Table
 ---
-  
 ## Modern Magic Artifacts  
 If cyphers are the expendable magic that is ever-present in fantasy, artifacts are the more durable magic items that can be used over and over again—tomes of weird magic, magical vehicles, and so on. Unlike cyphers, there is no limit to how many artifacts a character can bear.   
 ### Artifact Rules   

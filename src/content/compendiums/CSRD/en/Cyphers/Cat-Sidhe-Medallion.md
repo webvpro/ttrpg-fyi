@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Cat Sidhe Medallion
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Cat Sidhe Medallion    
 >[!info] Stats    
 > **Level:** 1d6+2    

@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/1
   - Equipment/Value/Moderate
+title: Auton
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Auton    
     
 >    

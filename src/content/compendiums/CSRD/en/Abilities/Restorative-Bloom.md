@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Might
   - Ability/Categories/NA
+title: Restorative Bloom
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: NA
+pools:
+  - Might
+categories:
+  - NA
 ---
-  
-    
 ## Restorative Bloom    
 >**Action**    
 >5 Might points  

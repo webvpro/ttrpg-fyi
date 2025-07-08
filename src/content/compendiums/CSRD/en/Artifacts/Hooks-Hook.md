@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Hook's Hook
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Hook's Hook    
 >[!info] Stats    
 > **Level:** 1d6+1    

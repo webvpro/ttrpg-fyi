@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Environment
   - Ability/Categories/Special-Attack
+title: Grasping Foliage
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Environment
+  - Special-Attack
 ---
-  
-    
 ## Grasping Foliage    
 >**Action**    
 >3+ Intellect points  

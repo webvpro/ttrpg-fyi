@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Disguise Module
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Disguise Module    
 >[!info] Stats    
 > **Level:** 1d6+2    

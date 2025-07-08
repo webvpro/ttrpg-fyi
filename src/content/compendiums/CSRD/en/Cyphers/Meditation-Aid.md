@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Meditation Aid
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Meditation Aid    
 >[!info] Stats    
 > **Level:** 1d6+2    

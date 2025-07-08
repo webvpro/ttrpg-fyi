@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Temporal Viewer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Temporal Viewer    
 >[!info] Stats    
 > **Level:** 1d6+4    

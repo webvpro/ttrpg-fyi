@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Disguise Other
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Disguise Other    
 >**Action**    
 >4+ Intellect points  

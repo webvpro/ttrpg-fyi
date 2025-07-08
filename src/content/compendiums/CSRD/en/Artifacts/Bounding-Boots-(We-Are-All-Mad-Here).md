@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Bounding Boots (We Are All Mad Here)
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Bounding Boots (We Are All Mad Here)    
 >[!info] Stats    
 > **Level:** 1d6+1    

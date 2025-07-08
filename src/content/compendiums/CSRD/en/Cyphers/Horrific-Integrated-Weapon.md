@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Horrific Integrated Weapon
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Horrific Integrated Weapon    
 >[!info] Stats    
 > **Level:** 1d6+3    

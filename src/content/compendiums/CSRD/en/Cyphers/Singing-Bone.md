@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Singing Bone
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Singing Bone    
 >[!info] Stats    
 > **Level:** 1d6+3    

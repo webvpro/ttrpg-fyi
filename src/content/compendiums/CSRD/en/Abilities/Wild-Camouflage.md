@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Transform
+title: Wild Camouflage
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Transform
 ---
-  
-    
 ## Wild Camouflage    
 >**Action**    
 >4 Intellect points  

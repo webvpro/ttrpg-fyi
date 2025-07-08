@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Fabricator, Military
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Fabricator, Military    
 >[!info] Stats    
 > **Level:** 1d6+1  

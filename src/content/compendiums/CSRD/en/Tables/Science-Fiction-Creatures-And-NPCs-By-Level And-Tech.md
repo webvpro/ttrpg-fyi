@@ -5,8 +5,10 @@ tags:
   - Compendiums/CSRD/en/Tables
   - Creatures/Science-Fiction
   - NPCs/Science-Fiction
+title: Science Fiction Creatures And NPCs By Level And Tech
+collection: Tables
+kind: Creatures
 ---
-  
 ## Science Fiction Creatures And NPCs By Level And Tech  
 | Level | Name                  | Tech Rating |  
 |-------|-----------------------|-------------|  

@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Expensive
+title: Ammo Handloading Tools
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Ammo Handloading Tools    
     
 >Asset (and needed supplies) for creating ammunition    

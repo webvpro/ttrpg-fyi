@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/4-Cp
+title: Ale, Mug
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Ale, Mug    
     
 >    

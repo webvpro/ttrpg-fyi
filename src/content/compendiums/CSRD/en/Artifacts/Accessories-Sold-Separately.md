@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Accessories-Sold-Separately
   - Artifact
   - Artifact/Fairy-Tale
+title: Accessories Sold Separately
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Accessories Sold Separately    
 #### Level   
 >1d6   

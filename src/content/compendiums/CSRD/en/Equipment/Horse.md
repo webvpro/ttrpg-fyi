@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Very-Expensive
+title: Horse
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Horse    
     
 >Trained for riding (typically found with a few days of feed)    

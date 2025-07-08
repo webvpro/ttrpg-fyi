@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
+title: Stay the Course
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Cure
 ---
-  
-    
 ## Stay the Course    
 >**Action**    
 >5 Intellect points  

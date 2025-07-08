@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Control
+title: Terrifying Presence
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Control
 ---
-  
-    
 ## Terrifying Presence    
 >**Action**    
 >2+ Intellect points  

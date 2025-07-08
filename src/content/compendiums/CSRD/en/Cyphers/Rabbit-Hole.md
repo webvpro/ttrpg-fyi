@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Rabbit Hole
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Rabbit Hole    
 >[!info] Stats    
 > **Level:** 1d6    

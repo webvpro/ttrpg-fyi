@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Movement
+title: Temporal Dislocation
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '7'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Movement
 ---
-  
-    
 ## Temporal Dislocation    
 >**Action**    
 >7 Intellect points  

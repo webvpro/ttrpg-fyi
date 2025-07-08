@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Tracer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Tracer    
 >[!info] Stats    
 > **Level:** 1d6    

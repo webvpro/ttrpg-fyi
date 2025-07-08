@@ -10,9 +10,19 @@ tags:
   - Ability/Categories/Cure
   - Ability/Categories/Meta
   - Ability/Categories/Task
+title: Trick Driver
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Cure
+  - Meta
+  - Task
 ---
-  
-    
 ## Trick Driver    
 >**Enabler**  
     

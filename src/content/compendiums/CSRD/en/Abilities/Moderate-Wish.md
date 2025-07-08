@@ -10,9 +10,19 @@ tags:
   - Ability/Categories/Meta
   - Ability/Categories/Protection
   - Ability/Categories/Transform
+title: Moderate Wish
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: High
+pools: []
+categories:
+  - Meta
+  - Protection
+  - Transform
 ---
-  
-    
 ## Moderate Wish    
 >**Action**  
     

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Curse Bringer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Curse Bringer    
 >[!info] Stats    
 > **Level:** 1d6+1    

@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
   - Ability/Categories/Fantasy/Modern
+title: Moonbeam
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Protection
+  - Fantasy
 ---
-  
-    
 ## Petrify    
 >**Action**    
 >1+ Intellect points  

@@ -8,9 +8,10 @@ tags:
   - Equipment/Modern
   - Equipment/Level/3
   - Equipment/Value/Expensive
+title: Elegant Clothes
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Elegant Clothes    
     
 >Clothing suitable for moving in elite circles; provides an asset to interaction checks in some situations.    

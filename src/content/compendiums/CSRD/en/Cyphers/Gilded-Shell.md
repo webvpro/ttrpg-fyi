@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Gilded Shell
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Gilded Shell    
 >[!info] Stats    
 > **Level:** 1d6    

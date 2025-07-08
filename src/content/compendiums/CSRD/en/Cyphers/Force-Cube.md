@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Force Cube
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Force Cube    
 >[!info] Stats    
 > **Level:** 1d6+3    

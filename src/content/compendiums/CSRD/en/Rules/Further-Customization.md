@@ -6,6 +6,9 @@ tags:
   - Rule/Customization
   - Rule/Advanced
   - Rule/Optional
+title: Further Customization
+collection: Rules
+kind: Rule
 ---
 ## Further Customization    
   

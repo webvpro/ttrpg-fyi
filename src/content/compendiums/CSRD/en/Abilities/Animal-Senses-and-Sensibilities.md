@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Categories/Senses
   - Ability/Categories/Task
+title: Animal Senses and Sensibilities
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Senses
+  - Task
 ---
-  
-    
 ## Animal Senses and Sensibilities    
 >**Enabler**  
     

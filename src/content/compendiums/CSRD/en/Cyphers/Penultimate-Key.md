@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Penultimate Key
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Penultimate Key    
 >[!info] Stats    
 > **Level:** 1d6+2    

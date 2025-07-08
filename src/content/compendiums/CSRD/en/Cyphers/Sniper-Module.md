@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Sniper Module
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Sniper Module    
 >[!info] Stats    
 > **Level:** 1d6    

@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Magic
   - Ability/Categories/Fantasy/Modern
+title: Paralyzing Touch
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Magic
+  - Fantasy
 ---
-  
-    
 ## Paralyzing Touch  
 >**Action**    
 >4 Intellect point  

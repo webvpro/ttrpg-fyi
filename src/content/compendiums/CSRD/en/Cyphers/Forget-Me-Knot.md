@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Forget-Me-Knot
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Forget-Me-Knot    
 >[!info] Stats    
 > **Level:** 1d6+3    

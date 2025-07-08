@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Very-Expensive
+title: Vehicle
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Vehicle    
     
 >Car, truck, van, boat, or prop two-seater plane (internal combustion engine or EV)    

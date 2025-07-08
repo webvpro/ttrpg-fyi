@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Poison for Your Daughter
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Poison for Your Daughter    
 >[!info] Stats    
 > **Level:** 1d6+2    

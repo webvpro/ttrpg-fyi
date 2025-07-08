@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Support
+title: Sculpt Flesh
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Support
 ---
-  
-    
 ## Sculpt Flesh    
 >**Action**    
 >2 Intellect points  

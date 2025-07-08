@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+title: Wields Invisible Force
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Wields Invisible Force    
 You bend light and manipulate beams of force for offense and defense.    
   

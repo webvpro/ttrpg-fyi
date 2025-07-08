@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Ray Emitter Fear
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Ray Emitter Fear    
 >[!info] Stats    
 > **Level:** 1d6+2    

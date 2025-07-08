@@ -6,9 +6,10 @@ tags:
   - Equipment/Modern
   - Equipment/Utility-Gear
   - Equipment/Value/Expensive
+title: Cold Weather Camping Gear
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Cold Weather Camping Gear    
     
 >    

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Meta
+title: Uncanny Luck
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '4'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Meta
 ---
-  
-    
 ## Uncanny Luck    
 >**Enabler**    
 >4 Speed points  

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Senses
+title: Distance Viewing
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Senses
 ---
-  
-    
 ## Distance Viewing    
 >**Action**    
 >5 Intellect points  

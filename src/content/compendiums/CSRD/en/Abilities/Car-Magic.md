@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Magic/Modern
+title: Car Magic
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Magic
 ---
-  
-    
 ## Car Magic  
 >**Action**    
 >3+ Intellect points  

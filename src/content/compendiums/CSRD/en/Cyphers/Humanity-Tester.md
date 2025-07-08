@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Humanity Tester
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Humanity Tester    
 >[!info] Stats    
 > **Level:** 1d6+4    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Lycanthrope Ward
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Lycanthrope Ward    
 >[!info] Stats    
 > **Level:** 1d6    

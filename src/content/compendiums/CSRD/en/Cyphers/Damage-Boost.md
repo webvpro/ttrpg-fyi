@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Power-Boost
+title: Damage Boost
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Damage Boost    
 >[!info] Stats    
 > **Level:** 1d6+2    

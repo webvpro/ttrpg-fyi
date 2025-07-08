@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Companion
+title: Superior Duplicate
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Companion
 ---
-  
-    
 ## Superior Duplicate    
 >**Enabler**    
 >2 Might points  

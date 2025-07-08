@@ -6,9 +6,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
+title: Environment Tent
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Environment Tent    
     
 >    

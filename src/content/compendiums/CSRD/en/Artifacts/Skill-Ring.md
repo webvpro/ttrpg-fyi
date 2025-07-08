@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Skill Ring
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Skill Ring    
 >[!info] Stats    
 > **Level:** 1d6    

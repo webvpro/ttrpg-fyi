@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Golden Bridle
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Golden Bridle    
 >[!info] Stats    
 > **Level:** 1d6+2    

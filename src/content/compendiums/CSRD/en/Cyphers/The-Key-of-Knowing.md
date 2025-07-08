@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: The Key of Knowing
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## The Key of Knowing    
 >[!info] Stats    
 > **Level:** 1d6+3    

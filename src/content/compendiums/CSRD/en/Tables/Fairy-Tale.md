@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Cypher/Fairy-Tale
+title: Fairy Tale
+collection: Tables
+kind: Table
 ---
-  
 ## Fairy Tale Table  
 |  Roll &nbsp; &nbsp; | Fairy Tale  |  
 | ------------- | :----------- |  

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers/Hearts-Tart
   - Cypher
   - Cypher/Fairy-Tale
+title: Heart's Tart
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Heart's Tart    
 >[!info] Stats    
 > **Level:** 1d6+2    

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Task
+title: Late Inspiration
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Task
 ---
-  
-    
 ## Late Inspiration    
 >**Enabler**    
 >3 Intellect points  

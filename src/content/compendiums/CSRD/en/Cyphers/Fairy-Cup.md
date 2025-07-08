@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Fairy Cup
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Fairy Cup    
 >[!info] Stats    
 > **Level:** 1d6+1    

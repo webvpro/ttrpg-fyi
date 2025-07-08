@@ -8,9 +8,10 @@ tags:
   - Equipment/Modern
   - Equipment/Level/1
   - Equipment/Value/Inexpensive
+title: Trail Rations (1 Day)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Trail Rations (1 Day)    
     
 >    

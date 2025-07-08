@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/5
   - Equipment/Value/Very-Expensive
+title: Stasis Pod
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Stasis Pod    
     
 >As hibernation pod, but suspends time for target indefinitely, until program ends or pod is opened.    

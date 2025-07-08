@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Might
   - Ability/Categories/Meta
+title: Charging Horde
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '7'
+tier: High
+pools:
+  - Might
+categories:
+  - Meta
 ---
-  
-    
 ## Charging Horde    
 >**Action**    
 >7 Might points  

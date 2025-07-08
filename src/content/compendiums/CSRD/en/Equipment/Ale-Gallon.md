@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/2-Sp
+title: Ale, Gallon
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Ale, Gallon    
     
 >    

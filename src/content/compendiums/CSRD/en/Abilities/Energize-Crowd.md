@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Might
   - Ability/Categories/Protection
   - Ability/Categories/Support
+title: Energize Crowd
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '9'
+tier: High
+pools:
+  - Might
+categories:
+  - Protection
+  - Support
 ---
-  
-    
 ## Energize Crowd    
 >**Action**    
 >9 Might points  

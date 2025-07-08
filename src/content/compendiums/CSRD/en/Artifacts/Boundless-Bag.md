@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Boundless Bag
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Boundless Bag    
 >[!info] Stats    
 > **Level:** 1d6+2    

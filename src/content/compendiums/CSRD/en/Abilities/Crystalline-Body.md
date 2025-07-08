@@ -10,9 +10,19 @@ tags:
   - Ability/Categories/Cure
   - Ability/Categories/Meta
   - Ability/Categories/Protection
+title: Crystalline Body
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Cure
+  - Meta
+  - Protection
 ---
-  
-    
 ## Crystalline Body    
 >**Enabler**  
     

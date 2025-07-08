@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
   - Equipment/Value/1-Cp
+title: Torch
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Torch    
     
 >A wooden stick with some kind of fuel on one end (such as burlap and wax). It burns for one hour, creating normal light in an immediate area and dim light in the short area beyond that. A torch is fragile and usually breaks if used to hit something    

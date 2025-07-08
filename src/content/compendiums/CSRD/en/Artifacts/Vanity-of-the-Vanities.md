@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Vanity-of-the-Vanities
   - Artifact
   - Artifact/Modern-Fantasy
+title: Vanity of the Vanities
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Vanity of the Vanities  
   
 >1d6  

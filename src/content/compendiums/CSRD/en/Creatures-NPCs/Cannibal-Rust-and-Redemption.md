@@ -8,9 +8,13 @@ tags:
   - Creature/Level/3
   - Creature/Armor/0
   - Creature/Health/12
+title: Cannibal Rust and Redemption
+collection: Creatures-NPCs
+kind: Creature
+level: 3
+armor: 0
+health: 12
 ---
-  
-    
 ## Cannibal Rust and Redemption    
 Cannibals come in a variety of different forms, depending on their situation. Some seem like normal and perhaps even charming survivors, except to their targets. These "nice" cannibals may eat human flesh when desperate or to take advantage of meat that would otherwise go to waste. Or maybe they've developed a taste for human flesh.   
 Others look the part, having descended into the kind of bestial, erratic behavior that cannibalism can inflict on long term practitioners.   

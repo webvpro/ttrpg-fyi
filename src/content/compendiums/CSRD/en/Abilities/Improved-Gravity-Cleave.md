@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
+title: Improved Gravity Cleave
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '9'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Meta
 ---
-  
-    
 ## Improved Gravity Cleave    
 >**Action**    
 >9 Intellect points  

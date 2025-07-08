@@ -13,9 +13,10 @@ tags:
   - Equipment/Level/3
   - Equipment/Value/Expensive
   - Equipment/Armor/Medium
+title: Kevlar Vest
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Kevlar Vest    
     
 >    

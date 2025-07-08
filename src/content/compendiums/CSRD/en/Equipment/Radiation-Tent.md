@@ -9,9 +9,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Expensive
+title: Radiation Tent
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Radiation Tent    
     
 >Prevents radiation damage for three days    

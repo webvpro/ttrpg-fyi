@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Agate Eye
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Agate Eye    
 >[!info] Stats    
 > **Level:** 1d6+2    

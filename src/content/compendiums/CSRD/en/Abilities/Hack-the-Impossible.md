@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Control
+title: Hack the Impossible
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Control
 ---
-  
-    
 ## Hack the Impossible    
 >**Action**    
 >3 Intellect points  

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Cure
+title: Unmovable
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Cure
 ---
-  
-    
 ## Unmovable    
 >**Enabler**    
 >3 Might points  

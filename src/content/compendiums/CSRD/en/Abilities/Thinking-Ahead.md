@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
+title: Thinking Ahead
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Cure
 ---
-  
-    
 ## Thinking Ahead    
 >**Action**    
 >0 Intellect points  

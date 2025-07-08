@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Exploration
+title: Sees Beyond
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Sees Beyond    
 You have a psychic sense that allows you to see what others cannot.    
   

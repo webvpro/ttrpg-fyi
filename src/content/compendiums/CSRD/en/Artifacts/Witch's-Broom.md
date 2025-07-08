@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Witch's Broom
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Witch's Broom    
 >[!info] Stats    
 > **Level:** 1d6+2    

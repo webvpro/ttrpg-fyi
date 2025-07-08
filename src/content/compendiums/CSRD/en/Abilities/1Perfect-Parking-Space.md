@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Magic/Modern
+title: 1Perfect Parking Space
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Magic
 ---
-  
-    
 ## 1Perfect Parking Space  
 >**Action**    
 >3+ Intellect points  

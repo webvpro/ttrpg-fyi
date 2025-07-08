@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Striker-Combat
+title: Battles Robots
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Battles Robots    
 You excel in battling robots, automatons, and machine entities.    
   

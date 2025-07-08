@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
+title: Restore Life
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '9'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Cure
 ---
-  
-    
 ## Restore Life    
 >**Action**    
 >9+ Intellect points  

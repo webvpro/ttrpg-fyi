@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Categories/Special-Attack
   - Ability/Categories/Task
+title: Taking Advantage
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Special-Attack
+  - Task
 ---
-  
-    
 ## Taking Advantage    
 >**Enabler**  
     

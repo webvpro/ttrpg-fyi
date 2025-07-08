@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
+title: Arrows (12)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Arrows (12)    
     
 >    

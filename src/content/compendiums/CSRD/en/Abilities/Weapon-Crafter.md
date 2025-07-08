@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Craft
+title: Weapon Crafter
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Craft
 ---
-  
-    
 ## Weapon Crafter    
 >**Enabler**  
     

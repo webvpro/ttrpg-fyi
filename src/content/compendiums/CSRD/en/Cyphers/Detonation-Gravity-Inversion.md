@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Detonation Gravity Inversion
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Detonation Gravity Inversion    
 >[!info] Stats    
 > **Level:** 1d6+1    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Mental Scrambler
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Mental Scrambler    
 >[!info] Stats    
 > **Level:** 1d6+2    

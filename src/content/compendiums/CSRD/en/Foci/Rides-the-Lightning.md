@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Energy-Manipulation
+title: Rides the Lightning
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Rides the Lightning    
 You create and discharge electrical power.    
   

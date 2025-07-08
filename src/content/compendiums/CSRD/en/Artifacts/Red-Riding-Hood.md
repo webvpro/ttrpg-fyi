@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Red Riding Hood
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Red Riding Hood    
 >[!info] Stats    
 > **Level:** 1d6+3    

@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Speed
   - Ability/Categories/Meta
   - Ability/Categories/Movement
+title: Blurring Speed
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '7'
+tier: High
+pools:
+  - Speed
+categories:
+  - Meta
+  - Movement
 ---
-  
-    
 ## Blurring Speed    
 >**Enabler**    
 >7 Speed points  

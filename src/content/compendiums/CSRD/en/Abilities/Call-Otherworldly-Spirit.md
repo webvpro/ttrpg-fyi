@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Companion
+title: Call Otherworldly Spirit
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Companion
 ---
-  
-    
 ## Call Otherworldly Spirit    
 >**Action**    
 >6 Intellect points  

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
+title: Healing Touch
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Cure
 ---
-  
-    
 ## Healing Touch    
 >**Action**    
 >1 Intellect point  

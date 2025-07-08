@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Movement
+title: Wind Chariot
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '7'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Movement
 ---
-  
-    
 ## Wind Chariot    
 >**Action**    
 >7+ Intellect points  

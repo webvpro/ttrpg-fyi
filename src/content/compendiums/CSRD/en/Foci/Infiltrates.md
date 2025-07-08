@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Exploration
+title: Infiltrates
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Infiltrates    
 Subtlety, guile, and stealth allow you to get in where others can't.    
   

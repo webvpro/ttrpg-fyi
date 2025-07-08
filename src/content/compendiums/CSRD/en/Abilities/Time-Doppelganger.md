@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Companion
   - Ability/Categories/Companion
+title: Time Doppelganger
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Companion
+  - Companion
 ---
-  
-    
 ## Time Doppelganger    
 >**Action**    
 >6+ Intellect points  

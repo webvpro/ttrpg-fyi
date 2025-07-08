@@ -11,9 +11,10 @@ tags:
   - Equipment/Recreation
   - Equipment/Level/2
   - Equipment/Value/Inexpensive
+title: Book
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Book    
     
 >A book with information on a particular topic, such as geography, history, magic, or religion. Provides an asset on appropriate rolls if the character reads or skims the book for at least ten minutes before attempting the task (this assumes the character has already read the book and is looking for relevant information).    

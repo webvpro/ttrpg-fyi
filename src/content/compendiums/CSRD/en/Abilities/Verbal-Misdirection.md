@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Task
+title: Verbal Misdirection
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Task
 ---
-  
-    
 ## Verbal Misdirection    
 >**Enabler**    
 >2+ Intellect points  

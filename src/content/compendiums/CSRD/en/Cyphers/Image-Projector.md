@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Image Projector
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Image Projector    
 >[!info] Stats    
 > **Level:** 1d6    

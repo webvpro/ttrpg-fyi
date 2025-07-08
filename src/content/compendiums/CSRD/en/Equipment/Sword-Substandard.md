@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
   - Equipment/Weapon/Medium
+title: Sword (Substandard)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Sword (Substandard)    
     
 >won't last long    

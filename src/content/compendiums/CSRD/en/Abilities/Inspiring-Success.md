@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Support
+title: Inspiring Success
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Support
 ---
-  
-    
 ## Inspiring Success    
 >**Enabler**    
 >6 Intellect points  

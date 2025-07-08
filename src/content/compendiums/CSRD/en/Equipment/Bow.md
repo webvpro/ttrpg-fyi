@@ -21,9 +21,10 @@ tags:
   - Equipment/Value/Moderate
   - Equipment/Range/Long
   - Equipment/Weapon/Medium
+title: Bow
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Bow    
     
 >    

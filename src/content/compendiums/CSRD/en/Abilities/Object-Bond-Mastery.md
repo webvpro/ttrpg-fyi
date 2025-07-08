@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Companion
+title: Object Bond Mastery
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '7'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Companion
 ---
-  
-    
 ## Object Bond Mastery    
 >**Enabler**    
 >7 Intellect points  

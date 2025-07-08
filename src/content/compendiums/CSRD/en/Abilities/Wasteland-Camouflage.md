@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Speed
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Wasteland Camouflage
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: NA
+pools:
+  - Speed
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Wasteland Camouflage    
 >**Action**    
 >5+ Speed or Intellect points  

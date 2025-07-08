@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Wand of Firebolts
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Wand of Firebolts    
 >[!info] Stats    
 > **Level:** 1d6+2    

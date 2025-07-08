@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Matter Transference Ray
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Matter Transference Ray    
 >[!info] Stats    
 > **Level:** 1d6+3    

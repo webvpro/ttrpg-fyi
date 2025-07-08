@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Tattoo-of-the-Tiger
   - Artifact
   - Artifact/Modern-Fantasy
+title: Tattoo of the Tiger
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Tattoo of the Tiger  
   
 >1d6 + 2  

@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
   - Ability/Categories/Special-Attack
+title: Resonance Field
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Protection
+  - Special-Attack
 ---
-  
-    
 ## Resonance Field    
 >**Action**    
 >1 Intellect point  

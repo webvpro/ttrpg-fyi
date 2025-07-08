@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Effort Enhancer Noncombat
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Effort Enhancer Noncombat    
 >[!info] Stats    
 > **Level:** 1d6    

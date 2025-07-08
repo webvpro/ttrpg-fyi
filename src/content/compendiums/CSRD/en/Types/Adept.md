@@ -13,8 +13,10 @@ tags:
   - Type/Adept/Weapon/Practiced/Light
   - Type/Adept/Weapon/Inability/Medium
   - Type/Adept/Weapon/Inability/Heavy
+title: Adept
+collection: Types
+kind: Type
 ---
-  
 ### Adept    
   
 | Fantasy/Fairy Tale   | Modern/Horror/Romance | Science Fiction          | Superhero/Post-Apocalyptic |  

@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
   - Equipment/Range/Planetary
+title: Communicator
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Communicator    
     
 >    

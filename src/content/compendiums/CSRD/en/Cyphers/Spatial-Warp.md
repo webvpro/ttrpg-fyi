@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Spatial Warp
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Spatial Warp    
 >[!info] Stats    
 > **Level:** 1d6+4    

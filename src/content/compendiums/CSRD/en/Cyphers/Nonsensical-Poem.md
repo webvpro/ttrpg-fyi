@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Nonsensical Poem
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Nonsensical Poem    
 >[!info] Stats    
 > **Level:** 1d6+4    

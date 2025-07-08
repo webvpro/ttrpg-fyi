@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Deathless
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Deathless    
 >[!info] Stats    
 > **Level:** 1d6+3    

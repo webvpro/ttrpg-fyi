@@ -4,6 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Character-Arcs/Birth
   - Character-Arc
+title: Birth
+collection: Character-Arcs
+kind: Arc
+categories: []
 ---
 ## Birth  
 >You are becoming a parent.   

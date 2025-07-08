@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Shadow Soap
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Shadow Soap    
 >[!info] Stats    
 > **Level:** +4    

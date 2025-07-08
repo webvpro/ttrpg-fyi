@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Poppet Love
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Poppet Love    
 >[!info] Stats    
 > **Level:** 1d6+2    

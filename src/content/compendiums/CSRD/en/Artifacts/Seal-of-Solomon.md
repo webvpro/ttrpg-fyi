@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Seal of Solomon
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Seal of Solomon    
 >[!info] Stats    
 > **Level:** 1d6+2    

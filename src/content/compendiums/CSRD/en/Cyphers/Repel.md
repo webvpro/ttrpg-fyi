@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Repel
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Repel    
 >[!info] Stats    
 > **Level:** 1d6+1    

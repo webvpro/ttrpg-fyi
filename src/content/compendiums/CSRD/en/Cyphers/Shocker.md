@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Shocker
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Shocker    
 >[!info] Stats    
 > **Level:** 1d6+4    

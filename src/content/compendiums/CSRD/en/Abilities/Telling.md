@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Task
+title: Telling
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Task
 ---
-  
-    
 ## Telling    
 >**Action**    
 >2 Intellect points  

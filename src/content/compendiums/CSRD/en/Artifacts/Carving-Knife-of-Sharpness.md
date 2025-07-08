@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Carving Knife of Sharpness
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Carving Knife of Sharpness    
 >[!info] Stats    
 > **Level:** 1d6+1    

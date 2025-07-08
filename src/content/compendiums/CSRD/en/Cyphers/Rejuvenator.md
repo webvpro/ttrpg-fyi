@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Rejuvenator
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Rejuvenator    
 >[!info] Stats    
 > **Level:** 1d6+2    

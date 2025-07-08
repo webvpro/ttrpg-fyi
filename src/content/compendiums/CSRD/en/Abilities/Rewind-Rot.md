@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Magic/Modern
+title: Rewind Rot
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: ''
+tier: High
+pools:
+  - Intellect
+categories:
+  - Magic
 ---
-  
-    
 ## Rewind Rot  
 >**Enabler**    
   

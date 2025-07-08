@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Craft
   - Ability/Categories/Meta
+title: Modify Artifact Power
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Craft
+  - Meta
 ---
-  
-    
 ## Modify Artifact Power    
 >**Action**    
 >6 Intellect points  

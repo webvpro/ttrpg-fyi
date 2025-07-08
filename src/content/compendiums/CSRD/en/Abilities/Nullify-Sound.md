@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Environment
+title: Nullify Sound
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Environment
 ---
-  
-    
 ## Nullify Sound    
 >**Action**    
 >3 Might points  

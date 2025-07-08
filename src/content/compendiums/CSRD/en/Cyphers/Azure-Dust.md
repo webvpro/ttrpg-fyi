@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Azure Dust
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Azure Dust    
 >[!info] Stats    
 > **Level:** 1d6+1    

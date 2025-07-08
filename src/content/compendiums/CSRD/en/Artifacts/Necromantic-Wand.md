@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Necromantic Wand
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Necromantic Wand    
 >[!info] Stats    
 > **Level:** 1d6+4    

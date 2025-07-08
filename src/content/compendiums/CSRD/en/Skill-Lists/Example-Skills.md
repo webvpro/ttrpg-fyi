@@ -5,6 +5,9 @@ tags:
   - Compendium/CSRD/en/Skill-Lists
   - List/Skill/Example
   - Character/Skills
+title: Example Skills
+collection: Skill-Lists
+kind: List
 ---
 ## Example-Skills  
 - Astronomy  

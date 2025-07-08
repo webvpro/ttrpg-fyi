@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Power-Boost
+title: Range Boost
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Range Boost    
 >[!info] Stats    
 > **Level:** 1d6+1    

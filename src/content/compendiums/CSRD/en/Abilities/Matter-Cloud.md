@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Protection
   - Ability/Categories/Special-Attack
+title: Matter Cloud
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Protection
+  - Special-Attack
 ---
-  
-    
 ## Matter Cloud    
 >**Action**    
 >5 Intellect points  

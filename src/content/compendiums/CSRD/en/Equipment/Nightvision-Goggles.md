@@ -17,9 +17,10 @@ tags:
   - Equipment/Sense-Enhancing-Tools
   - Equipment/Level/3
   - Equipment/Value/Expensive
+title: Nightvision Goggles
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Nightvision Goggles    
     
 >    

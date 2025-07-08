@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Environment-Manipulation
+title: Focuses Mind over Matter
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Focuses Mind over Matter    
 You can telekinetically move objects with your mind without physically touching them.    
   

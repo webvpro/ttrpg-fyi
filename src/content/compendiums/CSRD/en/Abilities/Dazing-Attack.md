@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Special-Attack
+title: Dazing Attack
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Dazing Attack    
 >**Action**    
 >3 Might points  

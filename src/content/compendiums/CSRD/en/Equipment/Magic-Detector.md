@@ -11,9 +11,10 @@ tags:
   - Equipment/Contemporary
   - Equipment/Modern
   - Equipment/Sense-Enhancing-Tools
+title: Magic Detector
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Magic Detector    
 >This simple white badge glows purple in the presence of magic. Once it detects something magical, it does not function again.  
     

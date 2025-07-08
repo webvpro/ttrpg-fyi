@@ -10,9 +10,10 @@ tags:
   - Equipment/Value/Very-Expensive-X2
   - Equipment/Range/Long
   - Equipment/Weapon/Rapid-Fire
+title: Blaster, Heavy Pulse Rifle
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Blaster, Heavy Pulse Rifle    
     
 >Rifle that projects an energetic plasma-particle beam; It ignores 1 point of Armor value (except from force fields).    

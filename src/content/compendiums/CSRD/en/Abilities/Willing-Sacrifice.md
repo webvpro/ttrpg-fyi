@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Categories/Cure
   - Ability/Categories/Meta
+title: Willing Sacrifice
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Cure
+  - Meta
 ---
-  
-    
 ## Willing Sacrifice    
 >**Action**  
     

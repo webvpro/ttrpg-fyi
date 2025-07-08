@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Speed
   - Ability/Categories/Cure
+title: Escape
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Speed
+categories:
+  - Cure
 ---
-  
-    
 ## Escape    
 >**Action**    
 >2 Speed points  

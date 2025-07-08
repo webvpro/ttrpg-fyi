@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Information
+title: Drawing on Life's Experiences
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Information
 ---
-  
-    
 ## Drawing on Life's Experiences    
 >**Action**    
 >6 Intellect points  

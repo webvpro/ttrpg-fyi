@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Smartdust
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Smartdust    
 >[!info] Stats    
 > **Level:** 1d6+2  

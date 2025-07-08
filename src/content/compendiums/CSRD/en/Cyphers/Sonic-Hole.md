@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Sonic Hole
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Sonic Hole    
 >[!info] Stats    
 > **Level:** 1d6+2    

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Knapsack of Sevens
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Knapsack of Sevens    
 >[!info] Stats    
 > **Level:** 1d6    

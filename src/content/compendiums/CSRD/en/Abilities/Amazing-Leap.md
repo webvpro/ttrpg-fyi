@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Might
   - Ability/Categories/NA
+title: Amazing Leap
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: NA
+pools:
+  - Might
+categories:
+  - NA
 ---
-  
-    
 ## Amazing Leap    
 >**Action**    
 >2 Might points  

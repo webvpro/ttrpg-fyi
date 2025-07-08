@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Instant Shelter
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Instant Shelter    
 >[!info] Stats    
 > **Level:** 1d6+3    

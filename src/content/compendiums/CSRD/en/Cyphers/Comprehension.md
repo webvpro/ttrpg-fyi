@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Comprehension
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Comprehension    
 >[!info] Stats    
 > **Level:** 1d6+1    

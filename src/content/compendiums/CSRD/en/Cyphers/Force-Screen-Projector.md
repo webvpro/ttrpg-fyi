@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Force Screen Projector
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Force Screen Projector    
 >[!info] Stats    
 > **Level:** 1d6+3    

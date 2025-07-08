@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Movement
+title: Blink of an Eye
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Movement
 ---
-  
-    
 ## Blink of an Eye    
 >**Action**    
 >4 Speed points  

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Blinking
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Blinking    
 >[!info] Stats    
 > **Level:** 1d6    

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Poisoner's Touch
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Poisoner's Touch    
 >[!info] Stats    
 > **Level:** 1d6+1    

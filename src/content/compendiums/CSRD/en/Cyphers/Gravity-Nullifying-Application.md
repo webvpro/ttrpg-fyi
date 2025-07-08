@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Gravity-Nullifying Application
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Gravity-Nullifying Application    
 >[!info] Stats    
 > **Level:** 1d6+2    

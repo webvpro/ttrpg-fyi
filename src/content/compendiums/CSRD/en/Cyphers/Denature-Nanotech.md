@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Denature Nanotech
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Denature Nanotech    
 >[!info] Stats    
 > **Level:** 1d6+3  

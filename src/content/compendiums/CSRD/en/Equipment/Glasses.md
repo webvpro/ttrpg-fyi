@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
+title: Glasses
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Glasses    
     
 >Corrects for different vision impairments    

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Salvaged Car
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Salvaged Car    
 >[!info] Stats    
 > **Level:** 1d6    

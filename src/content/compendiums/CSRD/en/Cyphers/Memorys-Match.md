@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers/Memorys-Match
   - Cypher
   - Cypher/Fairy-Tale
+title: Memory's Match
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Memory's Match    
 >[!info] Stats    
 > **Level:** 1d6    

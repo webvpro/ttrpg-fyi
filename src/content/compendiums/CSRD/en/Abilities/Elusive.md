@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Speed
   - Ability/Categories/Meta
+title: Elusive
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Low
+pools:
+  - Speed
+categories:
+  - Meta
 ---
-  
-    
 ## Elusive    
 >**Enabler**    
 >2 Speed points  

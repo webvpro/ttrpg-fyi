@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Power-Boost
+title: Stunt Boost
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Stunt Boost    
 >[!info] Stats    
 > **Level:** 1d6+2    

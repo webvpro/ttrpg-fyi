@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/1-Gp
+title: Arrows (20)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Arrows (20)    
     
 >    

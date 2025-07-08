@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Categories/Cure
   - Ability/Categories/Meta
+title: Deep Reserves
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: High
+pools: []
+categories:
+  - Cure
+  - Meta
 ---
-  
-    
 ## Deep Reserves    
 >**Action**  
     

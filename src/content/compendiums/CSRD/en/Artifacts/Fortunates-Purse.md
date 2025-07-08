@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Fortunate's Purse
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Fortunate's Purse    
 >[!info] Stats    
 > **Level:** 1d6    

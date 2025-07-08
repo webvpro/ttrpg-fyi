@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Age Taker
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Age Taker    
 >[!info] Stats    
 > **Level:** 1d6+4    

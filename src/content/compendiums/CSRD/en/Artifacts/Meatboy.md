@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Meatboy
   - Artifact
   - Artifact/Modern-Fantasy
+title: Meatboy
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Meatboy  
 >1d6  
 #### Form  

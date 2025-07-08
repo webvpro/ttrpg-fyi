@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Iron Stove
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Iron Stove    
 >[!info] Stats    
 > **Level:** 1d6+3    

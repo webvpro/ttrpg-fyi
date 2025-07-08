@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Energy-Manipulation
+title: Dances with Dark Matter
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Dances with Dark Matter    
 You can manipulate shadow and "dark" matter.    
   

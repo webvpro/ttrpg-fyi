@@ -8,9 +8,10 @@ tags:
   - Equipment/Value/Expensive
   - Equipment/Range/Long
   - Equipment/Weapon/Medium
+title: Medium Blaster
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Medium Blaster    
     
 >    

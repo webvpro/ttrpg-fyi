@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Curative
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Curative    
 >[!info] Stats    
 > **Level:** 1d6+2    

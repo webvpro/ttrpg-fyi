@@ -10,9 +10,10 @@ tags:
   - Equipment/Value/Expensive
   - Equipment/Weapon/Light
   - Equipment/Range/Long
+title: Laser Photon Pistol
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Laser Photon Pistol    
     
 >Handgun fires coherent light beams;    

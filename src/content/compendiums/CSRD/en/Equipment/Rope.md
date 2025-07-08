@@ -16,9 +16,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
+title: Rope
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Rope    
     
 >Hemp, 50 feet    

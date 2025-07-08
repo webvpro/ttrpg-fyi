@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Movement-Expertise
+title: Works the Back Alleys
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Works the Back Alleys    
 You make your way unseen, stealing from the wealthy to achieve your ends.    
   

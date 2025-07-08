@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Song-of-the-Siren
   - Artifact
   - Artifact/Modern-Fantasy
+title: Song of the Siren
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Song of the Siren  
   
 >1d6 +3  

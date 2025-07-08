@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Death Bringer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Death Bringer    
 >[!info] Stats    
 > **Level:** 1d6    

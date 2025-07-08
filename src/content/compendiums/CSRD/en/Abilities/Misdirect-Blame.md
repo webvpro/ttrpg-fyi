@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Social
+title: Misdirect Blame
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Social
 ---
-  
-    
 ## Misdirect Blame    
 >**Action**    
 >2+ Intellect points  

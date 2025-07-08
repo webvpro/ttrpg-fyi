@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Might
   - Ability/Categories/NA
+title: Wooden Body
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: NA
+pools:
+  - Might
+categories:
+  - NA
 ---
-  
-    
 ## Wooden Body    
 >**Action**    
 >1+ Might points  

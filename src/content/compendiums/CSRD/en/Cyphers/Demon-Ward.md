@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Demon Ward
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Demon Ward    
 >[!info] Stats    
 > **Level:** 1d6    

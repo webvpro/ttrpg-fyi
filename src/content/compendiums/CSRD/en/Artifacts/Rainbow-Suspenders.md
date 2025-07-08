@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Rainbow-Suspenders
   - Artifact
   - Artifact/Modern-Fantasy
+title: Rainbow Suspenders
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Rainbow Suspenders  
   
 >1d6   

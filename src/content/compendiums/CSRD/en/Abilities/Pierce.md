@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Speed
   - Ability/Categories/Special-Attack
+title: Pierce
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Speed
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Pierce    
 >**Action**    
 >1 Speed point  

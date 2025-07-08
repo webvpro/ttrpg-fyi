@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Mid
   - Ability/Categories/Special-Attack
+title: Dual Medium Wield
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Dual Medium Wield    
 >**Enabler**  
     

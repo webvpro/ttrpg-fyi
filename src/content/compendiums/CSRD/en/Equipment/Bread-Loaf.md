@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/2-Cp
+title: Bread, Loaf
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Bread, Loaf    
     
 >    

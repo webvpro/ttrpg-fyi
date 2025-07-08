@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/
   - Ability/Categories/
+title: Spell Bullet
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: ''
+tier: Low
+pools:
+  - ''
+categories:
+  - ''
 ---
-  
-    
 ## Spell Bullet    
 >**Action**    
     

@@ -6,9 +6,10 @@ tags:
   - Equipment/Modern
   - Equipment/Utility-Gear
   - Equipment/Value/Expensive
+title: Scuba Gear
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Scuba Gear    
     
 >    

@@ -15,9 +15,10 @@ tags:
   - Equipment/Level/3
   - Equipment/Value/Moderate
   - Equipment/Value/Expensive
+title: Sleeping Bag
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Sleeping Bag    
     
 >    

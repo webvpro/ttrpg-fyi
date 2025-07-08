@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Trap Runestone
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Trap Runestone    
 >[!info] Stats    
 > **Level:** 1d6    

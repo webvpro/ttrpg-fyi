@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/4
   - Equipment/Value/Expensive
   - Equipment/Value/Very-Expensive
+title: Car, Sedan
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Car, Sedan    
     
 >As used car, but in better shape. Moves a long distance each round on paved surfaces or an average of 96 km/h (60 mph) during extended trips.    

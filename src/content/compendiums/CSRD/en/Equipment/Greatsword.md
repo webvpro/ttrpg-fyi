@@ -8,9 +8,10 @@ tags:
   - Equipment/Value/Very-Expensive
   - Equipment/Value/50-Gp
   - Equipment/Weapon/Heavy
+title: Greatsword
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Greatsword    
     
 >A two-handed version of the broadsword.    

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Information
+title: Retrieve Memories
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Information
 ---
-  
-    
 ## Retrieve Memories    
 >**Action**    
 >3 Intellect points  

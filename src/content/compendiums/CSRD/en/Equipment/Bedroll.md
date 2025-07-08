@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
   - Equipment/Value/1-Gp
+title: Bedroll
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Bedroll    
     
 >    

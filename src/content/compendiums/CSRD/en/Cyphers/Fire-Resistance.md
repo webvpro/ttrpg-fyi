@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Fire Resistance
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Fire Resistance    
 >[!info] Stats    
 > **Level:** 1d6+3    

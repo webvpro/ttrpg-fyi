@@ -15,9 +15,10 @@ tags:
   - Equipment/Modern
   - Equipment/Level/2
   - Equipment/Value/Moderate
+title: First Aid Kit
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## First Aid Kit    
     
 >    

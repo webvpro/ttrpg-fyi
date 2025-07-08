@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Autodoc
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Autodoc    
 >[!info] Stats    
 > **Level:** 1d6    

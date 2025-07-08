@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Sleep Inducer
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Sleep Inducer    
 >[!info] Stats    
 > **Level:** 1d6    

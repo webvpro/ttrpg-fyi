@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Farsight
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Farsight    
 >[!info] Stats    
 > **Level:** 1d6+1    

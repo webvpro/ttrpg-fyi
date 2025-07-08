@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Very-Expensive
   - Equipment/Asset
+title: Infiltrator
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Infiltrator    
     
 >Asset for lockpicking tasks when used with electronic locks    

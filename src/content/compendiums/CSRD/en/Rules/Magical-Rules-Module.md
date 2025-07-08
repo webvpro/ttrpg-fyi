@@ -5,8 +5,10 @@ tags:
   - Rule/Crafting/Magic-Items
   - Rule/Crafting/Cypher
   - Rule/Crafting/Artifacts
+title: M
+collection: Rules
+kind: Rule
 ---
-  
 # Magical Rules Module  
   
 ## Crafting Magic Items  

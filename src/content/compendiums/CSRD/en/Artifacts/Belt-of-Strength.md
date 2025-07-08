@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Belt of Strength
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Belt of Strength    
 >[!info] Stats    
 > **Level:** 1d6    

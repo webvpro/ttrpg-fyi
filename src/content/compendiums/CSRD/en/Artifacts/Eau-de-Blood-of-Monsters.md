@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Eau-de-Blood-of-Monsters
   - Artifact
   - Artifact/Modern-Fantasy
+title: Eau de Blood of Monsters
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Eau de Blood of Monsters  
 >1d6 +4  
 #### Form  

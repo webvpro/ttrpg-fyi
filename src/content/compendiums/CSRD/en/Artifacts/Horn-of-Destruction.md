@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Horn of Destruction
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Horn of Destruction    
 >[!info] Stats    
 > **Level:** 1d6+3    

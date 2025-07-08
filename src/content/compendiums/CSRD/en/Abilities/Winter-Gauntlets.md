@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Categories/Meta
   - Ability/Categories/Special-Attack
+title: Winter Gauntlets
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: High
+pools: []
+categories:
+  - Meta
+  - Special-Attack
 ---
-  
-    
 ## Winter Gauntlets    
 >**Action**  
     

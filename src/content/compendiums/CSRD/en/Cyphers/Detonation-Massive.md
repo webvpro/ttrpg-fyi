@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Detonation Massive
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Detonation Massive    
 >[!info] Stats    
 > **Level:** 1d6+2    

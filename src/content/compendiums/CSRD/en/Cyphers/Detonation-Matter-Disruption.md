@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Detonation Matter Disruption
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Detonation Matter Disruption    
 >[!info] Stats    
 > **Level:** 1d6+4    

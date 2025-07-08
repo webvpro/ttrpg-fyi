@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Red Cap
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Red Cap    
 >[!info] Stats    
 > **Level:** 1d6+3    

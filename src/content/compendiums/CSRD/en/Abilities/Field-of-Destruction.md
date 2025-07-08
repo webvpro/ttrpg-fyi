@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Might
   - Ability/Categories/Protection
+title: Field of Destruction
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '4'
+tier: Low
+pools:
+  - Might
+categories:
+  - Protection
 ---
-  
-    
 ## Field of Destruction    
 >**Enabler**    
 >4 Might points  

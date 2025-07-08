@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Senses
+title: Infer Thoughts
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Senses
 ---
-  
-    
 ## Infer Thoughts    
 >**Action**    
 >4 Intellect points  

@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Intrusion/Science-and-Engineering-System-Gm-Intrusions
+title: Science and Engineering System Gm Intrusions
+collection: Tables
+kind: Table
 ---
-  
 ## Science & Engineering System Gm Intrusions Table  
 |  Roll &nbsp; &nbsp; | Science and Engineering System Gm Intrusions  |  
 | ------------- | :----------- |  

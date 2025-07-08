@@ -4,6 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Character-Arcs/Aid-a-Friend
   - Character-Arc
+title: Aid a Friend
+collection: Character-Arcs
+kind: Arc
+categories: []
 ---
 ## Aid a Friend  
 >Someone needs your help.  

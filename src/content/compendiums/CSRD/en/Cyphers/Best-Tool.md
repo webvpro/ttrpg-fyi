@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Best Tool
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Best Tool    
 >[!info] Stats    
 > **Level:** 1d6    

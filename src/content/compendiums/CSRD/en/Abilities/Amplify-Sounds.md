@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Might
   - Ability/Categories/Senses
   - Ability/Categories/Task
+title: Amplify Sounds
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '2'
+tier: High
+pools:
+  - Might
+categories:
+  - Senses
+  - Task
 ---
-  
-    
 ## Amplify Sounds    
 >**Action**    
 >2 Might points  

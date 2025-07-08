@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Craft
+title: Jury-Rig
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Craft
 ---
-  
-    
 ## Jury-Rig    
 >**Action**    
 >5 Intellect points  

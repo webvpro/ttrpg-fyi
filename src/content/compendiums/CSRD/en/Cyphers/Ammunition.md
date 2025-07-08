@@ -6,9 +6,10 @@ tags:
   - Cypher
   - Cypher/Scavenger
   - Cypher/Subtle
+title: Ammunition
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Ammunition    
 >[!info] Stats    
 > **Level:** 1d6+1    

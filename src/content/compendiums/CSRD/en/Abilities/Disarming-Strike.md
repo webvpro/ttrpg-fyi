@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Speed
   - Ability/Categories/Meta
   - Ability/Categories/Special-Attack
+title: Disarming Strike
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Meta
+  - Special-Attack
 ---
-  
-    
 ## Disarming Strike    
 >**Action**    
 >3 Speed points  

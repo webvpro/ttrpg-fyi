@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact/Weapon
   - Artifact/Science-Fiction
+title: Alpha Beam Projector
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Alpha Beam Projector    
 >[!info] Stats    
 > **Level:** 1d6+3    

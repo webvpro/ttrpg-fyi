@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Mermaid Tear
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Mermaid Tear    
 >[!info] Stats    
 > **Level:** 1d6+2    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Ray Emitter Paralysis
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Ray Emitter Paralysis    
 >[!info] Stats    
 > **Level:** 1d6+2    

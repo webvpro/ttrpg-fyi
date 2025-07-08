@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Might
   - Ability/Categories/Task
+title: Muscles of Iron
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Low
+pools:
+  - Might
+categories:
+  - Task
 ---
-  
-    
 ## Muscles of Iron    
 >**Enabler**    
 >2 Might points  

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Tinderbox
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Tinderbox    
 >[!info] Stats    
 > **Level:** 1d6+2    

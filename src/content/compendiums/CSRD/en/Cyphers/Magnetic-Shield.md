@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Magnetic Shield
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Magnetic Shield    
 >[!info] Stats    
 > **Level:** 1d6+2    

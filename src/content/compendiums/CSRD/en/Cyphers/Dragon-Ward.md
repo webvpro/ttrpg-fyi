@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/CyphersDragon-Ward
   - Cypher
   - Cypher/Fantasy
+title: Dragon Ward
+collection: CyphersDragon-Ward
+kind: Cypher
 ---
-  
-    
 ## Dragon Ward    
 >[!info] Stats    
 > **Level:** 1d6    

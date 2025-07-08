@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Dragon-Pen
   - Artifact
   - Artifact/Modern-Fantasy
+title: Dragon Pen
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Dragon Pen  
 >1d6 +2  
 #### Form  

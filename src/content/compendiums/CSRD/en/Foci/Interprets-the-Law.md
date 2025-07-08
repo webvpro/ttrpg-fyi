@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Basic
+title: Interprets the Law
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Interprets the Law    
 You excel at winning others over to your views.    
   

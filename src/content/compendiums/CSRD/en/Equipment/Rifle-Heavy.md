@@ -14,9 +14,10 @@ tags:
   - Equipment/Value/Very-Expensive
   - Equipment/Weapon/Heavy
   - Equipment/Range/Very-Long
+title: Rifle, Heavy
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Rifle, Heavy    
     
 >300-foot (90 m) range    

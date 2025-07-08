@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/5-Sp
+title: Pouch or Other Small Rations
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Pouch or Other Small Rations    
     
 >    

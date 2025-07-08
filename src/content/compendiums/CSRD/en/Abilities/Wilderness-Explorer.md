@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Environment
+title: Wilderness Explorer
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Environment
 ---
-  
-    
 ## Wilderness Explorer    
 >**Enabler**  
     

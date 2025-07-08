@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Cloak of Balakar
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Cloak of Balakar    
 >[!info] Stats    
 > **Level:** 1d6+3    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Scavenger-Subtle
+title: First Aid
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## First Aid    
 >[!info] Stats    
 > **Level:** 1d6+1    

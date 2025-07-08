@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Monohorn
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Monohorn    
 >[!info] Stats    
 > **Level:** 1d6+3    

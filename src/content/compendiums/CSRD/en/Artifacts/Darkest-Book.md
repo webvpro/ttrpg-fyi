@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Superhero
+title: Darkest Book
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Darkest Book    
 >[!info] Stats    
 > **Level:** +10    

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Movement
+title: Bolt Rider
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Movement
 ---
-  
-    
 ## Bolt Rider    
 >**Action**    
 >4 Intellect points  

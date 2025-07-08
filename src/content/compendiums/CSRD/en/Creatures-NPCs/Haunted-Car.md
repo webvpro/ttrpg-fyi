@@ -9,9 +9,13 @@ tags:
   - Creature/Armor/2
   - Creature/Armor/3
   - Creature/Health/20
+title: Haunted Car
+collection: Creatures-NPCs
+kind: Creature
+level: 5
+armor: 2
+health: 20
 ---
-  
-    
 ## Haunted Car    
 Whether you call them haunted, possessed, misenchanted, cursed, or just plain evil, some cars develop a hateful will, the ability to drive themselves, and a love for the smell of blood on asphalt.   
   

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Speed
   - Ability/Categories/Special-Attack
+title: Return to Sender
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: High
+pools:
+  - Speed
+categories:
+  - Special-Attack
 ---
-  
-    
 ## Return to Sender    
 >**Enabler**    
 >3 Speed points  

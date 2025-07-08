@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Speed
   - Ability/Categories/Attack-Skill
   - Ability/Categories/Meta
+title: Duel to the Death
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: High
+pools:
+  - Speed
+categories:
+  - Attack-Skill
+  - Meta
 ---
-  
-    
 ## Duel to the Death    
 >**Action**    
 >5 Speed points  

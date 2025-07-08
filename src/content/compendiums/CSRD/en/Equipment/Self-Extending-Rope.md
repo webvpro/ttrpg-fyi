@@ -8,9 +8,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/4
   - Equipment/Value/Expensive
+title: Self-Extending Rope
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Self-Extending Rope    
     
 >Mechanism prints fiber on the fly, allowing the rope to extend over 300 m (1,000 feet).    

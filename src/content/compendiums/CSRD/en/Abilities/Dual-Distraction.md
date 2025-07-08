@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Speed
   - Ability/Categories/Meta
+title: Dual Distraction
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '1'
+tier: High
+pools:
+  - Speed
+categories:
+  - Meta
 ---
-  
-    
 ## Dual Distraction    
 >**Enabler**    
 >1+ Speed points  

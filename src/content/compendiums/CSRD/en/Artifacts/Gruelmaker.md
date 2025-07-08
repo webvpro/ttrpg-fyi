@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Gruelmaker
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Gruelmaker    
 >[!info] Stats    
 > **Level:** 1d6    

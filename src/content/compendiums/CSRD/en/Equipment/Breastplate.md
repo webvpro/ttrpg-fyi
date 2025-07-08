@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Expensive
   - Equipment/Armor/Medium
+title: Breastplate
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Breastplate    
     
 >A fitted metal plate or set of plates that protect your torso but not your arms or legs, giving you greater movement than full plate at the cost of some protection.    

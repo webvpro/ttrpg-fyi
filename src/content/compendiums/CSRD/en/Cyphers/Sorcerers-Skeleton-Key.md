@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers/Sorcerers-Skeleton-Key
   - Cypher
+title: Sorcerer's Skeleton Key
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Sorcerer's Skeleton Key    
 >[!info] Stats    
 > **Level:** 1d6+2    

@@ -13,9 +13,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
+title: Bag of Heavy Tools
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Bag of Heavy Tools    
     
 >Contains a hammer, six spikes, crowbar, large tongs, chisel, and 10 feet (3 m) of strong rope.    

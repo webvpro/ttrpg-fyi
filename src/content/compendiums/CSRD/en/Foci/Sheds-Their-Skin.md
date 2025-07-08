@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci/Sheds-Their-Skin
   - Focus/Category/Fairytale
+title: Sheds Their Skin
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Sheds Their Skin  
 You have a secret self. In the quiet and stillness, you become not someone else, but something else. A being of tooth and nail, of flipper and fin, of mane and moon. But you believe that in order to survive and thrive, you must keep your other form secret, safe from prying eyes and listening ears.  
   

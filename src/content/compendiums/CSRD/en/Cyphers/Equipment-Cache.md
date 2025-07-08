@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Equipment Cache
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Equipment Cache    
 >[!info] Stats    
 > **Level:** 1d6+1    

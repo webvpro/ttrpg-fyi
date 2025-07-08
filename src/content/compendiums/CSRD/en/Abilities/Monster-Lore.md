@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Categories/Information
   - Ability/Categories/Task
+title: Monster Lore
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Low
+pools: []
+categories:
+  - Information
+  - Task
 ---
-  
-    
 ## Monster Lore    
 >**Enabler**  
     

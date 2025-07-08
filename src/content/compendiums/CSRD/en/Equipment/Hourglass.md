@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
   - Equipment/Value/25-Gp
+title: Hourglass
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Hourglass    
     
 >    

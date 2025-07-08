@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Inferno Wall
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Inferno Wall    
 >[!info] Stats    
 > **Level:** 1d6+2    

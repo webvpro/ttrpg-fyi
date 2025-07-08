@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+title: Copies Superpowers
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Copies Superpowers    
 You can copy others' skills, abilities, and superpowers.    
   

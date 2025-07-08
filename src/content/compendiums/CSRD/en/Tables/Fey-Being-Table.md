@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table
+title: Fey Being Table
+collection: Tables
+kind: Table
 ---
-  
 ## Fey Being Table Table  
 |  Roll &nbsp; &nbsp; | Fey Being Table  |  
 | ------------- | :----------- |  

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Slave Maker
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Slave Maker    
 >[!info] Stats    
 > **Level:** 1d6+2    

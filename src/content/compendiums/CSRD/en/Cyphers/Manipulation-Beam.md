@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Manipulation Beam
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Manipulation Beam    
 >[!info] Stats    
 > **Level:** 1d6+2    

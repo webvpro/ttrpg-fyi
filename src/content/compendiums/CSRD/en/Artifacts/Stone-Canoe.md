@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Stone Canoe
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Stone Canoe    
 >[!info] Stats    
 > **Level:** 1d6+3    

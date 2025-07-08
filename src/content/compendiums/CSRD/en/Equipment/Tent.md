@@ -13,9 +13,10 @@ tags:
   - Equipment/Level/3
   - Equipment/Value/Moderate
   - Equipment/Value/Expensive
+title: Tent
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Tent    
     
 >This has enough room for two humans or three smaller people.    

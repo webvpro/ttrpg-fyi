@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Subtle
+title: Contingent Activator
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Contingent Activator    
 >[!info] Stats    
 > **Level:** 1d6+2    

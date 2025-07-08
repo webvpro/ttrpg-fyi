@@ -7,6 +7,9 @@ tags:
   - Rules/Basic
   - Rule/Damge-From-Hazards
   - Rule
+title: Rules of the Game
+collection: Rules
+kind: Rules
 ---
 # Rules of the Game    
 Cypher System games are played in the joint imagination of all the players, including the GM. The GM sets the scene, the players state what their characters attempt to do, and the GM determines what happens next. The rules and the dice help make the game run smoothly, but it’s the people, not the rules or the dice, that direct the action and determine the story—and the fun. If a rule gets in the way or detracts from the game, the players and the GM should work together to change it.  

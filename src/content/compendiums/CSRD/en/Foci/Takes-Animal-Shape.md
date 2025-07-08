@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+title: Takes Animal Shape
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Takes Animal Shape    
 A shapechanger who can take the form of various animals.    
   

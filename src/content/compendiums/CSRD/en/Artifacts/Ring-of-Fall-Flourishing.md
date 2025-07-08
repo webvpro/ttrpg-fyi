@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Ring of Fall Flourishing
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Ring of Fall Flourishing    
 >[!info] Stats    
 > **Level:** 1d6    

@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Might
   - Ability/Pool/Speed
   - Ability/Categories/NA
+title: Flight Exertion
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: NA
+pools:
+  - Might
+  - Speed
+categories:
+  - NA
 ---
-  
-    
 ## Flight Exertion    
 >**Enabler**    
 >3 Might or 3 Speed points  

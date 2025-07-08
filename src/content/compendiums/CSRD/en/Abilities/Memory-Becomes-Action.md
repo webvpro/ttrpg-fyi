@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Memory Becomes Action
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '4'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Memory Becomes Action    
 >**Enabler**    
 >4+ Intellect points  

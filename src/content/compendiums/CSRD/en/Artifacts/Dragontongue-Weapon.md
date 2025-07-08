@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Dragontongue Weapon
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Dragontongue Weapon    
 >[!info] Stats    
 > **Level:** 1d6+2    

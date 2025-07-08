@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Detonation Spawn
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Detonation Spawn    
 >[!info] Stats    
 > **Level:** 1d6+2    

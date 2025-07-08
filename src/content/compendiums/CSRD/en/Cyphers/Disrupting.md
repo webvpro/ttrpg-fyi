@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Disrupting
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Disrupting    
 >[!info] Stats    
 > **Level:** 1d6    

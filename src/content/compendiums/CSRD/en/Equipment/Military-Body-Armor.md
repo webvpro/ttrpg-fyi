@@ -13,9 +13,10 @@ tags:
   - Equipment/Level/4
   - Equipment/Value/Very-Expensive
   - Equipment/Armor/Heavy
+title: Military Body Armor
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Military Body Armor    
     
 >    

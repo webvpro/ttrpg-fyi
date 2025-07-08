@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Speed
   - Ability/Categories/Movement
+title: Get Away
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: Low
+pools:
+  - Speed
+categories:
+  - Movement
 ---
-  
-    
 ## Get Away    
 >**Enabler**    
 >2 Speed points  

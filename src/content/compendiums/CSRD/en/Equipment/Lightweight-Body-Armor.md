@@ -15,9 +15,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Very-Expensive
   - Equipment/Armor/Medium
+title: Lightweight Body Armor
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Lightweight Body Armor    
     
 >encumbers as Light armor    

@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Exploration
+title: Pilots Starcraft
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Pilots Starcraft    
 You're a crack starship pilot.    
   

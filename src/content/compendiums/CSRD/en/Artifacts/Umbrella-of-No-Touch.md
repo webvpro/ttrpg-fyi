@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Umbrella-of-No-Touch
   - Artifact
   - Artifact/Modern-Fantasy
+title: Umbrella of No-Touch
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Umbrella of No-Touch  
   
 >1d6 +3  

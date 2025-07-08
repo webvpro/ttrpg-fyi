@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Movement-Expertise
+title: Exists Partially Out of Phase
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Exists Partially Out of Phase    
 A bit translucent, you're slightly out of phase and can move through solid objects.    
   

@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Invisibility Serum
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Invisibility Serum    
 >[!info] Stats    
 > **Level:** 1d6+2    

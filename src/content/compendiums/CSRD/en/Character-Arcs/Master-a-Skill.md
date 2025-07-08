@@ -4,6 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Character-Arcs/Master-a-Skill
   - Character-Arc
+title: Master a Skill
+collection: Character-Arcs
+kind: Arc
+categories: []
 ---
 ## Master a Skill  
 >You’re skilled, but you want to become the best. This arc might logically follow the Learn arc. As with the Learn arc, this can involve any kind of training at all, not just a skill.   

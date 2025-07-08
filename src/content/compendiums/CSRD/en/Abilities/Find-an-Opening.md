@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Senses
+title: Find an Opening
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '1'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Senses
 ---
-  
-    
 ## Find an Opening    
 >**Action**    
 >1 Intellect point  

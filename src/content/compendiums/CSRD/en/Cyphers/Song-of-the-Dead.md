@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Song of the Dead
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Song of the Dead    
 >[!info] Stats    
 > **Level:** 1d6    

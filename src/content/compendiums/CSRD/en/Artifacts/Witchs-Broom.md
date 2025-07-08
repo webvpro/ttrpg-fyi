@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Witchs-Broom
   - Artifact
   - Artifact/Modern-Fantasy
+title: Witch’s Broom
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Witch’s Broom  
   
 >1d6 + 2  

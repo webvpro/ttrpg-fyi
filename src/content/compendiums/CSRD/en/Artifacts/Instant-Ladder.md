@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Instant Ladder
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Instant Ladder    
 >[!info] Stats    
 > **Level:** 1d6    

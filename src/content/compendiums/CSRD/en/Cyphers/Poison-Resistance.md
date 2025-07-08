@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantasy
+title: Poison Resistance
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Poison Resistance    
 >[!info] Stats    
 > **Level:** 1d6+3    

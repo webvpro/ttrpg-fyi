@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Bolster Illusion
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '2'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Bolster Illusion    
 >**Enabler**    
 >2+ Intellect points  

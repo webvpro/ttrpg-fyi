@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors
   - Descriptor
+title: Mysterious
+collection: Descriptors
+kind: Descriptor
 ---
-  
 ## Mysterious    
 The dark figure lurking silently in the corner? That's you. No one really knows where you came from or what your motives are-you play things close to the vest. Your manner perplexes and confounds others, but that doesn't make you a poor friend or ally. You're just good at keeping things to yourself, moving about unseen, and concealing your presence and identity.  
 ### You gain the following characteristics    

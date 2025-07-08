@@ -6,9 +6,10 @@ tags:
   - Cypher
   - Cypher/Fantastic
   - Cypher/Manifest
+title: Zero Point Field
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Zero Point Field    
 >[!info] Stats    
 > **Level:** 1d6+3    

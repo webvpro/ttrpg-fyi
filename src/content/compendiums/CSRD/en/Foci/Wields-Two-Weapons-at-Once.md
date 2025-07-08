@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Striker-Combat
+title: Wields Two Weapons at Once
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Wields Two Weapons at Once    
 You bear steel with both hands, ready to take on any foe.    
   

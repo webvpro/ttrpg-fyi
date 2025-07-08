@@ -10,9 +10,10 @@ tags:
   - Equipment/Value/Very-Expensive
   - Equipment/Weapon/Heavy
   - Equipment/Range/Long
+title: Blaster, Heavy
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Blaster, Heavy    
     
 >Big handgun that projects an energetic plasma-particle beam; It ignores 1 point of Armor value (except from force fields).    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Gas Bomb
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Gas Bomb    
 >[!info] Stats    
 > **Level:** 1d6+2    

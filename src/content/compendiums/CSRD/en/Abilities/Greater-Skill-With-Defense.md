@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Mid
   - Ability/Categories/Attack-Skill
+title: Greater Skill With Defense
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Attack-Skill
 ---
-  
-    
 ## Greater Skill With Defense    
 >**Enabler**  
     

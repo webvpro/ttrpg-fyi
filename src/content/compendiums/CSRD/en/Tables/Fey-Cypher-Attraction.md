@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table
+title: Fey Cypher Attraction
+collection: Tables
+kind: Table
 ---
-  
 ## Fey Cypher Attraction Table  
 |  Roll &nbsp; &nbsp; | Fey Cypher Attraction  |  
 | ------------- | :----------- |  

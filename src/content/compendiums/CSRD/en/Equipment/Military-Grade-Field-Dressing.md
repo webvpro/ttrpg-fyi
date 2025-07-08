@@ -8,9 +8,10 @@ tags:
   - Equipment/Modern
   - Equipment/Level/3
   - Equipment/Value/Very-Expensive
+title: Military-Grade Field Dressing
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Military-Grade Field Dressing    
     
 >Bandage with antimicrobial, analgesic, hemostatic, and temporary skin substitute qualities that can raise a victim one step of the damage track if damage was due to a wound.    

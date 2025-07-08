@@ -5,8 +5,10 @@ tags:
   - Rule/Crafting/Magic-Items
   - Rule/Crafting/Cypher
   - Rule/Crafting/Artifacts
+title: F
+collection: Rules
+kind: Rule
 ---
-  
 # Fantasy Rules Module  
   
 ## Awarding Treasure  

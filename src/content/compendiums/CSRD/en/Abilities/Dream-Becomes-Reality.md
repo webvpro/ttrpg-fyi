@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Craft
+title: Dream Becomes Reality
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Craft
 ---
-  
-    
 ## Dream Becomes Reality    
 >**Action**    
 >4 Intellect points  

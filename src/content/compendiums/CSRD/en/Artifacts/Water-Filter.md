@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Water Filter
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Water Filter    
 >[!info] Stats    
 > **Level:** 1d6+1    

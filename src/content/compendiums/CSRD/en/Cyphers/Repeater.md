@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Repeater
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Repeater    
 >[!info] Stats    
 > **Level:** 1d6+1    

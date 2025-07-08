@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Movement-Expertise
+title: Runs Away
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Runs Away    
 Your first instinct is to run from danger, and you've gotten very good at it.    
   

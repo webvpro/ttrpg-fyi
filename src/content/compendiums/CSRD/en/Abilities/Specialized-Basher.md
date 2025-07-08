@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Attack-Skill
+title: Specialized Basher
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools: []
+categories:
+  - Attack-Skill
 ---
-  
-    
 ## Specialized Basher    
 >**Enabler**  
     

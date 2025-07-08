@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
+title: Resuscitate
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Cure
 ---
-  
-    
 ## Resuscitate    
 >**Action**    
 >6 Intellect points  

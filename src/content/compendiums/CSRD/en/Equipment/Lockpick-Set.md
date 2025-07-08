@@ -8,9 +8,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/3
   - Equipment/Value/Moderate
+title: Lockpick Set
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Lockpick Set    
     
 >Asset to picking mechanical locks.    

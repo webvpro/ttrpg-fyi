@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
   - Equipment/Weapon/Light
+title: Knife (Rusty and Worn)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Knife (Rusty and Worn)    
     
 >won't last long    

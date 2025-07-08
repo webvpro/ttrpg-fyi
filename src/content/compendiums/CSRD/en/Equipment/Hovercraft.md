@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/4
   - Equipment/Value/Very-Expensive
+title: Hovercraft
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Hovercraft    
     
 >    

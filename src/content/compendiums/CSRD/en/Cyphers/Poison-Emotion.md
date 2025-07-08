@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Poison Emotion
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Poison Emotion    
 >[!info] Stats    
 > **Level:** 1d6+2    

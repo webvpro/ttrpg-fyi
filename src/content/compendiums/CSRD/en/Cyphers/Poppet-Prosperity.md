@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Poppet Prosperity
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Poppet Prosperity    
 >[!info] Stats    
 > **Level:** 1d6+2    

@@ -6,9 +6,10 @@ tags:
   - Equipment/Modern
   - Equipment/Utility-Gear
   - Equipment/Value/Expensive
+title: Straightjacket
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Straightjacket    
     
 >    

@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Might
   - Ability/Pool/Intellect
   - Ability/Categories/Support
+title: True Defender
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '6'
+tier: High
+pools:
+  - Might
+  - Intellect
+categories:
+  - Support
 ---
-  
-    
 ## True Defender    
 >**Action**    
 >6 Might or Intellect points  

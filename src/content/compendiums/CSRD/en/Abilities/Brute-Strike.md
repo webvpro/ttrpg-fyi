@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Might
   - Ability/Categories/NA
+title: Brute Strike
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '4'
+tier: NA
+pools:
+  - Might
+categories:
+  - NA
 ---
-  
-    
 ## Brute Strike    
 >**Enabler**    
 >4 Might points  

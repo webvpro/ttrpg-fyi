@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Might
   - Ability/Categories/Protection
   - Ability/Categories/Special-Attack
+title: Dodge and Respond
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Protection
+  - Special-Attack
 ---
-  
-    
 ## Dodge and Respond    
 >**Enabler**    
 >3 Might points  

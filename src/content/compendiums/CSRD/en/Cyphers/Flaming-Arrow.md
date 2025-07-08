@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Flaming Arrow
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Flaming Arrow    
 >[!info] Stats    
 > **Level:** 1d6+2    

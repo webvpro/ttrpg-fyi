@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Teleport Hat
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Teleport Hat    
 >[!info] Stats    
 > **Level:** 1d6+3    

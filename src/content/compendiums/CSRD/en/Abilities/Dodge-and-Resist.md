@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Meta
+title: Dodge and Resist
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Meta
 ---
-  
-    
 ## Dodge and Resist    
 >**Enabler**    
 >3 Speed points  

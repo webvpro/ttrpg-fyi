@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Mastercraft Weapon
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Mastercraft Weapon    
 >[!info] Stats    
 > **Level:** 1d6    

@@ -8,9 +8,13 @@ tags:
   - Creature/Level/4
   - Creature/Armor/2
   - Creature/Health/18
+title: Giant Snake
+collection: Creatures-NPCs
+kind: Creature
+level: 4
+armor: 2
+health: 18
 ---
-  
-    
 ## Giant Snake    
 Those about to stumble into the presence of a giant snake at least 50 feet (15 m) long are warned by the skin it shed and discarded and by the cracked, slippery bones of digested victims.    
   

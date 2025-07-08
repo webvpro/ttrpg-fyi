@@ -15,9 +15,10 @@ tags:
   - Equipment/Value/Very-Expensive
   - Equipment/Weapon/Heavy
   - Equipment/Range/Long
+title: Handgun, Heavy
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Handgun, Heavy    
     
 >    

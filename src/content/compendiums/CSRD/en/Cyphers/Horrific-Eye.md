@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Horrific Eye
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Horrific Eye    
 >[!info] Stats    
 > **Level:** 1d6+1    

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Hand of Glory
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Hand of Glory    
 >[!info] Stats    
 > **Level:** 1d6+3    

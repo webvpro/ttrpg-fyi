@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Assisted Sight
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Assisted Sight    
 >**Enabler**    
 >3 Intellect points  

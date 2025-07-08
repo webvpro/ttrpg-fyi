@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Information
+title: Telepathic Network
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: High
+pools:
+  - Intellect
+categories:
+  - Information
 ---
-  
-    
 ## Telepathic Network    
 >**Enabler**    
 >0+ Intellect points  

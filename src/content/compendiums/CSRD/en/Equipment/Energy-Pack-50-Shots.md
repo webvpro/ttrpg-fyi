@@ -9,9 +9,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/1
   - Equipment/Value/Inexpensive
+title: Energy Pack (50 Shots)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Energy Pack (50 Shots)    
     
 >Watt-hours (Wh) varies by specific energy weapon, used in most advanced and fantastic ranged weapons.    

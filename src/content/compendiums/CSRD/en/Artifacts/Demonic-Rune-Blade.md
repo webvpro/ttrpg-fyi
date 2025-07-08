@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Demonic Rune Blade
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Demonic Rune Blade    
 >[!info] Stats    
 > **Level:** 1d6+4    

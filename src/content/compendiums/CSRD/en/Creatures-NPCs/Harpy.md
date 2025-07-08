@@ -8,9 +8,13 @@ tags:
   - Creature/Level/3
   - Creature/Armor/0
   - Creature/Health/9
+title: Harpy
+collection: Creatures-NPCs
+kind: Creature
+level: 3
+armor: 0
+health: 9
 ---
-  
-    
 ## Harpy    
 A harpy is a hideous, filthy creature with the body of a large vulture and the neck and head of an ugly human. Their breath reeks of decay, their wings and talons drip with an unpleasant oil, and their eyes shed acrid tears. They love to torment people and lure them to their deaths.    
   

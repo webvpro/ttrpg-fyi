@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Scavenger-Subtle
+title: Firearm
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Firearm    
 >[!info] Stats    
 > **Level:** 1d6+1    

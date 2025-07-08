@@ -5,8 +5,10 @@ tags:
   - Rule/Crafting/Magic-Items
   - Rule/Crafting/Cypher
   - Rule/Crafting/Artifacts
+title: F
+collection: Rules
+kind: Rule
 ---
-  
 # Fairytale Rules Module  
   
 ## Special Rules  

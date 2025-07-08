@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Blood Pearl Blossom
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Blood Pearl Blossom    
 >[!info] Stats    
 > **Level:** 1d6+4    

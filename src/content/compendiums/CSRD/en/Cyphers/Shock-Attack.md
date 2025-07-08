@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Shock Attack
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Shock Attack    
 >[!info] Stats    
 > **Level:** 1d6    

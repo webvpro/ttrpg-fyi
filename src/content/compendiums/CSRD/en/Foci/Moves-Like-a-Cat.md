@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Movement-Expertise
+title: Moves Like a Cat
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Moves Like a Cat    
 Lithe, flexible, and graceful, you move quickly and smoothly, and never seem to be where danger is.    
   

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Task
+title: Pull a Fast One
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Task
 ---
-  
-    
 ## Pull a Fast One    
 >**Enabler**    
 >3 Intellect points  

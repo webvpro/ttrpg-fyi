@@ -8,9 +8,10 @@ tags:
   - Equipment/Space-Time-Vehicles
   - Equipment/Level/7
   - Equipment/Value/Priceless
+title: Car, Temporal or Dimensional
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Car, Temporal or Dimensional    
     
 >As contemporary utility car or sports car, but once moving can transition into another preset dimension or time. Enormous power requirements require recharge period of several days between each use.    

@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Cat's Eye Spectacles
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Cat's Eye Spectacles    
 >[!info] Stats    
 > **Level:** 1d6    

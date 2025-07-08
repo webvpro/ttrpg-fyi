@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Speed
   - Ability/Categories/Protection
+title: Block
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Speed
+categories:
+  - Protection
 ---
-  
-    
 ## Block    
 >**Action**    
 >3 Speed points  

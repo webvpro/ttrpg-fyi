@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Heart of a Star
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Heart of a Star    
 >[!info] Stats    
 > **Level:** 1d6    

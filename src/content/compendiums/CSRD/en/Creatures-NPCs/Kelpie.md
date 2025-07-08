@@ -8,9 +8,13 @@ tags:
   - Creature/Level/6
   - Creature/Armor/0
   - Creature/Health/21
+title: Kelpie
+collection: Creatures-NPCs
+kind: Creature
+level: 6
+armor: 0
+health: 21
 ---
-  
-    
 ## Kelpie    
 A sinister aquatic creature that takes the shape of a grey horse or white pony, the kelpie lures unsuspecting passersby and attempts to drown them in a nearby body of water.  
 Some kelpies look just like horses. Others look as if they're created from elements of the swamp--maybe its tail is algae, its mane cattails, its eyes glowing pebbles or miniature moons. Maybe eels and snails and other creatures are its teeth or tongue. One thing about kelpies is always true: their manes are always dripping and their hooves are always inverted.  

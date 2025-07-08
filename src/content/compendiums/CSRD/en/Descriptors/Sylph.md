@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors/Sylph
   - Descriptor/Species
+title: Sylph
+collection: Descriptors
+kind: Descriptor
 ---
-  
 ## Sylph    
 You’re an air spirit, with the gift of wingless flight and hawklike eyes. You’re happiest when you have an aerial view; you lean more toward strategy than action, calling the shots from an unmatched vantage point. Your sensitivity to air currents and atmospheric pressure means you’re able to predict weather patterns, which you incorporate into your machinations.  
 ### You gain the following characteristics:  

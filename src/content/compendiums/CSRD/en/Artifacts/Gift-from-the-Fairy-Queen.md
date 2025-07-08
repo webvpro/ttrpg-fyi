@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Gift-from-the-Fairy-Queen
   - Artifact
   - Artifact/Modern-Fantasy
+title: Gift from the Fairy Queen
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Ecosensitive Fridge Magnets  
 >1d6 +2  
 #### Form  

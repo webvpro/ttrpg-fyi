@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers/Fathers-Betrayal
   - Cypher
   - Cypher/Fairy-Tale
+title: Father's Betrayal
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Father's Betrayal    
 >[!info] Stats    
 > **Level:** 1d6+2    

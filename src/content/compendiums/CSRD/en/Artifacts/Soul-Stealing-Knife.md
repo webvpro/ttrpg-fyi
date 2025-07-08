@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Soul-Stealing Knife
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Soul-Stealing Knife    
 >[!info] Stats    
 > **Level:** 1d6    

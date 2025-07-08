@@ -20,9 +20,10 @@ tags:
   - Equipment/Value/Expensive
   - Equipment/Weapon/Heavy
   - Equipment/Range/Immediate
+title: Shotgun
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Shotgun    
     
 >    

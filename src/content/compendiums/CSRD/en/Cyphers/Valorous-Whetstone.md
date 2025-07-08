@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Valorous Whetstone
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Valorous Whetstone    
 >[!info] Stats    
 > **Level:** 1d6    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Detonation Web
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Detonation Web    
 >[!info] Stats    
 > **Level:** 1d6+2    

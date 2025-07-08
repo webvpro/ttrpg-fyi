@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Science-Fiction
+title: Amber Casement
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Amber Casement    
 >[!info] Stats    
 > **Level:** 1d6+4    

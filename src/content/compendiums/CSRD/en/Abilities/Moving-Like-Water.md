@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Speed
   - Ability/Categories/Protection
+title: Moving Like Water
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Mid
+pools:
+  - Speed
+categories:
+  - Protection
 ---
-  
-    
 ## Moving Like Water    
 >**Enabler**    
 >3 Speed points  

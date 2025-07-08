@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Science-Fiction
+title: Psychic Crystal
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Psychic Crystal    
 >[!info] Stats    
 > **Level:** 1d6+4    

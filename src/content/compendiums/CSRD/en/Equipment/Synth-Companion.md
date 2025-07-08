@@ -8,9 +8,10 @@ tags:
   - Equipment/Science-Fiction
   - Equipment/Level/4
   - Equipment/Value/Expensive
+title: Synth, Companion
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Synth, Companion    
     
 >As synth, but treat as a level 4 follower, which allows the synths modifications in up to four tasks.    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Diadem of Death
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Diadem of Death    
 >[!info] Stats    
 > **Level:** 1d6+4    

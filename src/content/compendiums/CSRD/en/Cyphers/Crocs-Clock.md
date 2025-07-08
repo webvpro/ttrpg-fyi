@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers/Crocs-Clock
   - Cypher
   - Cypher/Fairy-Tale
+title: Croc's Clock
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Croc's Clock    
 >[!info] Stats    
 > **Level:** 1d6    

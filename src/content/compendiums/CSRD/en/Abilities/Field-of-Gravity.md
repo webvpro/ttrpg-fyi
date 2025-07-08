@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Environment
+title: Field of Gravity
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Environment
 ---
-  
-    
 ## Field of Gravity    
 >**Enabler**    
 >4 Intellect points  

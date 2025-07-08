@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Protection Amulet
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Protection Amulet    
 >[!info] Stats    
 > **Level:** 1d6    

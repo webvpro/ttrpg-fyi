@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Intrusion/General-Horror-Gm-Intrusions
+title: General Horror Gm Intrusions
+collection: Tables
+kind: Table
 ---
-  
 ## General Horror Gm Intrusions Table  
 |  Roll &nbsp; &nbsp; | General Horror Gm Intrusions  |  
 | ------------- | :----------- |  

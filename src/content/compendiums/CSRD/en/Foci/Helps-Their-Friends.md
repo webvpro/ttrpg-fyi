@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Support
+title: Helps Their Friends
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Helps Their Friends    
 You love your friends and help them out of any difficulty, no matter what.    
   

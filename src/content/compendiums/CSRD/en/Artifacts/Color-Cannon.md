@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Color-Cannon
   - Artifact
   - Artifact/Modern-Fantasy
+title: Color Cannon
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Color Cannon  
 >1d6  
 #### Form  

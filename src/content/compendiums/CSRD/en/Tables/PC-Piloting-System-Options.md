@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/PC/Options/Piloting-System
+title: Player Piloting System Options
+collection: Tables
+kind: Table
 ---
-  
 ## Player Piloting System Options  
   
 | Piloting Task       | Hindrance   | Effect on Target Craft                                                                                                                                               |  

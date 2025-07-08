@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+title: Devils and Tailors
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Devils and Tailors    
 >[!info] Stats    
 > **Level:** 1d6+2    

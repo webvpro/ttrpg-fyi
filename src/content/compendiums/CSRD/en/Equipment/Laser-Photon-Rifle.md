@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/4
   - Equipment/Value/Very-Expensive
   - Equipment/Range/Very-Long
+title: Laser Photon Rifle
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Laser Photon Rifle    
     
 >Rifle fires coherent light beams;    

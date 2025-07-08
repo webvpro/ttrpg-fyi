@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/50-Gp
+title: Draft Horse
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Draft Horse    
     
 >A strong horse able to carry or pull heavy loads.    

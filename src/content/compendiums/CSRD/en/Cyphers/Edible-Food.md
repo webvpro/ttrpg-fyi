@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Scavenger-Subtle
+title: Edible Food
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Edible Food    
 >[!info] Stats    
 > **Level:** 1d6+1    

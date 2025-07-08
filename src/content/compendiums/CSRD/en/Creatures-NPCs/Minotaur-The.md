@@ -8,9 +8,13 @@ tags:
   - Creature/Level/7
   - Creature/Armor/3
   - Creature/Health/33
+title: Minotaur, The
+collection: Creatures-NPCs
+kind: Creature
+level: 7
+armor: 3
+health: 33
 ---
-  
-    
 ## Minotaur, The    
 The most famous minotaur is the Minotaur, the singular beast from which all lesser minotaur myths descend. The product of a god-cursed union between human and bull,  
 the Minotaur is monstrous, and only the flesh of people can nourish it. It is usually lost  

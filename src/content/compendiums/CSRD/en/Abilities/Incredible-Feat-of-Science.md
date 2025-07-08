@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+title: Incredible Feat of Science
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '12'
+tier: NA
+pools:
+  - Intellect
+categories:
+  - NA
 ---
-  
-    
 ## Incredible Feat of Science    
 >**Action**    
 >12 Intellect points  

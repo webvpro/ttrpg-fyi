@@ -7,9 +7,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
   - Equipment/Weapon/Light
+title: Light Weapon, Improvised
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Light Weapon, Improvised    
     
 >Chair, ice skate, frying pan, etc. could break after one combat    

@@ -9,9 +9,10 @@ tags:
   - Equipment/Value/2-Gp
   - Equipment/Range/Can-Be-Thrown-up-to-Short
   - Equipment/Weapon/Light
+title: Dagger
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Dagger    
     
 >A very short blade for stabbing or slicing.    

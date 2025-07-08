@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Omniscient Bean
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Omniscient Bean    
 >[!info] Stats    
 > **Level:** 1d6+2    

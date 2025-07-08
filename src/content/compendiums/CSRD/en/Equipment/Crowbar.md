@@ -18,9 +18,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/3
   - Equipment/Value/Moderate
+title: Crowbar
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Crowbar    
     
 >This bent length of metal grants an asset on tasks to open doors, treasure chests, and similar objects.    

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Low
   - Ability/Pool/Intellect
   - Ability/Categories/Movement
+title: Void Wings
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Movement
 ---
-  
-    
 ## Void Wings    
 >**Enabler**    
 >3 Intellect points  

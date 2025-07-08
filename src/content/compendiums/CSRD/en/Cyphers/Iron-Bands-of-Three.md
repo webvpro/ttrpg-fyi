@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Iron Bands of Three
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Iron Bands of Three    
 >[!info] Stats    
 > **Level:** 1d6+3    

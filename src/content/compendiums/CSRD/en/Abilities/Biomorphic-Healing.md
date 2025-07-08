@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Might
   - Ability/Categories/Cure
+title: Biomorphic Healing
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Might
+categories:
+  - Cure
 ---
-  
-    
 ## Biomorphic Healing    
 >**Action**    
 >4+ Might points  

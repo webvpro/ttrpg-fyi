@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Wings
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Wings    
 >[!info] Stats    
 > **Level:** 1d6+2    

@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Cure
+title: Gamer's Fortitude
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: High
+pools: []
+categories:
+  - Cure
 ---
-  
-    
 ## Gamer's Fortitude    
 >**Action**  
     

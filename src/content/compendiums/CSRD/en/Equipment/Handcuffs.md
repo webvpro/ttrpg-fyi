@@ -13,9 +13,10 @@ tags:
   - Equipment/Utility-Gear
   - Equipment/Level/5
   - Equipment/Value/Moderate
+title: Handcuffs
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Handcuffs    
     
 >    

@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
+title: Poison Mind Disrupting
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Poison Mind Disrupting    
 >[!info] Stats    
 > **Level:** 1d6+2    

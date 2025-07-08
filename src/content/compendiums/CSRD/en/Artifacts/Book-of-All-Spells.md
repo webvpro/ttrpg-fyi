@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+title: Book of All Spells
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Book of All Spells    
 >[!info] Stats    
 > **Level:** 1d6+2    

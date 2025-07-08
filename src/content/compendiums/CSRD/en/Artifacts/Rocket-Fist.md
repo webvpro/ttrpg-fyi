@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+title: Rocket Fist
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Rocket Fist    
 >[!info] Stats    
 > **Level:** 1d6+2    

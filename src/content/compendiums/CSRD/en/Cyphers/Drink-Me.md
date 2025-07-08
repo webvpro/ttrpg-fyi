@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+title: Drink Me
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Drink Me    
 >[!info] Stats    
 > **Level:** 1d6    

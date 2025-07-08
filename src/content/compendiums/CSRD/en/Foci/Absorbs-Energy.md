@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Energy-Manipulation
+title: Absorbs Energy
+collection: Foci
+kind: Focus
 ---
-  
-    
 ## Absorbs Energy    
 You can harness kinetic energy and transform it into other kinds of energy.    
   

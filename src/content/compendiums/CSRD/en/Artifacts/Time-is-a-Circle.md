@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Time-is-a-Circle
   - Artifact
   - Artifact/Modern-Fantasy
+title: Time is a Circle
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Time is a Circle  
   
 >1d6 +4  

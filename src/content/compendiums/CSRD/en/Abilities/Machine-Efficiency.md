@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Craft
   - Ability/Categories/Meta
+title: Machine Efficiency
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Low
+pools:
+  - Intellect
+categories:
+  - Craft
+  - Meta
 ---
-  
-    
 ## Machine Efficiency    
 >**Action**    
 >3 Intellect points  

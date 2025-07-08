@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/5-Cp
+title: Sling Bullets (20)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Sling Bullets (20)    
     
 >    

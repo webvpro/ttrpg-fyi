@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Meta
   - Ability/Categories/Senses
+title: Master Machine
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '8'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Meta
+  - Senses
 ---
-  
-    
 ## Master Machine    
 >**Action**    
 >8 Intellect points  

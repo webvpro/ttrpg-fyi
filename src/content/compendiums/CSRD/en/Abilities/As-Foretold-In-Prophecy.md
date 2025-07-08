@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/High
   - Ability/Categories/Attack-Skill
   - Ability/Categories/Task
+title: As Foretold in Prophecy
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: NA
+tier: High
+pools: []
+categories:
+  - Attack-Skill
+  - Task
 ---
-  
-    
 ## As Foretold in Prophecy    
 >**Action**  
     

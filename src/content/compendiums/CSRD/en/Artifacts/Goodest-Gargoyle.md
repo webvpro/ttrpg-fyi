@@ -5,9 +5,11 @@ tags:
   - Compendium/CSRD/en/Artifacts/Goodest-Gargoyle
   - Artifact
   - Artifact/Modern-Fantasy
+title: Goodest Gargoyle
+collection: Artifacts
+kind: Artifact
+categories: []
 ---
-  
-    
 ## Goodest Gargoyle  
 >1d6 +2  
 #### Form  

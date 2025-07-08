@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Personal Environment Field
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Personal Environment Field    
 >[!info] Stats    
 > **Level:** 1d6+2    

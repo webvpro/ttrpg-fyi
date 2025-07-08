@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Insanity Suppressor
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Insanity Suppressor    
 >[!info] Stats    
 > **Level:** 1d6    

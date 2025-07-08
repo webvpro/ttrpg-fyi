@@ -5,9 +5,10 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fantastic
+title: Null Field
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Null Field    
 >[!info] Stats    
 > **Level:** 1d6+3    

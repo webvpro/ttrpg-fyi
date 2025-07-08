@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/5-Cp
+title: Piton
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Piton    
     
 >    

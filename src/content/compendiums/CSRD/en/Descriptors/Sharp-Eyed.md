@@ -4,8 +4,10 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors
   - Descriptor
+title: Sharp-Eyed
+collection: Descriptors
+kind: Descriptor
 ---
-  
 ## Sharp-Eyed    
 You're perceptive and well aware of your surroundings. You notice the little details and remember them. You can be difficult to surprise.  
 ### You gain the following characteristics    

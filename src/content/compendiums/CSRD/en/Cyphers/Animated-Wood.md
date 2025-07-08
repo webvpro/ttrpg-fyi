@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers/Animated-Wood
   - Cypher/Fairy-Tale
+title: Animated Wood
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Animated Wood    
 >[!info] Stats    
 > **Level:** 1d6    

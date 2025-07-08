@@ -9,9 +9,10 @@ tags:
   - Equipment/Level/5
   - Equipment/Value/Very-Expensive
   - Equipment/Armor/Heavy
+title: Battlesuit
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Battlesuit    
     
 >Functions as heavy armor (+3 Armor), also grants the benefit of a deluxe space suit.    

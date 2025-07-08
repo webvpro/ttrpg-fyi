@@ -10,9 +10,19 @@ tags:
   - Ability/Pool/Intellect
   - Ability/Categories/Special-Attack
   - Ability/Categories/Support
+title: Undo
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '5'
+tier: High
+pools:
+  - Intellect
+categories:
+  - Special-Attack
+  - Support
 ---
-  
-    
 ## Undo    
 >**Action**    
 >5 Intellect points  

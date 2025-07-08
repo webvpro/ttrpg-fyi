@@ -6,9 +6,10 @@ tags:
   - Equipment/Fantasy
   - Equipment/Utility-Gear
   - Equipment/Value/1Gp
+title: Blowgun Darts (20)
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Blowgun Darts (20)    
     
 >    

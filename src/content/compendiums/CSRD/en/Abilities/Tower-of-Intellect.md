@@ -8,9 +8,17 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Mid
   - Ability/Categories/Protection
+title: Tower of Intellect
+collection: Abilities
+kind: Ability
+action: false
+enabler: true
+cost: NA
+tier: Mid
+pools: []
+categories:
+  - Protection
 ---
-  
-    
 ## Tower of Intellect    
 >**Enabler**  
     

@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Support
+title: Play to the Crowd
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '3'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Support
 ---
-  
-    
 ## Play to the Crowd    
 >**Action**    
 >3 Intellect points  

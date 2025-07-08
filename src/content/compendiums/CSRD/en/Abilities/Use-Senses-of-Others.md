@@ -9,9 +9,18 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Senses
+title: Use Senses of Others
+collection: Abilities
+kind: Ability
+action: true
+enabler: false
+cost: '4'
+tier: Mid
+pools:
+  - Intellect
+categories:
+  - Senses
 ---
-  
-    
 ## Use Senses of Others    
 >**Action**    
 >4 Intellect points  

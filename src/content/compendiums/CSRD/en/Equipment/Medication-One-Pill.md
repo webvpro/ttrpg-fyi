@@ -6,9 +6,10 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Inexpensive
+title: Medication, One Pill
+collection: Equipment
+kind: Equipment
 ---
-  
-    
 ## Medication, One Pill    
     
 >Pain relief, allergy, antacid, antibiotic, anti-nausea, or another single drug pill    

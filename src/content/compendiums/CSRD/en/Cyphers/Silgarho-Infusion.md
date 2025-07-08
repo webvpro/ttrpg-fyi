@@ -4,9 +4,10 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+title: Silgarho Infusion
+collection: Cyphers
+kind: Cypher
 ---
-  
-    
 ## Silgarho Infusion    
 >[!info] Stats    
 > **Level:** 1d6    
