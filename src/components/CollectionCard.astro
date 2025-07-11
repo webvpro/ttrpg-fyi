@@ -1,31 +1,30 @@
 ---
 import { Image } from "astro:assets";
 
-const { posts, maxCardsToShow } = Astro.props;
+const { collections } = Astro.props;
 
-const postEntries = Object.entries(posts);
-const postKeys = Object.keys(posts);
+
 ---
 
 {
   
-  Object.entries(posts).map((post) => (
+  collections.map(([key, collection]) => (
     
     <article class="card lg:card-side ring-1 ring-base-content/10 bg-base-300/20 p-7 rounded-3xl">
       <div class="card-body p-0 lg:ml-7 font-outfit">
         
-        <a href={`/blog/`}>
-          <h1 class="font-semibold text-lg lg:text-xl">{post[1][1].name}</h1>
+        <a href={`/blog/`} name={key} class="flex flex-col gap-2">
+          <h1 class="font-semibold text-lg lg:text-xl">{collection.name}</h1>
         </a>
 
         <div>
           <p class="text-sm lg:text-base opacity-70 line-clamp-2 xl:line-clamp-3">
-            {post[1][1].kind}
+            {collection.kind}
           </p>
         </div>
 
         <a href={`/blog/`} class="mt-auto flex items-center">
-          <h2 class="text-sm font-semibold text-primary">{post[1][1].name}</h2>
+          <h2 class="text-sm font-semibold text-primary">{collection.name}</h2>
           <svg
             viewBox="0 0 16 16"
             fill="none"

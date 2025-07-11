@@ -2,6 +2,9 @@
   "systems": {
     "CSRD": {
       "name": "Cypher System Reference Document",
+      "ruleset": "Cypher System",
+      "description": "The Cypher System Reference Document (CSRD) is a comprehensive guide to the Cypher System, providing rules, character options, and lore for players and Game Masters.",
+      "systemPath": "CSRD/en/",
       "collections": {
         "Abilities": {
           "name": "Abilities",

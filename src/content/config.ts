@@ -31,9 +31,9 @@ const articles = defineCollection({
 });
 
 // Simple collection creator
-function createCSRDCollection(collectionName: string) {
+function createSystemCollection(system: string, collectionName: string) {
   return defineCollection({
-    loader: glob({ pattern: '**/[^_]*', base: `./src/content/compendiums/CSRD/en/${collectionName}` }),
+    loader: glob({ pattern: '**/[^_]*', base: `./src/content/compendiums/${system}/en/${collectionName}` }),
     schema: csrdBaseSchema.extend({
       // Common optional fields for all collections
       category: z.string().optional(),
@@ -59,18 +59,18 @@ function createCSRDCollection(collectionName: string) {
 // Create all collections
 const collections = {
   posts: articles,
-  abilities: createCSRDCollection('Abilities'),
-  artifacts: createCSRDCollection('Artifacts'),
-  cantrips: createCSRDCollection('Cantrips'),
-  characterarcs: createCSRDCollection('Character-Arcs'),
-  characteroptions: createCSRDCollection('Character-Options'),
-  creatures: createCSRDCollection('Creatures-NPCs'),
-  cyphers: createCSRDCollection('Cyphers'),
-  equipment: createCSRDCollection('Equipment'),
-  rituals: createCSRDCollection('Rituals'),
-  descriptors: createCSRDCollection('Descriptors'),
-  foci: createCSRDCollection('Foci'),
-  types: createCSRDCollection('Types'),
+  abilities: createSystemCollection('CSRD','Abilities'),
+  artifacts: createSystemCollection('CSRD','Artifacts'),
+  cantrips: createSystemCollection('CSRD','Cantrips'),
+  characterarcs: createSystemCollection('CSRD','Character-Arcs'),
+  characteroptions: createSystemCollection('CSRD','Character-Options'),
+  creatures: createSystemCollection('CSRD','Creatures-NPCs'),
+  cyphers: createSystemCollection('CSRD','Cyphers'),
+  equipment: createSystemCollection('CSRD','Equipment'),
+  rituals: createSystemCollection('CSRD','Rituals'),
+  descriptors: createSystemCollection('CSRD','Descriptors'),
+  foci: createSystemCollection('CSRD','Foci'),
+  types: createSystemCollection('CSRD','Types'),
 };
 
 export { collections };
