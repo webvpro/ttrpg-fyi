@@ -17,6 +17,7 @@
     "@tailwindcss/vite": "^4.0.9",
     "astro": "^5.10.0",
     "date-fns": "^4.1.0",
+    "gray-matter": "^4.0.3",
     "i": "^0.3.7",
     "node-appwrite": "^17.0.0",
     "npm": "^11.4.2",

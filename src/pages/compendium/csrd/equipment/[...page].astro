@@ -1,0 +1,24 @@
+---
+// This file is auto-generated. Do not edit.
+import { getCollection } from 'astro:content';
+import Layout from '../../../../layouts/Layout.astro';
+
+export const prerender = true;
+
+const entries = await getCollection('equipment');
+const pageTitle = "Equipment";
+---
+<Layout title={pageTitle}>
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-6">{pageTitle}</h1>
+    <ul class="space-y-2">
+      {entries.map(entry => (
+        <li>
+          <a href={`/compendium/csrd/equipment/${entry.data.id}`} class="text-lg text-blue-600 hover:underline">
+            {entry.data.title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</Layout>
