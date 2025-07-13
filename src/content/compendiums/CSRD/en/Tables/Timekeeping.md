@@ -2,6 +2,7 @@
 id: Timekeeping
 aliases:
   - Timekeeping
+title: Timekeeping
 ---
 aliases:
 - "Timekeeping Table"

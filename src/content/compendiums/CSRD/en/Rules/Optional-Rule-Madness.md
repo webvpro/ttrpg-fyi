@@ -4,6 +4,7 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules/Optional/Madness
 id: Optional-Rule-Madness
+title: 'Optional Rule: Madness'
 ---
 ## Optional Rule: Madness
 

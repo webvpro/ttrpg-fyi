@@ -6,6 +6,7 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules/Optional/Modern-Fantasy
 id: Optional-Modern-Fantasy-Rules
+title: Optional Modern Fantasy Rules
 ---
 
 ## Optional Modern Fantasy Rules  

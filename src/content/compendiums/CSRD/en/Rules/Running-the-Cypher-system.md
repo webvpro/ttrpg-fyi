@@ -4,6 +4,7 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules/Running-the-Cypher-System
 id: Running-the-Cypher-system
+title: Running the Cypher System
 ---
 # Running the Cypher System
 

@@ -4,6 +4,7 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules/Abilities
 id: Abilities
+title: Abilities
 ---
 # Abilities
 

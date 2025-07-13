@@ -2,6 +2,7 @@
 id: Superhero-Rules-Module
 aliases:
   - Superhero Rules Module
+title: Superhero Rules Module
 ---
 v---
 aliases: "Superhero Rules Module"

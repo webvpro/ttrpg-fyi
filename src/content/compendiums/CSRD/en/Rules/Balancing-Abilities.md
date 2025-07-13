@@ -4,6 +4,7 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules
 id: Balancing-Abilities
+title: Balancing Abilities
 ---
 
 # Balancing Abilities  

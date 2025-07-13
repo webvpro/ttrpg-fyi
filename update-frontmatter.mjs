@@ -45,20 +45,7 @@ function processFile(filePath) {
     }
 
     // 2. Add 'title' from the first alias if 'title' doesn't already exist
-<<<<<<< HEAD
     if (!frontmatter.title && Array.isArray(frontmatter.aliases) && frontmatter.aliases.length > 0) {
-=======
-    if (!frontmatter.aliases) {
-      frontmatter.aliases = [filename.replace(/-/g, ' ')];
-      wasModified = true;
-    }
-    if (!Array.isArray(frontmatter.aliases)) {
-      frontmatter.title = frontmatter.aliases ?? filename.replace(/-/g, ' ');
-      frontmatter.aliases = [filename.replace(/-/g, ' ')];
-      wasModified = true;
-    }
-    if (frontmatter.title && Array.isArray(frontmatter.aliases) && frontmatter.aliases.length > 0) {
->>>>>>> 5a6e67e (reformatted)
       frontmatter.title = frontmatter.aliases[0];
       wasModified = true;
     }

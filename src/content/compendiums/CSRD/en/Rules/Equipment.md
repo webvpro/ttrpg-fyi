@@ -5,6 +5,7 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules/Equipment
 id: Equipment
+title: Equipment
 ---
 
 # Equipment

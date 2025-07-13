@@ -4,6 +4,7 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules/Optional/Modern-Rules-Module
 id: Modern-Rules-Module
+title: Modern Rules Module
 ---
 
 ## Modern Rules Module

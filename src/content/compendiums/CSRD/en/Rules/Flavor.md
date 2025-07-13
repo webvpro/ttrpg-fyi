@@ -5,6 +5,7 @@ aliases:
 tags:
   - Cypher/Rules/Character-Creation/Flavor
 id: Flavor
+title: Flavor in Cypher
 ---
 
 # Flavor

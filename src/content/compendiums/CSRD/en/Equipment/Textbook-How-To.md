@@ -1,6 +1,6 @@
 ---
 aliases:
-  - 'Textbook, How To'
+  - 'Textbook, "How To"'
 tags:
   - Compendium/CSRD/en/Equipment
   - Equipment/Post-Apocalyptic

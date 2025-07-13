@@ -4,6 +4,7 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules/Optional/Power-Shifts
 id: Optional-Rule-Power-Shifts
+title: 'Optional Rule: Power Shifts'
 ---
 ### Optional Rule: Power Shifts
 

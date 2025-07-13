@@ -8,7 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Task
-title:Enthusiastic Listener
+title: Enthusiastic Listener
 collection: Abilities
 kind: Ability
 action: false
@@ -18,6 +18,7 @@ tier: High
 pools: []
 categories:
   - Task
+id: Enthusiastic-Listener
 ---
 ## Enthusiastic Listener
   

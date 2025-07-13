@@ -2,6 +2,7 @@
 id: Intellect
 aliases:
   - Intellect
+title: Intellect
 ---
 
 ---

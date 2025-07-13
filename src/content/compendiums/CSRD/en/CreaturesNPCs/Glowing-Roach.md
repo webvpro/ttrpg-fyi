@@ -2,6 +2,7 @@
 id: Glowing-Roach
 aliases:
   - Glowing Roach
+title: Glowing Roach
 ---
 zzzzzzz---
 aliases:

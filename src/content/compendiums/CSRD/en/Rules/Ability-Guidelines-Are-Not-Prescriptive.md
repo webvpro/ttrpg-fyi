@@ -4,6 +4,7 @@ aliases:
 tags:
   - Compendium/CSRD/en/Rules
 id: Ability-Guidelines-Are-Not-Prescriptive
+title: Ability Guidelines Are Not Perscriptive
 ---
 
 # Ability Guidelines Are Not Prescriptive  
