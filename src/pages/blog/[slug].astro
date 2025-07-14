@@ -1,7 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
-import { Image } from "astro:assets";
+import { Image } from "astro:assets"; // 1. Import the Image component
 export const prerender = true;
 export const getStaticPaths = async () => {
   const posts = await getCollection("posts");
@@ -37,10 +37,13 @@ const { Content } = await post.render();
         {post.data.title}
       </h1>
       <section class="flex mb-10">
-        <img
+        <!-- 2. Replace the <img> tag with the <Image /> component -->
+        <Image
           src={post.data.authorImage}
           alt={post.data.author}
           class="w-10 h-10 rounded-full object-cover"
+          width={40}
+          height={40}
         />
         <div class="flex flex-col ml-3">
           <h2 class="text-md font-semibold">{post.data.author}</h2>
@@ -53,6 +56,8 @@ const { Content } = await post.render();
       alt={post.data.title}
       format="webp"
       class="rounded-xl md:max-w-2xl mb-6 w-full h-96 object-cover"
+      width={post.data.image.width}
+      height={post.data.image.height}
     />
 
     <section class="prose md:prose-md mb-20"><Content /></section>

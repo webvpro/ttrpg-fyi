@@ -1,6 +1,6 @@
 ---
 // This file is auto-generated. Do not edit.
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCollection, getEntry, render } from 'astro:content';
 import Layout from '../../../../layouts/Layout.astro';
 
 export const prerender = true;
@@ -8,21 +8,31 @@ export const prerender = true;
 export async function getStaticPaths() {
   const entries = await getCollection('tables');
   return entries.map(entry => ({
-    params: { slug: entry.data.id }, // Use the 'id' from frontmatter for the URL slug
-    props: { entry },
+    params: { slug: entry.id }, // Changed to use id instead of slug
   }));
 }
 
-type Props = {
-  entry: CollectionEntry<'tables'>;
-};
+const { slug } = Astro.params;
+const entry = await getEntry('tables', slug);
 
-const { entry } = Astro.props;
-const { Content } = await entry.render();
+if (!entry) {
+  return new Response(null, { status: 404 });
+}
+
+// Render the entry's content
+const { Content } = await render(entry);
 ---
-<Layout title={entry.data.title}>
+<Layout title={entry.data.title} description={entry.data.title}>
   <article class="prose lg:prose-xl mx-auto py-8">
     <h1>{entry.data.title}</h1>
+    
+    {/* Use the Content component to render the markdown */}
     <Content />
+    
+    <div class="metadata mt-8 border-t pt-4">
+      {entry.data.type && <p><strong>Type:</strong> {entry.data.type}</p>}
+      {entry.data.level && <p><strong>Level:</strong> {entry.data.level}</p>}
+      {entry.data.source && <p><strong>Source:</strong> {entry.data.source}</p>}
+    </div>
   </article>
 </Layout>

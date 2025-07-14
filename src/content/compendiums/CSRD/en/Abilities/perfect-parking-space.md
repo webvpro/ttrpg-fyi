@@ -20,7 +20,7 @@ pools:
   - Intellect
 categories:
   - Magic
-id: 1Perfect-Parking-Space
+id: Perfect-Parking-Space
 ---
 ## 1Perfect Parking Space
   

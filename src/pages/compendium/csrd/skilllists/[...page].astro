@@ -1,20 +1,27 @@
 ---
 // This file is auto-generated. Do not edit.
-import { getCollection } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 import Layout from '../../../../layouts/Layout.astro';
 
 export const prerender = true;
 
+export async function getStaticPaths() {
+  return [
+    { params: { page: undefined } },
+  ];
+}
+
 const entries = await getCollection('skilllists');
 const pageTitle = "Skilllists";
+const pageDescription = "A complete list of all skilllists";
 ---
-<Layout title={pageTitle}>
+<Layout title={pageTitle} description={pageDescription}>
   <div class="container mx-auto px-4 py-8">
     <h1 class="text-4xl font-bold mb-6">{pageTitle}</h1>
     <ul class="space-y-2">
-      {entries.map(entry => (
+      {entries.map((entry: CollectionEntry<'skilllists'>) => (
         <li>
-          <a href={`/compendium/csrd/skilllists/${entry.data.id}`} class="text-lg text-blue-600 hover:underline">
+          <a href={`/compendium/csrd/skilllists/${entry.id}`} class="text-lg text-blue-600 hover:underline">
             {entry.data.title}
           </a>
         </li>

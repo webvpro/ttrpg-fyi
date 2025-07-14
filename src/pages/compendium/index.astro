@@ -1,0 +1,13 @@
+---
+import compendiums from '../../data/compendium-structure.json';
+const systems= Object.keys(compendiums.systems);
+
+---
+
+<ul>
+  {systems.map((system) => (
+    <li>
+      <a href={`/compendium/${system.toLowerCase()}/`}>{system}</a>
+    </li>
+  ))}
+</ul>

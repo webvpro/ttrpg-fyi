@@ -12,21 +12,28 @@ const LAYOUT_PATH = '../../../../layouts/Layout.astro'; // Relative path from th
  */
 const getIndexPageTemplate = (collectionName) => `---
 // This file is auto-generated. Do not edit.
-import { getCollection } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 import Layout from '${LAYOUT_PATH}';
 
 export const prerender = true;
 
+export async function getStaticPaths() {
+  return [
+    { params: { page: undefined } },
+  ];
+}
+
 const entries = await getCollection('${collectionName}');
 const pageTitle = "${collectionName.charAt(0).toUpperCase() + collectionName.slice(1)}";
+const pageDescription = "A complete list of all ${collectionName}";
 ---
-<Layout title={pageTitle}>
+<Layout title={pageTitle} description={pageDescription}>
   <div class="container mx-auto px-4 py-8">
     <h1 class="text-4xl font-bold mb-6">{pageTitle}</h1>
     <ul class="space-y-2">
-      {entries.map(entry => (
+      {entries.map((entry: CollectionEntry<'${collectionName}'>) => (
         <li>
-          <a href={\`/compendium/csrd/${collectionName}/\${entry.data.id}\`} class="text-lg text-blue-600 hover:underline">
+          <a href={\`/compendium/csrd/${collectionName}/\${entry.id}\`} class="text-lg text-blue-600 hover:underline">
             {entry.data.title}
           </a>
         </li>
@@ -41,7 +48,7 @@ const pageTitle = "${collectionName.charAt(0).toUpperCase() + collectionName.sli
  */
 const getSlugPageTemplate = (collectionName) => `---
 // This file is auto-generated. Do not edit.
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCollection, getEntry, render } from 'astro:content';
 import Layout from '${LAYOUT_PATH}';
 
 export const prerender = true;
@@ -49,22 +56,32 @@ export const prerender = true;
 export async function getStaticPaths() {
   const entries = await getCollection('${collectionName}');
   return entries.map(entry => ({
-    params: { slug: entry.data.id }, // Use the 'id' from frontmatter for the URL slug
-    props: { entry },
+    params: { slug: entry.id }, // Changed to use id instead of slug
   }));
 }
 
-type Props = {
-  entry: CollectionEntry<'${collectionName}'>;
-};
+const { slug } = Astro.params;
+const entry = await getEntry('${collectionName}', slug);
 
-const { entry } = Astro.props;
-const { Content } = await entry.render();
+if (!entry) {
+  return new Response(null, { status: 404 });
+}
+
+// Render the entry's content
+const { Content } = await render(entry);
 ---
-<Layout title={entry.data.title}>
+<Layout title={entry.data.title} description={entry.data.title}>
   <article class="prose lg:prose-xl mx-auto py-8">
     <h1>{entry.data.title}</h1>
+    
+    {/* Use the Content component to render the markdown */}
     <Content />
+    
+    <div class="metadata mt-8 border-t pt-4">
+      {entry.data.type && <p><strong>Type:</strong> {entry.data.type}</p>}
+      {entry.data.level && <p><strong>Level:</strong> {entry.data.level}</p>}
+      {entry.data.source && <p><strong>Source:</strong> {entry.data.source}</p>}
+    </div>
   </article>
 </Layout>
 `;
@@ -82,12 +99,17 @@ function getCollectionNames(fileContent) {
 }
 
 /**
- * Creates a file with the given content, checking if it exists first.
+ * Creates a file with the given content, ensuring the directory exists.
  */
 function createFile(filePath, content) {
-  // Always overwrite auto-generated files to apply updates.
+  const dir = path.dirname(filePath);
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+  
+  // Force overwrite existing files
   fs.writeFileSync(filePath, content, 'utf8');
-  console.log(`✅ Wrote file: ${path.relative(process.cwd(), filePath)}`);
+  console.log(`✅ Created/Updated: ${path.relative(process.cwd(), filePath)}`);
 }
 
 /**

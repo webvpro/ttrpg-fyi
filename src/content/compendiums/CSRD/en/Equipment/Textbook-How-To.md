@@ -6,7 +6,7 @@ tags:
   - Equipment/Post-Apocalyptic
   - Equipment/Utility-Gear
   - Equipment/Value/Moderate
-title: 'Textbook, How To'
+title: Textbook How To
 collection: Equipment
 kind: Equipment
 id: Textbook-How-To
