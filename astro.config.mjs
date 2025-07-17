@@ -1,17 +1,16 @@
 import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
-import vercel from '@astrojs/vercel'; // Using the unified adapter
+import vercel from '@astrojs/vercel';
 import icon from "astro-icon";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  output: "hybrid", // Using 'hybrid' is recommended with the unified adapter
+  output: "server",
   adapter: vercel(),
   integrations: [
     mdx(),
     // prettier-ignore
     icon({
-      // WARNING: Using a wildcard loads all icons from the set, which can harm performance.
       include: {
         mdi: ["*"],
         "game-icons": ["*"],
