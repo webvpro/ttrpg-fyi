@@ -1,7 +1,7 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
 import { format } from "date-fns";
-import { collections as csrdCollections } from './cs-collection-config';
+import { collections as csrdCollections } from './cs-collection-config.ts';
 
 
 // Blog articles collection
