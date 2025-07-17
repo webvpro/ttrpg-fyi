@@ -6,7 +6,7 @@ import fs from 'fs';
 import path from 'path';
 
 export async function csRootDirectoryLoader() {
-  const rootPath = fileURLToPath(new URL('./src/content/compendiums/CSRD/en', import.meta.url)); // Get project root
+  const rootPath = fileURLToPath(new URL('./src/content/compendiums/csrd/en', import.meta.url)); // Get project root
   const entries: { id: string; }[] = [];
 
   const files = await fs.promises.readdir(rootPath); // Read files in root directory

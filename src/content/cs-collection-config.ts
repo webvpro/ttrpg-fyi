@@ -20,7 +20,7 @@ const abilities = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/abilities',
+    base: 'src/content/compendiums/csrd/en/abilities',
   })
 });
 // Collection for: artifacts
@@ -28,7 +28,7 @@ const artifacts = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/artifacts',
+    base: 'src/content/compendiums/csrd/en/artifacts',
   })
 });
 // Collection for: cantrips
@@ -36,7 +36,7 @@ const cantrips = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/cantrips',
+    base: 'src/content/compendiums/csrd/en/cantrips',
   })
 });
 // Collection for: character-arcs
@@ -44,7 +44,7 @@ const characterarcs = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/character-arcs',
+    base: 'src/content/compendiums/csrd/en/character-arcs',
   })
 });
 // Collection for: character-options
@@ -52,7 +52,7 @@ const characteroptions = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/character-options',
+    base: 'src/content/compendiums/csrd/en/character-options',
   })
 });
 // Collection for: creatures-npcs
@@ -60,7 +60,7 @@ const creaturesnpcs = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/creatures-npcs',
+    base: 'src/content/compendiums/csrd/en/creatures-npcs',
   })
 });
 // Collection for: cypher-shorts-scenarios
@@ -68,7 +68,7 @@ const cyphershortsscenarios = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/cypher-shorts-scenarios',
+    base: 'src/content/compendiums/csrd/en/cypher-shorts-scenarios',
   })
 });
 // Collection for: cyphers
@@ -76,7 +76,7 @@ const cyphers = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/cyphers',
+    base: 'src/content/compendiums/csrd/en/cyphers',
   })
 });
 // Collection for: descriptors
@@ -84,7 +84,7 @@ const descriptors = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/descriptors',
+    base: 'src/content/compendiums/csrd/en/descriptors',
   })
 });
 // Collection for: equipment
@@ -92,7 +92,7 @@ const equipment = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/equipment',
+    base: 'src/content/compendiums/csrd/en/equipment',
   })
 });
 // Collection for: flavors
@@ -100,7 +100,7 @@ const flavors = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/flavors',
+    base: 'src/content/compendiums/csrd/en/flavors',
   })
 });
 // Collection for: foci
@@ -108,7 +108,7 @@ const foci = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/foci',
+    base: 'src/content/compendiums/csrd/en/foci',
   })
 });
 // Collection for: rituals
@@ -116,7 +116,7 @@ const rituals = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/rituals',
+    base: 'src/content/compendiums/csrd/en/rituals',
   })
 });
 // Collection for: rules
@@ -124,7 +124,7 @@ const rules = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/rules',
+    base: 'src/content/compendiums/csrd/en/rules',
   })
 });
 // Collection for: skill-lists
@@ -132,7 +132,7 @@ const skilllists = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/skill-lists',
+    base: 'src/content/compendiums/csrd/en/skill-lists',
   })
 });
 // Collection for: stats
@@ -140,7 +140,7 @@ const stats = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/stats',
+    base: 'src/content/compendiums/csrd/en/stats',
   })
 });
 // Collection for: tables
@@ -148,7 +148,7 @@ const tables = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/tables',
+    base: 'src/content/compendiums/csrd/en/tables',
   })
 });
 // Collection for: types
@@ -156,7 +156,7 @@ const types = defineCollection({
   schema: baseSchema,
   loader: glob({
     pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/CSRD/en/types',
+    base: 'src/content/compendiums/csrd/en/types',
   })
 });
 

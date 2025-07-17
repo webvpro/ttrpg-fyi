@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 const OUTPUT_FILE = './src/content/cs-collection-config.ts';
-const CONTENT_DIR = 'src/content/compendiums/CSRD/en';
+const CONTENT_DIR = 'src/content/compendiums/csrd/en';
 
 /**
  * Generates the TypeScript code for the Astro content config file.

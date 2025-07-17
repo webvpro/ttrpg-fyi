@@ -1,12 +1,12 @@
 {
   "systems": {
-    "CSRD": {
+    "csrd": {
       "name": "Cypher System Reference Document",
       "ruleset": "Cypher System",
       "description": "The Cypher System Reference Document (CSRD) is a comprehensive guide to the Cypher System, providing rules, character options, and lore for players and Game Masters.",
-      "systemPath": "CSRD/en/",
+      "systemPath": "csrd/en/",
       "collections": {
-        "Abilities": {
+        "abilities": {
           "name": "Abilities",
           "kind": "Ability",
           "schema": {
@@ -14,7 +14,7 @@
             "prerequisite": "string"
           }
         },
-        "Artifacts": {
+        "artifacts": {
           "name": "Artifacts", 
           "kind": "Artifact",
           "schema": {
@@ -24,7 +24,7 @@
             "depletion": "string"
           }
         },
-        "Cantrips": {
+        "cantrips": {
           "name": "Cantrips",
           "kind": "Cantrip", 
           "schema": {
@@ -32,7 +32,7 @@
             "cost": "string"
           }
         },
-        "Character-Arcs": {
+        "character-arcs": {
           "name": "Character Arcs",
           "kind": "Character-Arc",
           "schema": {
@@ -45,7 +45,7 @@
             "resolution": "string"
           }
         },
-        "Character-Options": {
+        "character-options": {
           "name": "Character Options",
           "kind": "Character",
           "schema": {
@@ -57,7 +57,7 @@
             "equipment": "array"
           }
         },
-        "Creatures-NPCs": {
+        "creatures-npcs": {
           "name": "Creatures",
           "kind": "Creature",
           "schema": {
@@ -69,7 +69,7 @@
             "modifications": "array"
           }
         },
-        "Cyphers": {
+        "cyphers": {
           "name": "Cyphers",
           "kind": "Cypher",
           "schema": {
@@ -78,7 +78,7 @@
             "effect": "string"
           }
         },
-        "Equipment": {
+        "equipment": {
           "name": "Equipment",
           "kind": "Equipment",
           "schema": {
@@ -87,7 +87,7 @@
             "weight": "string"
           }
         },
-        "Rituals": {
+        "rituals": {
           "name": "Rituals",
           "kind": "Ritual",
           "schema": {
@@ -100,7 +100,7 @@
             "prerequisite": "string"
           }
         },
-        "Rules": {
+        "rules": {
           "name": "Rules",
           "kind": "Rule",
           "schema": {
@@ -118,7 +118,7 @@
             "relatedRules": "array"
           }
         },
-        "Descriptors": {
+        "descriptors": {
           "name": "Descriptors",
           "kind": "Descriptor",
           "schema": {
@@ -130,7 +130,7 @@
             "additionalEquipment": "array"
           }
         },
-        "Foci": {
+        "foci": {
           "name": "Foci",
           "kind": "Focus",
           "schema": {
@@ -141,7 +141,7 @@
             "majorEffect": "string"
           }
         },
-        "Types": {
+        "types": {
           "name": "Types",
           "kind": "Type",
           "schema": {
