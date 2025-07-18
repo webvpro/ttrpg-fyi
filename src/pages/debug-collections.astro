@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+export const prerender = true;
+
+// Initialize with properties or use Record<string, string> type
+let collectionsStatus: Record<string, string> = {};
+
+try {
+  const abilities = await getCollection('abilities');
+  collectionsStatus.abilities = `Found ${abilities.length} entries`;
+} catch (error) {
+  collectionsStatus.abilities = `Error: ${error.message}`;
+}
+
+try {
+  const characteroptions = await getCollection('characteroptions');
+  collectionsStatus.characteroptions = `Found ${characteroptions.length} entries`;
+} catch (error) {
+  collectionsStatus.characteroptions = `Error: ${error.message}`;
+}
+---
+<Layout title="Debug Collections" description='Debugging page for content collections'>
+  <div class="container mx-auto p-8">
+    <h1>Collection Debug Status</h1>
+    {Object.entries(collectionsStatus).map(([name, status]) => (
+      <p><strong>{name}:</strong> {status}</p>
+    ))}
+  </div>
+</Layout>
