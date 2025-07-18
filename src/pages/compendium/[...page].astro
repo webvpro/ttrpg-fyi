@@ -24,12 +24,12 @@ const collections = Object.entries(systemData.collections);
 <Layout title="Compendium" description="All articles">
   <div class="mt-16 flex justify-center items-center">
     <h1 class="text-3xl md:text-5xl font-outfit font-semibold text-center max-w-2xl">
-      Parts of the compendium we call them collections for {systemData.name}
+      {systemData.name}
     </h1>
-    <p>
+  </div>
+  <p>
       {systemData.description}
     </p>
-  </div>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-20 mt-16">
     <CollectionCard collections={collections} system={systemKey} />
   </div>
