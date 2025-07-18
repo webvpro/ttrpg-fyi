@@ -3,13 +3,27 @@ import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 
 export const prerender = true;
 
 let collectionsStatus: Record<string, string> = {};
 let folderStatus: Record<string, any> = {};
 
-// Helper function to recursively check folders
+// Check what Git thinks the structure is
+try {
+  const gitFiles = execSync('git ls-tree -r --name-only HEAD', { encoding: 'utf8' });
+  const compendiumFiles = gitFiles.split('\n').filter(f => f.includes('compendiums'));
+  folderStatus.gitStructure = compendiumFiles.slice(0, 10); // First 10 files
+} catch (error) {
+  folderStatus.gitError = error.message;
+}
+
+// Check local file system
+const contentStructure = explorePath('src/content');
+folderStatus.localStructure = contentStructure;
+
+// Helper function remains the same...
 function explorePath(basePath: string, maxDepth = 3, currentDepth = 0): any {
   if (currentDepth >= maxDepth || !fs.existsSync(basePath)) {
     return null;
@@ -35,26 +49,6 @@ function explorePath(basePath: string, maxDepth = 3, currentDepth = 0): any {
   }
 }
 
-// Check what actually exists starting from src/content
-const contentStructure = explorePath('src/content');
-folderStatus.completeStructure = contentStructure;
-
-// Also check common variations
-const possiblePaths = [
-  'src/content/compendiums',
-  'src/content/Compendiums', 
-  'src/content/compendiums/csrd',
-  'src/content/compendiums/CSRD',
-  'src/content/Compendiums/CSRD',
-  'src/content/compendiums/csrd/en',
-  'src/content/compendiums/CSRD/en',
-  'src/content/Compendiums/CSRD/en',
-];
-
-for (const checkPath of possiblePaths) {
-  folderStatus[`exists_${checkPath}`] = fs.existsSync(checkPath);
-}
-
 // Test collections
 try {
   const abilities = await getCollection('abilities');
@@ -67,15 +61,15 @@ try {
   <div class="container mx-auto p-8">
     <h1>Collection Debug Status</h1>
     
-    <h2>Complete Content Structure</h2>
+    <h2>Git Structure (what Vercel sees)</h2>
     <div class="mb-4 p-4 border rounded">
-      <pre class="mt-2 bg-gray-100 p-2 rounded text-xs overflow-auto">{JSON.stringify(folderStatus.completeStructure, null, 2)}</pre>
+      <pre class="mt-2 bg-gray-100 p-2 rounded text-xs overflow-auto">{JSON.stringify(folderStatus.gitStructure || folderStatus.gitError, null, 2)}</pre>
     </div>
     
-    <h2>Path Existence Checks</h2>
-    {Object.entries(folderStatus).filter(([key]) => key.startsWith('exists_')).map(([name, exists]) => (
-      <p class="mb-1"><strong>{name.replace('exists_', '')}:</strong> {exists ? '✅ EXISTS' : '❌ NOT FOUND'}</p>
-    ))}
+    <h2>Local File System Structure</h2>
+    <div class="mb-4 p-4 border rounded">
+      <pre class="mt-2 bg-gray-100 p-2 rounded text-xs overflow-auto">{JSON.stringify(folderStatus.localStructure, null, 2)}</pre>
+    </div>
     
     <h2>Collection API Status</h2>
     {Object.entries(collectionsStatus).map(([name, status]) => (
