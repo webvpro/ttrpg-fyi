@@ -7,12 +7,13 @@ import { defineCollection, z } from "astro:content";
 // A generic base schema that allows for common fields and any other fields.
 // This provides flexibility while ensuring core fields like 'title' are present.
 const baseSchema = z.object({
-    title: z.string(),
-    aliases: z.array(z.string()).optional(),
-    tags: z.array(z.string()).optional(),
-    collection: z.string().optional(),
-    kind: z.string().optional(),
-  }).passthrough(); // .passthrough() allows any other fields without validation.
+  title: z.string(),
+  // Make everything optional and more flexible
+  aliases: z.union([z.array(z.string()), z.string()]).optional(),
+  tags: z.union([z.array(z.string()), z.string()]).optional(),
+  collection: z.string().optional(),
+  kind: z.string().optional(),
+}).passthrough(); // Allow any additional fields// .passthrough() allows any other fields without validation.
 
 
 // Collection for: abilities

@@ -1,8 +1,8 @@
- ---
+---
 aliases:
   - 1Perfect Parking Space
 tags:
-  - Compendium/CSRD/en/Abilities/1Perfect-Parking-Space
+  - Compendium/CSRD/en/Abilities/Perfect-Parking-Space
   - Ability
   - Ability/Action
   - Ability/Cost/3
