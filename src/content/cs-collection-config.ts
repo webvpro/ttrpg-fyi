@@ -17,13 +17,17 @@ const baseSchema = z.object({
 
 
 // Collection for: abilities
-const abilities = defineCollection({
-  schema: baseSchema,
-  loader: glob({
-    pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/csrd/en/abilities',
-  })
-});
+const createCollection = (basePath) => {
+  return defineCollection({
+    schema: baseSchema,
+    loader: glob({
+      pattern: '**/*.{md,mdx}',
+      base: basePath,
+    })
+  });
+};
+
+const abilities = createCollection('src/content/Compendiums/CSRD/en/abilities');
 // Collection for: artifacts
 const artifacts = defineCollection({
   schema: baseSchema,
@@ -49,13 +53,7 @@ const characterarcs = defineCollection({
   })
 });
 // Collection for: character-options
-const characteroptions = defineCollection({
-  schema: baseSchema,
-  loader: glob({
-    pattern: '**/*.{md,mdx}',
-    base: 'src/content/compendiums/csrd/en/character-options',
-  })
-});
+const characteroptions = createCollection('src/content/Compendiums/CSRD/en/character-options');
 // Collection for: creatures-npcs
 const creaturesnpcs = defineCollection({
   schema: baseSchema,
