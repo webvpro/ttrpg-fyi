@@ -1,12 +1,59 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
+import fs from 'fs';
+import path from 'path';
 
 export const prerender = true;
 
-// Initialize with properties or use Record<string, string> type
 let collectionsStatus: Record<string, string> = {};
+let folderStatus: Record<string, any> = {};
 
+// Check the actual paths your collections are using
+const collectionPaths = [
+  'src/content/compendiums/csrd/en/abilities',
+  'src/content/compendiums/csrd/en/character-options',
+  'src/content/compendiums/csrd/en/artifacts',
+  'src/content/compendiums/csrd/en/cyphers'
+];
+
+try {
+  for (const collectionPath of collectionPaths) {
+    const folderName = path.basename(collectionPath);
+    
+    if (fs.existsSync(collectionPath)) {
+      const files = fs.readdirSync(collectionPath);
+      const mdFiles = files.filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
+      folderStatus[folderName] = {
+        exists: true,
+        totalFiles: files.length,
+        mdFiles: mdFiles.length,
+        sampleFiles: mdFiles.slice(0, 3)
+      };
+    } else {
+      folderStatus[folderName] = {
+        exists: false,
+        path: collectionPath
+      };
+    }
+  }
+  
+  // Also check what actually exists at the base level
+  const basePath = 'src/content';
+  if (fs.existsSync(basePath)) {
+    folderStatus.contentRoot = fs.readdirSync(basePath);
+    
+    const compendiumsPath = 'src/content/compendiums';
+    if (fs.existsSync(compendiumsPath)) {
+      folderStatus.compendiumsRoot = fs.readdirSync(compendiumsPath);
+    }
+  }
+  
+} catch (error) {
+  folderStatus.error = error.message;
+}
+
+// Test collections
 try {
   const abilities = await getCollection('abilities');
   collectionsStatus.abilities = `Found ${abilities.length} entries`;
@@ -24,8 +71,18 @@ try {
 <Layout title="Debug Collections" description='Debugging page for content collections'>
   <div class="container mx-auto p-8">
     <h1>Collection Debug Status</h1>
+    
+    <h2>Collection Folder Status</h2>
+    {Object.entries(folderStatus).map(([name, status]) => (
+      <div class="mb-4 p-4 border rounded">
+        <strong>{name}:</strong>
+        <pre class="mt-2 bg-gray-100 p-2 rounded">{JSON.stringify(status, null, 2)}</pre>
+      </div>
+    ))}
+    
+    <h2>Collection API Status</h2>
     {Object.entries(collectionsStatus).map(([name, status]) => (
-      <p><strong>{name}:</strong> {status}</p>
+      <p class="mb-2"><strong>{name}:</strong> {status}</p>
     ))}
   </div>
 </Layout>
