@@ -1,10 +1,11 @@
 import { defineCollection, z } from "astro:content";
-import { glob } from "astro/loaders";
 import { format } from "date-fns";
 import { collections as csrdCollections } from './cs-collection-config.ts';
 
+// Debug: Log what's being imported
+console.log('CSRD Collections keys:', Object.keys(csrdCollections));
+console.log('Has abilities collection:', 'abilities' in csrdCollections);
 
-// Blog articles collection
 const articles = defineCollection({
   schema: ({ image }) =>
     z.object({
@@ -23,9 +24,10 @@ const articles = defineCollection({
 });
 
 // Create all collections
-const collections = {
+export const collections = {
   posts: articles,
   ...csrdCollections,
-  };
+};
 
-export { collections };
+// Debug: Log final collections
+console.log('Final collections keys:', Object.keys(collections));
