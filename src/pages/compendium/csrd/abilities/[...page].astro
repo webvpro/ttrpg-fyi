@@ -1,7 +1,8 @@
 ---
 // This file is auto-generated. Do not edit.
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import Layout from '../../../../layouts/Layout.astro';
+import CollectionList from '../../../../components/ttrpg/CollectionList.vue';
 
 export const prerender = true;
 
@@ -11,46 +12,31 @@ export async function getStaticPaths() {
   ];
 }
 
-// DEBUG: Let's see what's happening
 const entries = await getCollection('abilities');
-console.log('=== ABILITIES PAGE DEBUG ===');
-console.log('Entries found:', entries.length);
-console.log('First few entries:', entries.slice(0, 3).map(e => ({ id: e.id, title: e.data.title })));
+
+// Transform the entries to simple data objects
+const entriesData = entries.map(entry => ({
+  id: entry.id,
+  title: entry.data.title,
+  ...entry.data // spread any other data properties
+}));
 
 const pageTitle = "Abilities";
 const pageDescription = "A complete list of all abilities";
 ---
+
 <Layout title={pageTitle} description={pageDescription}>
-  <div class="container mx-auto px-4 py-8">
+       
     <h1 class="text-4xl font-bold mb-6">{pageTitle}</h1>
     
-    <!-- DEBUG INFO -->
-    <div class="mb-4 p-4 bg-yellow-100 border rounded">
-      <p><strong>Debug:</strong> Found {entries.length} abilities</p>
-      {entries.length === 0 && (
-        <p class="text-red-600">No abilities found! Check collection configuration.</p>
-      )}
-    </div>
 
-    {entries.length > 0 ? (
-      <ul class="space-y-2">
-        {entries.map((entry: CollectionEntry<'abilities'>) => (
-          <li>
-            <a href={`/compendium/csrd/abilities/${entry.id}`} class="text-lg text-blue-600 hover:underline">
-              {entry.data.title || entry.id}
-            </a>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <div class="p-4 bg-red-100 border border-red-400 rounded">
-        <p class="text-red-700">No abilities found. This could be due to:</p>
-        <ul class="list-disc list-inside mt-2 text-red-600">
-          <li>Collection configuration error</li>
-          <li>File path mismatch</li>
-          <li>Invalid frontmatter in markdown files</li>
-        </ul>
-      </div>
-    )}
-  </div>
+  <CollectionList 
+    entries={entriesData}
+    collectionName="abilities"
+    folderName="abilities"
+    pageTitle={pageTitle}
+    pageDescription={pageDescription}
+    showDebug={import.meta.env.DEV}
+    client:load
+  />
 </Layout>
