@@ -25,12 +25,13 @@ export async function getStaticPaths() {
   ];
 }
 
-const entries = await getCollection('${collectionName.toLowerCase().replace(/[-\s]/g, '')}');
+const entries = await getCollection('${collectionName}');
 
 // Transform the entries to simple data objects
 const entriesData = entries.map(entry => ({
   id: entry.id,
   title: entry.data.title,
+  rendered: entry.rendered, // IMPORTANT: Include rendered content
   ...entry.data // spread any other data properties
 }));
 
@@ -45,7 +46,7 @@ const pageDescription = "A complete list of all ${folderName.replace(/-/g, ' ')}
 
   <CollectionList 
     entries={entriesData}
-    collectionName="${collectionName.toLowerCase()}"
+    collectionName="${collectionName}"
     folderName="${folderName}"
     pageTitle={pageTitle}
     pageDescription={pageDescription}
@@ -96,11 +97,6 @@ async function updateAllCSRDPages() {
     console.log(`  ✅ Successfully updated: ${successCount} files`);
     if (errorCount > 0) {
       console.log(`  ❌ Failed updates: ${errorCount} files`);
-    }
-    
-    console.log(`\n📋 Updated pages:`);
-    for (const folderName of collectionDirs) {
-      console.log(`  • /compendium/csrd/${folderName} - [${folderName}]`);
     }
     
   } catch (error) {

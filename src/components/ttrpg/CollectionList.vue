@@ -9,9 +9,7 @@
       <div class="navbar bg-base-300">
         <div class="flex-none lg:hidden">
           <label for="collection-drawer" class="btn btn-square btn-ghost">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
+            <Icon icon="mdi:menu" class="w-6 h-6" />
           </label>
         </div> 
         <div class="flex-1">
@@ -22,15 +20,13 @@
       <!-- Main content area -->
       <div class="flex-1 p-4">
         <!-- Debug info (only in development) -->
-        <div v-if="showDebug" class="alert alert-warning mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.98-.833-2.75 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
-          </svg>
+        <div v-if="showDebug" class="alert alert-warning text-warning-content mb-4">
+          <Icon icon="mdi:alert-outline" class="w-6 h-6 shrink-0" />
           <div>
             <h3 class="font-bold">Debug Info</h3>
-            <div class="text-xs">Found {{ entries.length }} {{ collectionName }}</div>
+            <div class="text-xs">Found {{ entries.length }} {{ formattedCollectionName }}</div>
             <div v-if="entries.length === 0" class="text-xs text-error">
-              No {{ collectionName }} found! Check collection configuration.
+              No {{ formattedCollectionName }} found! Check collection configuration.
             </div>
           </div>
         </div>
@@ -73,11 +69,9 @@
 
         <!-- No entries found -->
         <div v-else-if="entries.length === 0" class="alert alert-error">
-          <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
+          <Icon icon="mdi:close-circle-outline" class="w-6 h-6 shrink-0" />
           <div>
-            <h3 class="font-bold">No {{ collectionName }} found!</h3>
+            <h3 class="font-bold">No {{ formattedCollectionName }} found!</h3>
             <div class="text-xs">This could be due to:</div>
             <ul class="list-disc list-inside mt-2 text-xs">
               <li>Collection configuration error</li>
@@ -106,7 +100,7 @@
       <aside class="w-80 min-h-full bg-base-200">
         <!-- Sidebar header -->
         <div class="p-4 border-b border-base-300">
-          <h2 class="text-lg font-semibold">{{ collectionName }} List</h2>
+          <h2 class="text-lg font-semibold">{{ formattedCollectionName }} List</h2>
           <p class="text-sm text-gray-600 opacity-70">{{ entries.length }} items</p>
         </div>
         
@@ -129,9 +123,7 @@
               :class="{ 'active bg-primary text-primary-content': selectedEntry?.id === entry.id }"
             >
               <span class="flex-1 truncate">{{ entry.title || entry.id }}</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-              </svg>
+              <Icon icon="mdi:chevron-right" class="w-4 h-4" />
             </a>
           </li>
         </ul>
@@ -141,7 +133,12 @@
 </template>
 
 <script>
+import { Icon } from "@iconify/vue";
+
 export default {
+  components: {
+    Icon
+  },
   props: {
     entries: {
       type: Array,
@@ -176,11 +173,14 @@ export default {
     }
   },
   computed: {
+    formattedCollectionName() {
+      return this.collectionName.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+    },
     computedPageTitle() {
-      return this.pageTitle || this.collectionName.charAt(0).toUpperCase() + this.collectionName.slice(1);
+      return this.pageTitle || this.formattedCollectionName;
     },
     computedPageDescription() {
-      return this.pageDescription || `A complete list of all ${this.collectionName.replace(/-/g, ' ')}`;
+      return this.pageDescription || `A complete list of all ${this.formattedCollectionName.toLowerCase()}`;
     },
     filteredEntries() {
       if (!this.searchTerm) return this.entries;

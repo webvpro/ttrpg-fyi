@@ -18,6 +18,7 @@ const entries = await getCollection('skilllists');
 const entriesData = entries.map(entry => ({
   id: entry.id,
   title: entry.data.title,
+  rendered: entry.rendered, // IMPORTANT: Include rendered content
   ...entry.data // spread any other data properties
 }));
 
