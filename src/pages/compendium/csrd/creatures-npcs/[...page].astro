@@ -1,6 +1,8 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content';
+// This file is auto-generated. Do not edit.
+import { getCollection } from 'astro:content';
 import Layout from '../../../../layouts/Layout.astro';
+import CollectionList from '../../../../components/ttrpg/CollectionList.vue';
 
 export const prerender = true;
 
@@ -12,32 +14,29 @@ export async function getStaticPaths() {
 
 const entries = await getCollection('creaturesnpcs');
 
-console.log('Creatures Npcs entries found:', entries.length);
+// Transform the entries to simple data objects
+const entriesData = entries.map(entry => ({
+  id: entry.id,
+  title: entry.data.title,
+  ...entry.data // spread any other data properties
+}));
 
 const pageTitle = "Creatures Npcs";
 const pageDescription = "A complete list of all creatures npcs";
 ---
+
 <Layout title={pageTitle} description={pageDescription}>
-  <div class="container mx-auto px-4 py-8">
+       
     <h1 class="text-4xl font-bold mb-6">{pageTitle}</h1>
     
-    <!-- DEBUG INFO -->
-    <div class="mb-4 p-4 bg-yellow-100 border rounded">
-      <p><strong>Debug:</strong> Found {entries.length} creatures npcs</p>
-    </div>
 
-    {entries.length > 0 ? (
-      <ul class="space-y-2">
-        {entries.map((entry: CollectionEntry<'creaturesnpcs'>) => (
-          <li>
-            <a href={`/compendium/csrd/creatures-npcs/${entry.id}`} class="text-lg text-blue-600 hover:underline">
-              {entry.data.title || entry.id}
-            </a>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <p class="text-red-600">No creatures npcs found.</p>
-    )}
-  </div>
+  <CollectionList 
+    entries={entriesData}
+    collectionName="creaturesnpcs"
+    folderName="creatures-npcs"
+    pageTitle={pageTitle}
+    pageDescription={pageDescription}
+    showDebug={import.meta.env.DEV}
+    client:load
+  />
 </Layout>

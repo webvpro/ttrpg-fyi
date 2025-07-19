@@ -39,10 +39,17 @@
         <div v-if="selectedEntry" class="card bg-base-100 shadow-xl mb-4">
           <div class="card-body">
             <h2 class="card-title">{{ selectedEntry.title || selectedEntry.id }}</h2>
-            <p v-if="selectedEntry.description" class="text-base-content/70 mb-4">{{ selectedEntry.description }}</p>
+            
+            <!-- Markdown content -->
+            <div v-if="selectedEntry.rendered?.html" class="prose prose-sm md:prose-base lg:prose-lg max-w-none mt-4" v-html="selectedEntry.rendered.html"></div>
+            
+            <!-- Fallback to description if no rendered content -->
+            <div v-else-if="selectedEntry.description" class="mt-4">
+              <p class="text-gray-600 opacity-70">{{ selectedEntry.description }}</p>
+            </div>
             
             <!-- Additional properties -->
-            <div v-if="additionalProperties.length > 0" class="mt-4">
+            <div v-if="additionalProperties.length > 0" class="mt-6 pt-4 border-t border-base-300">
               <h3 class="font-semibold mb-2">Properties:</h3>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
                 <div v-for="prop in additionalProperties" :key="prop.key" class="flex justify-between">
@@ -52,7 +59,7 @@
               </div>
             </div>
             
-            <div class="card-actions justify-end mt-4">
+            <div class="card-actions justify-end mt-6">
               <a 
                 :href="`/compendium/csrd/${folderName}/${selectedEntry.id.toLowerCase()}`" 
                 class="btn btn-primary"
@@ -86,7 +93,7 @@
             <div class="max-w-md">
               <h1 class="text-5xl font-bold">{{ computedPageTitle }}</h1>
               <p class="py-6">{{ computedPageDescription }}</p>
-              <p class="text-base-content/70">Select an item from the sidebar to view details</p>
+              <p class="text-gray-600 opacity-70">Select an item from the sidebar to view details</p>
             </div>
           </div>
         </div>
@@ -96,11 +103,11 @@
     <!-- Drawer sidebar -->
     <div class="drawer-side">
       <label for="collection-drawer" class="drawer-overlay"></label>
-      <aside class="w-80 min-h-full bg-base-200 text-base-content">
+      <aside class="w-80 min-h-full bg-base-200">
         <!-- Sidebar header -->
         <div class="p-4 border-b border-base-300">
           <h2 class="text-lg font-semibold">{{ collectionName }} List</h2>
-          <p class="text-sm text-base-content/70">{{ entries.length }} items</p>
+          <p class="text-sm text-gray-600 opacity-70">{{ entries.length }} items</p>
         </div>
         
         <!-- Search bar -->
@@ -186,7 +193,7 @@ export default {
     additionalProperties() {
       if (!this.selectedEntry) return [];
       
-      const excludeKeys = ['id', 'title', 'description'];
+      const excludeKeys = ['id', 'title', 'description', 'rendered'];
       return Object.entries(this.selectedEntry)
         .filter(([key, value]) => !excludeKeys.includes(key) && value !== null && value !== undefined)
         .map(([key, value]) => ({ key, value }));
@@ -218,3 +225,7 @@ export default {
   }
 }
 </script>
+
+<style>
+/* No custom styles needed - use classes in template instead */
+</style>

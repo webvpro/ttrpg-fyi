@@ -1,7 +1,8 @@
 ---
 // This file is auto-generated. Do not edit.
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import Layout from '../../../../layouts/Layout.astro';
+import CollectionList from '../../../../components/ttrpg/CollectionList.vue';
 
 export const prerender = true;
 
@@ -12,20 +13,30 @@ export async function getStaticPaths() {
 }
 
 const entries = await getCollection('rituals');
+
+// Transform the entries to simple data objects
+const entriesData = entries.map(entry => ({
+  id: entry.id,
+  title: entry.data.title,
+  ...entry.data // spread any other data properties
+}));
+
 const pageTitle = "Rituals";
 const pageDescription = "A complete list of all rituals";
 ---
+
 <Layout title={pageTitle} description={pageDescription}>
-  <div class="container mx-auto px-4 py-8">
+       
     <h1 class="text-4xl font-bold mb-6">{pageTitle}</h1>
-    <ul class="space-y-2">
-      {entries.map((entry: CollectionEntry<'rituals'>) => (
-        <li>
-          <a href={`/compendium/csrd/rituals/${entry.id}`} class="text-lg text-blue-600 hover:underline">
-            {entry.data.title}
-          </a>
-        </li>
-      ))}
-    </ul>
-  </div>
+    
+
+  <CollectionList 
+    entries={entriesData}
+    collectionName="rituals"
+    folderName="rituals"
+    pageTitle={pageTitle}
+    pageDescription={pageDescription}
+    showDebug={import.meta.env.DEV}
+    client:load
+  />
 </Layout>

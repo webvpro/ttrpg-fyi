@@ -12,7 +12,7 @@ export async function getStaticPaths() {
   ];
 }
 
-const entries = await getCollection('cantrips');
+const entries = await getCollection('compendiums');
 
 // Transform the entries to simple data objects
 const entriesData = entries.map(entry => ({
@@ -21,8 +21,8 @@ const entriesData = entries.map(entry => ({
   ...entry.data // spread any other data properties
 }));
 
-const pageTitle = "Cantrips";
-const pageDescription = "A complete list of all cantrips";
+const pageTitle = "Compendiums";
+const pageDescription = "A complete list of all compendiums";
 ---
 
 <Layout title={pageTitle} description={pageDescription}>
@@ -32,8 +32,8 @@ const pageDescription = "A complete list of all cantrips";
 
   <CollectionList 
     entries={entriesData}
-    collectionName="cantrips"
-    folderName="cantrips"
+    collectionName="compendiums"
+    folderName="compendiums"
     pageTitle={pageTitle}
     pageDescription={pageDescription}
     showDebug={import.meta.env.DEV}
