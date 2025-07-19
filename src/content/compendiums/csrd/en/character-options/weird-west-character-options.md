@@ -19,18 +19,18 @@ id: Weird-West-Character-Options
 
  #### Suggested Types for a Weird West Game
 
-|     |     |
-| --- | --- | 
-|  Role|Type|
-|Gunslinger|Warrior|
-|Lawman|Speaker with combat flavor|
-|Teacher|Speaker|
-|Preacher or Mesmerist|Speaker with magic flavor|
-|Actor|Speaker|
-|Prospector|Explorer with combat flavor|
-|Swindler or Gambler|Explorer with stealth flavor|
-|Doctor or Scholar|Explorer with skills and knowledge flavor|
-|Alchemist/Engineer|Adept with technology flavor|
+|                       |                                           |
+| --------------------- | ----------------------------------------- |
+| Role                  | Type                                      |
+| Gunslinger            | Warrior                                   |
+| Lawman                | Speaker with combat flavor                |
+| Teacher               | Speaker                                   |
+| Preacher or Mesmerist | Speaker with magic flavor                 |
+| Actor                 | Speaker                                   |
+| Prospector            | Explorer with combat flavor               |
+| Swindler or Gambler   | Explorer with stealth flavor              |
+| Doctor or Scholar     | Explorer with skills and knowledge flavor |
+| Alchemist/Engineer    | Adept with technology flavor              |
 
   
 

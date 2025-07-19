@@ -42,11 +42,11 @@ When star troopers need heavy support, they sometimes bring in wardroids. These 
 > When defeated, the wardroid detonates, inflicting 8 points of damage on all creatures within immediate range.    
     
   
-|  Roll &nbsp; &nbsp; &nbsp; | Ability  |    
-| ------------- | :----------- |    
-| 1 | Emit poison gas that inflicts 5 points of damage on organic beings in immediate range |    
-| 2 | Project grenades up to long distance that detonate in an immediate radius, inflicting 5 points of damage |    
-| 3 | Fire a beam that stuns an organic being for one round, during which it cannot take actions |    
-| 4 | Emit a field that disrupts machines; technological devices and machine creatures in immediate range cannot function for one round |    
-| 5 | Fire a piercing projectile up to long range that inflicts 6 points of damage that ignores physical armor (but not necessarily other Armor) |    
-| 6 | Spray a corrosive that inflicts 5 points of damage on everything in immediate range |
+| Roll &nbsp; &nbsp; &nbsp; | Ability                                                                                                                                    |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1                         | Emit poison gas that inflicts 5 points of damage on organic beings in immediate range                                                      |
+| 2                         | Project grenades up to long distance that detonate in an immediate radius, inflicting 5 points of damage                                   |
+| 3                         | Fire a beam that stuns an organic being for one round, during which it cannot take actions                                                 |
+| 4                         | Emit a field that disrupts machines; technological devices and machine creatures in immediate range cannot function for one round          |
+| 5                         | Fire a piercing projectile up to long range that inflicts 6 points of damage that ignores physical armor (but not necessarily other Armor) |
+| 6                         | Spray a corrosive that inflicts 5 points of damage on everything in immediate range                                                        |

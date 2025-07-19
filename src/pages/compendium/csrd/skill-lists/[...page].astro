@@ -1,0 +1,43 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import Layout from '../../../../layouts/Layout.astro';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  return [
+    { params: { page: undefined } },
+  ];
+}
+
+const entries = await getCollection('skilllists');
+
+console.log('Skill Lists entries found:', entries.length);
+
+const pageTitle = "Skill Lists";
+const pageDescription = "A complete list of all skill lists";
+---
+<Layout title={pageTitle} description={pageDescription}>
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-6">{pageTitle}</h1>
+    
+    <!-- DEBUG INFO -->
+    <div class="mb-4 p-4 bg-yellow-100 border rounded">
+      <p><strong>Debug:</strong> Found {entries.length} skill lists</p>
+    </div>
+
+    {entries.length > 0 ? (
+      <ul class="space-y-2">
+        {entries.map((entry: CollectionEntry<'skilllists'>) => (
+          <li>
+            <a href={`/compendium/csrd/skill-lists/${entry.id}`} class="text-lg text-blue-600 hover:underline">
+              {entry.data.title || entry.id}
+            </a>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="text-red-600">No skill lists found.</p>
+    )}
+  </div>
+</Layout>

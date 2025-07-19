@@ -64,11 +64,11 @@ Roaches dislike bright illumination: in sunlight or other bright light, glowing 
 > none    
     
   
-|  Roll &nbsp; &nbsp; &nbsp; | Glowing Roach Effects  |    
-| ------------- | :----------- |    
-| 1 | Head wound: Intellect defense tasks hindered |    
-| 2 | Wounded leg: Speed defense tasks hindered |    
-| 3 | Gut wound: Might defense tasks hindered |    
-| 4 | Spit in eye: Perception tasks hindered |    
-| 5 | Limb numb: Physical tasks hindered |    
-| 6 | Lingering radioactive effect: Refer to Radiation in the Real World and possibly Incredible Mutations if your game has such fantastic elements. |
+| Roll &nbsp; &nbsp; &nbsp; | Glowing Roach Effects                                                                                                                          |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                         | Head wound: Intellect defense tasks hindered                                                                                                   |
+| 2                         | Wounded leg: Speed defense tasks hindered                                                                                                      |
+| 3                         | Gut wound: Might defense tasks hindered                                                                                                        |
+| 4                         | Spit in eye: Perception tasks hindered                                                                                                         |
+| 5                         | Limb numb: Physical tasks hindered                                                                                                             |
+| 6                         | Lingering radioactive effect: Refer to Radiation in the Real World and possibly Incredible Mutations if your game has such fantastic elements. |

@@ -21,7 +21,7 @@ const pageDescription = "A complete list of all skilllists";
     <ul class="space-y-2">
       {entries.map((entry: CollectionEntry<'skilllists'>) => (
         <li>
-          <a href={`/compendium/csrd/skilllists/${entry.id}`} class="text-lg text-blue-600 hover:underline">
+          <a href={`/compendium/csrd/skill-lists/${entry.id}`} class="text-lg text-blue-600 hover:underline">
             {entry.data.title}
           </a>
         </li>

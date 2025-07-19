@@ -17,8 +17,8 @@ id: Rejuvenator
     
 Restores a number of points equal to the cypher's level to one random stat Pool.    
   
-|  Roll &nbsp; &nbsp; &nbsp; | Rejuvenator  |    
-| ------------- | :----------- |    
-| 1-50 | Might Pool |    
-| 51-75 | Speed Pool |    
-| 76-100 | Intellect Pool |
+| Roll &nbsp; &nbsp; &nbsp; | Rejuvenator    |
+| ------------------------- | -------------- |
+| 1-50                      | Might Pool     |
+| 51-75                     | Speed Pool     |
+| 76-100                    | Intellect Pool |

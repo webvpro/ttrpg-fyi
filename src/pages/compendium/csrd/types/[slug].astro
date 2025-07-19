@@ -1,38 +1,81 @@
 ---
-// This file is auto-generated. Do not edit.
-import { getCollection, getEntry, render } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 import Layout from '../../../../layouts/Layout.astro';
 
 export const prerender = true;
 
 export async function getStaticPaths() {
   const entries = await getCollection('types');
-  return entries.map(entry => ({
-    params: { slug: entry.id }, // Changed to use id instead of slug
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
   }));
 }
 
-const { slug } = Astro.params;
-const entry = await getEntry('types', slug);
+type Props = {
+  entry: CollectionEntry<'types'>;
+};
 
-if (!entry) {
-  return new Response(null, { status: 404 });
+const { entry } = Astro.props;
+
+// For glob-loaded collections, access the rendered HTML
+let content = entry.rendered.html || '';
+
+// Add simple DaisyUI table classes if content contains tables
+if (content && content.includes('<table')) {
+  content = content.replace(/<table([^>]*?)>/g, '<table$1 class="table table-zebra custom-table">');
 }
-
-// Render the entry's content
-const { Content } = await render(entry);
 ---
-<Layout title={entry.data.title} description={entry.data.title}>
-  <article class="prose lg:prose-xl mx-auto py-8">
-    <h1>{entry.data.title}</h1>
-    
-    {/* Use the Content component to render the markdown */}
-    <Content />
-    
-    <div class="metadata mt-8 border-t pt-4">
-      {entry.data.type && <p><strong>Type:</strong> {entry.data.type}</p>}
-      {entry.data.level && <p><strong>Level:</strong> {entry.data.level}</p>}
-      {entry.data.source && <p><strong>Source:</strong> {entry.data.source}</p>}
+<Layout title={entry.data.title || entry.id} description={String(entry.data.description || `Details about ${entry.data.title || entry.id}`)}>
+  <div class="container mx-auto px-4 py-8">
+    <div class="mb-6">
+      <a href="/compendium/csrd/types" class="text-blue-600 hover:underline">
+        ← Back to Types
+      </a>
     </div>
-  </article>
+    
+    <article class="prose lg:prose-xl max-w-none">
+      <h1>{entry.data.title || entry.id}</h1>
+      
+      {content ? (
+        <div set:html={content}></div>
+      ) : (
+        <div class="bg-yellow-100 border border-yellow-400 p-4 rounded">
+          <p class="text-yellow-800">No content available for this entry.</p>
+          <details class="mt-2">
+            <summary class="cursor-pointer text-sm">Debug Info</summary>
+            <pre class="mt-2 text-xs bg-gray-100 p-2 rounded overflow-auto">{JSON.stringify({
+              id: entry.id,
+              hasData: !!entry.data,
+              hasRendered: !!entry.rendered,
+              hasHtml: !!entry.rendered?.html,
+              htmlLength: entry.rendered?.html ? entry.rendered.html.length : 0,
+              dataKeys: entry.data ? Object.keys(entry.data) : [],
+              entryKeys: Object.keys(entry)
+            }, null, 2)}</pre>
+          </details>
+        </div>
+      )}
+    </article>
+  </div>
 </Layout>
+
+<style>
+  /* Custom table styling using Tailwind @apply */
+  .prose .custom-table {
+    @apply mt-4 mb-4 border-collapse w-full;
+  }
+  
+  .prose .custom-table th {
+    @apply border-0 p-3 text-left;
+  }
+  
+  .prose .custom-table td {
+    @apply border-0 p-3;
+  }
+  
+  /* Override prose table margins specifically for DaisyUI tables */
+  .prose .table {
+    @apply my-4;
+  }
+</style>

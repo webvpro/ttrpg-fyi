@@ -46,11 +46,11 @@ In any group of four or more cannibals, there's probably one (revealed as a GM i
 > none    
     
   
-|  Roll &nbsp; &nbsp; &nbsp; | Severing Bite Effects  |    
-| ------------- | :----------- |    
-| 1 | End of nose |    
-| 2 | Little finger |    
-| 3 | Chunk from forearm |    
-| 4 | Chunk from leg |    
-| 5 | Ear; target's perception task that rely on hearing are hindered until target adapts |    
-| 6 | Throat; target descends on step on damage track each round until ally succeeds on a difficulty 5 healing task |
+| Roll &nbsp; &nbsp; &nbsp; | Severing Bite Effects                                                                                         |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| 1                         | End of nose                                                                                                   |
+| 2                         | Little finger                                                                                                 |
+| 3                         | Chunk from forearm                                                                                            |
+| 4                         | Chunk from leg                                                                                                |
+| 5                         | Ear; target's perception task that rely on hearing are hindered until target adapts                           |
+| 6                         | Throat; target descends on step on damage track each round until ally succeeds on a difficulty 5 healing task |
