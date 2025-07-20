@@ -40,19 +40,19 @@ const pageDescription = "A complete list of all ${folderName.replace(/-/g, ' ')}
 ---
 
 <Layout title={pageTitle} description={pageDescription}>
-       
+  <div class="container mx-auto p-4">
     <h1 class="text-4xl font-bold mb-6">{pageTitle}</h1>
     
-
-  <CollectionList 
-    entries={entriesData}
-    collectionName="${collectionName}"
-    folderName="${folderName}"
-    pageTitle={pageTitle}
-    pageDescription={pageDescription}
-    showDebug={import.meta.env.DEV}
-    client:load
-  />
+    <CollectionList 
+      entries={entriesData}
+      collectionName="${collectionName}"
+      folderName="${folderName}"
+      pageTitle={pageTitle}
+      pageDescription={pageDescription}
+      showDebug={import.meta.env.DEV}
+      client:load
+    />
+  </div>
 </Layout>
 `;
 }
