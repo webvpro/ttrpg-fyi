@@ -28,107 +28,45 @@
             <div v-if="entries.length === 0" class="text-xs text-error">
               No {{ formattedCollectionName }} found! Check collection configuration.
             </div>
-            <div v-if="Array.isArray(rules) && rules.length > 0" class="text-xs mt-2">
-              <strong>Rules:</strong> {{ rules.length }} rule(s) available
-              <div class="text-xs text-success">✓ Rule content available for tabs</div>
-            </div>
-            <div v-else-if="rules?.rendered?.html" class="text-xs mt-2">
-              <strong>Rule:</strong> {{ rules.data?.title || 'Single rule' }}
-              <div class="text-xs text-success">✓ Rule content available</div>
-            </div>
-            <div v-else class="text-xs mt-2 text-warning">⚠ No rule content</div>
           </div>
         </div>
 
-        <!-- Rules content in tabs (always show if rules available) -->
-        <div v-if="Array.isArray(rules) && rules.length > 0" class="card bg-base-100 shadow-xl mb-4">
-          <div class="card-body">
-            <div class="alert alert-info mb-4">
-              <Icon icon="mdi:book-open-variant" class="w-5 h-5" />
-              <span class="text-sm font-semibold">Related Rules ({{ rules.length }})</span>
-            </div>
-            
-            <div class="overflow-x-auto">
-              <div class="tabs-lift tabs min-w-max">
-                <template v-for="(rule, index) in rules" :key="rule.id || index">
-                  <input 
-                    type="radio" 
-                    :name="`rule_tabs_${tabKey}`" 
-                    class="tab z-1" 
-                    :aria-label="rule.data?.title || rule.id || `Rule ${index + 1}`"
-                    :checked="!selectedEntry && index === 0"
-                  />
-                  <div class="sticky start-0 tab-content border-base-300 bg-base-100 p-6">
-                    <h3 class="font-bold text-lg mb-4">{{ rule.data?.title || rule.id || `Rule ${index + 1}` }}</h3>
-                    <div 
-                      v-if="rule.rendered?.html" 
-                      class="prose prose-sm md:prose-base max-w-none" 
-                      v-html="rule.rendered.html"
-                    ></div>
-                    <div v-else class="text-gray-500 italic">No content available for this rule.</div>
-                  </div>
-                </template>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Single rule content (if single rule object) -->
-        <div v-else-if="rules?.rendered?.html" class="card bg-base-100 shadow-xl mb-4">
-          <div class="card-body">
-            <div class="alert alert-info mb-4">
-              <Icon icon="mdi:book-open-variant" class="w-5 h-5" />
-              <span class="text-sm font-semibold">Rule: {{ rules.data?.title || collectionName }}</span>
-            </div>
-            <div class="prose prose-sm md:prose-base lg:prose-lg max-w-none" v-html="rules.rendered.html"></div>
-          </div>
-        </div>
+        <!-- Related Rules Component -->
+        <RelatedRules 
+          :rules="rules"
+          :collection-name="collectionName"
+          :show-debug="showDebug"
+          :tab-key="tabKey"
+        />
 
         <!-- Selected item details -->
         <div v-if="selectedEntry" class="card bg-base-100 shadow-xl mb-4">
           <div class="card-body">
             <h2 class="card-title">{{ selectedEntry.title || selectedEntry.id }}</h2>
             
-            <!-- Entry content tabs (for entry details and additional info) -->
-            <div class="overflow-x-auto">
-              <div class="tabs-lift tabs min-w-max">
-                <!-- Entry Content Tab -->
-                <input 
-                  type="radio" 
-                  :name="`content_tabs_${selectedEntry.id}`" 
-                  class="tab z-1" 
-                  aria-label="Entry Details"
-                  checked="checked"
-                />
-                <div class="sticky start-0 tab-content border-base-300 bg-base-100 p-6">
-                  <h3 class="font-bold text-lg mb-4">Entry Details</h3>
-                  <!-- Markdown content from the entry itself -->
-                  <div v-if="selectedEntry.rendered?.html" class="prose prose-sm md:prose-base lg:prose-lg max-w-none" v-html="selectedEntry.rendered.html"></div>
-                  <!-- Fallback to description if no rendered content -->
-                  <div v-else-if="selectedEntry.description" class="mt-4">
-                    <p class="text-gray-600 opacity-70">{{ selectedEntry.description }}</p>
-                  </div>
-                  <div v-else class="text-gray-500 italic">No content available for this entry.</div>
-                </div>
+            <!-- Entry content - direct display without tabs -->
+            <div class="mt-4">
+              <!-- Markdown content from the entry itself -->
+              <div 
+                v-if="selectedEntry.rendered?.html" 
+                class="prose prose-sm md:prose-base lg:prose-lg max-w-none" 
+                v-html="selectedEntry.rendered.html"
+              ></div>
+              <!-- Fallback to description if no rendered content -->
+              <div v-else-if="selectedEntry.description" class="mt-4">
+                <p class="text-gray-600 opacity-70">{{ selectedEntry.description }}</p>
+              </div>
+              <div v-else class="text-gray-500 italic">No content available for this entry.</div>
+            </div>
 
-                <!-- Properties Tab (if additional properties exist) -->
-                <template v-if="additionalProperties.length > 0">
-                  <input 
-                    type="radio" 
-                    :name="`content_tabs_${selectedEntry.id}`" 
-                    class="tab z-1" 
-                    aria-label="Properties"
-                  />
-                  <div class="sticky start-0 tab-content border-base-300 bg-base-100 p-6">
-                    <h3 class="font-bold text-lg mb-4">Properties</h3>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div v-for="prop in additionalProperties" :key="prop.key" class="flex justify-between p-3 bg-base-200 rounded">
-                        <span class="font-medium">{{ formatKey(prop.key) }}:</span>
-                        <span class="text-right">{{ formatValue(prop.value) }}</span>
-                      </div>
-                    </div>
-                  </div>
-                </template>
+            <!-- Additional Properties (if any) -->
+            <div v-if="additionalProperties.length > 0" class="mt-6">
+              <h3 class="font-bold text-lg mb-4">Properties</h3>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div v-for="prop in additionalProperties" :key="prop.key" class="flex justify-between p-3 bg-base-200 rounded">
+                  <span class="font-medium">{{ formatKey(prop.key) }}:</span>
+                  <span class="text-right">{{ formatValue(prop.value) }}</span>
+                </div>
               </div>
             </div>
             
@@ -212,6 +150,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { Icon } from '@iconify/vue'
+import RelatedRules from '../vue/RelatedRules.vue'
 
 // Props
 const props = defineProps({

@@ -26,283 +26,143 @@ The abilities in this chapter can be roughly grouped into these categories: Atta
 
 Gives you training or specialization in a specific physical attack (like swords or unarmed combat), a category of physical attacks (light bladed, heavy bashing, and so on), or another physical skill primarily used to inflict harm (such as breaking objects).
 
->[!example] Low Tier  
-
-
->[!example] Mid Tier 
-
-
->[!example] High Tier 
-
-
-
 ### Companion
 
 Gives you a follower, modifies a follower, or gives you an additional benefit when interacting with or near your follower. This category includes humanoid followers, beast companions, and temporary companions like summoned swarms, conjured spirits, and so on.
-
->[!example] Low Tier
- 
-
->[!example] Mid Tier 
- 
-
-
->[!example] High Tier 
- 
 
 ### Control
 
 Controls or influences minds in ways outside of what could be done with conventional intimidation and persuasion, such as using psychic mind control, fear gas, and so on.
 
->[!example] Low Tier 
- 
-
->[!example] Mid Tier 
- 
-
-
->[!example] High Tier 
- 
-
 ### Craft
 
 Creates useful physical things, such as mundane tools (hammers, crowbars), limited-use devices (manifest cyphers, artifacts), or independent beings (robots, elementals, zombies). Includes blueprints, plans, and effects that aid or speed crafting.
 
->[!example] Low Tier 
- 
-
->[!example] Mid Tier 
- 
-
-
->[!example] High Tier 
- 
-
-
 ### Cure
 Cures damage, adds or improves recovery rolls, or negates, cures, suspends, or otherwise gives immunity to a harmful effect or condition, such as poison, disease, mental attacks, moving down on the damage track, or dying.
-
->[!example] Low Tier 
- 
-
-
->[!example] Mid Tier 
- 
-
->[!example] High Tier 
- 
 
 ### Environment
 
 Manipulates the environment or things in the environment, such as with telekinesis, weather control, gravity control, illusions, and so on.
 
->[!example] Low Tier 
- 
-
->[!example] Mid Tier 
- 
-
->[!example] High Tier 
- 
-
 ### Information
 
 Gives the ability to learn information about something, whether chosen by the GM like Scan, by asking a question and the GM giving the answer, or by learning a language.
-
->[!example] Low Tier 
- 
-
->[!example] Mid Tier 
- 
-
-
->[!example] High Tier 
- 
 
 ### Meta
 
 Modifies an existing ability or character trait’s effects or parameters, such as increasing range or, damage, easing the difficulty, giving you additional noncombat actions each turn, rerolling a failed attempt, or treating a number on the die as something different than normal.
 
->[!example] Low Tier 
- 
-
-
->[!example] Mid Tier 
- 
-
-
->[!example] High Tier 
- 
-
 ### Movement
 
 Increases your movement (such as increasing your basic movement speed from short to long) or adds a new type of movement (such as flight, wallcrawling, phasing, or teleporting).
-
->[!example] Low Tier 
- 
-
-
->[!example] Mid Tier 
- 
-
->[!example] High Tier 
- 
 
 ### Protection
 
 Gives training or specialization in one or more types of combat defenses (Might, Speed, or Intellect), provides or increases Armor, or otherwise helps prevent damage.
 
->[!example] Low Tier 
- 
-
->[!example] Mid Tier 
- 
-
->[!example] High Tier 
- 
-
-
 ### Senses
 
 Enhances your senses (seeing in the dark, seeing underwater or through mist, sensing danger, finding optimal places to stand in combat, and so on), but doesn’t provide direct answers to questions like an information ability does.
-
->[!example] Low Tier 
- 
-
->[!example] Mid Tier 
- 
-
-
->[!example] High Tier 
- 
 
 ### Social
 
 Gives you an indirect social benefit, such as providing a useful contact in a city or letting you take advantage of your social status.
 
->[!example] Low Tier 
- 
-
->[!example] Mid Tier 
- 
-
->[!example] High Tier 
- 
-
 ### Special Attack
 
 Gives the ability to make a special melee or ranged attack (weapon, energy blast, psychic, and so on). The attack might do damage, have a special effect (disarm, hinder, move the target, and so on), or both. This also includes abilities like Spray that let you attack multiple targets as your action.
 
->[!example] Low Tier 
- 
-
->[!example] Mid Tier 
- 
-
->[!example] High Tier 
- 
-
 ### Support
 
 Gives some sort of benefit to an ally rather than yourself, such as an extra action or an asset on their roll.
-
->[!example] Low Tier 
- 
-
->[!example] Mid Tier 
- 
-
-
->[!example] High Tier 
  
 ### Task
 
 Gives training, specialization, or an asset in one or more noncombat skills (climbing, healing, computers, initiative, and so on).
 
->[!example] Low Tier 
-
-
->[!example] Mid Tier 
-  
-
-
->[!example] High Tier 
-
-
 ### Transform
 
 A significant change that temporarily enhances you, such as growing bigger, turning into a werewolf, and so on. Also includes apparent transformations like disguises and invisibility.
 
->[!example] Low Tier 
+#### Animal Form Minor Abilities
+
+  
+| Animal              | Skill Training           | Other Abilities   |
+| ------------------- | ------------------------ | ----------------- |
+| Ape                 | Climbing                 | Hands             |
+| Badger              | Climbing                 | Scent             |
+| Bat                 | Perception               | Flying            |
+| Bear                | Climbing                 | Scent             |
+| Bird                | Perception               | Flying            |
+| Boar                | Might defense            | Scent             |
+| Cat                 | Climbing or stealth      | Small             |
+| Constrictor snake   | Climbing                 | Constrict         |
+| Crocodile           | Stealth or swimming      | Constrict         |
+| Deinonychus         | Perception               | Fast              |
+| Dolphin             | Perception or swimming   | Fast              |
+| Fish                | Stealth or swimming      | Aquatic           |
+| Frog                | Jumping or stealth       | Aquatic           |
+| Horse               | Perception               | Fast              |
+| Leopard             | Climbing or stealth      | Fast              |
+| Lizard              | Climbing or stealth      | Small             |
+| Octopus             | Stealth                  | Aquatic           |
+| Shark               | Swimming                 | Aquatic           |
+| Turtle              | Might defense            | Armor             |
+| Venomous snake      | Climbing                 | Venom             |
+| Wolf                | Perception               | Scent             |
 
 
->[!example] Mid Tier 
-
-
->[!example] High Tier 
-
-
-### Abilities—A
-
-
-### Abilities—B
-
-
-### Abilities—C
-
-
-### Abilities—D
-
-
-### Abilities—E
-
-
-### Abilities—F
-
-
-### Abilities—K
-
-
-### Abilities—L
-
-
-### Abilities—M
-
-
-### Abilities—N
-
-
-### Abilities—O
-
-
-### Abilities—P
+  
+> [!tip] Aquatic  
+  
+> The animal either breathes water instead of air or is able to breathe water in addition to breathing air.  
   
 
-### Abilities—Q
- 
-
-### Abilities—R
-
-
-### Abilities—S
-
-
-### Abilities—T
-
-
-### Abilities—U
-
-
-### Abilities—V
+  
+>[!tip] Armor 
+  
+> The animal has a thick hide or shell, granting +1 to Armor.
   
 
-### Abilities—W
+  
+>[!tip] Constrict 
+  
+> The animal can grip its opponent fast after making a melee attack (usually with a bite or claw), easing attack rolls against that foe on later turns until the animal releases the foe.
+  
 
+  
+>[!tip] Fast  
+  
+>The animal can move a long distance on its turn instead of a short distance.
+  
 
-### Abilities—Y
+  
+>[!tip] Flying  
+  
+>The animal can fly, which (depending on the type of animal) may be up to a short or long distance on its turn.
+  
 
+  
+>[!tip] Hands  
+  
+>The animal has paws or hands that are nearly as agile as those of a human. Unlike with most animal shapes, the animal’s tasks that require hands are not hindered (although the GM may decide that some tasks requiring human agility, such as playing a flute, are still hindered).
+  
 
-### Abilities—Z
+  
+>[!tip] Scent 
+  
+> The animal has a strong sense of smell, gaining an asset on tracking and dealing with darkness or blindness.
+  
 
+  
+>[!tip] Small  
+  
+>The animal is considerably smaller than a human, easing its Speed defense tasks but hindering tasks to move heavy things.
+  
 
-## [[Animal-Form-Minor-Abilities-Table|Animal Form Minor Abilities Table]]
+  
+>[!tip] Venom  
+  
+>The animal is poisonous (usually through a bite), inflicting 1 additional point of damage.
+
