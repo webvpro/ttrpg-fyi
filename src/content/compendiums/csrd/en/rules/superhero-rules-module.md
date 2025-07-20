@@ -229,8 +229,4 @@ This section introduces two new power boost cyphers, and consolidates the two ef
 
 ### Artifacts
 
->```dataview
->LIST 
->FROM #Artifact/Superhero 
->SORT file.name
->```
+

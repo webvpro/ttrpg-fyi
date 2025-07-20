@@ -13,13 +13,15 @@ export async function getStaticPaths() {
 }
 
 const entries = await getCollection('abilities');
+const rules = await getCollection('rules').then((rules: any[]) => {
+  return rules.find((r: { id: string; }) => r.id.toLowerCase() === 'abilities');
+})  || { data: {}, rendered: '' };
 
 // Transform the entries to simple data objects
-const entriesData = entries.map(entry => ({
+const entriesData = entries.map((entry: { id: any; data: { title: any; }; rendered: any; }) => ({
   id: entry.id,
-  title: entry.data.title,
   rendered: entry.rendered, // IMPORTANT: Include rendered content
-  ...entry.data // spread any other data properties
+  ...entry.data // spread any other data properties (including title)
 }));
 
 const pageTitle = "Abilities";
@@ -33,6 +35,7 @@ const pageDescription = "A complete list of all abilities";
 
   <CollectionList 
     entries={entriesData}
+    rules={rules}
     collectionName="abilities"
     folderName="abilities"
     pageTitle={pageTitle}
