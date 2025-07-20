@@ -78,7 +78,10 @@ async function updateAllCSRDPages() {
     for (const folderName of collectionDirs) {
       console.log(`\n📂 Processing: ${folderName}`);
       
-      const collectionName = folderName; // Use folder name as collection name
+      // Remove hyphens and spaces from collection name
+      const collectionName = folderName.replace(/[-\s]/g, '');
+      console.log(`  📝 Collection name: ${folderName} → ${collectionName}`);
+      
       const pageDir = join(pagesDir, folderName);
       const listPagePath = join(pageDir, '[...page].astro');
       

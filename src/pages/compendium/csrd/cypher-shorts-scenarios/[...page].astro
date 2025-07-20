@@ -12,7 +12,7 @@ export async function getStaticPaths() {
   ];
 }
 
-const entries = await getCollection('cypher-shorts-scenarios');
+const entries = await getCollection('cyphershortsscenarios');
 
 // Transform the entries to simple data objects
 const entriesData = entries.map(entry => ({
@@ -33,7 +33,7 @@ const pageDescription = "A complete list of all cypher shorts scenarios";
 
   <CollectionList 
     entries={entriesData}
-    collectionName="cypher-shorts-scenarios"
+    collectionName="cyphershortsscenarios"
     folderName="cypher-shorts-scenarios"
     pageTitle={pageTitle}
     pageDescription={pageDescription}

@@ -12,7 +12,7 @@ export async function getStaticPaths() {
   ];
 }
 
-const entries = await getCollection('skill-lists');
+const entries = await getCollection('skilllists');
 
 // Transform the entries to simple data objects
 const entriesData = entries.map(entry => ({
@@ -33,7 +33,7 @@ const pageDescription = "A complete list of all skill lists";
 
   <CollectionList 
     entries={entriesData}
-    collectionName="skill-lists"
+    collectionName="skilllists"
     folderName="skill-lists"
     pageTitle={pageTitle}
     pageDescription={pageDescription}

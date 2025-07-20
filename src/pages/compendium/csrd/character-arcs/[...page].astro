@@ -12,7 +12,7 @@ export async function getStaticPaths() {
   ];
 }
 
-const entries = await getCollection('character-arcs');
+const entries = await getCollection('characterarcs');
 
 // Transform the entries to simple data objects
 const entriesData = entries.map(entry => ({
@@ -33,7 +33,7 @@ const pageDescription = "A complete list of all character arcs";
 
   <CollectionList 
     entries={entriesData}
-    collectionName="character-arcs"
+    collectionName="characterarcs"
     folderName="character-arcs"
     pageTitle={pageTitle}
     pageDescription={pageDescription}
