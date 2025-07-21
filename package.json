@@ -10,15 +10,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.0",
-    "@astrojs/vercel": "^8.0.4",
+    "@astrojs/mdx": "^4.3.1",
+    "@astrojs/vercel": "^8.2.2",
     "@astrojs/vue": "^5.1.0",
     "@fontsource-variable/outfit": "^5.2.5",
     "@iconify/vue": "^5.0.0",
     "@tailwindcss/postcss": "^4.1.10",
-    "@tailwindcss/vite": "^4.0.9",
+    "@tailwindcss/vite": "^4.1.11",
     "@vue/tsconfig": "^0.7.0",
-    "astro": "^5.10.0",
+    "astro": "^5.12.0",
     "date-fns": "^4.1.0",
     "gray-matter": "^4.0.3",
     "i": "^0.3.7",
@@ -35,9 +35,9 @@
     "astro-icon": "^1.1.5",
     "autoprefixer": "^10.4.21",
     "cssnano": "^7.0.7",
-    "daisyui": "^5.0.0",
+    "daisyui": "^5.0.46",
     "postcss": "^8.5.6",
     "postcss-preset-env": "^10.2.3",
-    "tailwindcss": "^4.1.10"
+    "tailwindcss": "^4.1.11"
   }
 }

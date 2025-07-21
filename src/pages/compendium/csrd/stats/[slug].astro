@@ -42,18 +42,6 @@ if (content && content.includes('<table')) {
       ) : (
         <div class="bg-yellow-100 border border-yellow-400 p-4 rounded">
           <p class="text-yellow-800">No content available for this entry.</p>
-          <details class="mt-2">
-            <summary class="cursor-pointer text-sm">Debug Info</summary>
-            <pre class="mt-2 text-xs bg-gray-100 p-2 rounded overflow-auto">{JSON.stringify({
-              id: entry.id,
-              hasData: !!entry.data,
-              hasRendered: !!entry.rendered,
-              hasHtml: !!entry.rendered?.html,
-              htmlLength: entry.rendered?.html ? entry.rendered.html.length : 0,
-              dataKeys: entry.data ? Object.keys(entry.data) : [],
-              entryKeys: Object.keys(entry)
-            }, null, 2)}</pre>
-          </details>
         </div>
       )}
     </article>
@@ -61,21 +49,10 @@ if (content && content.includes('<table')) {
 </Layout>
 
 <style>
-  /* Custom table styling using Tailwind @apply */
   .prose .custom-table {
-    @apply mt-4 mb-4 border-collapse w-full;
-  }
-  
-  .prose .custom-table th {
-    @apply border-0 p-3 text-left;
-  }
-  
-  .prose .custom-table td {
-    @apply border-0 p-3;
-  }
-  
-  /* Override prose table margins specifically for DaisyUI tables */
-  .prose .table {
-    @apply my-4;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    width: 100%;
   }
 </style>

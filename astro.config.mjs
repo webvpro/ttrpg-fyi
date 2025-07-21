@@ -10,8 +10,7 @@ export default defineConfig({
   adapter: vercel(),
   integrations: [
     mdx(),
-    vue(), // Add Vue integration
-    // prettier-ignore
+    vue(),
     icon({
       include: {
         mdi: ["*"],
@@ -20,6 +19,8 @@ export default defineConfig({
     }),
   ],
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [
+      tailwindcss()
+    ],
   },
 });

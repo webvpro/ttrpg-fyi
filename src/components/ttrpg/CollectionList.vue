@@ -1,119 +1,26 @@
 <template>
-  <div class="drawer lg:drawer-open">
-    <!-- Drawer toggle (hidden checkbox) -->
-    <input id="collection-drawer" type="checkbox" class="drawer-toggle" />
-    
-    <!-- Main content -->
-    <div class="drawer-content flex flex-col">
+  <div class="relative">
+    <!-- Main content (always visible) -->
+    <div class="flex flex-col">
       <!-- Navbar -->
       <div class="navbar bg-base-300">
-        <div class="flex-none lg:hidden">
-          <label for="collection-drawer" class="btn btn-square btn-ghost">
-            <Icon icon="mdi:menu" class="w-6 h-6" />
-          </label>
-        </div> 
         <div class="flex-1">
           <h1 class="text-xl font-bold">{{ computedPageTitle }}</h1>
         </div>
+        <div class="flex-none">
+          <button 
+            v-if="selectedEntry"
+            @click="toggleDrawer"
+            class="btn btn-square btn-ghost"
+          >
+            <Icon icon="mdi:information-outline" class="w-6 h-6" />
+          </button>
+        </div> 
       </div>
       
-      <!-- Main content area -->
-      <div class="flex-1 p-4">
-        <!-- Debug info (only in development) -->
-        <div v-if="showDebug" class="alert alert-warning text-warning-content mb-4">
-          <Icon icon="mdi:alert-outline" class="w-6 h-6 shrink-0" />
-          <div>
-            <h3 class="font-bold">Debug Info</h3>
-            <div class="text-xs">Found {{ entries.length }} {{ formattedCollectionName }}</div>
-            <div v-if="entries.length === 0" class="text-xs text-error">
-              No {{ formattedCollectionName }} found! Check collection configuration.
-            </div>
-          </div>
-        </div>
-
-        <!-- Related Rules Component -->
-        <RelatedRules 
-          :rules="rules"
-          :collection-name="collectionName"
-          :show-debug="showDebug"
-          :tab-key="tabKey"
-        />
-
-        <!-- Selected item details -->
-        <div v-if="selectedEntry" class="card bg-base-100 shadow-xl mb-4">
-          <div class="card-body">
-            <h2 class="card-title">{{ selectedEntry.title || selectedEntry.id }}</h2>
-            
-            <!-- Entry content - direct display without tabs -->
-            <div class="mt-4">
-              <!-- Markdown content from the entry itself -->
-              <div 
-                v-if="selectedEntry.rendered?.html" 
-                class="prose prose-sm md:prose-base lg:prose-lg max-w-none" 
-                v-html="selectedEntry.rendered.html"
-              ></div>
-              <!-- Fallback to description if no rendered content -->
-              <div v-else-if="selectedEntry.description" class="mt-4">
-                <p class="text-gray-600 opacity-70">{{ selectedEntry.description }}</p>
-              </div>
-              <div v-else class="text-gray-500 italic">No content available for this entry.</div>
-            </div>
-
-            <!-- Additional Properties (if any) -->
-            <div v-if="additionalProperties.length > 0" class="mt-6">
-              <h3 class="font-bold text-lg mb-4">Properties</h3>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div v-for="prop in additionalProperties" :key="prop.key" class="flex justify-between p-3 bg-base-200 rounded">
-                  <span class="font-medium">{{ formatKey(prop.key) }}:</span>
-                  <span class="text-right">{{ formatValue(prop.value) }}</span>
-                </div>
-              </div>
-            </div>
-            
-            <div class="card-actions justify-end mt-6">
-              <a 
-                :href="`/compendium/csrd/${folderName}/${selectedEntry.id.toLowerCase()}`" 
-                class="btn btn-primary"
-              >
-                View Full Page
-              </a>
-              <button @click="clearSelection" class="btn btn-outline">Close</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- No entries found -->
-        <div v-else-if="entries.length === 0" class="alert alert-error">
-          <Icon icon="mdi:close-circle-outline" class="w-6 h-6 shrink-0" />
-          <div>
-            <h3 class="font-bold">No {{ formattedCollectionName }} found!</h3>
-            <div class="text-xs">This could be due to:</div>
-            <ul class="list-disc list-inside mt-2 text-xs">
-              <li>Collection configuration error</li>
-              <li>File path mismatch</li>
-              <li>Invalid frontmatter in markdown files</li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Placeholder when no item selected -->
-        <div v-else class="hero min-h-[50vh] bg-base-200 rounded-lg">
-          <div class="hero-content text-center">
-            <div class="max-w-md">
-              <h1 class="text-5xl font-bold">{{ computedPageTitle }}</h1>
-              <p class="py-6">{{ computedPageDescription }}</p>
-              <p class="text-gray-600 opacity-70">Select an item from the sidebar to view details</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Drawer sidebar -->
-    <div class="drawer-side">
-      <label for="collection-drawer" class="drawer-overlay"></label>
-      <aside class="w-80 min-h-full bg-base-200">
-        <!-- Sidebar header -->
+      <!-- Main content area (now the list) -->
+      <div class="flex-1 flex flex-col">
+        <!-- Main header -->
         <div class="p-4 border-b border-base-300">
           <h2 class="text-lg font-semibold">{{ formattedCollectionName }} List</h2>
           <p class="text-sm text-gray-600 opacity-70">{{ entries.length }} items</p>
@@ -125,24 +32,138 @@
             v-model="searchTerm"
             type="text" 
             placeholder="Search items..." 
-            class="input input-sm w-full"
+            class="input input-sm w-full max-w-md"
+          />
+        </div>
+
+        <!-- Debug info (only in development) -->
+        <div v-if="showDebug" class="alert alert-warning text-warning-content m-4">
+          <Icon icon="mdi:alert-outline" class="w-6 h-6 shrink-0" />
+          <div>
+            <h3 class="font-bold">Debug Info</h3>
+            <div class="text-xs">Found {{ entries.length }} {{ formattedCollectionName }}</div>
+            <div v-if="entries.length === 0" class="text-xs text-error">
+              No {{ formattedCollectionName }} found! Check collection configuration.
+            </div>
+          </div>
+        </div>
+
+        <!-- Related Rules Component -->
+        <div class="p-4">
+          <RelatedRules 
+            :rules="rules"
+            :collection-name="collectionName"
+            :show-debug="showDebug"
+            :tab-key="tabKey"
           />
         </div>
         
-        <!-- Entries list -->
-        <ul class="menu p-0">
-          <li v-for="entry in filteredEntries" :key="entry.id">
-            <a 
+        <!-- Entries grid/list -->
+        <div class="flex-1 p-4" @click="handleBackgroundClick">
+          <!-- No entries found -->
+          <div v-if="entries.length === 0" class="alert alert-error">
+            <Icon icon="mdi:close-circle-outline" class="w-6 h-6 shrink-0" />
+            <div>
+              <h3 class="font-bold">No {{ formattedCollectionName }} found!</h3>
+              <div class="text-xs">This could be due to:</div>
+              <ul class="list-disc list-inside mt-2 text-xs">
+                <li>Collection configuration error</li>
+                <li>File path mismatch</li>
+                <li>Invalid frontmatter in markdown files</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Entries grid -->
+          <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <div 
+              v-for="entry in filteredEntries" 
+              :key="entry.id"
+              class="card bg-base-100 shadow hover:shadow-lg transition-shadow cursor-pointer"
+              :class="{ 'ring-2 ring-primary': selectedEntry?.id === entry.id }"
               @click="selectEntry(entry)"
-              class="flex justify-between items-center"
-              :class="{ 'active bg-primary text-primary-content': selectedEntry?.id === entry.id }"
             >
-              <span class="flex-1 truncate">{{ entry.title || entry.id }}</span>
-              <Icon icon="mdi:chevron-right" class="w-4 h-4" />
+              <div class="card-body p-4">
+                <h3 class="card-title text-base">{{ entry.title || entry.id }}</h3>
+                <p v-if="entry.description" class="text-sm text-gray-600 opacity-70 line-clamp-3">
+                  {{ entry.description }}
+                </p>
+                <div class="card-actions justify-end mt-2">
+                  <button class="btn btn-sm btn-primary">View Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Floating sidebar (positioned absolutely) -->
+    <div 
+      v-show="selectedEntry && isDrawerOpen"
+      ref="sidebarRef"
+      class="fixed top-0 right-0 w-96 h-full bg-base-200 shadow-2xl z-50 transform transition-transform duration-300 ease-in-out"
+    >
+      <!-- Backdrop/overlay for mobile -->
+      <div 
+        class="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
+        @click="closeDrawer"
+      ></div>
+      
+      <!-- Sidebar content -->
+      <div class="relative h-full flex flex-col z-50">
+        <!-- Header -->
+        <div class="p-4 border-b border-base-300 bg-base-300">
+          <div class="flex justify-between items-start">
+            <h2 class="text-lg font-semibold">{{ selectedEntry?.title || selectedEntry?.id }}</h2>
+            <button @click="closeDrawer" class="btn btn-sm btn-ghost">
+              <Icon icon="mdi:close" class="w-4 h-4" />
+            </button>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="flex-1 overflow-y-auto p-4">
+          <!-- Entry content -->
+          <div class="mb-4" v-if="selectedEntry">
+            <!-- Markdown content from the entry itself -->
+            <div 
+              v-if="selectedEntry.rendered?.html" 
+              class="prose prose-sm max-w-none" 
+              v-html="selectedEntry.rendered.html"
+            ></div>
+            <!-- Fallback to description if no rendered content -->
+            <div v-else-if="selectedEntry.description" class="mb-4">
+              <p class="text-gray-600 opacity-70">{{ selectedEntry.description }}</p>
+            </div>
+            <div v-else class="text-gray-500 italic">No content available for this entry.</div>
+          </div>
+
+          <!-- Additional Properties (if any) -->
+          <div v-if="additionalProperties.length > 0" class="mb-4">
+            <h3 class="font-bold text-base mb-3">Properties</h3>
+            <div class="space-y-2">
+              <div v-for="prop in additionalProperties" :key="prop.key" class="flex flex-col p-3 bg-base-100 rounded">
+                <span class="font-medium text-sm">{{ formatKey(prop.key) }}</span>
+                <span class="text-sm mt-1">{{ formatValue(prop.value) }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="p-4 border-t border-base-300 bg-base-300" v-if="selectedEntry">
+          <div class="flex flex-col gap-2">
+            <a 
+              :href="`/compendium/csrd/${folderName}/${selectedEntry.id.toLowerCase()}`" 
+              class="btn btn-primary btn-sm"
+            >
+              View Full Page
             </a>
-          </li>
-        </ul>
-      </aside>
+            <button @click="closeDrawer" class="btn btn-outline btn-sm">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -188,6 +209,8 @@ const props = defineProps({
 // Reactive data
 const selectedEntry = ref(null)
 const searchTerm = ref('')
+const isDrawerOpen = ref(false)
+const sidebarRef = ref(null)
 
 // Computed properties
 const formattedCollectionName = computed(() => {
@@ -227,15 +250,45 @@ const tabKey = computed(() => {
 
 // Methods
 const selectEntry = (entry) => {
-  selectedEntry.value = entry
-  // Close drawer on mobile after selection
-  if (window.innerWidth < 1024) {
-    document.getElementById('collection-drawer').checked = false
+  console.log('Selecting entry:', entry.id)
+  
+  // If drawer is open, close it first
+  if (isDrawerOpen.value) {
+    console.log('Closing drawer first...')
+    isDrawerOpen.value = false
+    selectedEntry.value = null
+    
+    // Wait for the close animation, then select new entry
+    setTimeout(() => {
+      console.log('Opening drawer with new entry:', entry.id)
+      selectedEntry.value = entry
+      isDrawerOpen.value = true
+    }, 300)
+  } else {
+    // If drawer is closed, select entry and open immediately
+    selectedEntry.value = entry
+    isDrawerOpen.value = true
   }
 }
 
-const clearSelection = () => {
-  selectedEntry.value = null
+const closeDrawer = () => {
+  console.log('Closing drawer')
+  isDrawerOpen.value = false
+  // Clear selection after a short delay
+  setTimeout(() => {
+    selectedEntry.value = null
+  }, 300)
+}
+
+const toggleDrawer = () => {
+  isDrawerOpen.value = !isDrawerOpen.value
+}
+
+const handleBackgroundClick = (event) => {
+  // Only close if clicking on the background (not on any child elements)
+  if (event.target === event.currentTarget && isDrawerOpen.value) {
+    closeDrawer()
+  }
 }
 
 const formatKey = (key) => {
@@ -254,5 +307,10 @@ const formatValue = (value) => {
 </script>
 
 <style>
-/* No custom styles needed - use classes in template instead */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 </style>

@@ -4,22 +4,16 @@
 @source "src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}";
 
 /* Force include specific utilities that might not be detected */
-@source inline("mt-4 mb-4 p-4 text-lg font-bold bg-base-100 shadow-xl");
+@source inline("mt-4 mb-4 p-4 text-lg font-bold bg-base-100 shadow-xl btn dropdown");
 
 /* Plugins */
-@plugin "daisyui";
-@plugin "@tailwindcss/typography";
-
-/* Theme configuration */
-@theme {
-  --font-outfit: 'Outfit Variable', 'comic-sans';
-  
-  /* Add any custom colors, spacing, etc. */
-  --color-primary: #3b82f6;
-  --color-secondary: #6366f1;
+@plugin "daisyui" {
+  themes: light, dark, --cupcake, bumblebee, emerald, corporate, synthwave, retro, cyberpunk, valentine, halloween, garden, forest, aqua, lofi, pastel, fantasy, wireframe, black, luxury, dracula, cmyk, autumn, business, acid, lemonade, night, coffee, winter, dim, nord, sunset
 }
 
-/* Custom utilities (if needed) */
+@plugin "@tailwindcss/typography";
+
+/* Custom utilities */
 @layer utilities {
   .custom-table {
     margin-top: 1rem;
