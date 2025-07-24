@@ -2,68 +2,82 @@
   <div class="relative">
     <!-- Main content (always visible) -->
     <div class="flex flex-col">
-      <!-- Navbar -->
-      <div class="navbar bg-neutral">
-        <div class="flex-1">
-          <h1 class="text-xl font-bold">{{ computedPageTitle }}</h1>
-        </div>
-        <div class="flex-none">
-          <button 
-            v-if="selectedEntry"
-            @click="toggleDrawer"
-            class="btn btn-square btn-ghost"
-          >
-            <Icon icon="mdi:information-outline" class="w-6 h-6" />
-          </button>
-        </div> 
+      <!-- Main header -->
+      <div class="p-4 border-b border-gray-300 dark:border-gray-600">
+        <h2 class="text-lg font-semibold">{{ formattedCollectionName }} List</h2>
+        <p class="text-sm opacity-70">
+          {{ filteredEntries.length }} of {{ entries.length }} items
+          <span v-if="filteredEntries.length !== entries.length" class="text-primary">(filtered)</span>
+        </p>
       </div>
       
-      <!-- Main content area (now the list) -->
-      <div class="flex-1 flex flex-col">
-        <!-- Main header -->
-        <div class="p-4 border-b border-gray-300 dark:border-gray-600">
-          <h2 class="text-lg font-semibold">{{ formattedCollectionName }} List</h2>
-          <p class="text-sm opacity-70">
-            {{ filteredEntries.length }} of {{ entries.length }} items
-            <span v-if="filteredEntries.length !== entries.length" class="text-primary">(filtered)</span>
-          </p>
-        </div>
-        
-        <!-- Search Bar (moved outside of filters) -->
-        <div class="p-4 border-b border-gray-200 dark:border-gray-700">
-          <div class="relative max-w-md">
-            <input 
-              :value="searchTerm"
-              @input="searchTerm = $event.target.value"
-              type="text" 
-              placeholder="Search items..." 
-              class="input input-bordered input-sm w-full pl-10 pr-8"
-            />
-            <Icon icon="mdi:magnify" class="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-base-content/50" />
-            <button 
-              v-if="searchTerm"
-              @click="searchTerm = ''"
-              class="btn btn-xs btn-ghost btn-circle absolute right-2 top-1/2 transform -translate-y-1/2"
-            >
-              <Icon icon="mdi:close" class="w-3 h-3" />
-            </button>
+      <!-- Combined Search & Filter Card - STATIC -->
+      <div class="p-4 bg-base-100 border-b border-gray-200 dark:border-gray-700">
+        <div class="card bg-base-200 shadow-sm">
+          <div class="card-body p-4">
+            <!-- Search and Filter Controls -->
+            <div class="flex flex-col gap-4">
+              <!-- Search Bar with Filter Button -->
+              <div class="flex gap-3 items-center">
+                <!-- Search input -->
+                <div class="relative flex-1">
+                  <input 
+                    :value="searchTerm"
+                    @input="searchTerm = $event.target.value"
+                    type="text" 
+                    placeholder="Search items..." 
+                    class="input input-bordered input-sm w-full pl-10 pr-8"
+                  />
+                  <Icon icon="mdi:magnify" class="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-base-content/50" />
+                  <button 
+                    v-if="searchTerm"
+                    @click="searchTerm = ''"
+                    class="btn btn-xs btn-ghost btn-circle absolute right-2 top-1/2 transform -translate-y-1/2"
+                  >
+                    <Icon icon="mdi:close" class="w-3 h-3" />
+                  </button>
+                </div>
+                
+                <!-- Filter drawer button -->
+                <button 
+                  @click="toggleFiltersDrawer"
+                  class="btn btn-sm btn-outline gap-2"
+                  :class="{ 'btn-primary': Object.keys(activeFilters).length > 0 }"
+                >
+                  <Icon icon="mdi:filter-variant" class="w-4 h-4" />
+                  Filters
+                  <span v-if="Object.keys(activeFilters).length > 0" class="badge badge-sm">
+                    {{ Object.keys(activeFilters).length }}
+                  </span>
+                </button>
+              </div>
+
+              <!-- Active Filter Pills -->
+              <div v-if="Object.keys(activeFilters).length > 0" class="flex flex-wrap gap-2 items-center">
+                <span class="text-sm font-medium">Active filters:</span>
+                <div v-for="(values, property) in activeFilters" :key="property" class="flex flex-wrap gap-1">
+                  <span v-for="value in values" :key="`${property}-${value}`" class="badge badge-primary badge-sm gap-1">
+                    {{ property }}: {{ value }}
+                    <button @click="removeFilter(property, value)" class="btn btn-xs btn-circle btn-ghost">
+                      <Icon icon="mdi:close" class="w-3 h-3" />
+                    </button>
+                  </span>
+                </div>
+                <button @click="clearAllFilters" class="btn btn-xs btn-outline">
+                  <Icon icon="mdi:filter-off" class="w-3 h-3 mr-1" />
+                  Clear all
+                </button>
+                <button @click="toggleFiltersDrawer" class="btn btn-xs btn-ghost">
+                  <Icon icon="mdi:filter-variant" class="w-3 h-3 mr-1" />
+                  Edit filters
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        
-        <!-- Filters Component (search removed) -->
-        <div class="p-4">
-          <ItemFilters 
-            :items="entries"
-            :search-term="searchTerm"
-            :filterable-properties="entriesFilters"
-            @update:search-term="searchTerm = $event"
-            @update:filters="activeFilters = $event"
-            @filtered-items="filteredEntries = $event"
-          />
-        </div>
+      </div>
 
-        
-
+      <div class="flex-1 flex flex-col">
         <!-- Related Rules Component -->
         <div class="p-4">
           <RelatedRules 
@@ -99,6 +113,7 @@
             </template>
           </GridList>
         </div>
+        
         <!-- Debug Panel for Entries -->
         <div class="m-4">
           <DebugPanel 
@@ -138,34 +153,105 @@
         </div>
       </div>
     </div>
+
+    <!-- Filters Drawer - LEFT SIDE -->
+    <div class="drawer z-30" :class="{ 'drawer-open': isFiltersDrawerOpen }">
+      <input 
+        id="filters-drawer-toggle" 
+        type="checkbox" 
+        class="drawer-toggle" 
+        :checked="isFiltersDrawerOpen"
+        @change="isFiltersDrawerOpen = $event.target.checked"
+      />
+      
+      <div class="drawer-content">
+        <!-- This is intentionally empty as our main content is above -->
+      </div>
+      
+      <div class="drawer-side z-30">
+        <label 
+          for="filters-drawer-toggle" 
+          class="drawer-overlay"
+          @click="closeFiltersDrawer"
+        ></label>
+        
+        <div class="min-h-full w-80 bg-base-200 text-base-content">
+          <!-- Drawer header with prominent close button -->
+          <div class="flex items-center justify-between p-4 border-b border-base-300 bg-base-300">
+            <h2 class="text-lg font-semibold">Filters</h2>
+            <button 
+              @click="closeFiltersDrawer" 
+              class="btn btn-sm btn-ghost btn-circle hover:btn-error"
+              aria-label="Close filters"
+            >
+              <Icon icon="mdi:close" class="w-5 h-5" />
+            </button>
+          </div>
+          
+          <!-- Filters content -->
+          <div class="p-4">
+            <ItemFilters 
+              :items="entries"
+              :search-term="searchTerm"
+              :filterable-properties="entriesFilters"
+              @update:search-term="searchTerm = $event"
+              @update:filters="activeFilters = $event"
+              @filtered-items="filteredEntries = $event"
+            />
+          </div>
+          
+          <!-- Drawer footer -->
+          <div class="p-4 border-t border-base-300 bg-base-300">
+            <div class="flex flex-col gap-2">
+              <button 
+                v-if="Object.keys(activeFilters).length > 0"
+                @click="clearAllFilters" 
+                class="btn btn-outline btn-sm"
+              >
+                <Icon icon="mdi:filter-off" class="w-4 h-4 mr-2" />
+                Clear All Filters
+              </button>
+              <button @click="closeFiltersDrawer" class="btn btn-primary btn-sm">
+                <Icon icon="mdi:check" class="w-4 h-4 mr-2" />
+                Apply Filters
+              </button>
+              <button @click="closeFiltersDrawer" class="btn btn-ghost btn-sm">
+                <Icon icon="mdi:close" class="w-4 h-4 mr-2" />
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
-    <!-- Floating sidebar (positioned absolutely) -->
+    <!-- Info Drawer - RIGHT SIDE -->
     <div 
       v-show="selectedEntry && isDrawerOpen"
       ref="sidebarRef"
-      class="fixed top-0 right-0 w-96 h-full bg-gray-100 dark:bg-gray-800 shadow-2xl z-50 transform transition-transform duration-300 ease-in-out"
+      class="fixed top-0 right-0 w-96 h-full bg-base-100 shadow-2xl z-40 transform transition-transform duration-300 ease-in-out border-l border-base-300"
+      :class="{
+        'translate-x-0': isDrawerOpen,
+        'translate-x-full': !isDrawerOpen
+      }"
     >
-      <!-- Backdrop/overlay for mobile -->
       <div 
-        class="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
+        v-if="isDrawerOpen"
+        class="fixed inset-0 bg-black bg-opacity-50 z-30 lg:hidden"
         @click="closeDrawer"
       ></div>
       
-      <!-- Sidebar content -->
-      <div class="relative h-full flex flex-col z-50">
-        <!-- Header -->
-        <div class="p-4 border-b border-gray-300 dark:border-gray-600 bg-gray-200 dark:bg-gray-700">
+      <div class="relative h-full flex flex-col z-40">
+        <div class="p-4 border-b border-base-300 bg-base-200">
           <div class="flex justify-between items-start">
             <h2 class="text-lg font-semibold">{{ selectedEntry?.title || selectedEntry?.id }}</h2>
-            <button @click="closeDrawer" class="btn btn-sm btn-ghost">
+            <button @click="closeDrawer" class="btn btn-sm btn-ghost btn-circle">
               <Icon icon="mdi:close" class="w-4 h-4" />
             </button>
           </div>
         </div>
 
-        <!-- Content -->
         <div class="flex-1 overflow-y-auto p-4">
-          <!-- Debug Panel for Selected Entry -->
           <DebugPanel 
             v-if="selectedEntry"
             :data="selectedEntry"
@@ -179,26 +265,22 @@
             :highlight-props="['id', 'title', 'description', 'rendered']"
           />
 
-          <!-- Entry content -->
           <div class="mb-4" v-if="selectedEntry">
-            <!-- Markdown content from the entry itself -->
             <div 
               v-if="selectedEntry.rendered?.html" 
               class="prose prose-sm max-w-none" 
               v-html="selectedEntry.rendered.html"
             ></div>
-            <!-- Fallback to description if no rendered content -->
             <div v-else-if="selectedEntry.description" class="mb-4">
               <p class="opacity-70">{{ selectedEntry.description }}</p>
             </div>
             <div v-else class="opacity-50 italic">No content available for this entry.</div>
           </div>
 
-          <!-- Additional Properties (if any) -->
           <div v-if="additionalProperties.length > 0" class="mb-4">
             <h3 class="font-bold text-base mb-3">Properties</h3>
             <div class="space-y-2">
-              <div v-for="prop in additionalProperties" :key="prop.key" class="flex flex-col p-3 bg-white dark:bg-gray-900 rounded">
+              <div v-for="prop in additionalProperties" :key="prop.key" class="flex flex-col p-3 bg-base-200 rounded">
                 <span class="font-medium text-sm">{{ formatKey(prop.key) }}</span>
                 <span class="text-sm mt-1">{{ formatValue(prop.value) }}</span>
               </div>
@@ -206,8 +288,7 @@
           </div>
         </div>
 
-        <!-- Actions -->
-        <div class="p-4 border-t border-gray-300 dark:border-gray-600 bg-gray-200 dark:bg-gray-700" v-if="selectedEntry">
+        <div class="p-4 border-t border-base-300 bg-base-200" v-if="selectedEntry">
           <div class="flex flex-col gap-2">
             <a 
               :href="`/compendium/csrd/${folderName}/${selectedEntry.id.toLowerCase()}`" 
@@ -279,6 +360,7 @@ const searchTerm = ref('')
 const activeFilters = ref({})
 const filteredEntries = ref([])
 const isDrawerOpen = ref(false)
+const isFiltersDrawerOpen = ref(false)
 const sidebarRef = ref(null)
 
 // Check if we're in the browser
@@ -358,6 +440,32 @@ const toggleDrawer = () => {
   isDrawerOpen.value = !isDrawerOpen.value
 }
 
+// Filters drawer methods
+const toggleFiltersDrawer = () => {
+  console.log('Toggling filters drawer:', !isFiltersDrawerOpen.value)
+  isFiltersDrawerOpen.value = !isFiltersDrawerOpen.value
+}
+
+const closeFiltersDrawer = () => {
+  console.log('Closing filters drawer')
+  isFiltersDrawerOpen.value = false
+}
+
+const removeFilter = (property, value) => {
+  if (activeFilters.value[property]) {
+    activeFilters.value[property] = activeFilters.value[property].filter(v => v !== value)
+    if (activeFilters.value[property].length === 0) {
+      delete activeFilters.value[property]
+    }
+    // Trigger reactivity
+    activeFilters.value = { ...activeFilters.value }
+  }
+}
+
+const clearAllFilters = () => {
+  activeFilters.value = {}
+}
+
 const handleBackgroundClick = (event) => {
   // Only close if clicking on the background (not on any child elements)
   if (event.target === event.currentTarget && isDrawerOpen.value) {
@@ -424,6 +532,17 @@ const getEntryType = (entry) => {
   return 'Item'
 }
 
+// Keyboard event handling
+const handleKeydown = (event) => {
+  if (event.key === 'Escape') {
+    if (isFiltersDrawerOpen.value) {
+      closeFiltersDrawer()
+    } else if (isDrawerOpen.value) {
+      closeDrawer()
+    }
+  }
+}
+
 // Lifecycle hooks
 onMounted(() => {
   // Only run in browser
@@ -434,6 +553,9 @@ onMounted(() => {
   
   // Listen for hash changes (browser back/forward)
   window.addEventListener('hashchange', checkUrlHash)
+  
+  // Listen for escape key
+  window.addEventListener('keydown', handleKeydown)
 })
 
 // Clean up event listener
@@ -442,6 +564,7 @@ onUnmounted(() => {
   if (!isBrowser) return
   
   window.removeEventListener('hashchange', checkUrlHash)
+  window.removeEventListener('keydown', handleKeydown)
 })
 
 // Watch for entries prop changes (in case entries load after component mounts)
@@ -449,6 +572,11 @@ watch(() => props.entries, (newEntries) => {
   if (newEntries.length > 0) {
     checkUrlHash()
   }
+}, { immediate: true })
+
+// Watch filters drawer state for debugging
+watch(isFiltersDrawerOpen, (newVal) => {
+  console.log('Filters drawer state changed:', newVal)
 }, { immediate: true })
 </script>
 
@@ -458,5 +586,37 @@ watch(() => props.entries, (newEntries) => {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+/* Ensure proper z-index stacking */
+.drawer-side {
+  z-index: 30 !important;
+}
+
+.drawer-overlay {
+  z-index: 25 !important;
+}
+
+/* Fix drawer positioning */
+.drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 30;
+}
+
+.drawer.drawer-open {
+  pointer-events: auto;
+}
+
+.drawer-content {
+  pointer-events: none;
+}
+
+.drawer-side {
+  pointer-events: auto;
 }
 </style>
