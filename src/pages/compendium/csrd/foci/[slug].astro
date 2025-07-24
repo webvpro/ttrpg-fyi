@@ -35,8 +35,6 @@ if (content && content.includes('<table')) {
     </div>
     
     <article class="prose lg:prose-xl max-w-none">
-      <h1>{entry.data.title || entry.id}</h1>
-      
       {content ? (
         <div set:html={content}></div>
       ) : (

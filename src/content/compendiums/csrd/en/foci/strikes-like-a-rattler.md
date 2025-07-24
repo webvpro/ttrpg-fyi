@@ -38,7 +38,7 @@ Major Effect Suggestion: You get a second wind and can make an immediate recover
 ##### Tier 1
 
 - [[Venomous-Strike|Venomous Strike]]
-- [[Scaled|]]
+- [[Scaled|Scaled]]
 
 ##### Tier 2
 
