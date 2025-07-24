@@ -5,10 +5,13 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+  - Content/Fairytale
 title: Bowl of Porridge
 collection: Cyphers
 kind: Cypher
 id: Bowl-of-Porridge
+categories:
+  - Fairytale
 ---
 ## Bowl of Porridge    
 >[!info] Stats    

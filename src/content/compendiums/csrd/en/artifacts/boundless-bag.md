@@ -5,10 +5,12 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+  - Content/Fairytale
 title: Boundless Bag
 collection: Artifacts
 kind: Artifact
-categories: []
+categories:
+  - Fairytale
 id: Boundless-Bag
 ---
 ## Boundless Bag    

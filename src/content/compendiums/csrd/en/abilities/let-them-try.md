@@ -8,6 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Protection
+  - Content/Weird-West
 title: Let Them Try
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ tier: Low
 pools: []
 categories:
   - Protection
+  - Weird-West
 id: Let-Them-Try
 ---
 ## Let Them Try

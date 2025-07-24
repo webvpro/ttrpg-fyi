@@ -8,6 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Protection
+  - Content/Weird-West
 title: Courting Lady Luck
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ tier: Low
 pools: []
 categories:
   - Protection
+  - Weird-West
 id: Courting-Lady-Luck
 ---
 ## Courting Lady Luck

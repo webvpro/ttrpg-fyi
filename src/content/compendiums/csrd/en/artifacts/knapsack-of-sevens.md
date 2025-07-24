@@ -5,10 +5,12 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+  - Content/Fairytale
 title: Knapsack of Sevens
 collection: Artifacts
 kind: Artifact
-categories: []
+categories:
+  - Fairytale
 id: Knapsack-of-Sevens
 ---
 ## Knapsack of Sevens    

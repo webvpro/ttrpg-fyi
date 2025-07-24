@@ -5,10 +5,12 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Science-Fiction
+  - Content/Science-Fiction
 title: Empathetic Ray
 collection: Artifacts
 kind: Artifact
-categories: []
+categories:
+  - Science-Fiction
 id: Empathetic-Ray
 ---
 ## Empathetic Ray    

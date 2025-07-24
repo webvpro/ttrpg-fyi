@@ -2,7 +2,7 @@
 // This file is auto-generated. Do not edit.
 import { getCollection } from 'astro:content';
 import Layout from '../../../../layouts/Layout.astro';
-import CollectionList from '../../../../components/ttrpg/CollectionList.vue';
+import CollectionList from '../../../../components/ttrpg/vue/CollectionList.vue';
 
 export const prerender = true;
 
@@ -38,6 +38,7 @@ const pageDescription = "A complete list of all cantrips";
       pageDescription={pageDescription}
       showDebug={import.meta.env.DEV}
       client:load
+      entriesFilters={['categories']}
     />
   </div>
 </Layout>

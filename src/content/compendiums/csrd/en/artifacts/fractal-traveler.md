@@ -5,10 +5,12 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Science-Fiction
+  - Content/Science-Fiction
 title: Fractal Traveler
 collection: Artifacts
 kind: Artifact
-categories: []
+categories:
+  - Science-Fiction
 id: Fractal-Traveler
 ---
 ## Fractal Traveler  

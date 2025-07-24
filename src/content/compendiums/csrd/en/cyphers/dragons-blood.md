@@ -5,10 +5,13 @@ tags:
   - Compendium/CSRD/en/Cyphers/Dragons-Blood
   - Cypher
   - Cypher/Fairy-Tale
+  - Content/Fairytale
 title: Dragon's Blood
 collection: Cyphers
 kind: Cypher
 id: Dragons-Blood
+categories:
+  - Fairytale
 ---
 ## Dragon's Blood    
 >[!info] Stats    

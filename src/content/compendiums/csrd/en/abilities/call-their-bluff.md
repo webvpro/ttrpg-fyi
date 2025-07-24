@@ -7,6 +7,7 @@ tags:
   - Ability/Action
   - Ability/Tier/Mid
   - Ability/Categories/Mid
+  - Content/Weird-West
 title: Call Their Bluff
 collection: Abilities
 kind: Ability
@@ -17,6 +18,7 @@ tier: Mid
 pools: []
 categories:
   - Meta
+  - Weird-West
 id: Call-Their-Bluff
 ---
 ## Call Their Bluff

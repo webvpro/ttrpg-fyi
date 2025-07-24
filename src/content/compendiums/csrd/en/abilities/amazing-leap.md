@@ -9,6 +9,7 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Might
   - Ability/Categories/NA
+  - Content/Superhero
 title: Amazing Leap
 collection: Abilities
 kind: Ability
@@ -20,6 +21,7 @@ pools:
   - Might
 categories:
   - NA
+  - Superhero
 id: Amazing-Leap
 ---
 ## Amazing Leap    

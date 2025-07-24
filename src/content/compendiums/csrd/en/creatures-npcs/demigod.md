@@ -8,6 +8,7 @@ tags:
   - Creature/Level/9
   - Creature/Armor/5
   - Creature/Health/99
+  - Content/Fairytale
 title: Demigod
 collection: Creatures-NPCs
 kind: Creature
@@ -15,6 +16,8 @@ level: 9
 armor: 5
 health: 99
 id: Demigod
+categories:
+  - Fairytale
 ---
 ## Demigod    
 Lesser gods, divine children of gods and mortals, and other beings bequeathed with partly divine power are called demigods. Their capacities so radically exceed those of regular people that they have transcended humanity. Demigods are so physically and mentally powerful that it's difficult for them to hide their semi-divine appearance to mortal creatures-not that most would make the effort in the first place.    

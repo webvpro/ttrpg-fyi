@@ -8,6 +8,7 @@ tags:
   - Creature/Level/6
   - Creature/Armor/2
   - Creature/Health/24
+  - Content/Fairytale
 title: Fairy Godmother
 collection: Creatures-NPCs
 kind: Creature
@@ -15,6 +16,8 @@ level: 6
 armor: 2
 health: 24
 id: Fairy-Godmother
+categories:
+  - Fairytale
 ---
 ## Fairy Godmother    
 Fairy godmothers are nearly always beneficent beings, typically acting as mentors, parents, or protectors, much like human godparents. The difference, of course, is that fairy godmothers have a great deal more magic at their disposal.  

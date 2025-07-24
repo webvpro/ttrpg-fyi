@@ -5,10 +5,12 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+  - Content/Fairytale
 title: Tweedledee’s Umbrella
 collection: Artifacts
 kind: Artifact
-categories: []
+categories:
+  - Fairytale
 id: Tweedledees-Umbrella
 ---
 ## Tweedledee’s Umbrella    

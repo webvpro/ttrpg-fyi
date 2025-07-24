@@ -7,6 +7,7 @@ tags:
   - Creature/Kind/Creature
   - Creature/Level/7
   - Creature/Armor/0
+  - Content/Fairytale
 title: Virgilius the Sorcerer
 collection: Creatures-NPCs
 kind: Creature
@@ -14,6 +15,8 @@ level: 7
 armor: 0
 health: NA
 id: Virgilius-the-Sorcerer
+categories:
+  - Fairytale
 ---
 ## Virgilius the Sorcerer  
   

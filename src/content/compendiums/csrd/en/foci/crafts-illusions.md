@@ -4,10 +4,13 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+  - Content/Fantasy
 title: Crafts Illusions
 collection: Foci
 kind: Focus
 id: Crafts-Illusions
+categories:
+  - Fantasy
 ---
 ## Crafts Illusions  
   

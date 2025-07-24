@@ -5,10 +5,13 @@ tags:
   - Compendium/CSRD/en/Cyphers/Beloveds-Kiss
   - Cypher
   - Cypher/Fairy-Tale
+  - Content/Fairytale
 title: Beloved's Kiss
 collection: Cyphers
 kind: Cypher
 id: Beloveds-Kiss
+categories:
+  - Fairytale
 ---
 ## Beloved's Kiss    
 >[!info] Stats    

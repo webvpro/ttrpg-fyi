@@ -7,6 +7,7 @@ tags:
   - Creature/Kind/Creature
   - Creature/Level/6
   - Creature/Armor/0
+  - Content/Fairytale
 title: The Sea Witch
 collection: Creatures-NPCs
 kind: Creature
@@ -14,6 +15,8 @@ level: 6
 armor: 0
 health: NA
 id: The-Sea-Witch
+categories:
+  - Fairytale
 ---
 ## The Sea Witch  
   

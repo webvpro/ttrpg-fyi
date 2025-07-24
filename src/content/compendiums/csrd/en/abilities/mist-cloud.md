@@ -9,6 +9,7 @@ tags:
   - Ability/Tier/NA
   - Ability/Pool/Intellect
   - Ability/Categories/NA
+  - Content/Superhero
 title: Mist Cloud
 collection: Abilities
 kind: Ability
@@ -20,6 +21,7 @@ pools:
   - Intellect
 categories:
   - NA
+  - Superhero
 id: Mist-Cloud
 ---
 ## Mist Cloud    

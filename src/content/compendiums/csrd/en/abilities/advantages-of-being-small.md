@@ -8,6 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/NA
   - Ability/Categories/NA
+  - Content/Superhero
 title: Advantages of Being Small
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ tier: NA
 pools: []
 categories:
   - NA
+  - Superhero
 id: Advantages-of-Being-Small
 ---
 ## Advantages of Being Small  

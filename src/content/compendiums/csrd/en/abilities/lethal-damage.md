@@ -8,6 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Meta
+  - Content/Weird-West
 title: Lethal Damage
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ tier: High
 pools: []
 categories:
   - Meta
+  - Weird-West
 id: Lethal-Damage
 ---
 ## Lethal Damage  

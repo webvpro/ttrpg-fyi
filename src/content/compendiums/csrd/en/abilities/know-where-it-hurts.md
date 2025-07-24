@@ -8,6 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Attack
+  - Content/Weird-West
 title: Know Where It Hurts
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ tier: Low
 pools: []
 categories:
   - Attack
+  - Weird-West
 id: Know-Where-It-Hurts
 ---
 ## Know Where It Hurts

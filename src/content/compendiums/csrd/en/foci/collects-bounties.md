@@ -4,10 +4,13 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci/Collects-Bounties
   - Focus/Category/Tank-Combat
+  - Content/Weird-West
 title: Collects Bounties
 collection: Foci
 kind: Focus
 id: Collects-Bounties
+categories:
+  - Weird-West
 ---
 ## Collects Bounties
   

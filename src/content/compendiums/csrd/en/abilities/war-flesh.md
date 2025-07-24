@@ -8,6 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/NA
   - Ability/Categories/NA
+  - Content/Superhero
 title: War Flesh
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ tier: NA
 pools: []
 categories:
   - NA
+  - Superhero
 id: War-Flesh
 ---
 ## War Flesh    

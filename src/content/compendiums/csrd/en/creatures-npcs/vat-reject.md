@@ -8,6 +8,7 @@ tags:
   - Creature/Level/3
   - Creature/Armor/0
   - Creature/Health/9
+  - Content/Horror
 title: Vat Reject
 collection: Creatures-NPCs
 kind: Creature
@@ -15,6 +16,8 @@ level: 3
 armor: 0
 health: 9
 id: Vat-Reject
+categories:
+  - Horror
 ---
 ## Vat Reject    
 Vat rejects come into being when clone vats meant to produce clone soldiers or similar  

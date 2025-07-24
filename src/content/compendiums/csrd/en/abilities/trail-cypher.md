@@ -7,6 +7,7 @@ tags:
   - Ability/Action
   - Ability/Tier/High
   - Ability/Categories/Meta
+  - Content/Weird-West
 title: Trail Cypher
 collection: Abilities
 kind: Ability
@@ -17,6 +18,7 @@ tier: Mid
 pools: []
 categories:
   - Meta
+  - Weird-West
 id: Trail-Cypher
 ---
 ## Trail Cypher

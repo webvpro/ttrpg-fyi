@@ -4,10 +4,13 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Basic
+  - Content/Fantasy
 title: Would Rather Be Reading
 collection: Foci
 kind: Focus
 id: Would-Rather-Be-Reading
+categories:
+  - Fantasy
 ---
 ## Would Rather Be Reading  
   

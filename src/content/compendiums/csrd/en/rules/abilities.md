@@ -5,6 +5,12 @@ tags:
   - Compendium/CSRD/en/Rules/Abilities
 id: Abilities
 title: Abilities
+rulesRef: 
+- ability-categories-and-relative-power
+- ability-guidelines-are-not-prescriptive
+- animal-form-minor-abilities
+- special-abilities
+- balancing-abilities
 ---
 # Abilities
 

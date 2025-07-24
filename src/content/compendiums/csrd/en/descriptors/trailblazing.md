@@ -4,10 +4,13 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors
   - Descriptor
+  - Content/Weird-West
 title: Trailblazing
 collection: Descriptors
 kind: Descriptor
 id: Trailblazing
+categories:
+  - Weird-West
 ---
 
 ## Trailblazing  

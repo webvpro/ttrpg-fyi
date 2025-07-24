@@ -7,6 +7,7 @@ tags:
   - Ability/Action
   - Ability/Tier/High
   - Ability/Categories/Meta
+  - Content/Weird-West
 title: Consequences of Luck
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ pools:
   - Intellect
 categories:
   - Meta
+  - Weird-West
 id: Consequences-of-Luck
 ---
 ## Consequences of Luck

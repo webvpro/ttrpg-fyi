@@ -8,6 +8,7 @@ tags:
   - Creature/Level/6
   - Creature/Armor/2
   - Creature/Health/20
+  - Content/Fairytale
 title: Death 10 (infinite)
 collection: Creatures-NPCs
 kind: Creature
@@ -15,6 +16,8 @@ level: 6
 armor: 2
 health: 20
 id: Death-10
+categories:
+  - Fairytale
 ---
 ## Death 10 (infinite)  
 Death goes by many names, takes many forms, and has only one purpose: to make all equal in the end. Death is often an unwanted visitor—taking the life of someone who is not ready to go—but just as often, they come to those who are ready. To them, Death is a most welcome, the most welcome, guest of all.  

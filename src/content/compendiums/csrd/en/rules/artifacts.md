@@ -6,9 +6,6 @@ title: Artifacts
 ---
 ## Artifacts
 
-
-
-
 ### Fantasy Artifacts
 If cyphers are the expendable magic that is ever-present in fantasy, artifacts are the more durable magic items that can be used over and over again—swords, armor, tomes of weird magic, cloaks of invisibility, and so on. Unlike cyphers, there is no limit to how many artifacts a character can bear; an entire campaign might stem from an ongoing quest to collect all of the legendary items carried by a famous hero.
 

@@ -8,6 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/NA
   - Ability/Categories/NA
+  - Content/Superhero
 title: Wildcard Powers
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ tier: NA
 pools: []
 categories:
   - NA
+  - Superhero
 id: Wildcard-Powers
 ---
 ## Wildcard Powers    

@@ -4,10 +4,13 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci/Gambles-It-All-Away
   - Focus/Category/Meta
+  - Content/Weird-West
 title: Hits The Saloon
 collection: Foci
 kind: Focus
 id: Hits-The-Saloon
+categories:
+  - Weird-West
 ---
 ## Hits The Saloon
   

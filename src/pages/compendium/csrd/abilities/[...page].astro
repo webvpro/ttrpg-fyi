@@ -2,7 +2,8 @@
 // This file is auto-generated. Do not edit.
 import { getCollection } from 'astro:content';
 import Layout from '../../../../layouts/Layout.astro';
-import CollectionList from '../../../../components/ttrpg/CollectionList.vue';
+import CollectionList from '../../../../components/ttrpg/vue/CollectionList.vue';
+
 
 export const prerender = true;
 
@@ -14,6 +15,9 @@ export async function getStaticPaths() {
 
 const entries = await getCollection('abilities');
 
+// Get all rules collections
+const allRules = await getCollection('rules');
+
 // Transform the entries to simple data objects
 const entriesData = entries.map(entry => ({
   id: entry.id,
@@ -21,6 +25,40 @@ const entriesData = entries.map(entry => ({
   rendered: entry.rendered, // IMPORTANT: Include rendered content
   ...entry.data // spread any other data properties
 }));
+
+// Find the "abilities" rule and collect all referenced rules
+const abilitiesRule = allRules.find(rule => rule.id === 'abilities');
+let relevantRules = [];
+
+if (abilitiesRule) {
+  // Add the abilities rule itself
+  relevantRules.push({
+    id: abilitiesRule.id,
+    title: abilitiesRule.data.title,
+    rendered: abilitiesRule.rendered,
+    ...abilitiesRule.data
+  });
+
+  // Add all rules referenced in rulesRef
+  if (abilitiesRule.data.rulesRef && Array.isArray(abilitiesRule.data.rulesRef)) {
+    const referencedRules = allRules.filter(rule => 
+      abilitiesRule.data.rulesRef.includes(rule.id)
+    );
+
+    relevantRules.push(...referencedRules.map(rule => ({
+      id: rule.id,
+      title: rule.data.title,
+      rendered: rule.rendered,
+      ...rule.data
+    })));
+  }
+}
+
+// Convert to object format expected by CollectionList
+const rulesData = relevantRules.reduce((acc, rule) => {
+  acc[rule.id] = rule;
+  return acc;
+}, {});
 
 const pageTitle = "Abilities";
 const pageDescription = "A complete list of all abilities";
@@ -32,11 +70,13 @@ const pageDescription = "A complete list of all abilities";
     
     <CollectionList 
       entries={entriesData}
+      rules={rulesData}
       collectionName="abilities"
       folderName="abilities"
       pageTitle={pageTitle}
       pageDescription={pageDescription}
       showDebug={import.meta.env.DEV}
+      entriesFilters={['categories', 'action', 'cost', 'enabler', 'tier', 'pools']}
       client:load
     />
   </div>

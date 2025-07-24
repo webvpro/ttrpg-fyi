@@ -8,6 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Task
+  - Content/Weird-West
 title: Pathfinder Skills
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ tier: Low
 pools: []
 categories:
   - Task
+  - Weird-West
 id: Pathfinder-Skills
 ---
 ## Pathfinder Skills

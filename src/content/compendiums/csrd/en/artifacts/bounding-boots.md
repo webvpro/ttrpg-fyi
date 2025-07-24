@@ -5,10 +5,14 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fantasy
+  - Content/Fairytale
+  - Content/Science-Fiction
 title: Bounding Boots
 collection: Artifacts
 kind: Artifact
-categories: []
+categories:
+  - Fairytale
+  - Science-Fiction
 id: Bounding-Boots
 ---
 ## Bounding Boots    

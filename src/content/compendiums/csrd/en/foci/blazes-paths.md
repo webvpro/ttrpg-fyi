@@ -4,10 +4,15 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/Tank-Combat
+  - Content/Weird-West
 title: Blazes Paths
 collection: Foci
 kind: Focus
 id: Blazes-Paths
+categories:
+  - Wild-West
+  - Tank-Combat
+  - Weird-West
 ---
 ## Blazes Paths
   

@@ -5,10 +5,13 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+  - Content/Fairytale
 title: Poison for Your Daughter
 collection: Cyphers
 kind: Cypher
 id: Poison-for-Your-Daughter
+categories:
+  - Fairytale
 ---
 ## Poison for Your Daughter    
 >[!info] Stats    

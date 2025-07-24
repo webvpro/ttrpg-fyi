@@ -8,6 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/High
   - Ability/Categories/Cure
+  - Content/Weird-West
 title: Blaze Recovery
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ tier: High
 pools: []
 categories:
   - Cure
+  - Weird-West
 id: Blaze-Recovery
 ---
 ## Blaze Recovery 

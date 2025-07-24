@@ -4,10 +4,13 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors
   - Descriptor
+  - Content/Weird-West
 title: Trigger-Happy
 collection: Descriptors
 kind: Descriptor
 id: TriggerHappy
+categories:
+  - Weird-West
 ---
 
 ## Trigger-Happy  

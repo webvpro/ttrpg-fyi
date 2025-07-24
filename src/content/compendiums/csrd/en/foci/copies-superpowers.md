@@ -4,10 +4,13 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci
   - Focus/Category/
+  - Content/Superhero
 title: Copies Superpowers
 collection: Foci
 kind: Focus
 id: Copies-Superpowers
+categories:
+  - Superhero
 ---
 ## Copies Superpowers  
   

@@ -8,6 +8,7 @@ tags:
   - Creature/Level/4
   - Creature/Armor/0
   - Creature/Health/24
+  - Content/Fairytale
 title: Fire Elemental
 collection: Creatures-NPCs
 kind: Creature
@@ -15,6 +16,8 @@ level: 4
 armor: 0
 health: 24
 id: Fire-Elemental
+categories:
+  - Fairytale
 ---
 ## Fire Elemental    
 Searing flame in a vaguely humanoid shape, a fire elemental exists only to burn that which is not already ash. They sometimes spin into being where great conflagrations burn.    

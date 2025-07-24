@@ -5,10 +5,12 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Post-Apocalyptic
+  - Content/Science-Fiction
 title: Autodoc
 collection: Artifacts
 kind: Artifact
-categories: []
+categories:
+  - Science-Fiction
 id: Autodoc
 ---
 ## Autodoc    

@@ -4,10 +4,13 @@ aliases:
 tags:
   - Compendium/CSRD/en/Foci/Gambles-It-All-Away
   - Focus/Category/Meta
+  - Content/Weird-West
 title: Gambles It All Away
 collection: Foci
 kind: Focus
 id: Gambles-It-All-Away
+categories:
+  - Weird-West
 ---
 ## Gambles It All Away
   

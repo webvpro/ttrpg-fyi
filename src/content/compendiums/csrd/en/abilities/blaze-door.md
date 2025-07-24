@@ -9,6 +9,7 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Movement
+  - Content/Weird-West
 title: Blaze Door
 collection: Abilities
 kind: Ability
@@ -20,6 +21,7 @@ pools:
   - Intellect
 categories:
   - Movement
+  - Weird-West
 id: Blaze-Door
 ---
 ## Blaze Door

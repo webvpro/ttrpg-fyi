@@ -8,6 +8,7 @@ tags:
   - Ability/Tier/Low
   - Ability/Categories/Mid
   - Ability/Categories/Social
+  - Content/Weird-West
 title: Jovial Presence
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ tier: Low
 pools: []
 categories:
   - Social
+  - Weird-West
 id: Jovial-Presence
 ---
 ## Jovial Presence

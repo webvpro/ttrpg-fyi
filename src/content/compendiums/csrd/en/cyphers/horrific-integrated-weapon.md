@@ -4,10 +4,13 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+  - Content/Horror
 title: Horrific Integrated Weapon
 collection: Cyphers
 kind: Cypher
 id: Horrific-Integrated-Weapon
+categories:
+  - Horror
 ---
 ## Horrific Integrated Weapon    
 >[!info] Stats    

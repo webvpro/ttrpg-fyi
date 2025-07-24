@@ -5,10 +5,12 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+  - Content/Fairytale
 title: Red Cap
 collection: Artifacts
 kind: Artifact
-categories: []
+categories:
+  - Fairytale
 id: Red-Cap
 ---
 ## Red Cap    

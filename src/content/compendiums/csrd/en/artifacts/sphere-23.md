@@ -5,10 +5,12 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Horror
+  - Content/Horror
 title: Sphere 23
 collection: Artifacts
 kind: Artifact
-categories: []
+categories:
+  - Horror
 id: Sphere-23
 ---
 ## Sphere 23    

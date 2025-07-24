@@ -5,11 +5,12 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+  - Content/Fairytale
 title: A Tisket a Tasket
 collection: Artifacts
 kind: Artifact
 categories:
-- Fairytale 
+  - Fairytale
 id: A-Tisket-a-Tasket
 ---
 ## A Tisket a Tasket

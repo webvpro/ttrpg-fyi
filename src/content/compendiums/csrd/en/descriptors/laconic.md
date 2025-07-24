@@ -4,10 +4,13 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors
   - Descriptor
+  - Content/Weird-West
 title: Laconic
 collection: Descriptors
 kind: Descriptor
 id: Laconic
+categories:
+  - Weird-West
 ---
 
 ## Laconic  

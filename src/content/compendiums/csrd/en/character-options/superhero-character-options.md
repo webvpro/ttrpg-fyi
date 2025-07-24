@@ -7,7 +7,8 @@ tags:
 title: Superhero Character Options
 collection: Character-Options
 kind: Rule
-categories: []
+categories:
+- Superhero
 id: Superhero-Character-Options
 ---
 ## Superhero Character Options
@@ -151,10 +152,6 @@ id: Superhero-Character-Options
 > #### [Wildcard Powers](Wildcard-Powers.md)
   
 > #### [Wing Weapons](Wing-Weapons.md)
-  
-
-  
-
   
 ### Gaming With Superpowers
   

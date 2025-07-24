@@ -8,6 +8,7 @@ tags:
   - Creature/Level/4
   - Creature/Armor/1
   - Creature/Health/20
+  - Content/Fairytale
 title: Ogre
 collection: Creatures-NPCs
 kind: Creature
@@ -15,6 +16,8 @@ level: 4
 armor: 1
 health: 20
 id: Ogre
+categories:
+  - Fairytale
 ---
 ## Ogre    
 A bestial brute, the ogre is a sadistic, 8-foot (2 m) tall, cannibalistic fiend that preys upon other creatures in the woods, mountains, or other wilderness areas. This often pits them against sylvan beings like elves and fey. Ogres dwelling in more civilized lands are also the enemy of humans, but these ogres usually come no closer to civilization than its very fringes.  

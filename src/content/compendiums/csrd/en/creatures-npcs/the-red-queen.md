@@ -7,6 +7,7 @@ tags:
   - Creature/Kind/Creature
   - Creature/Level/6
   - Creature/Armor/1
+  - Content/Fairytale
 title: The Red Queen
 collection: Creatures-NPCs
 kind: Creature
@@ -14,6 +15,8 @@ level: 6
 armor: 1
 health: NA
 id: The-Red-Queen
+categories:
+  - Fairytale
 ---
 ## The Red Queen  
   

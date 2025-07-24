@@ -7,6 +7,7 @@ tags:
   - Creature/Kind/Creature
   - Creature/Level/5
   - Creature/Armor/0
+  - Content/Fairytale
 title: 'Oz, the Great and Terrible'
 collection: Creatures-NPCs
 kind: Creature
@@ -14,6 +15,8 @@ level: 5
 armor: 0
 health: NA
 id: Oz-the-Great-and-Terrible
+categories:
+  - Fairytale
 ---
 ## Oz, the Great and Terrible  
   

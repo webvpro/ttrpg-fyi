@@ -5,10 +5,13 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+  - Content/Fairytale
 title: Adderstone
 collection: Cyphers
 kind: Cypher
 id: Adderstone
+categories:
+  - Fairytale
 ---
 ## Adderstone    
 >[!info] Stats    

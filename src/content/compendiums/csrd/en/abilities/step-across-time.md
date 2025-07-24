@@ -9,6 +9,7 @@ tags:
   - Ability/Tier/High
   - Ability/Pool/Intellect
   - Ability/Categories/Movement
+  - Content/Weird-West
 title: Step Across Time
 collection: Abilities
 kind: Ability
@@ -20,6 +21,7 @@ pools:
   - Intellect
 categories:
   - Movement
+  - Weird-West
 id: Step-Across-Time
 ---
 ## Step Across Time

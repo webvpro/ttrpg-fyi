@@ -8,6 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Meta
+  - Content/Weird-West
 title: Winning Hand
 collection: Abilities
 kind: Ability
@@ -19,6 +20,7 @@ pools:
   - Intellect
 categories:
   - Meta
+  - Weird-West
 id: Winning-Hand
 ---
 ## Winning Hand

@@ -4,10 +4,13 @@ aliases:
 tags:
   - Compendiums/CSRD/en/Descriptors
   - Descriptor
+  - Content/Superhero
 title: Amazing
 collection: Descriptors
 kind: Descriptor
 id: Amazing
+categories:
+  - Superhero
 ---
 ## Amazing  
   

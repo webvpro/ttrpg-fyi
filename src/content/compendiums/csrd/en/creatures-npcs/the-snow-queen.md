@@ -6,6 +6,7 @@ tags:
   - Creature
   - Creature/Kind/Creature
   - Creature/Armor/2
+  - Content/Fairytale
 title: The Snow Queen
 collection: Creatures-NPCs
 kind: Creature
@@ -13,6 +14,8 @@ level: NA
 armor: 2
 health: NA
 id: The-Snow-Queen
+categories:
+  - Fairytale
 ---
 ## The Snow Queen  
   

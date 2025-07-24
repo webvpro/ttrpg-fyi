@@ -7,6 +7,7 @@ tags:
   - Creature/Kind/Creature
   - Creature/Level/5
   - Creature/Armor/0
+  - Content/Fairytale
 title: Dame Gothel
 collection: Creatures-NPCs
 kind: Creature
@@ -14,6 +15,8 @@ level: 5
 armor: 0
 health: NA
 id: Dame-Gothel
+categories:
+  - Fairytale
 ---
 ## Dame Gothel  
   

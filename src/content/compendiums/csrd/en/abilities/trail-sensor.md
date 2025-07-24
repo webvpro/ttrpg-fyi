@@ -9,6 +9,7 @@ tags:
   - Ability/Tier/Mid
   - Ability/Pool/Intellect
   - Ability/Categories/Cure
+  - Content/Weird-West
 title: Trail Sensor
 collection: Abilities
 kind: Ability
@@ -20,6 +21,7 @@ pools:
   - Intellect
 categories:
   - Cure
+  - Weird-West
 id: Trail-Sensor
 ---
 ## Trail Sensor  

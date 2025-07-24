@@ -8,6 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Task
+  - Content/Weird-West
 title: Trail Awareness
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ tier: Mid
 pools: []
 categories:
   - Task
+  - Weird-West
 id: Trail-Awareness
 ---
 ## Trail Awareness

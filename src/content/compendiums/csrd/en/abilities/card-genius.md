@@ -8,6 +8,7 @@ tags:
   - Ability/Cost/NA
   - Ability/Tier/Low
   - Ability/Categories/Meta
+  - Content/Weird-West
 title: Card Genius
 collection: Abilities
 kind: Ability
@@ -18,6 +19,7 @@ tier: Low
 pools: []
 categories:
   - Meta
+  - Weird-West
 id: Card-Genius
 ---
 ## Card Genius

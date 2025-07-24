@@ -4,10 +4,13 @@ aliases:
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
+  - Content/Horror
 title: Anathema Siren
 collection: Cyphers
 kind: Cypher
 id: Anathema-Siren
+categories:
+  - Horror
 ---
 ## Anathema Siren    
 >[!info] Stats    

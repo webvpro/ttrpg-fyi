@@ -5,10 +5,12 @@ tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
   - Artifact/Fairy-Tale
+  - Content/Fairytale
 title: Mirror Mirror
 collection: Artifacts
 kind: Artifact
-categories: []
+categories:
+  - Fairytale
 id: Mirror-Mirror
 ---
 ## Mirror Mirror    

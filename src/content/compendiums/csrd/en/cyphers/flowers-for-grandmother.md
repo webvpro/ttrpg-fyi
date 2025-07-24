@@ -5,10 +5,13 @@ tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Fairy-Tale
+  - Content/Fairytale
 title: Flowers for Grandmother
 collection: Cyphers
 kind: Cypher
 id: Flowers-for-Grandmother
+categories:
+  - Fairytale
 ---
 ## Flowers for Grandmother    
 >[!info] Stats    
