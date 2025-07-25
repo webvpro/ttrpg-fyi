@@ -1,30 +1,32 @@
 ---
 aliases:
-  - Venom in Their Blood
+  - Stupefying Rattle
 tags:
-  - Compendium/CSRD/en/Abilities/Venom-in-Their-Blood
+  - Compendium/CSRD/en/Abilities/Stupefying-Rattle
   - Ability
   - Ability/Enabler
-  - Ability/Cost/5
+  - Ability/Cost/4
   - Ability/Pool/Speed
-  - Ability/Tier/High
+  - Ability/Tier/Mid
   - Ability/Categories/Task
   - Content/Weird-West
-title: Venom in Their Blood
+title: Stupefying-Rattle
 collection: Abilities
 kind: Ability
 action: false
 enabler: true
-cost: 5
-tier: High
-pools: [] 
+cost: 4
+tier: Mid
+pools:
+- Speed
 categories:
   - Task
   - Weird-West
-id: Venom-in-Their-Blood
+id: Stupefying-Rattle
 ---
-## Venom in Their Blood
+## Stupefying Rattle
   
->**Enabler**  
+> **Enabler**  
+> **Cost** : 4
 
-If you successfully attack a creature that you previously damaged with Venomous Strike, you deal 9 additional points of damage. Once you use this ability, you can’t use it again during the current conflict. Enabler.
+With a slithering flourish and a ghost rattle echoing from some otherworldly source, you redirect a melee attack that would otherwise hit you if you succeed on a difficulty 2 Speed task. When you do, the misdirected attack hits another creature you choose within immediate range of both you and the attacking foe. Enabler.

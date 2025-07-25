@@ -37,24 +37,25 @@ Choose one of the following, or choose one of the Focus Connections in the Cyphe
 >  Make an immediate extra attack on your target.
 
 >[!tip] Tier One
->[[Seek-and-Hide|Seek and Hide]] 
->[[Know-Where-It-Hurts|Know Where It Hurts]]
+- [[Seek-and-Hide|Seek and Hide]] 
+- [[Know-Where-It-Hurts|Know Where It Hurts]]
 
 >[!tip] Tier Two
-> [[Ignore-the-Pain|Ignore the Pain]]
+- [[Ignore-the-Pain|Ignore the Pain]]
+
 >[!tip] Tier Three
->**Choose 1**
-> [[Let-Them-Try|Let Them Try]]
-> [[Surprise-Attack|Surprise Attack]]
+- [[Ability-Choice|Choose either]]
+- [[Let-Them-Try|Let Them Try]]
+- [[Surprise-Attack|Surprise Attack]]
    
 >[!tip] Tier Four
-> [[Total-Awareness|Total Awareness]]
+- [[Total-Awareness|Total Awareness]]
  
 >[!tip] Tier 5  
->[[Free-to-Move|Free to Move]]
+- [[Free-to-Move|Free to Move]]
 
 >[!tip] Tier 6
->[[Knock-Out|Knock Out]]
->**Choose one**
->[[Greater-Skill-With-Attacks|Greater Skill With Attacks]]
-> [[Leal-Damage|Lethal Damage]]
+- [[Knock-Out|Knock Out]]
+- [[Ability-Choice|Choose either]]
+- [[Greater-Skill-With-Attacks|Greater Skill With Attacks]]
+- [[Lethal-Damage|Lethal Damage]]

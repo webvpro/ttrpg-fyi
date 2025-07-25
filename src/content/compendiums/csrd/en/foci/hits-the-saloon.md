@@ -38,25 +38,25 @@ Choose one of the following, or choose one of the Focus Connections in the Cyphe
 >  You remember something a stranger in a saloon once said, and you can ask the GM one question about what you’re looking at.
 
 >[!tip] Tier One
->[[Jovial-Presence|Jovial Presence]]
->[[Enthusiastic-Listener|Enthusiastic Listener]]
+- [[Jovial-Presence|Jovial Presence]]
+- [[Enthusiastic-Listener|Enthusiastic Listener]]
 
 >[!tip] Tier Two
-> [[Blitzer|Blitzer]]
->[[Liquid-Courage|Liquid Courage]]
+- [[blitzer|Blitzer]]
+- [[Liquid-Courage|Liquid Courage]]
 
 >[!tip] Tier Three
->**Choose 1**
-> [[Skill-With-Attacks|Skill With Attacks]]
-> [[Iron Stomach 
+- [[Ability-Choice|Choose either]]
+- [[Skill-With-Attacks|Skill With Attacks]]
+- [[iron-stomach|Iron Stomach]]
    
 >[!tip] Tier Four
-> [[Winning-Hand|Winning Hand]]
+- [[bottle-ko|Bottle KO]]
  
 >[!tip] Tier 5  
->[[Consequences-of-Luck|Consequences of Luck]]
+- [[Learned-a-Few-Things-Over-Drinks|Learned a Few Things Over Drinks]]
 
 >[!tip] Tier 6
->**Choose one**
->[[Fate-Breaker|Fate Breaker]]
-> [[Gambling-God|Gambling God]]
+- [[Ability-Choice|Choose either]]
+- [[Lethal-Damage|Lethal Damage]]
+- [[Inspiration-in-a-Glass|Inspiration in a Glass]]

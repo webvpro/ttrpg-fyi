@@ -33,7 +33,7 @@ Major Effect Suggestion: You get a second wind and can make an immediate recover
 > **Tier 1 Type Swap**
 >If you wish, you can swap an ability gained from your type for the following.
 
-- [[Swift Slither|Swift Slither]]
+- [[Swift-Slither|Swift Slither]]
 
 ##### Tier 1
 
@@ -48,7 +48,7 @@ Major Effect Suggestion: You get a second wind and can make an immediate recover
 ##### Tier 3
 
 - [[Ability-Choice|Choose either]]
- - [[Gain Rattler Companion]]
+ - [[gain-rattler-companion|Gain Rattler Companion]]
  - [[Stupefying-Rattle|Stupefying Rattle]]
 
 ##### Tier 4
