@@ -206,33 +206,68 @@ function getDepletion(depletionLine) {
     return match ? match[1].trim() : '1 in 1d20';
 }
 
+// Function to extract effect type (Alien, etc.)
+function getEffectType(effectLine) {
+    const alienMatch = effectLine.match(/Effect\s*\(Alien\):/);
+    if (alienMatch) return 'Alien';
+    return null;
+}
+
 // Process artifact data
 console.log('Processing artifact data...');
 
 // Split the data into individual artifacts
-const artifacts = artifactData.split(/(?=^[A-Z][a-zA-Z\s]+$)/m)
+const artifacts = artifactData.split(/(?=^[A-Z][a-zA-Z\s\-']+\n)/m)
     .filter(artifact => artifact.trim() !== '');
+
+console.log(`Found ${artifacts.length} artifacts to process:`);
+artifacts.forEach((artifact, index) => {
+    const firstLine = artifact.trim().split('\n')[0];
+    console.log(`${index + 1}. ${firstLine}`);
+});
 
 artifacts.forEach(artifact => {
     const lines = artifact.trim().split('\n')
         .filter(line => line.trim() !== '');
     
-    if (lines.length < 3) return;
+    if (lines.length < 3) {
+        console.log(`Skipping artifact with insufficient lines: ${lines[0] || 'Unknown'}`);
+        return;
+    }
     
     const name = lines[0].trim();
-    const levelLine = lines[1].trim();
-    const formLine = lines[2].trim();
+    console.log(`Processing: ${name}`);
+    
+    // Find Level line
+    let levelLine = '';
+    let formLine = '';
+    
+    for (let i = 1; i < lines.length; i++) {
+        if (lines[i].startsWith('Level:') && !levelLine) {
+            levelLine = lines[i];
+        } else if (lines[i].startsWith('Form:') && !formLine) {
+            formLine = lines[i];
+            break;
+        }
+    }
+    
+    if (!levelLine || !formLine) {
+        console.log(`Missing Level or Form for ${name}. Level: "${levelLine}", Form: "${formLine}"`);
+        return;
+    }
     
     const level = getLevel(levelLine);
     const form = getForm(formLine);
     
-    // Find the effect and depletion sections
+    // Find the effect and depletion sections - look for both "Effect:" and "Effect (Alien):"
     let effectStart = -1;
     let depletionLine = '';
+    let effectType = null;
     
     for (let i = 0; i < lines.length; i++) {
-        if (lines[i].startsWith('Effect:')) {
+        if (lines[i].startsWith('Effect:') || lines[i].startsWith('Effect (')) {
             effectStart = i;
+            effectType = getEffectType(lines[i]);
         }
         if (lines[i].startsWith('Depletion:')) {
             depletionLine = lines[i];
@@ -240,7 +275,10 @@ artifacts.forEach(artifact => {
         }
     }
     
-    if (effectStart === -1) return;
+    if (effectStart === -1) {
+        console.log(`No Effect section found for ${name}`);
+        return;
+    }
     
     // Extract effect content (everything between Effect: and Depletion:)
     let effectLines = [];
@@ -252,13 +290,17 @@ artifacts.forEach(artifact => {
     }
     
     let effect = effectLines.join('\n').trim();
-    effect = effect.replace(/^Effect:\s*/, '');
+    // Remove both "Effect:" and "Effect (Alien):" prefixes
+    effect = effect.replace(/^Effect(\s*\([^)]+\))?:\s*/, '');
     
     const depletion = getDepletion(depletionLine);
     
     const filename = getSafeFileName(name);
     const safeId = getSafeId(name);
     const filepath = path.join(artifactsDir, `${filename}.md`);
+    
+    // Add effect type to content if it's Alien
+    let effectTypeNote = effectType ? `\n> **Effect Type:** ${effectType}\n` : '';
     
     // Create new file
     const markdownContent = `---
@@ -282,7 +324,7 @@ categories:
   
 > **Depletion:** ${depletion}  
   
-> **Kind:** Artifact
+> **Kind:** Artifact${effectTypeNote}
   
   
   
