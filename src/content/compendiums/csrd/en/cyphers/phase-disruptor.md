@@ -9,6 +9,8 @@ title: Phase Disruptor
 collection: Cyphers
 kind: Cypher
 id: Phase-Disruptor
+categories:
+  - Fantastic
 ---
 ## Phase Disruptor    
 >[!info] Stats    

@@ -1,16 +1,16 @@
 ---
 aliases:
-  - Fairy Tale
+  - Fairytale
 tags:
   - Compendiums/CSRD/en/Tables
   - Table/Cypher/Fairy-Tale
 title: Fairy Tale
 collection: Tables
 kind: Table
-id: Fairy-Tale
+id: fairytale
 ---
-## Fairy Tale Table  
-| Roll &nbsp; &nbsp; | Fairy Tale                                                 |
+## Fairytale Table  
+| Roll &nbsp; &nbsp; | Fairytale                                                 |
 | ------------------ | ---------------------------------------------------------- |
 | 1                  | [Adderstone](Adderstone.md)                                |
 | 2                  | [Agate Eye](Agate-Eye.md)                                  |

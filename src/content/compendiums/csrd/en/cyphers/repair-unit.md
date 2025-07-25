@@ -9,6 +9,8 @@ title: Repair Unit
 collection: Cyphers
 kind: Cypher
 id: Repair-Unit
+categories:
+  - Fantastic
 ---
 ## Repair Unit    
 >[!info] Stats    

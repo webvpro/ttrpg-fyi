@@ -9,6 +9,8 @@ title: Retaliation
 collection: Cyphers
 kind: Cypher
 id: Retaliation
+categories:
+  - Fantastic
 ---
 ## Retaliation    
 >[!info] Stats    

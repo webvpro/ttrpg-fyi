@@ -12,6 +12,7 @@ kind: Cypher
 id: Fathers-Betrayal
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Father's Betrayal    
 >[!info] Stats    

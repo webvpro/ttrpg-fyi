@@ -189,79 +189,172 @@ function getSafeId(name) {
         .replace(/^-+|-+$/g, '');
 }
 
-// Function to extract level from level line
-function getLevel(levelLine) {
-    const match = levelLine.match(/Level:\s*(.+)/);
-    return match ? match[1].trim() : '1d6';
-}
-
-// Function to extract form
-function getForm(formLine) {
-    const match = formLine.match(/Form:\s*(.+)/);
-    return match ? match[1].trim() : '';
-}
-
-// Split the data into individual cyphers
-const cyphers = cypherData.split(/(?=^[A-Z][a-zA-Z\s]+$)/m)
-    .filter(cypher => cypher.trim() !== '');
-
-cyphers.forEach(cypher => {
-    const lines = cypher.trim().split('\n')
-        .filter(line => line.trim() !== '');
-    
-    if (lines.length < 3) return;
+// Function to parse a single cypher
+function parseCypher(cypherText) {
+    const lines = cypherText.trim().split('\n');
+    if (lines.length < 4) return null;
     
     const name = lines[0].trim();
-    const levelLine = lines[1].trim();
-    const formLine = lines[2].trim();
+    let level = '';
+    let form = '';
+    let effect = '';
     
-    const level = getLevel(levelLine);
-    const form = getForm(formLine);
+    let effectStartIndex = -1;
     
-    const effectLines = lines.slice(3);
-    let effect = effectLines.join('\n').trim();
-    effect = effect.replace(/^Effect:\s*/, '');
+    // Parse each line
+    for (let i = 1; i < lines.length; i++) {
+        const line = lines[i].trim();
+        
+        if (line.startsWith('Level:')) {
+            level = line.replace('Level:', '').trim();
+        } else if (line.startsWith('Form:')) {
+            form = line.replace('Form:', '').trim();
+        } else if (line.startsWith('Effect:')) {
+            effectStartIndex = i;
+            break;
+        }
+    }
     
-    const filename = getSafeFileName(name);
-    const safeId = getSafeId(name);
+    // Extract effect content
+    if (effectStartIndex !== -1) {
+        const effectLines = lines.slice(effectStartIndex);
+        effect = effectLines.join('\n');
+        // Remove the Effect: prefix
+        effect = effect.replace(/^Effect:\s*/, '').trim();
+    }
+    
+    return {
+        name,
+        level,
+        form,
+        effect
+    };
+}
+
+// Function to format effect with callouts and add Effect: label
+function formatEffectAsCallout(effect, name) {
+    if (!effect || effect.trim() === '') {
+        return '> **Effect:** No effect description available.';
+    }
+    
+    // Special handling for Necrotic Round with sections
+    if (name === 'Necrotic Round') {
+        const lines = effect.split('\n');
+        let formatted = '> **Effect:** ';
+        let inSection = false;
+        
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+            
+            if (line.startsWith('Against Undead:') || line.startsWith('Against the Living:')) {
+                if (i > 0) formatted += '\n>';
+                formatted += '\n> **' + line + '**';
+                inSection = true;
+            } else if (line === '') {
+                formatted += '\n>';
+            } else {
+                if (i === 0) {
+                    formatted += line;
+                } else {
+                    formatted += '\n> ' + line;
+                }
+            }
+        }
+        
+        return formatted;
+    }
+    
+    // Standard callout formatting with Effect: label
+    const lines = effect.split('\n');
+    let formatted = '> **Effect:** ';
+    
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (i === 0) {
+            formatted += line;
+        } else if (line === '') {
+            formatted += '\n>';
+        } else {
+            formatted += '\n> ' + line;
+        }
+    }
+    
+    return formatted;
+}
+
+// Process cyphers
+console.log('Processing cypher data...');
+
+// Split the data using the same approach as artifacts
+const cypherBlocks = [];
+const lines = cypherData.split('\n');
+let currentBlock = [];
+let inCypher = false;
+
+for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    
+    // Check if this is a new cypher name (starts with capital letter, not indented, not a field)
+    if (line.match(/^[A-Z][a-zA-Z\s\-']+$/) && 
+        !line.startsWith('Level:') && 
+        !line.startsWith('Form:') && 
+        !line.startsWith('Effect:')) {
+        
+        // Save previous cypher if we have one
+        if (currentBlock.length > 0) {
+            cypherBlocks.push(currentBlock.join('\n'));
+        }
+        
+        // Start new cypher
+        currentBlock = [line];
+        inCypher = true;
+    } else if (inCypher) {
+        currentBlock.push(line);
+    }
+}
+
+// Don't forget the last cypher
+if (currentBlock.length > 0) {
+    cypherBlocks.push(currentBlock.join('\n'));
+}
+
+console.log(`Found ${cypherBlocks.length} cypher blocks to process`);
+
+// Process each cypher
+cypherBlocks.forEach((block, index) => {
+    const cypher = parseCypher(block);
+    
+    if (!cypher) {
+        console.log(`Failed to parse cypher block ${index + 1}`);
+        return;
+    }
+    
+    console.log(`Processing: ${cypher.name}`);
+    console.log(`  Level: ${cypher.level}`);
+    console.log(`  Form: ${cypher.form}`);
+    console.log(`  Effect: ${cypher.effect ? cypher.effect.substring(0, 50) + '...' : 'MISSING'}`);
+    
+    if (!cypher.level || !cypher.form || !cypher.effect) {
+        console.log(`  Skipping due to missing required fields`);
+        return;
+    }
+    
+    const filename = getSafeFileName(cypher.name);
+    const safeId = getSafeId(cypher.name);
     const filepath = path.join(cyphersDir, `${filename}.md`);
     
-    // Check if file exists and update or create
-    let markdownContent;
-    if (fs.existsSync(filepath)) {
-        // Update existing file
-        const existingContent = fs.readFileSync(filepath, 'utf8');
-        
-        // Update the frontmatter to include Weird-West category and fix ID format
-        markdownContent = existingContent.replace(
-            /^---[\s\S]*?---/,
-            `---
+    // Format the effect with callouts and Effect: label
+    const formattedEffect = formatEffectAsCallout(cypher.effect, cypher.name);
+    
+    // Create new file
+    const markdownContent = `---
 aliases:
-  - ${name}
+  - ${cypher.name}
 tags:
   - Compendium/CSRD/en/Cyphers
   - Cypher
   - Cypher/Manifest
-title: ${name}
-collection: Cyphers
-kind: Cypher
-id: ${safeId}
-categories:
-- Manifest
-- Weird-West
----`
-        );
-        console.log(`Updated: ${filename}.md`);
-    } else {
-        // Create new file
-        markdownContent = `---
-aliases:
-  - ${name}
-tags:
-  - Compendium/CSRD/en/Cyphers
-  - Cypher
-  - Cypher/Manifest
-title: ${name}
+title: ${cypher.name}
 collection: Cyphers
 kind: Cypher
 id: ${safeId}
@@ -269,20 +362,22 @@ categories:
 - Manifest
 - Weird-West
 ---
-## ${name}  
-  
->[!info] Stats  
-  
-> **Level:** ${level}  
-  
-> **Kind:** Manifest
 
-${effect}
+## ${cypher.name}
+  
+> **Level:** ${cypher.level}  
+  
+> **Form:** ${cypher.form}
+  
+> **Kind:** Manifest Cypher
+  
+  
+  
+${formattedEffect}
 `;
-        console.log(`Created: ${filename}.md`);
-    }
-
+    
     fs.writeFileSync(filepath, markdownContent, 'utf8');
+    console.log(`  Created: ${filename}.md`);
 });
 
-console.log('\nScript completed! Created/updated individual cypher files in', cyphersDir);
+console.log('\nScript completed! Created cypher files in', cyphersDir);

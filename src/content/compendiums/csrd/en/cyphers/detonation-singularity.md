@@ -9,6 +9,8 @@ title: Detonation Singularity
 collection: Cyphers
 kind: Cypher
 id: Detonation-Singularity
+categories:
+  - Fantastic
 ---
 ## Detonation Singularity    
 >[!info] Stats    

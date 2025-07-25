@@ -1,8 +1,11 @@
 ---
 aliases:
   - Artifacts
-id: Artifacts
+id: artifacts
 title: Artifacts
+rulesRef: 
+- weird-west-artifacts-rules
+- optional-magical-crafting-artifacts-rules
 ---
 ## Artifacts
 

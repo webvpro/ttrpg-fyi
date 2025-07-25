@@ -9,6 +9,8 @@ title: Slave Maker
 collection: Cyphers
 kind: Cypher
 id: Slave-Maker
+categories:
+  - Fantastic
 ---
 ## Slave Maker    
 >[!info] Stats    

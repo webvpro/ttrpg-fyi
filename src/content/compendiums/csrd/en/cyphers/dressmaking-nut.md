@@ -12,6 +12,7 @@ kind: Cypher
 id: Dressmaking-Nut
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Dressmaking Nut    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Heat Attack
 collection: Cyphers
 kind: Cypher
 id: Heat-Attack
+categories:
+  - Fantastic
 ---
 ## Heat Attack    
 >[!info] Stats    

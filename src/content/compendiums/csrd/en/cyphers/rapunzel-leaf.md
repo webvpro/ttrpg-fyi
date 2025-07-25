@@ -12,6 +12,7 @@ kind: Cypher
 id: Rapunzel-Leaf
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Rapunzel Leaf    
 >[!info] Stats    

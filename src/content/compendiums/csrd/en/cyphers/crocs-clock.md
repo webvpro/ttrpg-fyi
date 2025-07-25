@@ -12,6 +12,7 @@ kind: Cypher
 id: Crocs-Clock
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Croc's Clock    
 >[!info] Stats    

@@ -12,6 +12,7 @@ kind: Cypher
 id: Snickersnee
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Snickersnee    
 >[!info] Stats    

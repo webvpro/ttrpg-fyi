@@ -12,6 +12,7 @@ kind: Cypher
 id: Poison-for-Your-Daughter
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Poison for Your Daughter    
 >[!info] Stats    

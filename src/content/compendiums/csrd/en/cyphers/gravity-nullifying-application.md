@@ -9,6 +9,8 @@ title: Gravity-Nullifying Application
 collection: Cyphers
 kind: Cypher
 id: Gravity-Nullifying-Application
+categories:
+  - Fantastic
 ---
 ## Gravity-Nullifying Application    
 >[!info] Stats    

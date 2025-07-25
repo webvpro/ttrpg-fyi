@@ -9,6 +9,8 @@ title: Force Cube
 collection: Cyphers
 kind: Cypher
 id: Force-Cube
+categories:
+  - Fantastic
 ---
 ## Force Cube    
 >[!info] Stats    

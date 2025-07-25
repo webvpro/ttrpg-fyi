@@ -9,6 +9,8 @@ title: Disrupting
 collection: Cyphers
 kind: Cypher
 id: Disrupting
+categories:
+  - Fantastic
 ---
 ## Disrupting    
 >[!info] Stats    

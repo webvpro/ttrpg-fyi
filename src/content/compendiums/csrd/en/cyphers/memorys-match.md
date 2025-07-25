@@ -12,6 +12,7 @@ kind: Cypher
 id: Memorys-Match
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Memory's Match    
 >[!info] Stats    

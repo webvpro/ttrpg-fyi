@@ -9,6 +9,8 @@ title: Time Dilation Defensive
 collection: Cyphers
 kind: Cypher
 id: Time-Dilation-Defensive
+categories:
+  - Fantastic
 ---
 ## Time Dilation Defensive    
 >[!info] Stats    

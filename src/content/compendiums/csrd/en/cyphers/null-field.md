@@ -9,6 +9,8 @@ title: Null Field
 collection: Cyphers
 kind: Cypher
 id: Null-Field
+categories:
+  - Fantastic
 ---
 ## Null Field    
 >[!info] Stats    

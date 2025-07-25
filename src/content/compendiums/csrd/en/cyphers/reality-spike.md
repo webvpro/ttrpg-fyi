@@ -9,6 +9,8 @@ title: Reality Spike
 collection: Cyphers
 kind: Cypher
 id: Reality-Spike
+categories:
+  - Fantastic
 ---
 ## Reality Spike    
 >[!info] Stats    

@@ -12,6 +12,7 @@ kind: Cypher
 id: Deathless
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Deathless    
 >[!info] Stats    

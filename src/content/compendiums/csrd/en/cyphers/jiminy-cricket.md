@@ -12,6 +12,7 @@ kind: Cypher
 id: Jiminy-Cricket
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Jiminy Cricket    
 >[!info] Stats    

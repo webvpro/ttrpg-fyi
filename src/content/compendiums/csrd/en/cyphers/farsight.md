@@ -9,6 +9,8 @@ title: Farsight
 collection: Cyphers
 kind: Cypher
 id: Farsight
+categories:
+  - Fantastic
 ---
 ## Farsight    
 >[!info] Stats    

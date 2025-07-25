@@ -9,6 +9,8 @@ title: Weapon Enhancement
 collection: Cyphers
 kind: Cypher
 id: Weapon-Enhancement
+categories:
+  - Fantastic
 ---
 ## Weapon Enhancement    
 >[!info] Stats    

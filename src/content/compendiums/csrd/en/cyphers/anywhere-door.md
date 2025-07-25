@@ -12,6 +12,7 @@ kind: Cypher
 id: Anywhere-Door
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Anywhere Door    
 >[!info] Stats    

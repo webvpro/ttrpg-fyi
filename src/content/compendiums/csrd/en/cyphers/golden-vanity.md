@@ -12,6 +12,7 @@ kind: Cypher
 id: Golden-Vanity
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Golden Vanity    
 >[!info] Stats    

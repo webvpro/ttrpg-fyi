@@ -12,6 +12,7 @@ kind: Cypher
 id: Gingerbread-Man
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Gingerbread Man    
 >[!info] Stats    

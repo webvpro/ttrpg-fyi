@@ -9,6 +9,8 @@ title: Trick Embedder
 collection: Cyphers
 kind: Cypher
 id: Trick-Embedder
+categories:
+  - Fantastic
 ---
 ## Trick Embedder    
 >[!info] Stats    

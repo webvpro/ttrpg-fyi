@@ -9,6 +9,8 @@ title: Magnetic Master
 collection: Cyphers
 kind: Cypher
 id: Magnetic-Master
+categories:
+  - Fantastic
 ---
 ## Magnetic Master    
 >[!info] Stats    

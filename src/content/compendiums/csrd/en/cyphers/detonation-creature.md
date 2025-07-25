@@ -9,6 +9,8 @@ title: Detonation Creature
 collection: Cyphers
 kind: Cypher
 id: Detonation-Creature
+categories:
+  - Fantastic
 ---
 ## Detonation Creature    
 >[!info] Stats    

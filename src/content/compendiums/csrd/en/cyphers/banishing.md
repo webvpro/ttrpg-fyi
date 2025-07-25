@@ -9,6 +9,8 @@ title: Banishing
 collection: Cyphers
 kind: Cypher
 id: Banishing
+categories:
+  - Fantastic
 ---
 ## Banishing    
 >[!info] Stats    

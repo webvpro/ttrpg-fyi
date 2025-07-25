@@ -12,6 +12,7 @@ kind: Cypher
 id: Golden-Beetle
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Golden Beetle    
 >[!info] Stats    

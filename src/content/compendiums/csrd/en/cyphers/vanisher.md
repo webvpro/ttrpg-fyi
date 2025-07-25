@@ -9,6 +9,8 @@ title: Vanisher
 collection: Cyphers
 kind: Cypher
 id: Vanisher
+categories:
+  - Fantastic
 ---
 ## Vanisher    
 >[!info] Stats    

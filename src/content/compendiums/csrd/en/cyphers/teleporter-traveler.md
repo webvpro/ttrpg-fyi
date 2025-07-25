@@ -9,6 +9,8 @@ title: Teleporter Traveler
 collection: Cyphers
 kind: Cypher
 id: Teleporter-Traveler
+categories:
+  - Fantastic
 ---
 ## Teleporter Traveler    
 >[!info] Stats    

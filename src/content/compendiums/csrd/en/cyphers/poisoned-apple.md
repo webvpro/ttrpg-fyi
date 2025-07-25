@@ -12,6 +12,7 @@ kind: Cypher
 id: Poisoned-Apple
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Poisoned Apple    
 >[!info] Stats    

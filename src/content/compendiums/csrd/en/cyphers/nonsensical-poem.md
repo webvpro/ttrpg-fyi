@@ -12,6 +12,7 @@ kind: Cypher
 id: Nonsensical-Poem
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Nonsensical Poem    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Sound Dampener
 collection: Cyphers
 kind: Cypher
 id: Sound-Dampener
+categories:
+  - Fantastic
 ---
 ## Sound Dampener    
 >[!info] Stats    

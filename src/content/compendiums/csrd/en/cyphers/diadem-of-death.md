@@ -12,6 +12,7 @@ kind: Cypher
 id: Diadem-of-Death
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Diadem of Death    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Sonic Hole
 collection: Cyphers
 kind: Cypher
 id: Sonic-Hole
+categories:
+  - Fantastic
 ---
 ## Sonic Hole    
 >[!info] Stats    

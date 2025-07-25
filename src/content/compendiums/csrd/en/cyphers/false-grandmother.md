@@ -12,6 +12,7 @@ kind: Cypher
 id: False-Grandmother
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## False Grandmother    
 >[!info] Stats    

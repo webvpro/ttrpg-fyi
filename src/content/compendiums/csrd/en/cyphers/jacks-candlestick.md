@@ -12,6 +12,7 @@ kind: Cypher
 id: Jacks-Candlestick
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Jack's Candlestick    
 >[!info] Stats    

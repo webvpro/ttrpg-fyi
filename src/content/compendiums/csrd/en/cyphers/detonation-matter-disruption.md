@@ -9,6 +9,8 @@ title: Detonation Matter Disruption
 collection: Cyphers
 kind: Cypher
 id: Detonation-Matter-Disruption
+categories:
+  - Fantastic
 ---
 ## Detonation Matter Disruption    
 >[!info] Stats    

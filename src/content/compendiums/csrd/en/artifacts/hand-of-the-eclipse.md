@@ -23,4 +23,4 @@ categories:
   
   
   
-User can summon the Tomb Moon into the sky if they spend several rounds concentrating to do so. The summoned Tomb Moon persists for 1d10 hours before returning to its previous chaotic orbit.
+> **Effect:** User can summon the Tomb Moon into the sky if they spend several rounds concentrating to do so. The summoned Tomb Moon persists for 1d10 hours before returning to its previous chaotic orbit.

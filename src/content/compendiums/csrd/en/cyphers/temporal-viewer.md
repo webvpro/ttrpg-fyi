@@ -9,6 +9,8 @@ title: Temporal Viewer
 collection: Cyphers
 kind: Cypher
 id: Temporal-Viewer
+categories:
+  - Fantastic
 ---
 ## Temporal Viewer    
 >[!info] Stats    

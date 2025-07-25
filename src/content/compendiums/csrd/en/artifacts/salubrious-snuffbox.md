@@ -23,4 +23,4 @@ categories:
   
   
   
-Owner who takes a pinch of snuff regains a number of Pool points of their choice equal to the artifact's level.
+> **Effect:** Owner who takes a pinch of snuff regains a number of Pool points of their choice equal to the artifact's level.

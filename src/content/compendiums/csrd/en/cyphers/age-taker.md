@@ -9,6 +9,8 @@ title: Age Taker
 collection: Cyphers
 kind: Cypher
 id: Age-Taker
+categories:
+  - Fantastic
 ---
 ## Age Taker    
 >[!info] Stats    

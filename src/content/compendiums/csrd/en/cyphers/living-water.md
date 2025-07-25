@@ -12,6 +12,7 @@ kind: Cypher
 id: Living-Water
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Living Water    
 >[!info] Stats    

@@ -12,6 +12,7 @@ kind: Cypher
 id: Neverlost
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Neverlost    
 >[!info] Stats    

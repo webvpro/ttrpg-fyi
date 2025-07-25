@@ -12,6 +12,7 @@ kind: Cypher
 id: Flaming-Arrow
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Flaming Arrow    
 >[!info] Stats    

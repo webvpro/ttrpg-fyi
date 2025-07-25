@@ -9,6 +9,8 @@ title: Frigid Wall
 collection: Cyphers
 kind: Cypher
 id: Frigid-Wall
+categories:
+  - Fantastic
 ---
 ## Frigid Wall    
 >[!info] Stats    

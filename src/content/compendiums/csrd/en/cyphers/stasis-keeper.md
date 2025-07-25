@@ -9,6 +9,8 @@ title: Stasis Keeper
 collection: Cyphers
 kind: Cypher
 id: Stasis-Keeper
+categories:
+  - Fantastic
 ---
 ## Stasis Keeper    
 >[!info] Stats    

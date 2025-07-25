@@ -12,6 +12,7 @@ kind: Cypher
 id: Dragons-Blood
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Dragon's Blood    
 >[!info] Stats    

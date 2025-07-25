@@ -9,6 +9,8 @@ title: Shock Attack
 collection: Cyphers
 kind: Cypher
 id: Shock-Attack
+categories:
+  - Fantastic
 ---
 ## Shock Attack    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Force Field
 collection: Cyphers
 kind: Cypher
 id: Force-Field
+categories:
+  - Fantastic
 ---
 ## Force Field    
 >[!info] Stats    

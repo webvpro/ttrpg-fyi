@@ -12,6 +12,7 @@ kind: Cypher
 id: Witch-Bottle
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Witch Bottle    
 >[!info] Stats    

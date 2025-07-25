@@ -12,6 +12,7 @@ kind: Cypher
 id: Witchs-Ladder
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Witch's Ladder    
 >[!info] Stats    

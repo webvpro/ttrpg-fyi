@@ -9,6 +9,8 @@ title: Telepathy
 collection: Cyphers
 kind: Cypher
 id: Telepathy
+categories:
+  - Fantastic
 ---
 ## Telepathy    
 >[!info] Stats    

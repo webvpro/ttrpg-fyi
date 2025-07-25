@@ -12,6 +12,7 @@ kind: Cypher
 id: Baba-Yagas-Spiced-Cookie
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Baba Yaga's Spiced Cookie    
 >[!info] Stats    

@@ -10,7 +10,7 @@ if (!fs.existsSync(artifactsDir)) {
     console.log(`Created directory: ${artifactsDir}`);
 }
 
-// Define the artifact data (from your selected text)
+// Extract artifact data from the rules file - this could be automated later
 const artifactData = `Conspicuous Badge
 Level: 1d6 + 1 
 Form: Sheriff's badge that always catches the light just right 
@@ -188,150 +188,247 @@ function getSafeId(name) {
         .replace(/^-+|-+$/g, '');
 }
 
-// Function to extract level from level line
-function getLevel(levelLine) {
-    const match = levelLine.match(/Level:\s*(.+)/);
-    return match ? match[1].trim() : '1d6';
-}
-
-// Function to extract form
-function getForm(formLine) {
-    const match = formLine.match(/Form:\s*(.+)/);
-    return match ? match[1].trim() : '';
-}
-
-// Function to extract depletion
-function getDepletion(depletionLine) {
-    const match = depletionLine.match(/Depletion:\s*(.+)/);
-    return match ? match[1].trim() : '1 in 1d20';
-}
-
-// Function to extract effect type (Alien, etc.)
-function getEffectType(effectLine) {
-    const alienMatch = effectLine.match(/Effect\s*\(Alien\):/);
-    if (alienMatch) return 'Alien';
-    return null;
-}
-
-// Process artifact data
-console.log('Processing artifact data...');
-
-// Split the data into individual artifacts
-const artifacts = artifactData.split(/(?=^[A-Z][a-zA-Z\s\-']+\n)/m)
-    .filter(artifact => artifact.trim() !== '');
-
-console.log(`Found ${artifacts.length} artifacts to process:`);
-artifacts.forEach((artifact, index) => {
-    const firstLine = artifact.trim().split('\n')[0];
-    console.log(`${index + 1}. ${firstLine}`);
-});
-
-artifacts.forEach(artifact => {
-    const lines = artifact.trim().split('\n')
-        .filter(line => line.trim() !== '');
-    
-    if (lines.length < 3) {
-        console.log(`Skipping artifact with insufficient lines: ${lines[0] || 'Unknown'}`);
-        return;
-    }
+// Function to parse a single artifact
+function parseArtifact(artifactText) {
+    const lines = artifactText.trim().split('\n');
+    if (lines.length < 4) return null;
     
     const name = lines[0].trim();
-    console.log(`Processing: ${name}`);
-    
-    // Find Level line
-    let levelLine = '';
-    let formLine = '';
-    
-    for (let i = 1; i < lines.length; i++) {
-        if (lines[i].startsWith('Level:') && !levelLine) {
-            levelLine = lines[i];
-        } else if (lines[i].startsWith('Form:') && !formLine) {
-            formLine = lines[i];
-            break;
-        }
-    }
-    
-    if (!levelLine || !formLine) {
-        console.log(`Missing Level or Form for ${name}. Level: "${levelLine}", Form: "${formLine}"`);
-        return;
-    }
-    
-    const level = getLevel(levelLine);
-    const form = getForm(formLine);
-    
-    // Find the effect and depletion sections - look for both "Effect:" and "Effect (Alien):"
-    let effectStart = -1;
-    let depletionLine = '';
+    let level = '';
+    let form = '';
+    let alternateForm = '';
+    let effect = '';
+    let depletion = '';
     let effectType = null;
     
-    for (let i = 0; i < lines.length; i++) {
-        if (lines[i].startsWith('Effect:') || lines[i].startsWith('Effect (')) {
-            effectStart = i;
-            effectType = getEffectType(lines[i]);
-        }
-        if (lines[i].startsWith('Depletion:')) {
-            depletionLine = lines[i];
+    let effectStartIndex = -1;
+    let depletionIndex = -1;
+    
+    // Parse each line
+    for (let i = 1; i < lines.length; i++) {
+        const line = lines[i].trim();
+        
+        if (line.startsWith('Level:')) {
+            level = line.replace('Level:', '').trim();
+        } else if (line.startsWith('Form:')) {
+            form = line.replace('Form:', '').trim();
+        } else if (line.startsWith('Alternate Form:')) {
+            alternateForm = line.replace('Alternate Form:', '').trim();
+        } else if (line.startsWith('Effect:')) {
+            effectStartIndex = i;
+            effectType = null;
+        } else if (line.startsWith('Effect (Alien):')) {
+            effectStartIndex = i;
+            effectType = 'Alien';
+        } else if (line.startsWith('Depletion:')) {
+            depletionIndex = i;
+            depletion = line.replace('Depletion:', '').trim();
             break;
         }
     }
     
-    if (effectStart === -1) {
-        console.log(`No Effect section found for ${name}`);
+    // Extract effect content
+    if (effectStartIndex !== -1 && depletionIndex !== -1) {
+        const effectLines = lines.slice(effectStartIndex, depletionIndex);
+        effect = effectLines.join('\n');
+        // Remove the Effect: or Effect (Alien): prefix
+        effect = effect.replace(/^Effect(\s*\([^)]+\))?:\s*/, '').trim();
+    }
+    
+    return {
+        name,
+        level,
+        form,
+        alternateForm,
+        effect,
+        depletion,
+        effectType
+    };
+}
+
+// Function to format effect with callouts and add Effect: label
+function formatEffectAsCallout(effect, name) {
+    if (!effect || effect.trim() === '') {
+        return '> **Effect:** No effect description available.';
+    }
+    
+    // Special handling for Nihilal Tendril Horn table
+    if (name === 'Nihilal Tendril Horn') {
+        // Split on "Awful thing:" to handle the special content
+        const parts = effect.split('Awful thing:');
+        let formatted = '> **Effect:** ' + parts[0].trim().replace(/\n/g, '\n> ');
+        
+        if (parts.length > 1) {
+            formatted += '\n>\n> **Awful thing:** ' + parts[1].trim().replace(/\n/g, '\n> ');
+        }
+        
+        // Replace the table with proper markdown table in callouts
+        formatted = formatted.replace(/>.*d6\s+Horn Effect.*$/m, '');
+        formatted = formatted.replace(/>.*1–4.*$/m, '');
+        formatted = formatted.replace(/>.*5–6.*$/m, '');
+        
+        // Add the table
+        formatted += '\n>\n> | d6 | Horn Effect |\n';
+        formatted += '> |----|-------------|\n';
+        formatted += '> | 1–4 | Tendril wraps target, preventing physical tasks and dealing damage equal to the artifact\'s level each round until the target escapes. Either way, tendril desiccates and turns to dust after about a minute. |\n';
+        formatted += '> | 5–6 | Tendril attempts to eat its way into target via mouth, ears, or eyes, inflicting damage equal to the artifact\'s level that ignores Armor. If the target survives, the tendril desiccates and turns to dust. If the damage kills the target, the tendril successfully enters the corpse. About a minute later, target\'s body tears open, and an awful thing emerges, which attacks the nearest living creature. |';
+        
+        return formatted;
+    }
+    
+    // Special handling for Deck of Second Chances with bullet points
+    if (name === 'Deck of Second Chances') {
+        const lines = effect.split('\n');
+        let formatted = '> **Effect:** ';
+        let inBulletSection = false;
+        
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+            
+            if (line.startsWith('•')) {
+                if (!inBulletSection) {
+                    formatted += '\n>';
+                    inBulletSection = true;
+                }
+                formatted += '\n> - **' + line.replace('•', '').trim() + '**';
+            } else if (line === '') {
+                formatted += '\n>';
+            } else {
+                if (i === 0) {
+                    formatted += line;
+                } else {
+                    formatted += '\n> ' + line;
+                }
+            }
+        }
+        
+        return formatted;
+    }
+    
+    // Standard callout formatting with Effect: label
+    const lines = effect.split('\n');
+    let formatted = '> **Effect:** ';
+    
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (i === 0) {
+            formatted += line;
+        } else if (line === '') {
+            formatted += '\n>';
+        } else {
+            formatted += '\n> ' + line;
+        }
+    }
+    
+    return formatted;
+}
+
+// Process artifacts
+console.log('Processing artifact data...');
+
+// Split the data using a more robust approach
+const artifactBlocks = [];
+const lines = artifactData.split('\n');
+let currentBlock = [];
+let inArtifact = false;
+
+for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    
+    // Check if this is a new artifact name (starts with capital letter, not indented, not a field)
+    if (line.match(/^[A-Z][a-zA-Z\s\-']+$/) && 
+        !line.startsWith('Level:') && 
+        !line.startsWith('Form:') && 
+        !line.startsWith('Effect:') && 
+        !line.startsWith('Depletion:')) {
+        
+        // Save previous artifact if we have one
+        if (currentBlock.length > 0) {
+            artifactBlocks.push(currentBlock.join('\n'));
+        }
+        
+        // Start new artifact
+        currentBlock = [line];
+        inArtifact = true;
+    } else if (inArtifact) {
+        currentBlock.push(line);
+    }
+}
+
+// Don't forget the last artifact
+if (currentBlock.length > 0) {
+    artifactBlocks.push(currentBlock.join('\n'));
+}
+
+console.log(`Found ${artifactBlocks.length} artifact blocks to process`);
+
+// Process each artifact
+artifactBlocks.forEach((block, index) => {
+    const artifact = parseArtifact(block);
+    
+    if (!artifact) {
+        console.log(`Failed to parse artifact block ${index + 1}`);
         return;
     }
     
-    // Extract effect content (everything between Effect: and Depletion:)
-    let effectLines = [];
-    for (let i = effectStart; i < lines.length; i++) {
-        if (lines[i].startsWith('Depletion:')) {
-            break;
-        }
-        effectLines.push(lines[i]);
+    console.log(`Processing: ${artifact.name}`);
+    console.log(`  Level: ${artifact.level}`);
+    console.log(`  Form: ${artifact.form}`);
+    console.log(`  Effect: ${artifact.effect ? artifact.effect.substring(0, 50) + '...' : 'MISSING'}`);
+    console.log(`  Depletion: ${artifact.depletion}`);
+    
+    if (!artifact.level || !artifact.form || !artifact.effect || !artifact.depletion) {
+        console.log(`  Skipping due to missing required fields`);
+        return;
     }
     
-    let effect = effectLines.join('\n').trim();
-    // Remove both "Effect:" and "Effect (Alien):" prefixes
-    effect = effect.replace(/^Effect(\s*\([^)]+\))?:\s*/, '');
-    
-    const depletion = getDepletion(depletionLine);
-    
-    const filename = getSafeFileName(name);
-    const safeId = getSafeId(name);
+    const filename = getSafeFileName(artifact.name);
+    const safeId = getSafeId(artifact.name);
     const filepath = path.join(artifactsDir, `${filename}.md`);
     
-    // Add effect type to content if it's Alien
-    let effectTypeNote = effectType ? `\n> **Effect Type:** ${effectType}\n` : '';
+    // Format the effect with callouts and Effect: label
+    const formattedEffect = formatEffectAsCallout(artifact.effect, artifact.name);
+    
+    // Build additional info
+    let additionalInfo = '';
+    if (artifact.alternateForm) {
+        additionalInfo += `\n> **Alternate Form:** ${artifact.alternateForm}`;
+    }
+    if (artifact.effectType) {
+        additionalInfo += `\n> **Effect Type:** ${artifact.effectType}`;
+    }
     
     // Create new file
     const markdownContent = `---
 aliases:
-  - ${name}
+  - ${artifact.name}
 tags:
   - Compendium/CSRD/en/Artifacts
   - Artifact
-title: ${name}
+title: ${artifact.name}
 collection: Artifacts
 kind: Artifact
 id: ${safeId}
 categories:
 - Weird-West
 ---
-## ${name}
+## ${artifact.name}
   
-> **Level:** ${level}  
+> **Level:** ${artifact.level}  
   
-> **Form:** ${form}
+> **Form:** ${artifact.form}${additionalInfo}
   
-> **Depletion:** ${depletion}  
+> **Depletion:** ${artifact.depletion}  
   
-> **Kind:** Artifact${effectTypeNote}
+> **Kind:** Artifact
   
   
   
-${effect}
+${formattedEffect}
 `;
+    
     fs.writeFileSync(filepath, markdownContent, 'utf8');
-    console.log(`Created: ${filename}.md`);
+    console.log(`  Created: ${filename}.md`);
 });
 
 console.log('\nScript completed! Created artifact files in', artifactsDir);

@@ -12,6 +12,7 @@ kind: Cypher
 id: Cheshire-Smile
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Cheshire Smile    
 >[!info] Stats    

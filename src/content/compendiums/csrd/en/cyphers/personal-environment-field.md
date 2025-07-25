@@ -9,6 +9,8 @@ title: Personal Environment Field
 collection: Cyphers
 kind: Cypher
 id: Personal-Environment-Field
+categories:
+  - Fantastic
 ---
 ## Personal Environment Field    
 >[!info] Stats    

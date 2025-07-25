@@ -9,6 +9,8 @@ title: Psychic Communique
 collection: Cyphers
 kind: Cypher
 id: Psychic-Communique
+categories:
+  - Fantastic
 ---
 ## Psychic Communique    
 >[!info] Stats    

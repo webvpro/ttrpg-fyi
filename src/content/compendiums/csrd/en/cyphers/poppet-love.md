@@ -12,6 +12,7 @@ kind: Cypher
 id: Poppet-Love
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Poppet Love    
 >[!info] Stats    

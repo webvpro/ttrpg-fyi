@@ -9,6 +9,8 @@ title: Mind Meld
 collection: Cyphers
 kind: Cypher
 id: Mind-Meld
+categories:
+  - Fantastic
 ---
 ## Mind Meld    
 >[!info] Stats    

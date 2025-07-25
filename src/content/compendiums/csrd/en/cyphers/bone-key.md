@@ -12,6 +12,7 @@ kind: Cypher
 id: Bone-Key
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Bone Key    
 >[!info] Stats    

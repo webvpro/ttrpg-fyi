@@ -12,6 +12,7 @@ kind: Cypher
 id: Poppet-Prosperity
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Poppet Prosperity    
 >[!info] Stats    

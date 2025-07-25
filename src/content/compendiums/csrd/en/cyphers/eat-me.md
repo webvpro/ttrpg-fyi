@@ -12,6 +12,7 @@ kind: Cypher
 id: Eat-Me
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Eat Me    
 >[!info] Stats    

@@ -12,6 +12,7 @@ kind: Cypher
 id: Darning-Needle
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Darning Needle    
 >[!info] Stats    

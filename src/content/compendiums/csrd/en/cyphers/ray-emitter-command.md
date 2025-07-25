@@ -9,6 +9,8 @@ title: Ray Emitter Command
 collection: Cyphers
 kind: Cypher
 id: Ray-Emitter-Command
+categories:
+  - Fantastic
 ---
 ## Ray Emitter Command    
 >[!info] Stats    

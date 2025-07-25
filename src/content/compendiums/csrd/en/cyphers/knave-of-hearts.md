@@ -12,6 +12,7 @@ kind: Cypher
 id: Knave-of-Hearts
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Knave of Hearts    
 >[!info] Stats    

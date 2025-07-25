@@ -12,6 +12,7 @@ kind: Cypher
 id: Shadow-Soap
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Shadow Soap    
 >[!info] Stats    

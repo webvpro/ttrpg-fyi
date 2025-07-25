@@ -12,6 +12,7 @@ kind: Cypher
 id: Spirit-Ring
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Spirit Ring    
 >[!info] Stats    

@@ -12,6 +12,7 @@ kind: Cypher
 id: Cat-Sidhe-Medallion
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Cat Sidhe Medallion    
 >[!info] Stats    

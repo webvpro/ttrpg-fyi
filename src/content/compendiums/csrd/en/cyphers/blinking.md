@@ -9,6 +9,8 @@ title: Blinking
 collection: Cyphers
 kind: Cypher
 id: Blinking
+categories:
+  - Fantastic
 ---
 ## Blinking    
 >[!info] Stats    

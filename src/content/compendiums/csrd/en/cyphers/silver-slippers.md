@@ -12,6 +12,7 @@ kind: Cypher
 id: Silver-Slippers
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Silver Slippers    
 >[!info] Stats    

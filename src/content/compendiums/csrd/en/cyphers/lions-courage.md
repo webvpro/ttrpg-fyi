@@ -12,6 +12,7 @@ kind: Cypher
 id: Lions-Courage
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Lion's Courage    
 >[!info] Stats    

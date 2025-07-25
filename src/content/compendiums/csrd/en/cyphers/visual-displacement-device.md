@@ -9,6 +9,8 @@ title: Visual Displacement Device
 collection: Cyphers
 kind: Cypher
 id: Visual-Displacement-Device
+categories:
+  - Fantastic
 ---
 ## Visual Displacement Device    
 >[!info] Stats    

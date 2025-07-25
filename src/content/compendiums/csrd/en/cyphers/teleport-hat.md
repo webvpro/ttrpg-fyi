@@ -12,6 +12,7 @@ kind: Cypher
 id: Teleport-Hat
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Teleport Hat    
 >[!info] Stats    

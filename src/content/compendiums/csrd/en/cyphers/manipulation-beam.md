@@ -9,6 +9,8 @@ title: Manipulation Beam
 collection: Cyphers
 kind: Cypher
 id: Manipulation-Beam
+categories:
+  - Fantastic
 ---
 ## Manipulation Beam    
 >[!info] Stats    

@@ -12,6 +12,7 @@ kind: Cypher
 id: Snake-Leaves
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Snake Leaves    
 >[!info] Stats    

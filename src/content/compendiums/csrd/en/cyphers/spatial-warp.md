@@ -9,6 +9,8 @@ title: Spatial Warp
 collection: Cyphers
 kind: Cypher
 id: Spatial-Warp
+categories:
+  - Fantastic
 ---
 ## Spatial Warp    
 >[!info] Stats    

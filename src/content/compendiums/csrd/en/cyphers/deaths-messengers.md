@@ -12,6 +12,7 @@ kind: Cypher
 id: Deaths-Messengers
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Death's Messengers    
 >[!info] Stats    

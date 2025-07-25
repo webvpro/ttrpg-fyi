@@ -9,6 +9,8 @@ title: Force Shield Projector
 collection: Cyphers
 kind: Cypher
 id: Force-Shield-Projector
+categories:
+  - Fantastic
 ---
 ## Force Shield Projector    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Force Screen Projector
 collection: Cyphers
 kind: Cypher
 id: Force-Screen-Projector
+categories:
+  - Fantastic
 ---
 ## Force Screen Projector    
 >[!info] Stats    

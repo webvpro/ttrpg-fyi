@@ -12,6 +12,7 @@ kind: Cypher
 id: Itsy-Bitsy-Spider
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Itsy Bitsy Spider    
 >[!info] Stats    

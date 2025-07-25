@@ -12,6 +12,7 @@ kind: Cypher
 id: Blackbird-Pie
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Blackbird Pie    
 >[!info] Stats    

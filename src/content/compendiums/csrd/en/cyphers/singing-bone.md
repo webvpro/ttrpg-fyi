@@ -12,6 +12,7 @@ kind: Cypher
 id: Singing-Bone
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Singing Bone    
 >[!info] Stats    

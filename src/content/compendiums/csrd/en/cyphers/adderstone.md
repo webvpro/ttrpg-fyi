@@ -12,6 +12,7 @@ kind: Cypher
 id: Adderstone
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Adderstone    
 >[!info] Stats    

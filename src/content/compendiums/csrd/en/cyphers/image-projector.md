@@ -9,6 +9,8 @@ title: Image Projector
 collection: Cyphers
 kind: Cypher
 id: Image-Projector
+categories:
+  - Fantastic
 ---
 ## Image Projector    
 >[!info] Stats    

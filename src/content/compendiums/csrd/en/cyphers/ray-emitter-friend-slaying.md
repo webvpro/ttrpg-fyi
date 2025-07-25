@@ -9,6 +9,8 @@ title: Ray Emitter Friend Slaying
 collection: Cyphers
 kind: Cypher
 id: Ray-Emitter-Friend-Slaying
+categories:
+  - Fantastic
 ---
 ## Ray Emitter Friend Slaying    
 >[!info] Stats    

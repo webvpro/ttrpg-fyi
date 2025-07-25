@@ -10,6 +10,8 @@ title: Zero Point Field
 collection: Cyphers
 kind: Cypher
 id: Zero-Point-Field
+categories:
+  - Fantastic
 ---
 ## Zero Point Field    
 >[!info] Stats    

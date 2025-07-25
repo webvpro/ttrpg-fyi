@@ -9,6 +9,8 @@ title: Detonation Gravity
 collection: Cyphers
 kind: Cypher
 id: Detonation-Gravity
+categories:
+  - Fantastic
 ---
 ## Detonation Gravity    
 >[!info] Stats    

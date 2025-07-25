@@ -12,6 +12,7 @@ kind: Cypher
 id: Dame-Trots-Cat
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Dame Trot's Cat    
 >[!info] Stats    

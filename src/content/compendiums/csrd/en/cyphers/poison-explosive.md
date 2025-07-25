@@ -9,6 +9,8 @@ title: Poison Explosive
 collection: Cyphers
 kind: Cypher
 id: Poison-Explosive
+categories:
+  - Fantastic
 ---
 ## Poison Explosive    
 >[!info] Stats    

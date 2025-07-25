@@ -12,6 +12,7 @@ kind: Cypher
 id: Bowl-of-Porridge
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Bowl of Porridge    
 >[!info] Stats    

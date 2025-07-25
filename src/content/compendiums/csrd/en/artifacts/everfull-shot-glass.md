@@ -23,5 +23,5 @@ categories:
   
   
   
-Once filled from a standard bottle of whiskey or other liquor, the shot glass refills itself with the same quality of liquor each time the previous shot is drained and the glass is set upright on a bar, table, or level surface. 
-The drinker decides whether any given shot has the standard intoxicating effect, or if the shot has no effect whatsoever.
+> **Effect:** Once filled from a standard bottle of whiskey or other liquor, the shot glass refills itself with the same quality of liquor each time the previous shot is drained and the glass is set upright on a bar, table, or level surface.
+> The drinker decides whether any given shot has the standard intoxicating effect, or if the shot has no effect whatsoever.

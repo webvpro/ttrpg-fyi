@@ -12,6 +12,7 @@ kind: Cypher
 id: Pictureless-Book
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Pictureless Book    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Mind-Restricting Wall
 collection: Cyphers
 kind: Cypher
 id: Mind-Restricting-Wall
+categories:
+  - Fantastic
 ---
 ## Mind-Restricting Wall    
 >[!info] Stats    

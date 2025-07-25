@@ -12,6 +12,7 @@ kind: Cypher
 id: Valorous-Whetstone
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Valorous Whetstone    
 >[!info] Stats    

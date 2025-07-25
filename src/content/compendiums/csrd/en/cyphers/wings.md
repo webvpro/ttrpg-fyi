@@ -9,6 +9,8 @@ title: Wings
 collection: Cyphers
 kind: Cypher
 id: Wings
+categories:
+  - Fantastic
 ---
 ## Wings    
 >[!info] Stats    

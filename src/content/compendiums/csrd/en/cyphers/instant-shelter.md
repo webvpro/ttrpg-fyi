@@ -9,6 +9,8 @@ title: Instant Shelter
 collection: Cyphers
 kind: Cypher
 id: Instant-Shelter
+categories:
+  - Fantastic
 ---
 ## Instant Shelter    
 >[!info] Stats    

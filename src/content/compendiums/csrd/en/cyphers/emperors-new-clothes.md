@@ -12,6 +12,7 @@ kind: Cypher
 id: Emperors-New-Clothes
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Emperor's New Clothes    
 >[!info] Stats    

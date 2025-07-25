@@ -9,6 +9,8 @@ title: Magnetic Attack Drill
 collection: Cyphers
 kind: Cypher
 id: Magnetic-Attack-Drill
+categories:
+  - Fantastic
 ---
 ## Magnetic Attack Drill    
 >[!info] Stats    

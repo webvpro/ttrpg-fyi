@@ -9,6 +9,8 @@ title: Time Dilation Offensive
 collection: Cyphers
 kind: Cypher
 id: Time-Dilation-Offensive
+categories:
+  - Fantastic
 ---
 ## Time Dilation Offensive    
 >[!info] Stats    

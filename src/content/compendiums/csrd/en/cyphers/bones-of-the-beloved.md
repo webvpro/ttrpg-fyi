@@ -12,6 +12,7 @@ kind: Cypher
 id: Bones-of-the-Beloved
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Bones of the Beloved    
 >[!info] Stats    

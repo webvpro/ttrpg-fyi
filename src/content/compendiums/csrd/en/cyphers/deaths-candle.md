@@ -12,6 +12,7 @@ kind: Cypher
 id: Deaths-Candle
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Death's Candle    
 >[!info] Stats    

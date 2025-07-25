@@ -9,6 +9,8 @@ title: Comprehension
 collection: Cyphers
 kind: Cypher
 id: Comprehension
+categories:
+  - Fantastic
 ---
 ## Comprehension    
 >[!info] Stats    

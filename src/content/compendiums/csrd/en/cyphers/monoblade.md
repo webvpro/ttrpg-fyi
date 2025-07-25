@@ -9,6 +9,8 @@ title: Monoblade
 collection: Cyphers
 kind: Cypher
 id: Monoblade
+categories:
+  - Fantastic
 ---
 ## Monoblade    
 >[!info] Stats    

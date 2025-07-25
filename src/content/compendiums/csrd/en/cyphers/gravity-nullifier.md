@@ -9,6 +9,8 @@ title: Gravity Nullifier
 collection: Cyphers
 kind: Cypher
 id: Gravity-Nullifier
+categories:
+  - Fantastic
 ---
 ## Gravity Nullifier    
 >[!info] Stats    

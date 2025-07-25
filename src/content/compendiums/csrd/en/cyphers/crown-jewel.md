@@ -12,6 +12,7 @@ kind: Cypher
 id: Crown-Jewel
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Crown Jewel    
 >[!info] Stats    

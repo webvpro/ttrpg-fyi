@@ -9,6 +9,8 @@ title: Ray Emitter Mind Disrupting
 collection: Cyphers
 kind: Cypher
 id: Ray-Emitter-Mind-Disrupting
+categories:
+  - Fantastic
 ---
 ## Ray Emitter Mind Disrupting    
 >[!info] Stats    

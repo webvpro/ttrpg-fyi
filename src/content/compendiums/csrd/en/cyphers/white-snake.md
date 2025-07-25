@@ -12,6 +12,7 @@ kind: Cypher
 id: White-Snake
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## White Snake    
 >[!info] Stats    

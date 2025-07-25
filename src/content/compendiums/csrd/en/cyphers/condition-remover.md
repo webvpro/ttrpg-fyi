@@ -9,6 +9,8 @@ title: Condition Remover
 collection: Cyphers
 kind: Cypher
 id: Condition-Remover
+categories:
+  - Fantastic
 ---
 ## Condition Remover    
 >[!info] Stats    

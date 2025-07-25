@@ -9,6 +9,8 @@ title: Phase Changer
 collection: Cyphers
 kind: Cypher
 id: Phase-Changer
+categories:
+  - Fantastic
 ---
 ## Phase Changer    
 >[!info] Stats    

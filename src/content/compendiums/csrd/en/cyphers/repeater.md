@@ -9,6 +9,8 @@ title: Repeater
 collection: Cyphers
 kind: Cypher
 id: Repeater
+categories:
+  - Fantastic
 ---
 ## Repeater    
 >[!info] Stats    

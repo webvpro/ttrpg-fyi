@@ -12,6 +12,7 @@ kind: Cypher
 id: Hot-Cross-Buns
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Hot Cross Buns    
 >[!info] Stats    

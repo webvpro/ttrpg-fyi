@@ -12,6 +12,7 @@ kind: Cypher
 id: Tin-Mans-Tears
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Tin Man's Tears    
 >[!info] Stats    

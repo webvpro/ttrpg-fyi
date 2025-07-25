@@ -9,6 +9,8 @@ title: Memory Switch
 collection: Cyphers
 kind: Cypher
 id: Memory-Switch
+categories:
+  - Fantastic
 ---
 ## Memory Switch    
 >[!info] Stats    

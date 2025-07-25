@@ -9,6 +9,8 @@ title: Chemical Factory
 collection: Cyphers
 kind: Cypher
 id: Chemical-Factory
+categories:
+  - Fantastic
 ---
 ## Chemical Factory    
 >[!info] Stats    

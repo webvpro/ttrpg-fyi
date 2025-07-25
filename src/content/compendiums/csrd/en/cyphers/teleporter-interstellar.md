@@ -9,6 +9,8 @@ title: Teleporter Interstellar
 collection: Cyphers
 kind: Cypher
 id: Teleporter-Interstellar
+categories:
+  - Fantastic
 ---
 ## Teleporter Interstellar    
 >[!info] Stats    

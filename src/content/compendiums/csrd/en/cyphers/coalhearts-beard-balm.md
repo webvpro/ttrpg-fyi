@@ -12,6 +12,7 @@ kind: Cypher
 id: Coalhearts-Beard-Balm
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Coalheart's Beard Balm    
 >[!info] Stats    

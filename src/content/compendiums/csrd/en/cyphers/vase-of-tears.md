@@ -12,6 +12,7 @@ kind: Cypher
 id: Vase-of-Tears
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Vase of Tears    
 >[!info] Stats    

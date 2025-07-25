@@ -9,6 +9,8 @@ title: Disguise Module
 collection: Cyphers
 kind: Cypher
 id: Disguise-Module
+categories:
+  - Fantastic
 ---
 ## Disguise Module    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Lightning Wall
 collection: Cyphers
 kind: Cypher
 id: Lightning-Wall
+categories:
+  - Fantastic
 ---
 ## Lightning Wall    
 >[!info] Stats    

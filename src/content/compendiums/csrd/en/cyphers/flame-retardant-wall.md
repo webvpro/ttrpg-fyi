@@ -9,6 +9,8 @@ title: Flame-Retardant Wall
 collection: Cyphers
 kind: Cypher
 id: Flame-Retardant-Wall
+categories:
+  - Fantastic
 ---
 ## Flame-Retardant Wall    
 >[!info] Stats    

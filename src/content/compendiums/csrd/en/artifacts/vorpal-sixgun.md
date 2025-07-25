@@ -23,5 +23,5 @@ categories:
   
   
   
-This firearm is a medium long‑range weapon (though lighter and heavier variants are possible). Attacks made with it are automatically eased and deal an additional 2 points of damage (6 points total). 
-In addition, if a PC rolls a major effect and the target's level is equal to or less than the artifact's, the PC can choose to implode the target's head. For most living creatures that possess only a single head, that's the end.
+> **Effect:** This firearm is a medium long‑range weapon (though lighter and heavier variants are possible). Attacks made with it are automatically eased and deal an additional 2 points of damage (6 points total).
+> In addition, if a PC rolls a major effect and the target's level is equal to or less than the artifact's, the PC can choose to implode the target's head. For most living creatures that possess only a single head, that's the end.

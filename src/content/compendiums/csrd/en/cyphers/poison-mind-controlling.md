@@ -9,6 +9,8 @@ title: Poison Mind Controlling
 collection: Cyphers
 kind: Cypher
 id: Poison-Mind-Controlling
+categories:
+  - Fantastic
 ---
 ## Poison Mind Controlling    
 >[!info] Stats    

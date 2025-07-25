@@ -9,6 +9,8 @@ title: Machine Control
 collection: Cyphers
 kind: Cypher
 id: Machine-Control
+categories:
+  - Fantastic
 ---
 ## Machine Control    
 >[!info] Stats    

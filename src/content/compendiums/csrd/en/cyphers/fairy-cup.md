@@ -12,6 +12,7 @@ kind: Cypher
 id: Fairy-Cup
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Fairy Cup    
 >[!info] Stats    

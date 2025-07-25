@@ -12,6 +12,7 @@ kind: Cypher
 id: Drink-Me
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Drink Me    
 >[!info] Stats    

@@ -12,6 +12,7 @@ kind: Cypher
 id: Harts-Heart
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Hart's Heart    
 >[!info] Stats    

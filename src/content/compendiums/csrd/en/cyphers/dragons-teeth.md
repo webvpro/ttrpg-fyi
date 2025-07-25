@@ -12,6 +12,7 @@ kind: Cypher
 id: Dragons-Teeth
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Dragon's Teeth    
 >[!info] Stats    

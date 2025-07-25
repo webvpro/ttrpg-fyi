@@ -12,6 +12,7 @@ kind: Cypher
 id: Wooden-Spoon
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Wooden Spoon    
 >[!info] Stats    

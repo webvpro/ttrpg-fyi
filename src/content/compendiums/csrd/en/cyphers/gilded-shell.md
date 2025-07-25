@@ -12,6 +12,7 @@ kind: Cypher
 id: Gilded-Shell
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Gilded Shell    
 >[!info] Stats    

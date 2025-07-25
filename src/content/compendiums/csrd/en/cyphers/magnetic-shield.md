@@ -9,6 +9,8 @@ title: Magnetic Shield
 collection: Cyphers
 kind: Cypher
 id: Magnetic-Shield
+categories:
+  - Fantastic
 ---
 ## Magnetic Shield    
 >[!info] Stats    

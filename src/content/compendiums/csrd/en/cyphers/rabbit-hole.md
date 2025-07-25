@@ -12,6 +12,7 @@ kind: Cypher
 id: Rabbit-Hole
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Rabbit Hole    
 >[!info] Stats    

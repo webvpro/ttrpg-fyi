@@ -12,6 +12,7 @@ kind: Cypher
 id: Beloveds-Kiss
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Beloved's Kiss    
 >[!info] Stats    

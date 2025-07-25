@@ -12,6 +12,7 @@ kind: Cypher
 id: Forget-Me-Knot
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Forget-Me-Knot    
 >[!info] Stats    

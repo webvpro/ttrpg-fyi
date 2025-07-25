@@ -9,6 +9,8 @@ title: Inferno Wall
 collection: Cyphers
 kind: Cypher
 id: Inferno-Wall
+categories:
+  - Fantastic
 ---
 ## Inferno Wall    
 >[!info] Stats    

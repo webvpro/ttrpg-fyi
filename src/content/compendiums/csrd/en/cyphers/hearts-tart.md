@@ -12,6 +12,7 @@ kind: Cypher
 id: Hearts-Tart
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Heart's Tart    
 >[!info] Stats    

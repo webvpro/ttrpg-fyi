@@ -12,6 +12,7 @@ kind: Cypher
 id: Green-Spectacles
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Green Spectacles    
 >[!info] Stats    

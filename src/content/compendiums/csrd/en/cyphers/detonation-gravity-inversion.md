@@ -9,6 +9,8 @@ title: Detonation Gravity Inversion
 collection: Cyphers
 kind: Cypher
 id: Detonation-Gravity-Inversion
+categories:
+  - Fantastic
 ---
 ## Detonation Gravity Inversion    
 >[!info] Stats    

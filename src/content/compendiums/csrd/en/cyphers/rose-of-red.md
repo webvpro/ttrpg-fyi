@@ -12,6 +12,7 @@ kind: Cypher
 id: Rose-of-Red
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Rose of Red    
 >[!info] Stats    

@@ -12,6 +12,7 @@ kind: Cypher
 id: Blood-Pearl-Blossom
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Blood Pearl Blossom    
 >[!info] Stats    

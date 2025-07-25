@@ -12,6 +12,7 @@ kind: Cypher
 id: The-Key-of-Knowing
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## The Key of Knowing    
 >[!info] Stats    

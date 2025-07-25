@@ -12,6 +12,7 @@ kind: Cypher
 id: Apple-of-Discord
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Apple of Discord    
 >[!info] Stats    

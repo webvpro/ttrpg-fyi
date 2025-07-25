@@ -9,6 +9,8 @@ title: Monohorn
 collection: Cyphers
 kind: Cypher
 id: Monohorn
+categories:
+  - Fantastic
 ---
 ## Monohorn    
 >[!info] Stats    

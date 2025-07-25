@@ -12,6 +12,7 @@ kind: Cypher
 id: Heart-of-a-Star
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Heart of a Star    
 >[!info] Stats    

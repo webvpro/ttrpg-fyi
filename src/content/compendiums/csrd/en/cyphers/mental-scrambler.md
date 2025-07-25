@@ -9,6 +9,8 @@ title: Mental Scrambler
 collection: Cyphers
 kind: Cypher
 id: Mental-Scrambler
+categories:
+  - Fantastic
 ---
 ## Mental Scrambler    
 >[!info] Stats    

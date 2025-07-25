@@ -12,6 +12,7 @@ kind: Cypher
 id: Magic-Beans
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Magic Beans    
 >[!info] Stats    

@@ -12,6 +12,7 @@ kind: Cypher
 id: Bellmans-Map-of-the-Ocean
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Bellman's Map of the Ocean    
 >[!info] Stats    

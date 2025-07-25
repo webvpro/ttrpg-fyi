@@ -12,6 +12,7 @@ kind: Cypher
 id: Godfathers-Picture-Book
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Godfather's Picture Book    
 >[!info] Stats    

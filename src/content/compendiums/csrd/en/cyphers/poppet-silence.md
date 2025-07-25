@@ -12,6 +12,7 @@ kind: Cypher
 id: Poppet-Silence
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Poppet Silence    
 >[!info] Stats    

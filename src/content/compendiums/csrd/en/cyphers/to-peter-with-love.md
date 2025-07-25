@@ -12,6 +12,7 @@ kind: Cypher
 id: To-Peter-with-Love
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## To Peter with Love    
 >[!info] Stats    

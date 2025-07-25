@@ -12,6 +12,7 @@ kind: Cypher
 id: Powder-of-Life
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Powder of Life    
 >[!info] Stats    

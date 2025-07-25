@@ -12,6 +12,7 @@ kind: Cypher
 id: Omniscient-Bean
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Omniscient Bean    
 >[!info] Stats    

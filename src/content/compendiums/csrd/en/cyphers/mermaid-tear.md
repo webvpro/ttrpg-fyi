@@ -12,6 +12,7 @@ kind: Cypher
 id: Mermaid-Tear
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Mermaid Tear    
 >[!info] Stats    

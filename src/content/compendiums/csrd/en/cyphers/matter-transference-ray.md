@@ -9,6 +9,8 @@ title: Matter Transference Ray
 collection: Cyphers
 kind: Cypher
 id: Matter-Transference-Ray
+categories:
+  - Fantastic
 ---
 ## Matter Transference Ray    
 >[!info] Stats    

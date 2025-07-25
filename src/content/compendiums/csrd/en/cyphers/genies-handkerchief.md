@@ -12,6 +12,7 @@ kind: Cypher
 id: Genies-Handkerchief
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Genie's Handkerchief    
 >[!info] Stats    

@@ -12,6 +12,7 @@ kind: Cypher
 id: Flowers-for-Grandmother
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Flowers for Grandmother    
 >[!info] Stats    

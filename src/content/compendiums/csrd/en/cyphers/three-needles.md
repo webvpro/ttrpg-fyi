@@ -12,6 +12,7 @@ kind: Cypher
 id: Three-Needles
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Three Needles    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Sheen
 collection: Cyphers
 kind: Cypher
 id: Sheen
+categories:
+  - Fantastic
 ---
 ## Sheen    
 >[!info] Stats    

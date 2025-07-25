@@ -12,6 +12,7 @@ kind: Cypher
 id: Dust-of-the-Dreamer
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Dust of the Dreamer    
 >[!info] Stats    

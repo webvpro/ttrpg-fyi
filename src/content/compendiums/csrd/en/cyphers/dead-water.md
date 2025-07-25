@@ -12,6 +12,7 @@ kind: Cypher
 id: Dead-Water
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Dead Water    
 >[!info] Stats    

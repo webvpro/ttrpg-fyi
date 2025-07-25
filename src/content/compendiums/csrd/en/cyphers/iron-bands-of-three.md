@@ -12,6 +12,7 @@ kind: Cypher
 id: Iron-Bands-of-Three
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Iron Bands of Three    
 >[!info] Stats    

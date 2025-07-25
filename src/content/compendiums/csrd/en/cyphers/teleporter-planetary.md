@@ -9,6 +9,8 @@ title: Teleporter Planetary
 collection: Cyphers
 kind: Cypher
 id: Teleporter-Planetary
+categories:
+  - Fantastic
 ---
 ## Teleporter Planetary    
 >[!info] Stats    

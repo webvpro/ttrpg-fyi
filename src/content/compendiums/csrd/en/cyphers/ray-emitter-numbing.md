@@ -9,6 +9,8 @@ title: Ray Emitter Numbing
 collection: Cyphers
 kind: Cypher
 id: Ray-Emitter-Numbing
+categories:
+  - Fantastic
 ---
 ## Ray Emitter Numbing    
 >[!info] Stats    

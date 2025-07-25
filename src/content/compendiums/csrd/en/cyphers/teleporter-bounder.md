@@ -9,6 +9,8 @@ title: Teleporter Bounder
 collection: Cyphers
 kind: Cypher
 id: Teleporter-Bounder
+categories:
+  - Fantastic
 ---
 ## Teleporter Bounder    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Poppet Damage
 collection: Cyphers
 kind: Cypher
 id: Poppet-Damage
+categories:
+  - Fairy-Tale
 ---
 ## Poppet Damage    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Visage Changer
 collection: Cyphers
 kind: Cypher
 id: Visage-Changer
+categories:
+  - Fantastic
 ---
 ## Visage Changer    
 >[!info] Stats    

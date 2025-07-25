@@ -12,6 +12,7 @@ kind: Cypher
 id: Agate-Eye
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Agate Eye    
 >[!info] Stats    

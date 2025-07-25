@@ -9,6 +9,8 @@ title: Vocal Translator
 collection: Cyphers
 kind: Cypher
 id: Vocal-Translator
+categories:
+  - Fantastic
 ---
 ## Vocal Translator    
 >[!info] Stats    

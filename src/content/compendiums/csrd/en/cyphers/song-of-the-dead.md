@@ -12,6 +12,7 @@ kind: Cypher
 id: Song-of-the-Dead
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Song of the Dead    
 >[!info] Stats    

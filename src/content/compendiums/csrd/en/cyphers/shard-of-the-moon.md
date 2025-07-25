@@ -12,6 +12,7 @@ kind: Cypher
 id: Shard-of-the-Moon
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Shard of the Moon    
 >[!info] Stats    

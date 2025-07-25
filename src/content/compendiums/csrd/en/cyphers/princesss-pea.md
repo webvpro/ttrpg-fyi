@@ -12,6 +12,7 @@ kind: Cypher
 id: Princesss-Pea
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Princess's Pea    
 >[!info] Stats    

@@ -23,4 +23,4 @@ categories:
   
   
   
-If the wearer polishes, touches, or merely thinks about activating their worn and visible badge as part of a persuasion or intimidation task, the task is eased by two steps, or three steps if the artifact is level 5 or higher.
+> **Effect:** If the wearer polishes, touches, or merely thinks about activating their worn and visible badge as part of a persuasion or intimidation task, the task is eased by two steps, or three steps if the artifact is level 5 or higher.

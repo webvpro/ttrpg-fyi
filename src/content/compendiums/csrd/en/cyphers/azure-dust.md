@@ -12,6 +12,7 @@ kind: Cypher
 id: Azure-Dust
 categories:
   - Fairytale
+  - Fairy-Tale
 ---
 ## Azure Dust    
 >[!info] Stats    

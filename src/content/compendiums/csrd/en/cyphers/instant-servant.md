@@ -9,6 +9,8 @@ title: Instant Servant
 collection: Cyphers
 kind: Cypher
 id: Instant-Servant
+categories:
+  - Fantastic
 ---
 ## Instant Servant    
 >[!info] Stats    
