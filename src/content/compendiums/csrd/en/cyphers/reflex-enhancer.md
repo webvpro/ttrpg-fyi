@@ -9,6 +9,8 @@ title: Reflex Enhancer
 collection: Cyphers
 kind: Cypher
 id: Reflex-Enhancer
+categories:
+  - Subtle
 ---
 ## Reflex Enhancer    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Equipment Cache
 collection: Cyphers
 kind: Cypher
 id: Equipment-Cache
+categories:
+  - Manifest
 ---
 ## Equipment Cache    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Solvent
 collection: Cyphers
 kind: Cypher
 id: Solvent
+categories:
+  - Manifest
 ---
 ## Solvent    
 >[!info] Stats    

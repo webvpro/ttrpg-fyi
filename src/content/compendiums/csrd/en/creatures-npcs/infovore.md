@@ -15,6 +15,8 @@ level: 3
 armor: 3
 health: 9
 id: Infovore
+categories:
+  - Science-Fiction
 ---
 ## Infovore    
 Entities of information with an affinity for technology, infovores are nothing but stored information without a bit of mechanism to inhabit. But once one gains control of a device, computer system, or other powered item, it self-assembles over the course of a few rounds, becoming stronger and more dangerous as each second passes. Luckily, an infovore seems unable to hold this form for long, and whether defeated or not, it eventually falls back into so much scattered junk. But in one of those objects, the core of the infovore remains, waiting to come into close enough proximity to another fresh mechanism to begin the rebirth process again.   

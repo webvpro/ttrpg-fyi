@@ -9,6 +9,8 @@ title: Elemental Conjuration
 collection: Cyphers
 kind: Cypher
 id: Elemental-Conjuration
+categories:
+  - Fantasy
 ---
 ## Elemental Conjuration    
 >[!info] Stats    

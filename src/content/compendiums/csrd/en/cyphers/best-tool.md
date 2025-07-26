@@ -9,6 +9,8 @@ title: Best Tool
 collection: Cyphers
 kind: Cypher
 id: Best-Tool
+categories:
+  - Subtle
 ---
 ## Best Tool    
 >[!info] Stats    

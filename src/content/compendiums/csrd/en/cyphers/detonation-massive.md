@@ -9,6 +9,8 @@ title: Detonation Massive
 collection: Cyphers
 kind: Cypher
 id: Detonation-Massive
+categories:
+  - Manifest
 ---
 ## Detonation Massive    
 >[!info] Stats    

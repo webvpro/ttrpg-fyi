@@ -9,6 +9,8 @@ title: Detonation Spawn
 collection: Cyphers
 kind: Cypher
 id: Detonation-Spawn
+categories:
+  - Manifest
 ---
 ## Detonation Spawn    
 >[!info] Stats    

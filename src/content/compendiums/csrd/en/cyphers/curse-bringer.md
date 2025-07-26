@@ -9,6 +9,8 @@ title: Curse Bringer
 collection: Cyphers
 kind: Cypher
 id: Curse-Bringer
+categories:
+  - Manifest
 ---
 ## Curse Bringer    
 >[!info] Stats    

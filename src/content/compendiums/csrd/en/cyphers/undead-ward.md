@@ -9,6 +9,8 @@ title: Undead Ward
 collection: Cyphers
 kind: Cypher
 id: Undead-Ward
+categories:
+  - Fantasy
 ---
 ## Undead Ward    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Effect Resistance
 collection: Cyphers
 kind: Cypher
 id: Effect-Resistance
+categories:
+  - Subtle
 ---
 ## Effect Resistance    
 >[!info] Stats    

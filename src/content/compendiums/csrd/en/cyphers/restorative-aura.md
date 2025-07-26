@@ -9,6 +9,8 @@ title: Restorative Aura
 collection: Cyphers
 kind: Cypher
 id: Restorative-Aura
+categories:
+  - Fantasy
 ---
 ## Restorative Aura    
 >[!info] Stats    

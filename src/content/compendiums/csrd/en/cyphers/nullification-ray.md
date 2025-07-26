@@ -9,6 +9,8 @@ title: Nullification Ray
 collection: Cyphers
 kind: Cypher
 id: Nullification-Ray
+categories:
+  - Manifest
 ---
 ## Nullification Ray    
 >[!info] Stats    

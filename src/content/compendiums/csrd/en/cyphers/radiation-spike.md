@@ -9,6 +9,8 @@ title: Radiation Spike
 collection: Cyphers
 kind: Cypher
 id: Radiation-Spike
+categories:
+  - Manifest
 ---
 ## Radiation Spike    
 >[!info] Stats    

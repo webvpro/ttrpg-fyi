@@ -9,6 +9,8 @@ title: Strength Boost
 collection: Cyphers
 kind: Cypher
 id: Strength-Boost
+categories:
+  - Subtle
 ---
 ## Strength Boost    
 >[!info] Stats    

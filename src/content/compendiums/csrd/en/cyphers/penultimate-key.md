@@ -9,6 +9,8 @@ title: Penultimate Key
 collection: Cyphers
 kind: Cypher
 id: Penultimate-Key
+categories:
+  - Fantasy
 ---
 ## Penultimate Key    
 >[!info] Stats    

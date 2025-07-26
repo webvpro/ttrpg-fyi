@@ -9,6 +9,8 @@ title: Intelligence Enhancement
 collection: Cyphers
 kind: Cypher
 id: Intelligence-Enhancement
+categories:
+  - Subtle
 ---
 ## Intelligence Enhancement    
 >[!info] Stats    

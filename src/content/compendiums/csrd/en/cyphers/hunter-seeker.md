@@ -9,6 +9,8 @@ title: Hunter/Seeker
 collection: Cyphers
 kind: Cypher
 id: Hunter-Seeker
+categories:
+  - Manifest
 ---
 ## Hunter/Seeker    
 >[!info] Stats    

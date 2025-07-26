@@ -9,6 +9,8 @@ title: Sniper Module
 collection: Cyphers
 kind: Cypher
 id: Sniper-Module
+categories:
+  - Manifest
 ---
 ## Sniper Module    
 >[!info] Stats    

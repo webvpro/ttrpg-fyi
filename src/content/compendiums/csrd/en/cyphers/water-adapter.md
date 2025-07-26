@@ -9,6 +9,8 @@ title: Water Adapter
 collection: Cyphers
 kind: Cypher
 id: Water-Adapter
+categories:
+  - Manifest
 ---
 ## Water Adapter    
 >[!info] Stats    

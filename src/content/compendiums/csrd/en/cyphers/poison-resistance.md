@@ -9,6 +9,8 @@ title: Poison Resistance
 collection: Cyphers
 kind: Cypher
 id: Poison-Resistance
+categories:
+  - Fantasy
 ---
 ## Poison Resistance    
 >[!info] Stats    

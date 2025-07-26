@@ -9,6 +9,8 @@ title: Giant Size
 collection: Cyphers
 kind: Cypher
 id: Giant-Size
+categories:
+  - Fantasy
 ---
 ## Giant Size    
 >[!info] Stats    

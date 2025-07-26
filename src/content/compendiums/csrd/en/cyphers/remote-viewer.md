@@ -9,6 +9,8 @@ title: Remote Viewer
 collection: Cyphers
 kind: Cypher
 id: Remote-Viewer
+categories:
+  - Manifest
 ---
 ## Remote Viewer    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Mind Stabilizer
 collection: Cyphers
 kind: Cypher
 id: Mind-Stabilizer
+categories:
+  - Subtle
 ---
 ## Mind Stabilizer    
 >[!info] Stats    

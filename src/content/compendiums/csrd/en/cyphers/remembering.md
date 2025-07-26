@@ -9,6 +9,8 @@ title: Remembering
 collection: Cyphers
 kind: Cypher
 id: Remembering
+categories:
+  - Subtle
 ---
 ## Remembering    
 >[!info] Stats    

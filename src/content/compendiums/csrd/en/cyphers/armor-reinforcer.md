@@ -9,6 +9,8 @@ title: Armor Reinforcer
 collection: Cyphers
 kind: Cypher
 id: Armor-Reinforcer
+categories:
+  - Manifest
 ---
 ## Armor Reinforcer    
 >[!info] Stats    

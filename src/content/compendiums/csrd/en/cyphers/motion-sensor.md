@@ -9,6 +9,8 @@ title: Motion Sensor
 collection: Cyphers
 kind: Cypher
 id: Motion-Sensor
+categories:
+  - Subtle
 ---
 ## Motion Sensor    
 >[!info] Stats    

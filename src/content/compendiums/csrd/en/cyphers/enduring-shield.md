@@ -9,6 +9,8 @@ title: Enduring Shield
 collection: Cyphers
 kind: Cypher
 id: Enduring-Shield
+categories:
+  - Subtle
 ---
 ## Enduring Shield    
 >[!info] Stats    

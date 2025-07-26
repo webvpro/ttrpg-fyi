@@ -9,6 +9,8 @@ title: Eagleseye
 collection: Cyphers
 kind: Cypher
 id: Eagleseye
+categories:
+  - Subtle
 ---
 ## Eagleseye    
 >[!info] Stats    

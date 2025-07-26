@@ -9,6 +9,8 @@ title: Rejuvenator
 collection: Cyphers
 kind: Cypher
 id: Rejuvenator
+categories:
+  - Subtle
 ---
 ## Rejuvenator    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Strength Enhancer
 collection: Cyphers
 kind: Cypher
 id: Strength-Enhancer
+categories:
+  - Subtle
 ---
 ## Strength Enhancer    
 >[!info] Stats    

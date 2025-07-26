@@ -9,6 +9,8 @@ title: Cold Resistance
 collection: Cyphers
 kind: Cypher
 id: Cold-Resistance
+categories:
+  - Fantasy
 ---
 ## Cold Resistance    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Nutrition and Hydration
 collection: Cyphers
 kind: Cypher
 id: Nutrition-and-Hydration
+categories:
+  - Subtle
 ---
 ## Nutrition and Hydration    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Blackout
 collection: Cyphers
 kind: Cypher
 id: Blackout
+categories:
+  - Manifest
 ---
 ## Blackout    
 >[!info] Stats    

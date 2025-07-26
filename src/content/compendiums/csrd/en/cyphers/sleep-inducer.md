@@ -9,6 +9,8 @@ title: Sleep Inducer
 collection: Cyphers
 kind: Cypher
 id: Sleep-Inducer
+categories:
+  - Manifest
 ---
 ## Sleep Inducer    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Effort Enhancer Noncombat
 collection: Cyphers
 kind: Cypher
 id: Effort-Enhancer-Noncombat
+categories:
+  - Subtle
 ---
 ## Effort Enhancer Noncombat    
 >[!info] Stats    

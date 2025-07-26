@@ -9,6 +9,8 @@ title: Knowledge Enhancement
 collection: Cyphers
 kind: Cypher
 id: Knowledge-Enhancement
+categories:
+  - Subtle
 ---
 ## Knowledge Enhancement    
 >[!info] Stats    

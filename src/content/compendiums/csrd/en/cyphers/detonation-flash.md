@@ -9,6 +9,8 @@ title: Detonation Flash
 collection: Cyphers
 kind: Cypher
 id: Detonation-Flash
+categories:
+  - Manifest
 ---
 ## Detonation Flash    
 >[!info] Stats    

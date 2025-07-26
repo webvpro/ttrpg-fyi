@@ -9,6 +9,8 @@ title: Stim
 collection: Cyphers
 kind: Cypher
 id: Stim
+categories:
+  - Subtle
 ---
 ## Stim    
 >[!info] Stats    

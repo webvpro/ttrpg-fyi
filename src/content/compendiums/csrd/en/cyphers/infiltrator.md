@@ -9,6 +9,8 @@ title: Infiltrator
 collection: Cyphers
 kind: Cypher
 id: Infiltrator
+categories:
+  - Manifest
 ---
 ## Infiltrator    
 >[!info] Stats    

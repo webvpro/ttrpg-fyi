@@ -9,6 +9,8 @@ title: Speed Boost
 collection: Cyphers
 kind: Cypher
 id: Speed-Boost
+categories:
+  - Subtle
 ---
 ## Speed Boost    
 >[!info] Stats    

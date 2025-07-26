@@ -9,6 +9,8 @@ title: Secret
 collection: Cyphers
 kind: Cypher
 id: Secret
+categories:
+  - Subtle
 ---
 ## Secret    
 >[!info] Stats    

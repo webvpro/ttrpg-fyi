@@ -9,6 +9,8 @@ title: Walking Corpse
 collection: Cyphers
 kind: Cypher
 id: Walking-Corpse
+categories:
+  - Fantasy
 ---
 ## Walking Corpse    
 >[!info] Stats    

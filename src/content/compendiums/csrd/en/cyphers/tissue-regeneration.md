@@ -9,6 +9,8 @@ title: Tissue Regeneration
 collection: Cyphers
 kind: Cypher
 id: Tissue-Regeneration
+categories:
+  - Subtle
 ---
 ## Tissue Regeneration    
 >[!info] Stats    

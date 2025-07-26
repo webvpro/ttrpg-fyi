@@ -9,6 +9,8 @@ title: Tiny Size
 collection: Cyphers
 kind: Cypher
 id: Tiny-Size
+categories:
+  - Fantasy
 ---
 ## Tiny Size    
 >[!info] Stats    

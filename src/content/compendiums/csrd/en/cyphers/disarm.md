@@ -9,6 +9,8 @@ title: Disarm
 collection: Cyphers
 kind: Cypher
 id: Disarm
+categories:
+  - Subtle
 ---
 ## Disarm    
 >[!info] Stats    

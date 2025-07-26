@@ -9,6 +9,8 @@ title: Gas Bomb
 collection: Cyphers
 kind: Cypher
 id: Gas-Bomb
+categories:
+  - Manifest
 ---
 ## Gas Bomb    
 >[!info] Stats    

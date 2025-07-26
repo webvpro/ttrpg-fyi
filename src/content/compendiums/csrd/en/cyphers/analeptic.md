@@ -9,6 +9,8 @@ title: Analeptic
 collection: Cyphers
 kind: Cypher
 id: Analeptic
+categories:
+  - Subtle
 ---
 ## Analeptic    
 >[!info] Stats    

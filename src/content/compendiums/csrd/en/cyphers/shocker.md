@@ -9,6 +9,8 @@ title: Shocker
 collection: Cyphers
 kind: Cypher
 id: Shocker
+categories:
+  - Manifest
 ---
 ## Shocker    
 >[!info] Stats    

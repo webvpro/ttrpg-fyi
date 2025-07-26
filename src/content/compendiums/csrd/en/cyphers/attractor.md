@@ -9,6 +9,8 @@ title: Attractor
 collection: Cyphers
 kind: Cypher
 id: Attractor
+categories:
+  - Manifest
 ---
 ## Attractor    
 >[!info] Stats    

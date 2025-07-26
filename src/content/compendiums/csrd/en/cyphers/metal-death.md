@@ -9,6 +9,8 @@ title: Metal Death
 collection: Cyphers
 kind: Cypher
 id: Metal-Death
+categories:
+  - Manifest
 ---
 ## Metal Death    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Instant Boat
 collection: Cyphers
 kind: Cypher
 id: Instant-Boat
+categories:
+  - Fantasy
 ---
 ## Instant Boat    
 >[!info] Stats    

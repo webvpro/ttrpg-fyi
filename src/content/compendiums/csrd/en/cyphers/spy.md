@@ -9,6 +9,8 @@ title: Spy
 collection: Cyphers
 kind: Cypher
 id: Spy
+categories:
+  - Manifest
 ---
 ## Spy    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Tracer
 collection: Cyphers
 kind: Cypher
 id: Tracer
+categories:
+  - Manifest
 ---
 ## Tracer    
 >[!info] Stats    

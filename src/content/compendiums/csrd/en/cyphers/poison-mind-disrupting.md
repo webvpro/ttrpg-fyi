@@ -9,6 +9,8 @@ title: Poison Mind Disrupting
 collection: Cyphers
 kind: Cypher
 id: Poison-Mind-Disrupting
+categories:
+  - Manifest
 ---
 ## Poison Mind Disrupting    
 >[!info] Stats    

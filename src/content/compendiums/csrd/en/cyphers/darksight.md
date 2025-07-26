@@ -9,6 +9,8 @@ title: Darksight
 collection: Cyphers
 kind: Cypher
 id: Darksight
+categories:
+  - Subtle
 ---
 ## Darksight    
 >[!info] Stats    

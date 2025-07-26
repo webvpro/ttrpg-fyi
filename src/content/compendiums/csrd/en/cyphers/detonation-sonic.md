@@ -9,6 +9,8 @@ title: Detonation Sonic
 collection: Cyphers
 kind: Cypher
 id: Detonation-Sonic
+categories:
+  - Manifest
 ---
 ## Detonation Sonic    
 >[!info] Stats    

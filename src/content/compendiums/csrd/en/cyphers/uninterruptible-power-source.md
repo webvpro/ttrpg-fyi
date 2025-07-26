@@ -9,6 +9,8 @@ title: Uninterruptible Power Source
 collection: Cyphers
 kind: Cypher
 id: Uninterruptible-Power-Source
+categories:
+  - Manifest
 ---
 ## Uninterruptible Power Source    
 >[!info] Stats    

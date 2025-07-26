@@ -9,6 +9,8 @@ title: Friction Reducer
 collection: Cyphers
 kind: Cypher
 id: Friction-Reducer
+categories:
+  - Manifest
 ---
 ## Friction Reducer    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Perfection
 collection: Cyphers
 kind: Cypher
 id: Perfection
+categories:
+  - Subtle
 ---
 ## Perfection    
 >[!info] Stats    

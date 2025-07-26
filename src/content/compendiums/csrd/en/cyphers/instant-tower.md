@@ -9,6 +9,8 @@ title: Instant Tower
 collection: Cyphers
 kind: Cypher
 id: Instant-Tower
+categories:
+  - Fantasy
 ---
 ## Instant Tower    
 >[!info] Stats    

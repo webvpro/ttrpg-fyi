@@ -9,6 +9,8 @@ title: Detonation Pressure
 collection: Cyphers
 kind: Cypher
 id: Detonation-Pressure
+categories:
+  - Manifest
 ---
 ## Detonation Pressure    
 >[!info] Stats    

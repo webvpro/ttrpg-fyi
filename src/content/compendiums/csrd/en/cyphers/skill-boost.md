@@ -9,6 +9,8 @@ title: Skill Boost
 collection: Cyphers
 kind: Cypher
 id: Skill-Boost
+categories:
+  - Subtle
 ---
 ## Skill Boost    
 >[!info] Stats    

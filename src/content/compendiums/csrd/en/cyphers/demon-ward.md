@@ -9,6 +9,8 @@ title: Demon Ward
 collection: Cyphers
 kind: Cypher
 id: Demon-Ward
+categories:
+  - Fantasy
 ---
 ## Demon Ward    
 >[!info] Stats    

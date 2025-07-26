@@ -9,6 +9,8 @@ title: Perfect Memory
 collection: Cyphers
 kind: Cypher
 id: Perfect-Memory
+categories:
+  - Subtle
 ---
 ## Perfect Memory    
 >[!info] Stats    

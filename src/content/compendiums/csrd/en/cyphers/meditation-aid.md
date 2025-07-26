@@ -9,6 +9,8 @@ title: Meditation Aid
 collection: Cyphers
 kind: Cypher
 id: Meditation-Aid
+categories:
+  - Subtle
 ---
 ## Meditation Aid    
 >[!info] Stats    

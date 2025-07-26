@@ -9,6 +9,8 @@ title: Acid Resistance
 collection: Cyphers
 kind: Cypher
 id: Acid-Resistance
+categories:
+  - Fantasy
 ---
 ## Acid Resistance    
 >[!info] Stats    

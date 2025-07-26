@@ -9,6 +9,8 @@ title: Catholicon
 collection: Cyphers
 kind: Cypher
 id: Catholicon
+categories:
+  - Manifest
 ---
 ## Catholicon    
 >[!info] Stats    

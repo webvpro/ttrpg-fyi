@@ -9,6 +9,8 @@ title: Electricity Resistance
 collection: Cyphers
 kind: Cypher
 id: Electricity-Resistance
+categories:
+  - Fantasy
 ---
 ## Electricity Resistance    
 >[!info] Stats    

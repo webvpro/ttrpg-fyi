@@ -9,6 +9,8 @@ title: Detonation Web
 collection: Cyphers
 kind: Cypher
 id: Detonation-Web
+categories:
+  - Manifest
 ---
 ## Detonation Web    
 >[!info] Stats    

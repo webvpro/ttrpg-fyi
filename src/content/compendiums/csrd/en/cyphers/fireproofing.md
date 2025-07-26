@@ -9,6 +9,8 @@ title: Fireproofing
 collection: Cyphers
 kind: Cypher
 id: Fireproofing
+categories:
+  - Manifest
 ---
 ## Fireproofing    
 >[!info] Stats    

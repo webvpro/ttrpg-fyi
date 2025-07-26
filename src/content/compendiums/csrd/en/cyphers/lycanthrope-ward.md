@@ -9,6 +9,8 @@ title: Lycanthrope Ward
 collection: Cyphers
 kind: Cypher
 id: Lycanthrope-Ward
+categories:
+  - Fantasy
 ---
 ## Lycanthrope Ward    
 >[!info] Stats    

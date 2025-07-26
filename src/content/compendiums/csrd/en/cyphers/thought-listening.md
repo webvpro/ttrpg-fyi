@@ -9,6 +9,8 @@ title: Thought Listening
 collection: Cyphers
 kind: Cypher
 id: Thought-Listening
+categories:
+  - Fantasy
 ---
 ## Thought Listening    
 >[!info] Stats    

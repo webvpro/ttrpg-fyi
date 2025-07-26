@@ -9,6 +9,8 @@ title: Intellect Booster
 collection: Cyphers
 kind: Cypher
 id: Intellect-Booster
+categories:
+  - Subtle
 ---
 ## Intellect Booster    
 >[!info] Stats    

@@ -7,32 +7,55 @@ const __dirname = path.dirname(__filename);
 
 // Configuration
 const CSRD_ROOT = path.join(__dirname, 'src', 'content', 'compendiums', 'csrd', 'en');
-const TABLES_DIR = path.join(CSRD_ROOT, 'tables');
-const CYPHERS_DIR = path.join(CSRD_ROOT, 'cyphers');
 
 // Get command line arguments
 const args = process.argv.slice(2);
-if (args.length < 2) {
-    console.log('❌ Usage: node update-categories.mjs <table-file> <category>');
-    console.log('   Example: node update-categories.mjs fairytale.md "Fairy-Tale"');
-    console.log('   Example: node update-categories.mjs weird-west-cyphers.md "Weird-West"');
+if (args.length < 3) {
+    console.log('❌ Usage: node update-categories.mjs <source-dir> <table-file> <target-dir> [category]');
+    console.log('   Examples:');
+    console.log('     node update-categories.mjs tables fairytale.md cyphers "Fairy-Tale"');
+    console.log('     node update-categories.mjs tables weird-west-artifacts.md artifacts "Weird-West"');
+    console.log('     node update-categories.mjs character-options superhero-abilities.md abilities "Superhero"');
+    console.log('     node update-categories.mjs rules combat-rules.md rules');
+    console.log('   Note: category is optional - if not provided, no categories will be updated');
     process.exit(1);
 }
 
-const tableFileName = args[0];
-const categoryToAdd = args[1];
+const sourceDir = args[0];
+const tableFileName = args[1];
+const targetDir = args[2];
+const categoryToAdd = args[3]; // Optional
+
+const SOURCE_DIR = path.join(CSRD_ROOT, sourceDir);
+const TARGET_DIR = path.join(CSRD_ROOT, targetDir);
+
+// Function to get all available directories in CSRD
+function getAvailableDirectories() {
+    try {
+        return fs.readdirSync(CSRD_ROOT).filter(dir => {
+            const dirPath = path.join(CSRD_ROOT, dir);
+            return fs.statSync(dirPath).isDirectory();
+        });
+    } catch (error) {
+        return [];
+    }
+}
 
 // Function to extract table references from markdown content
 function extractTableReferences(content) {
     const references = [];
     
-    // Match markdown links like [Adderstone](Adderstone.md)
+    console.log('🔍 Searching for table references...');
+    
+    // Match markdown links like [Name](filename.md)
     const linkRegex = /\[([^\]]+)\]\(([^)]+)\.md\)/g;
     let match;
     
     while ((match = linkRegex.exec(content)) !== null) {
         const linkText = match[1];
         const filename = match[2];
+        
+        console.log(`Found link: "${linkText}" -> "${filename}.md"`);
         
         references.push({
             text: linkText,
@@ -42,6 +65,7 @@ function extractTableReferences(content) {
         });
     }
     
+    console.log(`📊 Total references found: ${references.length}`);
     return references;
 }
 
@@ -111,20 +135,32 @@ function serializeFrontmatter(frontmatter) {
     return yaml;
 }
 
-// Function to update cypher categories based on table
-function updateCypherCategories(tableName, tableCategory, references) {
+// Function to update item categories based on table
+function updateItemCategories(tableName, tableCategory, references, targetDirName) {
     let updatedCount = 0;
     
     console.log(`\nProcessing table: ${tableName}`);
-    console.log(`Adding category: "${tableCategory}"`);
-    console.log(`Looking for ${references.length} cypher references...`);
+    console.log(`Target directory: ${targetDirName}`);
+    if (tableCategory) {
+        console.log(`Adding category: "${tableCategory}"`);
+    } else {
+        console.log('No category to add - just checking references');
+    }
+    console.log(`Looking for ${references.length} file references...`);
     
     for (const ref of references) {
-        const cypherPath = path.join(CYPHERS_DIR, `${ref.kebabCase}.md`);
+        const itemPath = path.join(TARGET_DIR, `${ref.kebabCase}.md`);
         
-        if (fs.existsSync(cypherPath)) {
+        console.log(`  🔍 Checking: ${ref.kebabCase}.md`);
+        
+        if (fs.existsSync(itemPath)) {
+            if (!tableCategory) {
+                console.log(`  ✅ Found ${ref.kebabCase}.md`);
+                continue;
+            }
+            
             try {
-                const content = fs.readFileSync(cypherPath, 'utf8');
+                const content = fs.readFileSync(itemPath, 'utf8');
                 const { frontmatter, body } = parseFrontmatter(content);
                 
                 if (!frontmatter) {
@@ -145,7 +181,7 @@ function updateCypherCategories(tableName, tableCategory, references) {
                     
                     // Reconstruct the file
                     const newContent = `---\n${serializeFrontmatter(frontmatter)}---\n${body}`;
-                    fs.writeFileSync(cypherPath, newContent, 'utf8');
+                    fs.writeFileSync(itemPath, newContent, 'utf8');
                     
                     console.log(`  ✅ Updated ${ref.kebabCase}.md - added category: ${tableCategory}`);
                     updatedCount++;
@@ -157,7 +193,22 @@ function updateCypherCategories(tableName, tableCategory, references) {
                 console.error(`  ❌ Error processing ${ref.kebabCase}.md:`, error.message);
             }
         } else {
-            console.log(`  ⚠️  Cypher file not found: ${ref.kebabCase}.md`);
+            console.log(`  ⚠️  File not found: ${ref.kebabCase}.md`);
+            
+            // Try to find similar files
+            try {
+                const files = fs.readdirSync(TARGET_DIR);
+                const similarFiles = files.filter(file => 
+                    file.toLowerCase().includes(ref.kebabCase.substring(0, 5)) ||
+                    ref.kebabCase.includes(file.replace('.md', '').substring(0, 5))
+                );
+                
+                if (similarFiles.length > 0) {
+                    console.log(`    💡 Similar files found: ${similarFiles.slice(0, 3).join(', ')}`);
+                }
+            } catch (e) {
+                // Ignore errors when looking for similar files
+            }
         }
     }
     
@@ -166,62 +217,87 @@ function updateCypherCategories(tableName, tableCategory, references) {
 
 // Main function
 function main() {
-    console.log('🚀 Starting cypher category updater...');
-    console.log(`Tables directory: ${TABLES_DIR}`);
-    console.log(`Cyphers directory: ${CYPHERS_DIR}`);
-    console.log(`Target table: ${tableFileName}`);
-    console.log(`Category to add: "${categoryToAdd}"`);
+    console.log('🚀 Starting CSRD reference updater...');
+    console.log(`CSRD root: ${CSRD_ROOT}`);
+    console.log(`Source directory: ${sourceDir}`);
+    console.log(`Table file: ${tableFileName}`);
+    console.log(`Target directory: ${targetDir}`);
+    if (categoryToAdd) {
+        console.log(`Category to add: "${categoryToAdd}"`);
+    } else {
+        console.log('Mode: Reference checking only (no category updates)');
+    }
     
-    if (!fs.existsSync(TABLES_DIR)) {
-        console.error('❌ Tables directory not found:', TABLES_DIR);
+    // Check if source directory exists
+    if (!fs.existsSync(SOURCE_DIR)) {
+        console.error(`❌ Source directory not found: ${SOURCE_DIR}`);
+        console.log('Available directories:');
+        const availableDirs = getAvailableDirectories();
+        availableDirs.forEach(dir => console.log(`  - ${dir}`));
         return;
     }
     
-    if (!fs.existsSync(CYPHERS_DIR)) {
-        console.error('❌ Cyphers directory not found:', CYPHERS_DIR);
+    // Check if target directory exists
+    if (!fs.existsSync(TARGET_DIR)) {
+        console.error(`❌ Target directory not found: ${TARGET_DIR}`);
+        console.log('Available directories:');
+        const availableDirs = getAvailableDirectories();
+        availableDirs.forEach(dir => console.log(`  - ${dir}`));
         return;
     }
     
     // Check if table file exists
-    const tablePath = path.join(TABLES_DIR, tableFileName);
+    const tablePath = path.join(SOURCE_DIR, tableFileName);
     if (!fs.existsSync(tablePath)) {
         console.error(`❌ Table file not found: ${tablePath}`);
-        console.log('\nAvailable table files:');
-        const tableFiles = fs.readdirSync(TABLES_DIR).filter(file => file.endsWith('.md'));
-        tableFiles.forEach(file => console.log(`  - ${file}`));
+        console.log(`\nAvailable files in ${sourceDir}:`);
+        try {
+            const files = fs.readdirSync(SOURCE_DIR).filter(file => file.endsWith('.md'));
+            files.forEach(file => console.log(`  - ${file}`));
+        } catch (error) {
+            console.log('  Unable to read directory');
+        }
         return;
     }
     
     try {
+        console.log(`📖 Reading table file: ${tablePath}`);
         const content = fs.readFileSync(tablePath, 'utf8');
         const { frontmatter } = parseFrontmatter(content);
-        
-        if (!frontmatter) {
-            console.log(`⚠️  No frontmatter in ${tableFileName}, continuing anyway...`);
-        }
         
         // Extract references from table content
         const references = extractTableReferences(content);
         
         if (references.length === 0) {
-            console.log(`❌ No cypher references found in ${tableFileName}`);
-            console.log('   Make sure the table contains markdown links like [Cypher Name](Cypher-Name.md)');
+            console.log(`❌ No file references found in ${tableFileName}`);
+            console.log(`   Make sure the table contains markdown links like [Item Name](Item-Name.md)`);
+            
+            // Show a sample of the content for debugging
+            console.log('\n📝 Table content sample:');
+            const lines = content.split('\n').slice(0, 10);
+            lines.forEach((line, i) => console.log(`${i + 1}: ${line}`));
+            
             return;
         }
         
-        console.log(`\nFound ${references.length} cypher references:`);
+        console.log(`\nFound ${references.length} file references:`);
         references.slice(0, 5).forEach(ref => console.log(`  - ${ref.text} (${ref.kebabCase}.md)`));
         if (references.length > 5) {
             console.log(`  ... and ${references.length - 5} more`);
         }
         
-        // Update cypher categories
-        const updated = updateCypherCategories(tableFileName, categoryToAdd, references);
+        // Update item categories
+        const updated = updateItemCategories(tableFileName, categoryToAdd, references, targetDir);
         
-        console.log(`\n🎉 Complete! Updated ${updated} cypher files with category "${categoryToAdd}".`);
+        if (categoryToAdd) {
+            console.log(`\n🎉 Complete! Updated ${updated} files with category "${categoryToAdd}".`);
+        } else {
+            console.log(`\n🎉 Complete! Checked ${references.length} file references.`);
+        }
         
     } catch (error) {
         console.error(`❌ Error processing table ${tableFileName}:`, error.message);
+        console.error('Stack trace:', error.stack);
     }
 }
 

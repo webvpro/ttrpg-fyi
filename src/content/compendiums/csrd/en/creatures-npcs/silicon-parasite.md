@@ -15,6 +15,8 @@ level: 2
 armor: 1
 health: 6
 id: Silicon-Parasite
+categories:
+  - Science-Fiction
 ---
 ## Silicon Parasite    
 These tiny silvery insect-like creatures range in size from a sub-millimeter to up to 30 cm (1 foot) in diameter, emitting short pulses of violet-colored laser light to sense and sample their environment. Composed of organic silicon wires and wafers, and self-assembled or evolved in some unnamed lab or spacecraft wreck, silicon parasites are vermin that working space stations and spacecraft have learned to hate. Despite taking steps to avoid transfer, a ship may only learn they have silicon parasites when a swarm boils up from a crack in the cabling or seam in the deck plating after being agitated by a high-G maneuver or some other disturbance. If that disturbance is combat or some other dire emergency, silicon parasites thrown into the situation makes everything worse.    

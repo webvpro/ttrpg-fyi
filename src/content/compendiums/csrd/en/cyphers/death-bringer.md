@@ -9,6 +9,8 @@ title: Death Bringer
 collection: Cyphers
 kind: Cypher
 id: Death-Bringer
+categories:
+  - Manifest
 ---
 ## Death Bringer    
 >[!info] Stats    

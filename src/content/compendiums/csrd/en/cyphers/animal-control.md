@@ -9,6 +9,8 @@ title: Animal Control
 collection: Cyphers
 kind: Cypher
 id: Animal-Control
+categories:
+  - Fantasy
 ---
 ## Animal Control    
 >[!info] Stats    

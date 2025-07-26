@@ -9,6 +9,8 @@ title: X-Ray Viewer
 collection: Cyphers
 kind: Cypher
 id: X-Ray-Viewer
+categories:
+  - Manifest
 ---
 ## X-Ray Viewer    
 >[!info] Stats    

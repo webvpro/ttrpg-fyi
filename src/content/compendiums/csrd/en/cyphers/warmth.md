@@ -9,6 +9,8 @@ title: Warmth
 collection: Cyphers
 kind: Cypher
 id: Warmth
+categories:
+  - Manifest
 ---
 ## Warmth    
 >[!info] Stats    

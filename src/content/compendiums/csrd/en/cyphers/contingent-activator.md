@@ -9,6 +9,8 @@ title: Contingent Activator
 collection: Cyphers
 kind: Cypher
 id: Contingent-Activator
+categories:
+  - Subtle
 ---
 ## Contingent Activator    
 >[!info] Stats    

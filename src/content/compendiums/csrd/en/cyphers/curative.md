@@ -9,6 +9,8 @@ title: Curative
 collection: Cyphers
 kind: Cypher
 id: Curative
+categories:
+  - Subtle
 ---
 ## Curative    
 >[!info] Stats    

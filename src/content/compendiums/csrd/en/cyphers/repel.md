@@ -9,6 +9,8 @@ title: Repel
 collection: Cyphers
 kind: Cypher
 id: Repel
+categories:
+  - Subtle
 ---
 ## Repel    
 >[!info] Stats    

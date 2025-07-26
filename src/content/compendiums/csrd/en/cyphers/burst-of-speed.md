@@ -9,6 +9,8 @@ title: Burst of Speed
 collection: Cyphers
 kind: Cypher
 id: Burst-of-Speed
+categories:
+  - Subtle
 ---
 ## Burst of Speed    
 >[!info] Stats    

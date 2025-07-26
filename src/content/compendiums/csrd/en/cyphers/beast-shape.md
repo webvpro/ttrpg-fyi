@@ -9,6 +9,8 @@ title: Beast Shape
 collection: Cyphers
 kind: Cypher
 id: Beast-Shape
+categories:
+  - Fantasy
 ---
 ## Beast Shape    
 >[!info] Stats    

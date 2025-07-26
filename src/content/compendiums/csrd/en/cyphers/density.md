@@ -9,6 +9,8 @@ title: Density
 collection: Cyphers
 kind: Cypher
 id: Density
+categories:
+  - Manifest
 ---
 ## Density    
 >[!info] Stats    

@@ -9,6 +9,8 @@ title: Information Sensor
 collection: Cyphers
 kind: Cypher
 id: Information-Sensor
+categories:
+  - Manifest
 ---
 ## Information Sensor    
 >[!info] Stats    

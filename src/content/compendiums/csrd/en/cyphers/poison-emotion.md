@@ -9,6 +9,8 @@ title: Poison Emotion
 collection: Cyphers
 kind: Cypher
 id: Poison-Emotion
+categories:
+  - Manifest
 ---
 ## Poison Emotion    
 >[!info] Stats    

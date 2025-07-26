@@ -9,6 +9,8 @@ title: Fire Resistance
 collection: Cyphers
 kind: Cypher
 id: Fire-Resistance
+categories:
+  - Fantasy
 ---
 ## Fire Resistance    
 >[!info] Stats    
