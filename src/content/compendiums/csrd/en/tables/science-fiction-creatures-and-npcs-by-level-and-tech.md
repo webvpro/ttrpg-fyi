@@ -8,9 +8,10 @@ tags:
 title: Science Fiction Creatures And NPCs By Level And Tech
 collection: Tables
 kind: Creatures
-id: Science-Fiction-Creatures-And-NPCs-By-Level And-Tech
+id: Science-Fiction-Creatures-And-NPCs-By-Level-And-Tech
 ---
-## Science Fiction Creatures And NPCs By Level And Tech  
+## Science Fiction Creatures And NPCs By Level And Tech
+  
 | Level   | Name                                          | Tech Rating   |
 | ------- | --------------------------------------------- | ------------- |
 | 1       | [Space Rat](Space-Rat.md)                     | Advanced      |

@@ -9,445 +9,374 @@ title: Horror Rules Module
 
 # Weird West Rules Module
 
-## CYPHERS AND ARTIFACTS OF THE WEIRD WEST
-
-Subtle Cyphers 
-Subtle cyphers are appropriate as an adjunct to weird west games that have at least a passing similarity to historical reality. 
-That said, weird west games—with their connection to magic and/or sci‑fi technology—have a lot of room to include thematically appropriate manifest cyphers (as shown by the examples provided later in this chapter). If you include manifest cyphers, remember that the Cypher System rules assume players have regular opportunities to regain cyphers after using the ones they have. Out in the badlands, deserts, or prairielands where weird west adventurers often find themselves, manifest cyphers might be harder to obtain. Letting subtle cyphers fill in the gaps during periods when PCs don’t find any manifest ones is a good idea.
-
-Manifest Cyphers 
-Manifest cyphers in a weird west game could be the product of some oddity of your particular setting, such as alien invaders. However, the primary assumption is that manifest weird west cyphers are created by alchemists, sorcerers, demons, and the like.
-
-Alien Manifest Cyphers 
-In a weird west setting enduring an ongoing alien invasion, encroaching alien outposts, crashed starfighters, and the rare alien conscientious objector who feels bad about conquering the place could all be sources of uncanny items. Given their off‑world manufacture, these manifest cyphers are probably nearly inscrutable, but PCs are able to get a single use out of them, even if it’s not the use the aliens had in mind.
-
-Alchemical Manifest Cyphers 
-Alchemy is usually attributed to alchemists, while sorcery is attributed to demons and/or those who learned their magic from a Hellish source. But sometimes alchemists create items of such dire consequence that demons would be happy to take the credit.
-The most prominent alchemical manifest cyphers are alchemical rounds and slugs— ammunition for pistols, rifles, and shotguns. 
-A handful of alchemists sell their rounds and slugs to interested buyers for an expensive cost, or very expensive for level 5 and higher alchemical rounds and slugs. 
-Alchemical rounds operate using a few special rules, as follow. 
-    • Form of Alchemical Rounds: Alchemical rounds—such as a banishing round or an asphyxiation round—are alchemical manifest cyphers in the form of bullets or shells that visibly glow in dim light. The alchemist who made a given bullet or shell usually inscribes it with their mark—a symbol, their initials, and so on. 
-    • Loading Alchemical Rounds: Alchemical rounds use whatever reloading rules are in use in the setting. So, if the reloading rules are such that reloading—when a gunfighter pulls the bullet from a bandolier or cartridge belt and slips it into the chamber—is part of another action, a gunfighter with an alchemical round available may simply declare any given shot they attempt is using that round. Otherwise, it takes an action to load an alchemical round into the chamber. However, the continuing effect an alchemical round confers lessens the sting of the action spent reloading. 
-    • Continuing Effect of Alchemical Round Attacks: When an alchemical round is fired from a gun, additional attacks made with that gun gain the same benefit for the next minute (as indicated in each alchemical round entry). For example, if a character fires a banishing round, every attack they make with the same gun for the next minute is also considered a banishing round, regardless of whether the first attack hits or misses. Some alchemical bullets do not infuse the gun they’re fired from, as indicated by name—they’re referred to as slugs instead of rounds—and in the description. For example, dark slugs and thunder slugs do not infuse the gun, but instead create a lasting effect in an adjacent area. If a second alchemical round is fired from the same gun while an earlier infusion effect remains active, refer to the Alchemical Round Fusion Effect table.
-
-Alchemical Rounds and Slugs 
-d00 	Cypher 
-01–03 	Answering slug 
-04–06 	Asphyxiation round 
-07–10 	Banishing round 
-11–13 	Dark slug 
-14–16 	Entombing round 
-17–20 	Exorcism round 
-21–23 	Exsanguinating round 
-24–26 	Flaying round 
-27–30 	Ghost round 
-31–33 	Glacier round 
-34–36 	Gunlantern slug 
-37–40 	Haunted slug 
-41–43 	Heavenly fire round 
-44–46 	Hellfire slug 
-47–56 	Hexing round 
-57–60 	Impervious slug 
-61–63 	Inebriating round 
-64–66 	Interrogation round 
-67–70 	Necrotic round 
-71–72 	Otherwhere slug 
-73–74 	Possessing round 
-75–76 	Sobering round 
-77–80 	Soul‑killing round 
-81–83 	Sympathy slug 
-84–86 	Thunder slug 
-87–90 	Unraveling round 
-91–93 	Wanted slug 
-94–96 	Washing round 
-97–00 	Watcher slug 
-
-Answering Slug
-Level: 1d6 
-Form: “RETORT” scribed on bullet case 
-Effect: A successful attack with an answering slug damages a target normally. In addition, for the next minute, any time another creature attacks the shooter with a ranged attack, the shooter can make an immediate extra attack against that creature using the same gun, ignoring reloading restrictions (if any apply). While the effect lasts, the shooter can make a number of additional immediate “answering” attacks equal to the cypher’s level (in addition to making their normal attack for the round).
-
-Asphyxiation Round 
-Level: 1d6 + 1 
-Form: Blowing wind image scribed on bullet case 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. A successful attack damages a target normally. If the damaged target is a living creature that needs to breathe, the target becomes short of breath, hindering all their tasks for a number of rounds equal to the cypher’s level. If the same target is struck and damaged again within that minute with another asphyxiation round, they are stunned as air is alchemically forced from their lungs and blood. Unless at least one asphyxiation round stuck in their flesh is removed from a stunned target’s flesh with a successful level 4 healing task, the stunned target asphyxiates and dies at the end of the minute the target first became short of breath.
-
-Banishing Round 
-Level: 1d6 + 1 
-Form: “EXCLUDE LIFE” scribed on bullet case 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. Undead, ghosts, cursed beasts, and other supernatural targets take full damage from this attack (if successful). Affected targets gain no benefit from Armor, intangibility, or other protection, and lose any automatic healing ability for a number of minutes equal to this cypher’s level. Normal targets with protective alchemical spells similarly lose that protection. If the cypher’s level is 6 or higher, successful attacks deal +1 point of damage.
-
-Dark Slug 
-Level: 1d6 + 1 
-Form: Round is dark as the night sky 
-Effect: Firing the slug creates a region of absolute darkness from which no sound emerges. The region fills an adjacent short area (or long area if the cypher is level 5 or higher) and lasts for about a minute. 
-Any creature whose level is less than the cypher’s that enters (or begins their turn in) the area can see nothing (even if they can normally see in darkness), and any light source of lower level than the cypher’s that is brought into or begins a turn in the darkness is deactivated. While the cypher is in effect, successfully escaping the darkness is hindered by four steps.
-
-Entombing Round
-Level: 1d6 + 2 
-Form: Coffin image scribed on bullet case 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. A successful attack with an entombing round doesn’t damage the target; instead, a target up to human size is held in place, still able to take actions but unable to move or leave the spot for one minute or until they escape with a successful Might‑based roll. (NPCs whose level is higher than the round’s break free if they spend their next turn escaping.) 
-If the same target is hit again with an entombing round while still held immobile, they are enveloped in an expanding mass that takes the shape of a closed, secured wooden casket whose level is equal to the round’s level. A third successful attack against an affected target causes the casket to sink 6 feet (2 m) into the earth, buried beneath a pile of loose soil. 
-A trapped target is held within the casket until the gunfighter releases them, the casket is destroyed, the target breaks free, or midnight arrives, at which time the casket dissolves to dust. If the target’s casket is buried when their casket dissolves, they have until their breath expires (a minute or so) to dig their way to the surface (a level 5 task) or remain buried.
-Wooden casket: level equal to entombing round cypher; dissolves at midnight
-
-Exorcism Round 
-Level: 1d6 + 4 
-Form: Broken horn image scribed on bullet case 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. A successful attack with an exorcism round damages a target normally. In addition, ghosts and demons (whether immaterial or wearing someone else’s flesh)—as well as other creatures strongly tied to an alternate realm—hit by this attack are exorcised if their level is less than or equal to the cypher’s level. An exorcised creature disappears and is unable to remanifest physically in the same area or realm for at least one day. 
-This attack is potentially as effective against a target being possessed by a ghost or demon, ending the possession, though the host is also damaged by the bullet.
-
-Exsanguinating Round 
-Level: 1d6 +1 
-Form: Red blood smears bullet case 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. The target takes damage normally. If the target is living and has blood, it begins bleeding for 1 point of damage per round for one minute. Additional successful attacks increase the damage on a one‑per‑one‑basis, and extend the period of effect. 
-The expelled blood forms a mystical rivulet that connects the shooter with the bleeding target. If the target dies, the shooter gains an immediate free recovery roll (or regains 10 health if an NPC). 
-If the shooter who fired the round is a vampire and their bleeding target is killed, the vampire is completely healed and gains the benefit of having just drank a victim’s blood to their fill.
-
-Flaying Round 
-Level: 1d6 
-Form: Bullet case seems made of skin 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. A successful attack damages a target normally. The target’s skin/fur/outer layer begins to peel away as if they’d gained the attention of an invisible flensing blade, hindering their tasks for one minute per cypher level. The second time a target is struck and damaged with a flaying round within a minute of first being struck, larger sections of skin peel away, hindering them by two steps. Each three steps of hindrance gained also moves the target one step down the damage track.
-
-Ghost Round 
-Level: 1d6 
-Form: Round appears ghostly, translucent, not quite real 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. Unliving targets (undead, forgeborn, elementals, objects, etc.) take damage normally from a ghost round attack, or normal damage +2 if the cypher is level 5 or higher. However, the ghost round ignores living flesh, passing through it like . . . a ghost.
-
-Glacier Slug 
-Level: 1d6 + 1 
-Form: Bullet case seems made of ice 
-Effect: A successful attack deals damage equal to the cypher’s level and freezes the target (rendering them helpless) for a number of minutes equal to the cypher’s level. A PC who succeeds on a Might‑based roll as their action can thaw early (an affected NPC whose level is higher than the cypher’s can use their next turn to break free). On a miss, the target still takes 2 points of damage from the cold (3 points if the cypher is level 5 or higher).
-
-Gunlantern Slug 
-Level: 1d6 + 1 
-Form: Bullet case glows dim as a candle 
-Effect: Firing the slug (either as an attack or into the air) causes the gun to emit a beam of light for three hours per cypher level. The beam brightly illuminates an immediate area the gun wielder points their gun at within long range. 
-If the wielder points their light into a region of magical darkness, and the effect that created the darkness is of lower level than the gunlantern slug, the darkness is dispelled. If the magical darkness is higher level, the duration of the illumination effect ends.
-
-Haunted Slug 
-Level: 1d6 
-Form: Slug emits ghostly whispers 
-Effect: Whether the attack against the primary target hits (and deals damage normally) or misses, the bullet’s malignance isn’t spent—it attacks up to 3 additional targets within short range of the primary target. (The PC rolls an attack against each one.) Each additional attack successively increases the GM intrusion range by 1. If a GM intrusion is triggered, the haunted bullet hits something other than what the attacker intended, such as an ally.
-
-Heavenly Fire Round
-Level: 1d6
-Form: Bullet emits a silvery glow
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. An attack with the round deals 1 additional point of damage on a successful attack (or 2 more if the cypher is level 5 or higher). If the same target is hit a total of three times by a heavenly fire round in the same minute, they are transformed into a pillar of salt, meaning they are effectively dead until alchemy or curse‑breaking magic is applied.
-
-Hellfire Slug
-Level: 1d6 + 1 
-Form: Bullet casing seems to burn with red flame 
-Effect: A successful attack deals damage normally. In addition to potential damage from the initial attack, the bullet explodes in an immediate radius, inflicting fire damage equal to the cypher’s level (roll an attack against each creature in the area separately, including the initial target, who may or may not have already taken damage). 
-
-Hexing Round 
-Level: 1d6 + 4 
-Form: “HEX” scribed on bullet case 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. 
-A successful attack with a hexing round doesn’t damage the target; instead, a target whose level is equal to or less than the round’s level is hindered on all tasks. Additional successful attacks against the same target hinder their tasks by additional steps. If a target is struck by a number of hexing rounds equal to half or more of their level, they enter a “hexed” state for a number of days equal to the round’s level. A hexed target resembles someone sleepwalking who takes whatever suggestion is given them, even if that proves harmful. A hexed PC can attempt to break the enchantment once each day at dawn, and each time they’re damaged, by succeeding on an Intellect defense roll. NPCs whose level is higher than the cypher’s can break free a couple of days after they’re hexed, or sooner if they take damage. 
-
-Impervious Slug 
-Level: 1d6 
-Form: “INVULNERABLE” scribed on bullet case 
-Effect: Someone successfully attacked with the bullet gains a number of points of Armor equal to the cypher’s level for one minute. The Armor is effective against all forms of damage, including those that normally ignore Armor.
-
-Inebriating Round
-Level: 1d6 
-Form: Amber liquid visible through bullet case; leaves an amber, whiskey‑smelling streak in the air when fired 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. Instead of taking damage, a successfully attacked target immediately moves one step down on the intoxication track. Additional successful attacks continue moving the target on the track. 
-Unlike most other alchemical rounds, an inebriating round can simply be swallowed by someone to gain the effect (however, doing so doesn’t infuse the inebriating effect for one minute as it would to a gun it was fired from). 
-
-Interrogation Round
-Level: 1d6 +1 
-Form: “ASK” scribed on bullet case 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. The target takes damage normally. If the target has a mind and can speak a language known to the gunfighter and the target’s level is equal to or less than this cypher’s, the target is compelled to truthfully answer one short question immediately put to them by the gunfighter. Additional successful attacks allow for truthfully answered follow‑up questions. (If the attack with an interrogation round kills or incapacitates them, the target uses their dying breath to answer.)
-
-Necrotic Round
-Level: 1d6 
-Form: Bullet case seems like rotting bone 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. 
-The necrotic round contains a core of undead flesh; it and subsequent bullets fired from the gun for the next minute mean that targets react according to their status. 
-Against Undead: Undead targeted by a necrotic round regain health equal to 5 plus the cypher’s level with each hit—undead cognizant enough to know what’s happening usually don’t evade these “attacks.” 
-Against the Living: The living target takes damage normally, and the necrotic flesh begins to spread through the living target’s flesh; if a target whose level is equal to or less than the cypher’s is successfully attacked twice with a necrotic round within a minute, the unlife overwhelms their living flesh in a horrific wave, turning them into a zombie. The zombie acts according to its nature, but it ignores the gunfighter that created it unless provoked by them. 
-
-Otherwhere Slug
-Level: 1d6 
-Form: “OTHERWHERE” scribed on bullet case 
-Effect: Firing the slug creates an invisible doorway within immediate range that only the shooter can see and use (plus any targets they designate). The doorway leads to a chilly, lightless cavern about 20 feet (6 m) in diameter. While the cold air is breathable, it is a bit thin, and the stone making up the periphery is charcoal‑like in color. 
-The doorway to otherwhere lasts for a number of days equal to the cypher’s level. When the door closes, visitors are automatically expelled back to their initial location. 
-
-Possessing Round
-Level: 1d6 
-Form: Bullet burns with a reddish, heatless flame 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. An attack with the round deals 1 additional point of damage on a successful attack (or 2 points if the cypher is level 5 or higher). If the same target is hit a total of three times by a possessing round in the same minute, they become possessed by a demon. The newly demon‑possessed target ignores the shooter unless provoked. 
-
-Sobering Round
-Level: 1d6 
-Form: Bullet smells like strong, bitter coffee; leaves a cloudy, coffee‑smelling streak in the air when fired 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. Instead of taking damage, a successfully attacked target immediately becomes sober, no matter their position on the intoxication track. 
-Unlike most other alchemical rounds, a sobering round can simply be swallowed by someone to gain the effect (however, doing so doesn’t infuse the sobering effect for one minute as it would to a gun it was fired from). 
-
-Soul-Killing Round
-Level: 1d6 
-Form: “ETERNAL DEATH” scribed on bullet case 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. The target takes damage normally, or takes 2 additional points of damage if the cypher is level 5 or higher. If the target is killed by a gun infused with a soul‑killing round, their soul is destroyed permanently. That goes for demons and other animating spirits as well as for people. For instance, if a demon in stolen flesh is killed, there’s no need to salt and burn the body, because the demonic presence is erased, as opposed to merely being banished. 
-
-Sympathy Slug 
-Level: 1d6 + 1 
-Form: “SYMPATHY” scribed on bullet case 
-Effect: Firing the round causes the gun to emit a spray of pleasingly colored lights, sounds, and scents filling a short area for one hour per cypher level. All positive interaction tasks made in the area gain an asset. Creatures who’ve made up their minds about a topic may be open to revisiting the issue. PCs add +1 to recovery rolls made in the area.
-
-Thunder Slug 
-Level: 1d6 
-Form: Rumbles faintly like distant thunder 
-Effect: Firing the slug creates a region of hazed, billowing air from which the sound of distant thunder rumbles. The region fills an adjacent short area (or long area if the cypher is level 5 or higher) and lasts for about a minute. 
-Any creature that enters (or begins their turn in) the area is blasted with bone‑rattling thunder and takes 1 point of damage. 
-Unraveling Round
-Level: 1d6 + 2 
-Form: Gray and corroded‑looking bullet; leaves an ashy streak in the air when fired 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. If an object no larger than a 10‑foot (3 m) cube is targeted, the object descends two steps on the object damage track if the object’s level is equal to or less than this cypher’s. (The object is immediately destroyed if its level is less than half the cypher’s level.) 
-If a creature is targeted, successful attacks made against the creature with unraveling rounds ignore its Armor.
-
-WANTED SLUG
-Level: 1d6 + 1
-Form: “WANTED” scribed on bullet case
-Effect: The bullet only fires if aimed at a WANTED poster. Assuming the poster is hit (a routine task if within short range and nothing else is distracting the shooter) the spent shell gains a special resonance with the creature indicated on the poster. If the spent slug is collected, it acts like a soul magnet, pulling in the direction of the individual shown on the poster, no matter how far away they are. The holder of the slug also has a general sense of how far their quarry is—somewhere in the same building, somewhere in town, miles away, hundreds of miles away, etc. The spent slug retains this affinity for a number of days equal to the cypher’s level.
-
-WASHING ROUND 
-Level: 1d6 
-Form: “BATH” scribed on bullet case; leaves a sudsy, fresh‑smelling streak in the air when fired 
-Effect: When this round is fired from a gun, additional attacks made from the gun gain the same benefit for the next minute. Instead of taking damage, a successfully attacked target is immediately subject to a good scrubbing, leaving them and their clothes a bit damp, but clean and as odor‑free as if they’d washed and laundered in the finest bathhouse. If the cypher is level 5 or higher, the effect is so potent that the target’s positive interaction tasks are eased for an hour afterward.
-
-WATCHER SLUG 
-Level: 1d6 + 3 
-Form: “SEE UNSEEN” scribed on bullet case 
-Effect: When a watcher slug is fired (whether as an attack or just into the air), the shooter immediately gains the ability to perceive creatures and objects within long range whose level is equal to or less than the cypher’s that are normally invisible, out of phase, only partially in the same realm, hiding, or merely under partial physical cover for one minute.
-
-Alchemical Round Fusion Effect 
-If a gun fires an alchemical round that infuses it with a magical effect while the weapon is still infused with the effect of a previous alchemical round, the result of the fusion is random and unstable, as follows.
-
-d20 	Fusion Effect 
-1 	Both infusion benefits are canceled in an alchemical blast dealing a number of points of damage equal to the levels of both cyphers to the wielder and everyone in immediate range on a failed Speed defense roll, or 3 points even with a successful roll. 
-2 	The wielder is affected—no defense roll—as if targeted by an attack made by one of the infusions, and both infusion benefits are canceled. 
-3 	The wielder is affected—no defense roll—as if targeted by an attack made by both of the infusions, and both infusion benefits are canceled. 
-4 	Both infusion benefits are canceled and the gun melts into a lump of slag. 
-5 	One infusion benefit is canceled (GM decides); gun wielder is stunned for one round. 
-6–8 	The previous benefit is canceled, but the new one functions normally; gun wielder is dazed for one round. 
-9–10 	One infusion benefit is canceled (GM decides); gun wielder is not adversely affected. 
-11–19 	Both infusions work without interaction. 
-20 	Both infusions work without interaction, and the duration of both is increased to ten minutes. 
-
-Weird West Artifacts 
-The weird west artifacts described in this chapter include those created by alchemists, sorcerers, demons, and other supernatural beings, as well as a few leftover relics of an inhuman precursor species and their horrifying enemies. 
-If your setting doesn’t include these specific concepts, reskin likely looking artifacts (and for that matter, cyphers noted in the previous section) to better fit your setting’s history. For instance, if your weird west setting leans heavily into steampunk, maybe “engineers” create most of the fantastic options of the setting, so that instead of a “demon pistol” (a demon in the shape of a six‑shooter), characters gain a “gauss pistol” that fires tiny steam‑powered automatons into the target’s flesh. 
-Some weapon artifacts are noted as potentially self‑aware. Refer to the Self‑Aware Artifacts section for what that could mean for a PC who acquires such an item.
-
-d00 	Artifact 
-01–04 	Conspicuous badge 
-05–08 	Deck of second chances 
-09–12 	Demon pistol 
-13–17 	Downtime bandana 
-18–21 	Everfull shot glass 
-22–25 	Hand of the Eclipse 
-26–29 	Illuck Stone 
-30–34 	Ilu idol 
-35–38 	Lightning eye 
-39–42 	Magebreak manacles 
-43–46 	Nihilal tendril horn 
-47–50 	Persuader 
-51–55 	Philosopher’s gun 
-56–60 	Ring of seeping travel 
-61–64 	Salubrious snuffbox 
-65–68 	Shadow duster 
-69–73 	Spirit reflecting knife 
-74–79 	Swarm ring 
-80–84 	Tanglefoot lariat 
-85–91 	Tracker’s map 
-92–95 	Vorpal six‑gun 
-96–00 	Wheel of consumption 
-
-Conspicuous Badge
-Level: 1d6 + 1 
-Form: Sheriff’s badge that always catches the light just right 
-Effect: If the wearer polishes, touches, or merely thinks about activating their worn and visible badge as part of a persuasion or intimidation task, the task is eased by two steps, or three steps if the artifact is level 5 or higher. 
-Depletion: 1 in 1d10 
-
-Deck of Second Chances 
-Level: 1d6 
-Form: Standard card deck; however, face cards take on strong resemblance to deck’s current bearer 
-Alternate Form: Sometimes a deck of second chances becomes linked with a group instead of an individual bearer; in such cases, the face cards take on the resemblance of everyone in that group 
-Effect: Each time the bearer of the deck (or a member of a group linked to the deck) would otherwise die, a random card is drawn and disappears from the deck. The beneficiary of this effect immediately regains Pool points equal to the artifact’s level they can allocate however they choose. 
-In addition, different cards grant different effects, as follow. To determine the effect, draw a card from a standard card deck that includes jokers, or use the Midnight Deck. (If no deck is handy, the GM determines the card drawn.) 
-A character can also choose to draw a card from the deck at any time (regardless of whether they face mortal peril), and gain the additional benefit noted for that card, if any. 
-    • Number Card, Any Suite: No additional effect other than the bearer’s survival. 
-    • Gears (Diamonds) Face Card: In addition to the bearer surviving, they find a random expensive item in their possession. 
-    • Guns (Clubs) Face Card: In addition to the bearer surviving, they find their weapons and bandoliers fully loaded, including one random alchemical round. 
-    • Elixirs (Hearts) Face Card: In addition to the bearer surviving, they gain an alchemical protective sheen (granting them +1 to Armor) that lasts until midnight.
-    • Eyes (Spades) Face Card: In addition to the bearer surviving, the creature responsible for almost killing the bearer takes a number of points of Intellect damage equal to the artifact’s level. 
-    • Ace, any Suit: In addition to the bearer surviving, they gain a free level of Effort that they can apply to any task, which they must use before midnight. 
-    • Jackalopes (Jokers): Bearer survives, but instead of bouncing back, they are treated as if debilitated until they rest for ten hours. 
-Depletion: 1 in 1d20
-
-Demon Pistol
-Level: 1d6 + 3 
-Form: Six‑gun‑shaped demon; potentially self‑aware 
-Effect: This firearm is often a heavy long‑range weapon (but it can take on smaller form factors, becoming a medium or light pistol in the process). Attacks with the demon pistol are eased, or eased by two steps if a light pistol. 
-If the shooter wishes, a successful hit causes the bullet lodged in the wound to transform into a tiny demonic imp (level 3) with mouths for eyes. The imp automatically deals 3 points of damage each round to the target until the target removes the imp with a successful Speed‑based roll; once removed or a minute elapses, the transformation magic fades and the body is revealed as no more than a spent bullet. 
-The shooter’s attacks and defenses against demons are hindered while they bear this artifact. 
-Depletion: 1 in 1d20
-
-Downtime Bandana
-Level: 1d6 + 2 
-Form: Kerchief stitched with alchemical symbols 
-Effect: When the wearer pulls the bandana up over their mouth and nose as part of another action, time stops for everyone but them, allowing the wearer to act and/or move without interruption from outside forces for one full round (or for two full rounds if the artifact is level 7 or higher). Moving or damaging objects and creatures is possible for a wearer acting during an interval of stopped time, but doing so immediately ends that interval. 
-Depletion: 1 in 1d6 
-
-Everfull Shot Glass 
-Level: 1d6 
-Form: Shot glass with alchemist signature or mark 
-Effect: Once filled from a standard bottle of whiskey or other liquor, the shot glass refills itself with the same quality of liquor each time the previous shot is drained and the glass is set upright on a bar, table, or level surface. 
-The drinker decides whether any given shot has the standard intoxicating effect, or if the shot has no effect whatsoever. 
-Depletion: 1 in 1d00 
-
-Hand of the Eclipse 
-Level: 10 
-Form: Sealed glass jar holding a child‑sized mummified forearm and hand that clutches a corroded silver coin 
-Effect: User can summon the Tomb Moon into the sky if they spend several rounds concentrating to do so. The summoned Tomb Moon persists for 1d10 hours before returning to its previous chaotic orbit. 
-Depletion: 1 in 1d20 (upon depletion, user’s soul is drained away by the Tomb Moon) 
-
-Illuck Stone
-Level: 8 
-Form: Head‑sized lump of crystal with red filaments running through it 
-Effect (Alien): Bearer rerolls 1s (NPC bearers avoid a stroke of bad luck). 
-What’s not immediately obvious—though may become so with experience—is that ill luck is visited upon someone close to the bearer, whether a friend or a stranger, often in the form of a freak accident that hurts or kills them, usually within a day, as the GM determines. Examples include slipping on a wet surface, falling into a sinkhole, or being gored by a runaway bull, all the way up to drawing the attention of something terrible. The GM determines the severity of the incident, but the level of the threat is commensurate with the artifact’s level (level 8). 
-The bearer can’t choose not to reroll 1s as long as they bear the Illuck Stone. If the bearer tries to part ways with the stone, it somehow appears among their possessions again. Only by giving it to a new bearer can the old bearer part ways, though they become the first victim of bad luck when a new user would otherwise experience bad luck. 
-Depletion: 1 in 1d20 (upon depletion, recharged if brought into a proscribed zone) 
-
-Ilu Idol
-Level: 6 
-Form: 2‑inch (5 cm) tall figurine of a humanoid sitting cross‑legged, densely etched with hieroglyphs 
-Effect (Alien): A successfully attacked target within short range whose level is equal to or less than the artifact’s disappears; the target’s essence is trapped in the artifact. If a previously trapped creature was already in the artifact, it appears where the newly trapped one was located. 
-No time passes for a creature trapped in the artifact. The only way for a creature to escape is if the idol is destroyed, the idol’s bearer wills the trapped creature free, or the bearer traps a new creature. 
-Depletion: 1 in 1d10 (check per successfully trapped creature; upon depletion, newly trapped creature remains trapped only for a few days before the fading magic releases them)
-
-Lightning Eyes
-Level: 1d6 + 1 
-Form: Glimmering pearl‑sized crystal droplet 
-Effect (Alien): If the artifact’s bearer is damaged by electricity, the bearer regains a number of Pool points equal to the damage the electricity would normally inflict. 
-In addition, the wielder can throw a long‑range lightning bolt as their action, attacking up to three creatures in a line in an electrical attack that deals damage equal to the artifact’s level. 
-Depletion: 1 in 1d10 (upon depletion, recharged if brought into a proscribed zone) 
-
-Magebreak Manacles 
-Level: 1d6 + 2 
-Form: Metal manacles etched with alchemical symbols 
-Effect: These manacles, which can be applied to both wrists of a willing or helpless target, hinder manual tasks by two steps (or four steps if the target’s hands are manacled behind their back). In addition, the manacles prevent the use of alchemical, magical, or other uncanny abilities if the target’s level is less than the artifact’s. (PCs must succeed on an Intellect‑based roll against the manacles’ level before using a supernatural ability and, on a failed attempt, take Intellect damage [ignores Armor] equal to the manacles’ level.) 
-Depletion: 1 in 1d00 (check per day of use) 
-
-Nihilal Tendril Horn
-Level: 1d6 + 2 
-Form: Ancient stone with a twisted, conical shape (vaguely horn‑like), scribed with antediluvian etchings; potentially self‑aware 
-Effect (Alien): If held like a weapon and activated by pointing the horn at a creature within long range, a writhing tendril is spat at the creature. If the targeted creature is hit with the attack, the target faces one of the following effects, different each time the horn is used. Other horns might spit tendrils with different effects, or do something else entirely.
-Depletion: 1 in 1d20
-Awful thing: level 5; health 18; attacks with toothed tentacles; where damaged, target’s skin is discolored for several weeks
-
-d6 	Horn Effect 
-1–4 	Tendril wraps target, preventing physical tasks and dealing damage equal to the artifact’s level each round until the target escapes. Either way, tendril desiccates and turns to dust after about a minute. 
-5–6 	Tendril attempts to eat its way into target via mouth, ears, or eyes, inflicting damage equal to the artifact’s level that ignores Armor. If the target survives, the tendril desiccates and turns to dust. If the damage kills the target, the tendril successfully enters the corpse. About a minute later, target’s body tears open, and an awful thing emerges, which attacks the nearest living creature.
-
-Persuader 
-Level: 1d6 + 1 
-Form: Pistol studded with intimidating spikes; produces menacing vapor and/or growls when owner attempts to intimidate; potentially self‑aware 
-Effect: This firearm is a medium long‑range weapon (though lighter and heavier versions are possible). When the pistol is visible (even if still holstered), the shooter’s intimidation tasks are eased by two steps. 
-When the shooter wishes, a bullet fired from the gun that would otherwise strike a target instead hangs menacingly in front of the target’s face, granting the shooter an immediate additional opportunity to intimidate the target, a task that gains an additional asset. After the intimidation attempt, the shooter decides whether to allow the hanging bullet to complete its trajectory and damage the target, or to fall harmlessly to the ground. 
-Depletion: 1 in 1d20 (check per menacing bullet fired); upon depletion, can still be used as a normal gun of its size.
-
-Philosopher’s Gun
-Level: 1d6 + 3 
-Form: Oversize six‑shooter‑like glass gun featuring small reservoirs of multicolored fluids and vapors; potentially self‑aware 
-Effect: This firearm is a medium long‑range weapon. In addition, when triggered by its owner, the philosopher’s gun synthesizes one variety of alchemical round and adds the round to the chamber; an attack using that round is available on the character’s next turn. A typical philosopher’s gun can only synthesize one type of alchemical round; however, if the artifact is level 7 or higher, two different round varieties may be synthesized, which the owner chooses between when triggering the synthesis. If the artifact is level 9, the gun synthesizes one of the two fixed alchemical round varieties immediately, quickly enough that the owner can attack with it as part of the same action. 
-Depletion: 1 in 1d10; upon depletion, can still be used as a normal gun of its size.
-
-Ring of Seeping Travel
-Level: 1d6 + 1 
-Form: Pale crystal ring a little too large for any finger it is tried on 
-Effect (Alien): As the wearer’s action, the wearer and their equipment transform into a mass of quivering slime. For one minute the wearer can seep through dirt, earth, stone, structures, and other inert objects, moving up to a long range each turn while in this form. The wearer can’t physically affect inert matter and objects, but can make a pseudopod melee attack against creatures that deals a number of points of damage equal to the artifact’s level. 
-Alternatively, a bearer not wearing the ring can peer through it to see invisible objects or creatures, as well as out-of-phase objects or creatures. 
-Depletion: 1 in 1d10 (upon depletion, recharged if brought into a proscribed zone)
-
-Salubrious Snuffbox
-Level: 1d6 + 2 
-Form: Small ornate container of powdered tobacco (snuff) 
-Effect: Owner who takes a pinch of snuff regains a number of Pool points of their choice equal to the artifact’s level. 
-Depletion: 1 in 1d10
-
-Shadow Duster
-Level: 1d6 
-Form: Coal‑black leather duster (long, heavy overcoat) 
-Effect: A shadow duster functions normally as light armor. If a shadow is within immediate range, the wearer can slip from view for up to one minute, becoming as one with the shadow as their action, effectively easing their stealth task to hide by a number of steps equal to the artifact’s level. The wearer can stay still and remain essentially invisible as long as they take no action. Alternatively, at any point before one minute elapses, they can step out of any other shadow within long range, even shadows separated by walls or terrain. (The owner gains a sort of sixth sense about other shadows while they’re hiding, learning about general shape and placement, but nothing more.) 
-Depletion: 1 in 1d20; upon depletion, can still be worn as a normal duster.
-
-Spirit Reflecting Knife 
-Level: 1d6 + 3 
-Form: Light blade with hilt (called a “bowie” knife in some settings); potentially self‑aware 
-Effect: This knife is a light melee weapon. Attacks made with it are automatically eased (two steps total). 
- In addition, the user gains two assets for noticing invisible creatures, spirits, and not‑currently‑manifested ghosts in the area by looking for their reflection in the blade. If spotted, such a creature within immediate range must answer one question put to it by the knife wielder if the creature’s level is less than or equal to the knife’s and if the knife wielder succeeds on an Intellect attack. 
-Depletion: 1 in 1d20; check each time a spirit is spotted and questioned.
-
-Swarm Ring
-Level: 1d6 
-Form: Ring made of dark crystal with strange etchings (of what might be bugs) 
-Effect (Alien): Bearer summons a swarm of tiny bug‑like creatures that persist for one minute. The swarm’s level is equal to the artifact’s level. The swarm attacks a designated foe within short range and hinders their perception tasks for the duration. 
-The bugs seem like roaches at first glance, but a closer look reveals them to have too many legs, eyes, and mouths—none are exactly like the other, and all make a sort of sickly twittering sound. 
-Depletion: 1 in 1d10 (upon depletion, recharged if brought into a proscribed zone)
-
-Tanglefoot Lariat
-Level: 1d6 + 1 
-Form: Rope glinting with entwined silver threads tied with a lasso at one end 
-Effect: User’s short‑range lasso attacks made with the lariat are eased. If an attack succeeds, the target is magically restrained, unable to take physical actions until they can escape (PCs make a Might‑based roll as their action; NPCs whose level is higher than the artifact’s can use their full turn to escape), the user lets them go, or midnight comes. 
-Alternatively, the lassoer can instead choose to make an eased attack with the intention of just snaring a target’s arm or leg, hindering the target’s physical tasks and preventing them from moving more than an immediate distance on their turn until they use their full action to remove the rope (or the lassoer drops their end). 
-Tesla Lasso Variant: This electrified variety is especially effective against demons. All tasks related to restraining demons (whether immaterial or wearing stolen flesh) with the lariat are eased by two steps; treat the lariat as two levels higher for purposes of demons attempting to escape. 
-Depletion: 1 in 1d10 
-
-Tracker’s Map
-Level: 1d6 + 1 
-Form: Basic but accurate map of the region where the map is activated 
-Effect: Unfolding the map allows its bearer to locate a creature whose level is less than the artifact’s, no matter where the creature is. The bearer must know or have met the target, know the target’s full name (or “true” name), or have an article of clothing or other personal belonging of the target’s. If they do, the target’s location is pinpointed (to within a short area) on the map. The map includes locations near the map bearer as well as locations near the target, though depending on the distance separating the two, it may not be to scale. The map shows the target’s location for one day per artifact level, or until a new target is named. 
-Depletion: 1 in 1d20
-
-Vorpal Six-Gun
-Level: 1d6 + 1 
-Form: Dull black pistol with dully glowing red barrel and chamber; potentially self‑aware 
-Effect: This firearm is a medium long‑range weapon (though lighter and heavier variants are possible). Attacks made with it are automatically eased and deal an additional 2 points of damage (6 points total). 
-In addition, if a PC rolls a major effect and the target’s level is equal to or less than the artifact’s, the PC can choose to implode the target’s head. For most living creatures that possess only a single head, that’s the end. 
-Depletion: 1 in 1d20 (check per head implosion); upon depletion, can still be used as a normal gun 
-
-Wheel of Consumption 
-Level: 1d6 + 2 
-Form: Crystal hoop about 1 foot (30 cm) in diameter 
-Effect (Alien): Anything passed through the hoop whose level is less than the artifact’s is disintegrated. Living creatures take damage equal to the artifact’s level each round they persist in keeping any part of their body within the ambit of the wheel. This item could be used as a weapon, but it’s awkward, hindering melee attacks (or a ranged attack) made with it by two steps. On a hit, the hoop deals damage equal to its level. 
-Depletion: 1 in 1d10 (upon depletion, recharged if brought into a proscribed zone)
-
-Self Aware Artifacts
-One method alchemists use to empower an object—usually a firearm—with uncanny abilities is to infuse a spirit that already has access to such abilities. Said spirit could be a ghost of a once‑living person, an elemental, a synthesized mind, or perhaps something inscrutable called from antediluvian epochs. 
-Item Goals: Some self‑aware artifacts have a goal; others can hardly be bothered to communicate with their bearer. A few options for those with goals include the following.
-
-D6	Artifact Goal
-1	Conclude the unfinished business of the ghost infused with the item
-2	If a weapon, defeat a certain class of targets, such as cursed beasts or celebrities
-3	Spread order and rule of law
-4	Spread chaos and anarchy
-5	Befriend/assist bearer
-6	Undermine/gaslight bearer (“cursed”)
-
-Artifact Communication: Some self‑aware items can speak directly into the minds of their bearers (or potential bearers), but no one else can hear the item. Others can speak audibly, allowing anyone nearby to potentially communicate with the item.
-
-Artifact Autonomy: If a self‑aware artifact has a goal, then they work to achieve it in some fashion. Potential options include the following.
-
-d6 	Ability to Act 
-1 	Convincing/cajoling bearer 
-2 	Punishing the bearer’s inaction by causing minor pain (a couple of points of Speed or Intellect damage) once each day, or each time a perfect opportunity to act is ignored by the bearer 
-3 	Creating auditory and visual hallucinations designed to lure/trick bearer into a situation where they have few choices other than do as the artifact wishes 
-4 	Offering a reward; possibly a new artifact function that can only be used in pursuit of the goal, or the location of some great treasure 
-5 	Acting of its own accord when no one is looking 
-6 	Taking mental control of the bearer for up to an hour per day on a failed Intellect defense roll; bearer may not remember what they did during the lost hour 
-Artifact Depletion: Self‑aware artifacts don’t deplete the same way regular artifacts do; if a depletion is indicated, the entity within the artifact is “on sabbatical” or is otherwise choosing not to communicate. Usually, the artifact will return to normal after a few days, or when the user does something to mollify the entity granting the item self‑awareness.
+## Creatures and NPCs of the Weird West 
+
+### Animals
+- Bat: level 1
+- Bear, black: level 3, attacks as level 4
+- Bear, grizzly: level 5; health 20; Armor 1
+- Bison: level 2; health 15
+- Cat: level 1, Speed defense as level 3 due to size and quickness
+- Coyote: level 3, stealth as level 4
+- Dog: level 2, perception as level 3
+- Hawk: level 2; flies a long distance each round
+- Horse: level 3; moves a long distance each round
+- Jackrabbit: level 1; moves a long distance each round
+- Mountain lion: level 4; climbing, jumping, stealth, and attacks as level 5; Armor 1
+- Mustang: level 3; health 12; moves a long distance each round
+- Pronghorn cattle: level 3; health 15; horns deal 4 points of damage
+- Rat: level 1
+- Rattlesnake: level 2; venomous bite attack eased, deals 3 points of - Speed damage (ignores Armor) for three rounds
+- Vulture: level 1, Speed defense as level 3 due to size and quickness, perception as level 5; flies a long distance each round
+- Wolf: level 3, perception as level 4
+
+### NPCs
+People from Native Nations are also doctors, hunters, trappers, celebrities, and so on within their own communities, as well as being part of the larger example setting The Ghost Range. Their individual fashion, gear, and weapons reflect their own cultural norms, adopt cowboy garb, or most often, represent a fusion.
+
+- Card shark: level 2, gambling with card games as level 5, pistol attacks as level 3
+- Doctor: level 2, healing tasks as level 3
+- Hunter/Fisher/Trapper: level 2, stealth and wilderness survival tasks as level 4
+- Preacher: level 2, persuasion as level 3
+- Prospector: level 2, perception as level 4; pickaxe deals 3 points of damage
+- Rancher: level 2, animal husbandry as level 4
+- Settler: level 2, homesteading as level 3
+- Soldier: level 2, initiative as level 4; rifle deals 4 points of damage
+
+#### Celebrities
+A celebrity NPC is someone whose fame gives them an outsize ability to command the attention of regular folks.Their reputation probably accrued thanks to stories of actual (or made‑up) daring deeds, their particular personality, or some combination of both. For instance, some celebrities are gunfighters who earned their reputation through gunplay, which means some number of weird west celebrities are antiheroes, though marshals and lawmen balance that trope.
+Another sort of weird west celebrity are folks about whom stories are told, or who tell those stories themselves, which makes them entertainers and performers of a sort. Whether holding forth in a saloon or showcasing their roping, pistol, bow, or other impressive skill, these celebrities are recognized locally and enjoy a few related benefits.
+Effect: Apply the following stat adjustments to a celebrity.
+• The NPC’s positive interaction tasks (or intimidation tasks, if an antihero) are eased by two steps
+• The NPC can “captivate with starshine”: for as long as they speak, they keep the attention of all level 2 or lower NPCs who can hear them.
+Celebrity Names: For a weird west setting, celebrities may be actual historical celebrities, or have names that merely evoke them, like the following.
+Belle Younger, Rainmaker, Calamity Anne, Massad Masterson, Evangeline Oakley, Doc Festival, Midday Thunder, Blackjack Cassidy, Wong Starr, Polly McGraw, Grizzlyhawk, Diamond Larue, Kieu the Kid
+
+### ALCHEMIST 5 (15)
+Alchemists ain’t afraid to use logic and laborious experiments to claw magic from the dirt. Their knowledge of alchemical lore allows them to imbue inert objects with arcane volatility. They employ tinctures that heal or control, fling powders that explode or transform, and most impressively, animate rude substances into pseudo‑living entities known as forgeborn. Many alchemists pursue their craft merely from a desire to push back the boundaries of ignorance. Others have a specific goal in mind, such as to gain riches or power, to bring back a loved one, or merely to make a friend.
+GM intrusion: The alchemist’s round has a chemical load that expands and hardens when exposed to air, trapping the target in the resulting crust until they can escape.
+Motive: Use alchemy to achieve their ends 
+Environment: Almost anywhere 
+Health: 18 
+Damage Inflicted: 5 points 
+Movement: Short 
+Modifications: Speed defense as level 6 due to their forgeborn companion; alchemical knowledge as level 7 
+Combat: Alchemists use long range pistols or rifles. At least one of their bullets may be alchemical (see GM intrusion as an example). 
+A forgeborn assistant also accompanies most alchemists, often helping with defense. Forgeborn assistant: level 3; health 15; Armor 1 Especially accomplished alchemists may have a far more powerful forgeborn assistant, such as a deadshot or angalith.
+A given alchemist also has one or two of the following alchemical resources available in combat.
+    • Empower: The alchemist uses a tincture to regain 11 points of health and gain +3 to Armor for one minute (or gives this tincture to an ally). 
+
+    • Petrify: The alchemist flings a powder that turns up to two targets in immediate range to stone on a failed Might defense roll. Targets remain stone for one minute, then regain their flesh.
+    • Flummox: The alchemist flings a powder causing two targets in immediate range to randomly attack their allies on a failed Intellect defense roll. Affected targets remain flummoxed for one minute or until they succeed on an Intellect defense roll on their turn. 
+    • Blast: The alchemist flings a flask a short range that detonates in an acidic blast on impact, dealing damage to all creatures in an immediate area on a failed Speed defense roll, or 1 point of damage on a successful roll.
+    • Non-Combat Alchemy: A given alchemist could create tinctures able to revive the recently dead, animate dead flesh, transform lead into gold, and so on, if given many hours or days.
+Interaction: Few alchemists can resist talking about their research and the wonders of magic that “natural philosophy” can unlock, regardless of their larger goals.
+Use: The PCs need to revive an unresponsive forgeborn to learn what it knows, which means they need to find an alchemist.
+Loot: An alchemist may have a couple of useful items (roll twice on the Alchemical Rounds and Slugs table), assuming they didn’t use them in combat.
+
+### Cursed Beasts
+Cursed beasts are often hybrid animals, a fusion of two or more different beasts stitched together with dire sorcery, or a combination of beast and base material (such as snow and dead flesh). Other times they’re ancient creatures time would’ve been better off forgetting. 
+Mysterious things, cursed beasts are often capable of coming and going as they please. In some times and places, they are called “cryptids” because at their core, they seem unknowable. Cursed beasts include dire coyotes, frostwalkers, hellfire steeds, and sulfur stalkers.
+
+- Chupacabra: Part huge dog, part crocodile; quilled like a porcupine. 
+Level 3, Speed defense as level 4 due to quickness, stealth and perception as level 7; health 13; Armor 2; bites for 5 points of damage; long‑range quill attack puts target to sleep for one hour on a failed difficulty 5 Might defense roll (target can try to wake each round) 
+- Quetzalsaur: Giraffe‑sized monstrosity with a 40‑foot (12 m) wingspan. 
+Level 6, Speed defense as level 4 due to size; health 33; Armor 2; flies a long distance each round; beak attack for 7 points of damage; vomits up two zombie helpers (corpses of past victims) once per conflict 
+- Grizzly Bull: Bison bull magically crossed with a grizzly bear. 
+Level 6, Speed defense as level 5 due to size, breaking through walls as level 8; health 28; Armor 1; horns attack deal 6 points of damage; if a foe within immediate range misses the bull, the grizzly bull gets an immediate extra attack 
+- Deathtumbler: Human‑sized tumbleweeds whose “thorns” are actually animal fangs. 
+Level 3, Speed defense as level 4, disguise (as rotting carrion) as level 6; slashes with toothed branches for 3 points of damage; mundane attacks against deathtumbler deal only 1 point of damage each; attacks all targets in immediate area if it has surprise, dealing damage and, on a failed Might defense roll, 3 additional points of Speed damage (ignores Armor) 
+- Jackalope: Jackrabbit with the horns of an antelope. 
+Level 2, Speed defense as level 4, stealth and illusions as level 5; moves a long distance each round, immediate when burrowing; gores with antlers for 3 points of damage; creates illusion that can fill a short area and lasts for ten minutes or until interacted with 
+- Nightcrawler: 20‑foot (6 m) long earthworm with skin stripped from past prey. 
+Level 4, Speed defense as level 3; bite deals 5 points of damage
+
+### Dire Coyote 4 (12)
+Remnants of ancient populations reinvigorated by cursed magic, dire coyotes hunt lost and isolated creatures, regardless of whether the prey is alive or already dead. Dire coyotes are gaunt and sinewy, almost as large as a horse. Their hides are branded with arcane sigils that still glow and smoke with the sorcery that pulses through them. 
+Dire coyotes usually hunt in teams of two or three. However, their howls give the impression of a far larger number of individuals in the night.
+Motive: Hungers for flesh, defense 
+Environment: Almost anywhere dark and isolated or near places ghosts haunt, individually and in teams of two or three 
+Health: 15 
+Damage Inflicted: 4 points 
+Armor: 1 
+Movement: Short 
+Modifications: Perception as level 6; attacks and defense against ghosts, wraiths, and other spirits as level 6 
+Combat: A dire coyote bites each round. 
+A dire coyote also has one or more of the following traits.
+    • Forlorn Howl: The dire coyote unleashes a forlorn howl that magically resonates within an adjacent short area (no more than once every few minutes). Creatures in the area take 4 points of Intellect damage (ignores Armor), causing them to run terrified in a random direction determined by the GM for several minutes, unless they succeed on an Intellect defense roll to end the effect early.
+    • Ghost eater: A dire coyote’s attacks affect incorporeal ghosts, wraiths, and similar spirits. If a dire coyote destroys a ghost or wraith, that usually ends the haunting, even if the spirit normally returns. Destroying a ghost heals a dire coyote to full health, but afterward the dire coyote must sleep for a few hours to “digest” the essence. 
+    • Ignite Gun: If a dire coyote is damaged by a gun attack (or bow, or similar mechanism), the gun wielder must immediately succeed on an Intellect defense roll or their gun ignites, burning anyone holding it for 4 points of damage each round for three rounds. 
+Interaction: Dire coyotes have a secret language and society, but usually present to outsiders as just particularly dangerous coyotes. However, if they wish, dire coyotes can speak with the voice and memories of any ghost they have personally destroyed. 
+Use: A sheriff who posted a bounty on dire coyotes has gone missing, and their spouse needs someone to go find them.
+GM intrusion: The dire coyote takes on the likeness of a ghost of someone the character knew—the ghost is someone the dire coyote has recently destroyed
+
+### FROSTWALKER 3 (9)
+
+A frostwalker is a cursed beast made of packed snow layered over the severed limbs, heads, gristle, antlers, and sinew from deer, wolves, and sometimes people who’ve died in the cold. As such, they vary in appearance. Some are about the size of wolves, others are human‑sized with antlers, and a few—especially those with more limbs and/or heads than normal—can be up to twice the size of a person. 
+Frostwalkers may be creations of dire sorcery, though some gain motive force from the spirits of blizzards, ice, and enmity earned through past atrocity.
+Motive: Revenge 
+Environment: Almost anywhere cold enough for snow and ice 
+Health: 12 
+Damage Inflicted: 4 points 
+Armor: 1 
+Movement: Short 
+Modifications: Perception as level 5 
+Combat: Frostwalkers bite, gore, or claw with whatever body part they have available. 
+Frostwalkers may also have one or more of the following abilities.
+    • Frozen: The frostwalker regains 1 point of health for each point of damage they would otherwise take from cold. In freezing temperatures and lower, they regain 1 point of health each round (assuming they’re not destroyed). 
+    • Scream the Blizzard: The frostwalker can expel screaming cold winds (no more than once every few minutes), filling an adjacent short area. Creatures in the area take 4 points of ambient damage from the cold and, on a failed Might defense roll, are frozen in place for one minute or until they succeed on a Might‑based roll as their action. Even a successful Might defense roll dazes the target with cold, hindering their tasks for one minute. 
+    • Small and Quick: About the size of a wolf, this frostwalker only has 1 Armor but can move a long distance each round. 
+    • Snow Monster: Twice the size of a person, this frostwalker might have two or more heads (one wolf, one deer) and extra arms. It attacks twice per round, moves an immediate distance each round, and has 24 health.
+Interaction: Frostwalkers are usually made (or form spontaneously) to enact vengeance or to attack a foe, and will do so until they’re destroyed. 
+Use: When the lake freezes over, monstrous things made of snow slide across the solid surface and begin terrorizing whatever they find.
+Frostwalkers could be classified as necrovores instead of (or in addition to) cursed beasts, or possibly even as a forgeborn variety. Creature classification isn’t as neat and tidy as some alchemists might wish.
+GM intrusion: An important piece of the character’s equipment freezes solid, rendering it unusable until it’s thawed.
+
+### Hellfire Steed 5 (15)
+Intermittently ridden straight out of Hell by demons wearing borrowed flesh, the Damned, and others seeking to escape the accursed underworld, hellfire steeds are demonic, fire‑dripping destriers. Their manes are boiling napalm, their glowing red hooves leave prints that burn and smolder for days, and a single demonic horn curls from their brows. Once free of Hell, these steeds typically buck their riders and race off across the prairielands, setting blazes as they go, apparently seeking to wreak as much havoc as they can before they’re reclaimed by Hell.
+Motive: Havoc and suffering 
+Environment: Almost anywhere; sometimes ridden as a mount by the powerful or foolish 
+Health: 21 
+Damage Inflicted: 5 points 
+Armor: 1 (10 against fire) 
+Combat: Hellfire steeds attack twice each round with their horn. 
+Hellfire steeds also have one or more of the following traits.
+    • Fires of the Underworld: Anyone not chosen as a rider by the hellfire steed that ends a turn within immediate range of the creature takes 2 points of damage from hellish heat. 
+    • Lifedraining Horn: The hellfire steed deals an additional 5 points of Speed damage (ignores Armor) with its horn attack once every few minutes, gaining that drained life as health. 
+    • Render Immune to Fire: If the hellfire steed is compelled or agrees to serve as a mount, the steed’s rider takes no damage from the steed’s Fires of the Underworld and gains +2 Armor against fire from other sources while riding. 
+    • From Hell: Once per year, a hellfire steed can emerge from or enter Hell through a transitory portal, bearing riders if it chooses.
+Death Gallop: If killed, a hellfire steed’s body animates one last time, galloping a long distance before turning to ash. Everyone along its final route takes 5 points of fire damage on a failed Speed defense roll. 
+Interaction: Though usually driven by demonic desire, hellfire steeds are fully sapient and can speak all languages. They may negotiate with someone seeking to use them as a mount, but only in return for a promise of committing atrocities. 
+Use: Stuck in Hell or a similarly hellish place, characters may have to ask a hellfire steed for a ride out. 
+Loot: A hellfire steed’s horn is a sought‑after alchemist ingredient; a full horn is a very expensive item.
+GM intrusion: The steed decides it no longer wants the character as a rider and takes back their immunity to fire.
+
+### Sulfur Stalker 5 (15)
+Dwelling in steaming, acidic hot springs, sulfur stalkers’ umbral, scaled bodies can reach lengths of 10 or more feet (3 m). Their broad, flat heads feature wide, gaping mouths filled with rows of sharp teeth. Feathery tendrils fringe their heads, twining and stretching as if of their own accord. Powerful clawed limbs and an eel‑like tail mean they’re equally adept on land and in liquid—even boiling hot, acrid springs. The overpowering smell of sulfur—like rotten eggs—precedes and follows them. 
+Sulfur stalkers periodically emerge from their pools and migrate long distances, presumably to mate. During this migration, they grow ravenously hungry, preying on anything. They also drag away people, which they feed to their newly hatched young.
+Motive: Defense, gather food for newly hatched young 
+Environment: Anywhere near hot springs, or anywhere during seasons of migration 
+Health: 21 
+Damage Inflicted: 6 points 
+Armor: 2 (5 against fire; immune to acid) 
+Movement: Short; swims a short distance each round 
+Modifications: Speed defense as level 4 due to size; stealth as level 6 
+Combat: Sulfur stalkers bite. 
+Additional sulfur stalker abilities include one or more of the following.
+    • Tendril Aura: Any creature that begins their turn within immediate range of a sulfur stalker must succeed on a Speed defense roll or be grazed by a feathery tendril for 3 points of damage from dripping acid. 
+    • Acid Geyser: A boiling‑hot acid stream sprays all creatures in a short‑range line, dealing 9 points of damage on a failed Speed defense roll, and 2 points of damage even if successful. (The sulfur stalker can’t make this attack more than once every few minutes.) 
+    • Regrow: If damaged, a sulfur stalker regains 2 health each round on any round it hasn’t taken damage from cold or magic. This ability is so pernicious that an entirely new sulfur stalker could grow from a severed portion.
+Interaction: Sulfur stalkers have a language, and some can speak human tongues, especially those that have made deals with locals. Such deals usually involve turning over some number of other people each year for the stalker to eat—culled from a local jail, taken in outlaw raids, etc. 
+Use: A bounty for sulfur stalker eggs is so generous that folks everywhere begin hunting. This riles up the local stalker population, who begin attacking towns and homesteads preemptively. 
+Loot: Because sulfur stalkers tend to capture people to feed their young, cast‑off belongings can sometimes be found in their nests—which are well‑hidden locations near hot springs, but not under them. In addition, a nest might contain an egg or two, each equal in value to an expensive item.
+GM intrusion: A severed segment of a sulfur stalker animates as a half‑size, level 3 sulfur stalker that attacks the character. The stalker might have to bite off its tail to start this process
+
+### Forgeborn
+Forgeborn—also called golems—are animate figures of metal, reanimated flesh, or other normally inert materials. They are constructed for a specific purpose; an angalith is usually
+sent to punish or guard, and inkubuses are commonly seeded as spies or assassins.
+
+Most forgeborn have the following traits:
+    • Dim: Most forgeborn (though there are many exceptions) aren’t quick thinkers; their
+    • Intellect defense against being tricked or mentally attacked is level 2.
+    • Temperamental: A forgeborn can break free of the spells that bind them to service for brief periods. This happens automatically two rounds after the forgeborn fails an Intellect defense roll against an attack or attempt to control them. The triggered forgeborn attacks twice each round for two or three rounds, choosing targets indiscriminately but preferring anyone who attempted to control them.
+    • Resistant: Forgeborn cannot be stunned or dazed. They are immune to most poisons and disease.
+    • Quiet: Most forgeborn can’t speak (but some can).
+
+- Locomotem: 20‑foot (6 m) tall humanoid figure fabricated from a coal‑fed train engine. 
+Level 6, Speed defense as level 4 due to size; health 30; Armor 5; steam whistle (once per hour) stuns creatures in immediate range on failed Might defense roll 
+- Fleshmare: Made from the stitched‑together flesh of deceased horses. 
+Level 4; health 24; Armor 3; hoof attack deals 6 points of damage; electrical damage heals instead of harms fleshmare 
+- Alchehemoth: 10‑foot (3 m) tall humanoid figure fabricated from a metallic whiskey still. 
+Level 5, Speed defense as level 4 due to size; health 27; fists deal 7 points of damage; inebriating breath causes creatures in immediate range to fall into booze‑fueled slumber for one hour on failed Might defense roll
+
+### Angalith 5 (15)
+An angalith—a forgeborn fabricated from prismatic stained glass windows taken from cathedrals and churches—is a 15‑foot (4.5 m) tall figure.
+Motive: Follow the will of their creator (but actually, break the control of their creator or whoever has control over them; see Temperamental) 
+Environment: Almost anywhere 
+Health: 27 
+Damage Inflicted: 7 points 
+Armor: 3 
+Movement: Short; long when flying 
+Modifications: Intellect defense as level 2; Speed defense as level 4 due to size 
+Combat: Angaliths slice foes with jagged edges of their stained glass wings. 
+Angaliths have the following additional abilities and traits.
+
+    • Prismatic Blaze: Six prismatic shafts of light shine from the angalith’s core as their action, illuminating the sins of all creatures within short range (no more than once each minute). A given target is subject to only one shaft of light, which they must make an Intellect defense roll to resist. Choose or roll for which sin is brought to light for each target. 
+        1. Red (Wrath): Target attacks an ally on their next turn. 
+        2. Orange (Envy): Target throws mud/dung/etc. in the face of an ally on their next turn. 
+        3. Yellow (Apathy): Target sits down and stares into space on their next turn. 
+        4. Green (Greed): Target attempts to steal something from an ally on their next turn. 
+        5. Blue (Gluttony): Target chows down nearest food—or goes looking for some—on their next turn. 
+        6. Indigo (Pride): Target sniffs disdainfully and walks away from the combat on their next turn. 
+    • Forgeborn Traits: Angaliths are Dim, Temperamental, Resistant, and Quiet. 
+
+Interaction: Angaliths resonate with the worship and faith their component parts once witnessed. Often, that faith was preaching about the welfare of other beings, so they may stop to help those in need. But if they see someone act against the common good, in an angalith’s estimation, that someone is due only hellfire.
+Use: Angaliths—like most forgeborn—are tough encounters even for those who are tooled up for a fight. However, they can be assuaged with promises of saintly acts or demonstrations of good works, which could turn an angry angalith found in a demolished church into a temporary ally.
+GM intrusion: The character sliced by the jagged edge of a stained glass wing begins bleeding for 1 ambient damage each round until someone succeeds on a difficulty 3 healing task to stop the flow.
+
+### Inkubus 4 (12)
+
+An inkubus enjoys two different states of being. One is as an alchemically marked‑up page, whether that’s a sheet in a book or newspaper, a letter, a broadsheet, or a wanted poster. There’s little to distinguish this inkubus “seed” from regular paper without a concerted search for magical influence. Each seed has a trigger, set by the alchemist who created it. The trigger could be when the page is read, when a certain amount of time is expired, when a specified individual sees the page, or something else. 
+A triggered inkubus takes on substance either immediately, as nearby paper swirls in and accretes around the seed, or gradually, if the inkubus is meant to remain unobtrusive (as often happens when the seed is a wanted poster whose target just wandered by). 
+When fully embodied, an inkubus appears as a human‑sized dragonfly‑like paper sculpture covered in constantly scrolling words.
+
+Motive: As determined when seeded (but actually, break the control of their creator or whoever has control over them; see Temperamental) 
+Environment: Almost anywhere 
+Health: 21 
+Damage Inflicted: 5 points 
+Movement: Short; long when flying 
+Modifications: Stealth as level 8 (when not fully manifest) 
+Combat: Inkubuses slice targets with knife‑sharp paper cuts as their attack. 
+Inkubuses may have one or more of the following additional traits, depending on their purpose. 
+    • Word of Power: An inkubus contains a “word of power” that it can display as an action once per day. A target in short range who sees it and fails an Intellect defense roll is affected as indicated for one minute (or longer for Forget): 
+        ◦ Stunned: Target takes no action. 
+        ◦ Confess: Target starts with their most egregious crimes/secrets, one per turn. 
+        ◦ Betray: Target attacks nearby allies. 
+        ◦ Forget: Target goes back to whatever they were doing and doesn’t remember meeting the inkubus unless or until they meet again. 
+    • Words on the Floor: The inkubus can send written words to their creator (or anyone), such as a warning, an update on their status, or some other predetermined signal. Words appear on a surface near the creator. 
+    • Forgeborn Traits: Inkubuses are Resistant and Temperamental.
+Interaction: The inkubus is more self‑aware than most other forgeborn, and may interact with characters by using its Words on the Floor ability. 
+Use: The PCs receive a letter from a famous alchemist, which becomes an inkubus that relays the alchemist’s message (an invitation, a warning, a threat, or something else).
+GM intrusion: Important documents or other papers the character carries flap away and become part of the inkubus.
+
+### Gunfighters 
+Gunfighters live and die by their six‑chambered peacemakers using a threatened—or actual—lightning‑quick draw to accomplish their aims. Most gunfighters are regular folks who practice their craft so diligently that they become the best, at least until they measure themselves against a desperado who’s a smidge faster. Most gunfighters in a weird west setting have a bit of the supernatural about them, but one variety of gunfighter, known as a hex gunner, explicitly mixes magic with bullets.
+
+
+- Bounty hunter: Figure in sleek, form‑fitting dark duster and wide‑brimmed hat with twin guns. 
+Level 4; tracking, surveillance, stealth, and disguise as level 6; health 15; Armor 1; attacks twice with long‑range pistol; a melee attack with locking cuffs (level 5) binds target to a nearby large object on a failed Speed defense roll 
+- Deadshot: Eight-foot (3 m) figure stitched together from the reanimated flesh of deceased gunslingers. 
+Level 5; initiative as level 8; health 27; Armor 4; long‑range pistol attack deals 7 points of damage; once a minute fires necrotic bullet that deals 3 points of damage each round (ignores Armor) until bullet extracted with a difficulty 4 healing task 
+- Gunslinger: Grim‑faced pistoleer pursuing vengeance, doing crime, or making a name for themself. 
+Level 4, initiative as level 7; health 18; Armor 1; long‑range pistol attack deals 6 points of damage (or 8 points with eased attack if they attack before their foe); every hit increases damage by 1 point for the rest of the encounter (to a maximum of +10) 
+Lawman: Driven by a dream of justice, a lawman enforces rules even when no one else will. 
+Level 5, Might defense as level 6; health 20; Armor 1; long‑range rifle attacks; the first time a lawman would normally succumb to their wounds (having lost all their health), they instead gain a second wind (and 10 health); banishing rounds deal full damage to ghosts and similarly protected creatures
+
+### Hex Gunner 5 (15)
+Hex gunners weave iron and lead with Hellish sorcery. Gifts from a demon gained during a crossroads deal, a hex gunner’s six‑shooters are demonic constructs that grant the equivalent of years of practice and occult study. Their bullets whisper in the chamber, smoking with necromancy, then scream with exultant, hellish fury when fired. Each round is imbued with fragments of souls from those the hex gunner has previously defeated in gunfights. 
+Hex gunners may be pledged to a literal lord of Hell (or some other occult being of damnation and pain, such as a ghost rider). Only if they harvest a certain number of souls during their gunfighting career is their own soul safe from being claimed when their life ends. That value may be visible as a glowing number burning in their eyes.
+Motive: Reap souls for Hell 
+Environment: Almost anywhere 
+Health: 23 
+Damage Inflicted: 5 points 
+Armor: 2 
+Movement: Short; long while riding a horse 
+Modifications: Initiative as level 7 
+Combat: A hex gunner makes two long‑range pistol attacks as their action. 
+A hex gunner also has one or both of the following abilities.
+    • Hell‑Hexed Rounds: A bullet that deals damage stays in the wound on a hit, cursing the target until the bullet is surgically removed (each requiring a successful difficulty 6 healing task and inflicting 1 point of ambient damage). Curses vary, including: 
+        ◦ Soul of damned previous target possesses the new target once per day for one minute on a failed Intellect defense roll. Possessing spirit may work against target, or simply take off seeking some goal of their own. 
+        ◦ Wound leaks a horrific smell and discharge; target’s pleasant interaction tasks are hindered by two steps. 
+        ◦ Target’s GM intrusion range increases by 1 until bullet is removed. 
+    • Grave Round: If they shoot a corpse, the corpse rises as a zombie that serves the hex gunner for a day. During this period, the zombie can reveal secrets it knew in life to the hex gunner. 
+Interaction: Hex gunners are mainly concerned with reaping more souls for whoever they are pledged to. Usually, they prefer those souls be already tainted by evil, but hex gunners are angry and impatient as a rule and have nearly as little sympathy for the innocent as they do for the damned. 
+Use: PCs need information from someone who died. They learn that a “hex gunner” who dwells nearby may be able to communicate with the body.
+GM intrusion: The hex gunner releases a demon from their gun that immediately attacks the character
+
+### Necrovore 
+Necrovores—otherwise known as undead—are what some call those that feed on death, those that are dead but still move, those that feed on life, and all things that lie somewhere in between. Now, some might quibble about using “necrovore” for such a wide range of creatures. But does it make a lick of difference if you call a shade of the tomb—a wraith that takes form from a gravestone’s shadow—a necrovore, a demon, or an undead when it’s draining all joy from existence? Nope. Same holds true for a deathbinder, hollowed ranger, risen (also called Damned), and tombdrift.
+
+- Ghost Rider: Harbingers of chaos and catastrophe, ghost riders spread havoc long past their deaths. 
+Level 6; health 20; Armor 1; rides a skeletal mount a long distance each round; long‑range pistol attack deals 6 damage; short‑range curse causes target who fails an Intellect defense roll to lose their next turn as they freeze in terror 
+- Wraith Lord: A malign artifact or especially powerful curse may form an exceptional wraith. 
+Level 5, stealth as level 6; health 22; Armor 1; flies a short distance each round (or is mounted on a quetzalsaur); spectral weapon deals 6 points of Speed damage (ignores Armor) and induces target to fall one step on the damage track each day a Might defense roll fails (three successes purge the effect); if destroyed, a wraith usually reforms the following midnight 
+- Zombie sorcerer: Magic‑infused corpse that knows enough sorcery to be dangerous. 
+Level 4; health 18; moves an immediate distance each round; long‑range necrotic blast deals 4 points of Speed damage (ignores Armor) to all in an immediate area, or 1 point even with a successful defense roll; even‑numbered attack rolls that would reduce its health to 0 reduce health to 1 instead
+
+### Deathbinder 7(21)
+Alchemists who learn enough science and magic to retain corporeal existence after death, like risen, might transition to necrovore status. Unlike a risen, a deathbinder ensures their eternal existence by placing splinters of their soul into six bullets chambered in a “soul pistol.” If all six bullets are fired, the deathbinder is finally destroyed. 
+Two pistols are holstered on a deathbinder’s gun belt: the deathbinder’s soul pistol, which they reserve for special circumstances, and their “workaday” six‑shooter, loaded with unique alchemical rounds. 
+A deathbinder usually resides alone, herding cursed beasts or forgeborn creatures of their own creation, probably astride a fleshmare.
+Motive: Continue alchemical studies and magical collection without interruption 
+Environment: Wilderness, ghost towns, and other underpopulated areas 
+Health: 27 
+Damage Inflicted: 7 points 
+Armor: 2 
+Movement: Short 
+Combat: A deathbinder attacks twice each round with long‑range pistol attacks. 
+The deathbinder also has most or all of the following attacks and traits. 
+    • Alchemical Pistol: Targets hit by a “workaday” pistol shot take damage and, on a failed Might or Intellect defense roll, suffer one additional effect: 
+        ◦ Target is frozen in amber until they can escape. 
+        ◦ Deathbinder learns one of the target’s secrets. 
+        ◦ Target is teleported to a pre‑prepared nearby location. 
+    • Soul Pistol: Under extreme circumstances, a deathbinder may fire a precious bullet from their soul pistol, hoping they’ll have a chance later to rebind the liberated soul energy. A bullet from the soul gun has all of the following deadly traits: 
+        ◦ Automatically hits target within long range—a targeted PC should get a GM intrusion for this attack. 
+        ◦ The soul round deals damage and the character descends two steps on the damage track, or one step on a successful Might defense roll. 
+        ◦ Target is cursed on a failed Intellect defense roll. 
+    • Alchemical Resurrection: If destroyed, a deathbinder usually reforms within 1d6 days unless all six bullets from their soul pistol are fired. 
+Interaction: Deathbinders don’t cotton to interruptions because the reason they chose undeath in the first place was to pursue a specialized purpose—usually, even deeper secrets of alchemy and/or collecting more unique magical artifacts and treasures. 
+Use: A herd of ghost cattle wanders into town and causes problems. Folks say it’s the fault of the “lich cowboy” who lives out in the wastes. 
+Loot: The deathbinder’s pistols have uniquely powerful rounds loaded in them; roll once on the Alchemical Rounds and Slugs table.
+GM intrusion: The deathbinder makes an extra pistol attack even if it’s not their turn.
+
+### Hollowed Ranger 4 (12)
+Cloaked in a tattered duster and riding nothing but a memory, the necrovore known as a hollowed ranger is a traveling portal to elsewhere—perhaps connecting to a nightmare, the far future after everyone has died, or some region of Hell where corpses shamble beneath an eternal eclipse.
+Hollowed rangers ride forth where good people were gunned down in cold blood and then dumped in shallow, unmarked graves. The injustice rips a hole in the world, which the murdered spirit possesses and becomes. Unfortunately, a hollowed ranger’s desire for vengeance doesn’t restrict them from visiting horror on most everything they encounter.
+Motive: Vengeance (first against their killer, then their killer’s family and friends, then their killer’s species, and so on) 
+Environment: Almost anywhere 
+Health: 18 
+Damage Inflicted: 4 points 
+Movement: Short 
+Modifications: Speed defense as level 6 due to partially non‑existent body 
+Combat: A hollowed ranger’s long‑range entropic bullet—fired from a rifle‑shaped hole in reality—deals 4 points of Intellect damage (ignores Armor) as a bit of the target’s reality is blasted away. 
+A hollowed ranger also has the following traits. 
+    • Necrovore Door: As their action, the ranger shudders as a wraith lord emerges from their body, acting as the ranger wishes for one minute. After one minute, the wraith is drawn back into the ranger, or it just fades. (Other necrovores could instead be called from the deathly realms a hollowed ranger is connected to, but anything level 3 or higher takes two actions to disgorge.) 
+    • Fall Into Oblivion: On a failed Might defense roll, a living creature starting their turn in immediate range of a hollowed ranger is sucked through the hollowed ranger’s form into the deathly realm beyond. This realm is anathema to life—the affected target immediately takes 4 points of Intellect damage (ignores Armor) from the necrotic energy draining their soul. Affected targets are drained of life each additional round they spend in the deathly realm, but can attempt a Might‑based task to pull themselves back to their reality. The hollowed ranger regains 1 point of health each time an affected target’s soul is so drained. 
+    • Door Shift: A hollowed ranger can instantly transport themself miles away as its action, if they have previously been to or seen the other location. 
+Interaction: Speaking with a voice like wind on gravestones, a hollowed ranger may tell of the primary target of their vengeance, deliver a message from a more powerful necrovore, or simply promise to eat the soul of whoever tries negotiating with them. 
+Use: Characters need to travel a huge distance and are told the quickest way is to use the door shift offered by a hollowed ranger, though doing so will require appeasing the ranger in some way.
+GM intrusion: The character drawn through the hollowed ranger’s form to a deathly realm is attacked by a ghost lurking there.
+
+### Risen 4 (12)
+Clawed back into “life” thanks to a promise, an alchemical experiment, or a demonic curse straight out of Hell, risen look normal enough—from a distance. Up close, something ain’t right. That’s all the more obvious if the risen is someone folks knew before they died. 
+Risen—also known as the Damned—spook horses and set dogs to growling. They have unblinking eyes like coins and skin the color of a snake’s belly, and are naturally as motionless as a corpse when not engaged in an activity. A risen may just want to be left alone, or they could seek to right a wrong, serve as a deathbinder’s herald, or ride in an undead posse looking to take as much as they can from a world they know would just as soon put them back in their grave.
+Motive: Varies 
+Environment: Out-of-the-way places 
+Health: 12 
+Damage Inflicted: 4 points 
+Armor: 1 
+Movement: Short 
+Combat: A risen makes a long‑range pistol attack. 
+Risen also have one or more of the following additional traits. 
+    • Damned Rounds: Every other attack against PCs is Hell‑tainted, blazing with hellfire. If one of these bullets strikes true, the target combusts for an additional 3 points of damage (ignores Armor) each round until an action is taken to smother the flames. 
+    • Necrovore Resilience: The first time in an encounter that a risen would normally succumb to their wounds (having lost all their health), they instead remain active and regain 1 health. 
+    • In addition, risen don’t breathe—drowning, suffocation, and similar threats don’t faze them. 
+    • Sometimes They Come Back: A destroyed risen might reanimate within a few days, unless its head is removed from its body and separated by a couple of miles, or the body is burned to ash. 
+Interaction: Risen are rarely excitable; even those bent on mayhem are chillingly quiet as they murder and burn. Some risen are open to negotiation and alliances, while others would as soon shoot as talk. 
+Use: Folks are concerned because someone who looks a lot like Luke Reynolds has taken up farming at the old Reynolds place, even though outlaws killed the whole family.
+GM intrusion: The character recognizes the risen as someone they personally killed and is dazed with surprise until the end of their next turn, hindering all tasks.
+
+### Tombdrift 5 (15)
+Necrovore sand dunes 30 feet (9 m) in diameter are sometimes seeded from those who die in the desert and are buried only by shifting sands. When inactive, it’s nearly impossible to distinguish tombdrifts from regular desert dunes. But when one senses life, the necrovore rolls forward like a slow ocean wave, or alternatively, condenses into the shape of the spirit that seeded the undead thing. When assuming the echo of the person who seeded them, tombdrifts might speak. However, keeping such a shape requires energy—the assumed shape is constantly crumbling away and reforming, until it collapses once again into an unquiet, hungry dune.
+Motive: Bury the living; feed on life
+Environment: Desert and badlands
+Health: 23
+Damage Inflicted: 5 points
+Movement: Immediate (but see Dust Devil Speed)
+Modifications: Speed defense as level 2 due to size
+Combat: The tombdrift abrades every creature in immediate range with scouring sand. The tombdrift is immune to poison, disease, and life‑draining effects. 
+They also have one or more of the following attacks and traits.
+    • Drain Life: One target damaged by the tombdrift is subject to life drain, taking 3 points of Speed damage (ignores Armor) on a failed Might defense roll. In addition, the target is sickened until the end of their next turn, hindering all tasks. On a successful defense roll, the target still takes 1 point of Speed damage, but isn’t sickened.
+    • Dust Devil Speed: The tombdrift spins up into a dust devil of sand that speeds forward a long distance (no more than once every minute), attacking all creatures along the line of travel. On a failed Might defense roll, damaged targets are also blinded on their next turn. 
+    • Sand Regeneration: Tombdrifts regain 1 health each round they are in a desert or badlands region, unless they’ve taken damage from banishing rounds or similar anti‑undead attacks (in which case they don’t begin regaining health again for a couple of minutes). 
+Interaction: When they take the echo of their former shape, tombdrifts can communicate in rasping voices, and may choose to negotiate with other creatures instead of draining their life. Tombdrifts may want their remains properly buried, or something else. Some tombdrifts don’t care or don’t remember their lives and simply wish to feed. 
+Use: A sandstorm blew through the town’s cemetery with enough force to rip graves out of the ground. Now, some drifts of sand left in the storm’s wake have started moving. 
+Loot: A tombdrift, which contains the remains of the individual who seeded it (maybe just a few eroded bones), might also have some of their belongings, such as a box with a few remaining alchemical rounds.
+GM intrusion: The character is pulled into the dune and is crushed and suffocated for 5 points of ambient damage each round until they can escape with a Might‑based roll as their action.
+
+### Shade of the Tomb 5 (15)
+Though thankfully rare, shades of the tomb (commonly called “tomb shades”) may spontaneously manifest beneath the dull light of the Tomb Moon, taking form from gravestone shadows. Other times tomb shades are called into brief existence by a summoning spell. When they resolve, they regard the world with the head of an ink-beaked raven, with half a dozen clutching ebony arms emerging from their tenebrous cloak. If need be, a tomb shade can seep through cracks and around barriers that would stymie most corporeal beings.
+Motive: Douse other beings’ light, life, and joy 
+Environment: Almost anywhere 
+Health: 20 
+Damage Inflicted: 5 points 
+Movement: Short; short when climbing 
+Modifications: Stealth as level 7 
+Combat: A tomb shade’s touch drains life, inflicting Speed damage (ignores Armor). 
+In dim light and darkness, a tomb shade only takes 1 point of damage from successful attacks against them. 
+Individual tomb shades may also have one or more of the following abilities they can use as their action.
+    • Siphon: On a failed Might defense task, a short‑range necrotic ray deals 5 points of Speed damage (ignores Armor), which the shade gains as health, up to their maximum. 
+    • Darken: The shade summons magical darkness that blooms from a point within long range (no more than once every ten minutes). The darkness fills an area an immediate distance across and lasts for ten minutes. Even creatures that can normally see in darkness can’t see in this magical murk, except for tomb shades and undead. 
+    • Anguish: The shade drains happiness and joy from all creatures within immediate range (no more than once per minute). Targets that fail an Intellect defense roll take 5 points of Intellect damage (ignores Armor) and are disconsolate, losing their next turn. Each turn after that they can attempt another Intellect defense roll to regain their composure and act normally. 
+    • Portal: The tomb shade dissolves, their animus departing (possibly back to the Tomb Moon). The resulting implosive burst of necrotic energy deals 3 points of Speed damage (ignores Armor) to all creatures within immediate range that fail a Speed defense task. Damaged targets must also succeed on a Might defense roll or be pulled partially through the portal, sustaining 5 points of Speed damage (ignores Armor) each round from the necrotic contact until they can pull free with a successful Might roll as their action. When the last target pulls free (or dies and is pulled through), the portal closes. 
+Interaction: Sinister and conniving, a tomb shade doesn’t speak, but uses its many arms for magical signing, usually only to make threats. 
+Use: An alchemist wants PCs to collect a cursed book for their library, but whenever someone opens the tome, shadows (a tomb shade) swallow the reader.

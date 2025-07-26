@@ -19,7 +19,7 @@ This section presents new descriptors meant specifically for a superhero game.
 
 | Descriptor | Link |
 |------------|------|
-| Amazing | [Amazing](Amazing.md) |
+| Amazing | [Amazing](Amazing.md) |  
 | Incredible | [Incredible](Incredible.md) |
 | Mighty | [Mighty](Mighty.md) |
 | Sensational | [Sensational](Sensational.md) |
