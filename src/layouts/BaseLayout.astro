@@ -1,0 +1,215 @@
+<!-- filepath: c:\Users\15034\Projects\ttrpg-fyi\src\layouts\BaseLayout.astro -->
+---
+import "@fontsource-variable/outfit";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+
+// Get user from middleware (Astro.locals.user)
+const user = Astro.locals.user || null;
+
+// Get theme from cookies server-side (with fallback for prerendering)
+let savedTheme = 'auto';
+try {
+  savedTheme = Astro.cookies.get('theme')?.value || 'auto';
+} catch (error) {
+  // Cookies not available during prerendering
+  console.log('Cookies not available during prerendering, using default theme');
+}
+
+// Valid DaisyUI themes
+const validThemes = [
+  'light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate', 
+  'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween', 
+  'garden', 'forest', 'aqua', 'lofi', 'pastel', 'fantasy', 
+  'wireframe', 'black', 'luxury', 'dracula', 'cmyk', 'autumn', 
+  'business', 'acid', 'lemonade', 'night', 'coffee', 'winter', 
+  'dim', 'nord', 'sunset', 'auto'
+];
+
+const currentTheme = validThemes.includes(savedTheme) ? savedTheme : 'auto';
+
+// Resolve auto theme server-side (fallback to system preference)
+const resolvedTheme = currentTheme === 'auto' ? 'dark' : currentTheme;
+---
+
+<!doctype html>
+<html lang="en" data-theme={resolvedTheme}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    
+    <!-- Critical: Global theme manager MUST run before any content renders -->
+    <script is:inline define:vars={{ currentTheme }}>
+      // Global theme management - available to all layouts and components
+      window.themeManager = {
+        currentTheme: currentTheme,
+        validThemes: [
+          'light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate', 
+          'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween', 
+          'garden', 'forest', 'aqua', 'lofi', 'pastel', 'fantasy', 
+          'wireframe', 'black', 'luxury', 'dracula', 'cmyk', 'autumn', 
+          'business', 'acid', 'lemonade', 'night', 'coffee', 'winter', 
+          'dim', 'nord', 'sunset', 'auto'
+        ],
+        
+        // Apply theme immediately
+        applyTheme: function(theme) {
+          const html = document.documentElement;
+          
+          if (theme === 'auto') {
+            // Check system preference
+            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            html.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+          } else {
+            html.setAttribute('data-theme', theme);
+          }
+          
+          // Update current theme
+          this.currentTheme = theme;
+          
+          // Dispatch custom event for components to listen to
+          window.dispatchEvent(new CustomEvent('theme-changed', { 
+            detail: { 
+              theme: theme, 
+              resolvedTheme: html.getAttribute('data-theme') 
+            } 
+          }));
+        },
+        
+        // Set theme and save to cookie
+        setTheme: function(theme) {
+          // Validate theme
+          if (!this.validThemes.includes(theme)) {
+            console.warn('Invalid theme:', theme);
+            return;
+          }
+          
+          // Apply theme immediately
+          this.applyTheme(theme);
+          
+          // Save to cookie with proper settings
+          document.cookie = `theme=${theme}; path=/; max-age=${60 * 60 * 24 * 365}; SameSite=Lax`;
+          
+          console.log('Theme changed to:', theme);
+        },
+        
+        // Get current theme (check cookie first for client-side)
+        getTheme: function() {
+          // Try to get from cookie first (client-side)
+          if (typeof document !== 'undefined') {
+            const cookies = document.cookie.split(';');
+            for (let cookie of cookies) {
+              const [name, value] = cookie.trim().split('=');
+              if (name === 'theme') {
+                this.currentTheme = value;
+                return value;
+              }
+            }
+          }
+          return this.currentTheme;
+        },
+        
+        // Get resolved theme (what's actually applied)
+        getResolvedTheme: function() {
+          return document.documentElement.getAttribute('data-theme');
+        },
+        
+        // Check if theme is valid
+        isValidTheme: function(theme) {
+          return this.validThemes.includes(theme);
+        },
+        
+        // Initialize theme system
+        init: function() {
+          // Update current theme from cookie if available
+          this.getTheme();
+          
+          // Apply initial theme
+          this.applyTheme(this.currentTheme);
+          
+          // Listen for system theme changes if using auto
+          if (window.matchMedia) {
+            const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+            const updateTheme = (e) => {
+              if (this.currentTheme === 'auto') {
+                this.applyTheme('auto');
+              }
+            };
+            
+            // Modern browsers
+            if (mediaQuery.addEventListener) {
+              mediaQuery.addEventListener('change', updateTheme);
+            } else {
+              // Fallback for older browsers
+              mediaQuery.addListener(updateTheme);
+            }
+          }
+          
+          console.log('Theme manager initialized with theme:', this.currentTheme);
+        }
+      };
+      
+      // Auto-initialize immediately
+      window.themeManager.init();
+    </script>
+    
+    <!-- Prevent theme flash with CSS -->
+    <style>
+      /* Hide content until theme is applied */
+      html:not([data-theme]) {
+        visibility: hidden;
+      }
+      
+      /* Ensure smooth theme transitions */
+      html {
+        transition: none;
+      }
+      
+      html[data-theme] {
+        visibility: visible;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      
+      /* Prevent flash of unstyled content */
+      body {
+        opacity: 0;
+        animation: fadeIn 0.1s ease-in-out 0.05s forwards;
+      }
+      
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+    
+    <!-- Layout-specific head content -->
+    <slot name="head" />
+  </head>
+
+  <body>
+    <!-- Slot for navbar -->
+    <slot name="navbar" />
+    
+    <!-- Main content wrapper -->
+    <div class="max-w-[100rem] mx-auto">
+      <slot />
+    </div>
+    
+    <!-- Slot for footer -->
+    <slot name="footer" />
+    
+    <!-- Layout-specific scripts -->
+    <slot name="scripts" />
+  </body>
+</html>

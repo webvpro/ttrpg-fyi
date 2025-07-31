@@ -1,0 +1,53 @@
+<!-- filepath: c:\Users\15034\Projects\ttrpg-fyi\src\pages\compendium\[system].astro -->
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import compendiumStructure from "../../data/compendium-structure.json";
+import CollectionCard from "../../components/CollectionCard.astro";
+
+// CHANGE THIS: Disable prerendering to enable middleware access
+export const prerender = false;
+
+export async function getStaticPaths() {
+  const systems = Object.keys(compendiumStructure.systems);
+
+  return systems.map((systemKey) => ({
+    params: { system: systemKey }
+  }));
+}
+
+// Get the system from URL params
+const { system } = Astro.params;
+
+// Get system data directly
+const systemData = compendiumStructure.systems[system as keyof typeof compendiumStructure.systems];
+
+// Debug logging - now this should work like on /about
+console.log('URL param system:', system);
+console.log('System data found:', !!systemData);
+console.log('User from middleware:', Astro.locals.user); // This should now work
+
+// Add safety check
+if (!systemData) {
+  throw new Error(`System data not found for key: ${system}`);
+}
+
+const collections = Object.entries(systemData.collections || {});
+---
+
+<Layout title={systemData.name} description={systemData.description}>
+  <div class="container mx-auto p-4">
+    <div class="mt-16 flex justify-center items-center">
+      <h1 class="text-3xl md:text-5xl font-outfit font-semibold text-center max-w-2xl">
+        {systemData.name}
+      </h1>
+    </div>
+    <p class="text-center mt-4 text-lg">
+      {systemData.description}
+    </p>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-20 mt-16">
+      <CollectionCard collections={collections} system={system} />
+    </div>
+  </div>
+</Layout>

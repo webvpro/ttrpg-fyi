@@ -1,0 +1,11 @@
+<!-- filepath: c:\Users\15034\Projects\ttrpg-fyi\src\components\IconWrapper.astro -->
+---
+export interface Props {
+  name: string;
+  class?: string;
+}
+
+const { name, class: className } = Astro.props;
+---
+
+<astro-icon name={name} class={className}></astro-icon>

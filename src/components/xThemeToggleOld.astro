@@ -1,0 +1,96 @@
+---
+import { Icon } from 'astro-icon/components'
+---
+
+<div class="dropdown dropdown-end">
+  <div tabindex="0" role="button" class="btn btn-ghost">
+    <Icon name="mdi:palette" class="w-5 h-5" />
+    <span id="theme-text" class="hidden sm:inline ml-2">Theme</span>
+    <Icon name="mdi:chevron-down" class="w-4 h-4 ml-1" />
+  </div>
+  <ul tabindex="0" class="dropdown-content bg-base-300 rounded-box z-[1] w-52 p-2 shadow-2xl max-h-96 overflow-y-auto">
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="light">☀️ Light</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="dark">🌙 Dark</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="cupcake">🧁 Cupcake</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="bumblebee">🐝 Bumblebee</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="emerald">💎 Emerald</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="corporate">🏢 Corporate</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="synthwave">🌈 Synthwave</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="retro">📺 Retro</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="cyberpunk">🤖 Cyberpunk</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="valentine">💝 Valentine</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="halloween">🎃 Halloween</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="garden">🌸 Garden</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="forest">🌲 Forest</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="aqua">💧 Aqua</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="lofi">🎧 Lofi</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="pastel">🎨 Pastel</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="fantasy">🧙 Fantasy</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="wireframe">📐 Wireframe</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="black">⚫ Black</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="luxury">💎 Luxury</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="dracula">🧛 Dracula</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="cmyk">🖨️ CMYK</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="autumn">🍂 Autumn</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="business">💼 Business</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="acid">🧪 Acid</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="lemonade">🍋 Lemonade</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="night">🌃 Night</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="coffee">☕ Coffee</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="winter">❄️ Winter</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="dim">🔅 Dim</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="nord">🏔️ Nord</button></li>
+    <li><button class="btn btn-sm btn-block btn-ghost justify-start" data-theme="sunset">🌅 Sunset</button></li>
+  </ul>
+</div>
+
+<script is:inline>
+  function setTheme(theme) {
+    console.log('🎨 Setting theme to:', theme);
+    
+    // Set the theme attribute
+    document.documentElement.setAttribute('data-theme', theme);
+    
+    // Store in localStorage
+    localStorage.setItem('theme', theme);
+    
+    // Update the button text
+    const themeText = document.getElementById('theme-text');
+    if (themeText) {
+      themeText.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
+    }
+    
+    console.log('✅ Theme applied:', theme);
+  }
+
+  function getInitialTheme() {
+    if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+      return localStorage.getItem('theme');
+    }
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      return 'dark';
+    }
+    return 'light';
+  }
+
+  // Initialize theme
+  const initialTheme = getInitialTheme();
+  setTheme(initialTheme);
+
+  // Add click listeners to all theme buttons
+  document.addEventListener('click', function(e) {
+    if (e.target.hasAttribute('data-theme')) {
+      e.preventDefault();
+      const theme = e.target.getAttribute('data-theme');
+      console.log('🖱️ Theme button clicked:', theme);
+      setTheme(theme);
+      
+      // Close the dropdown after selection
+      const dropdown = document.querySelector('.dropdown');
+      if (dropdown) {
+        dropdown.removeAttribute('open');
+        dropdown.blur();
+      }
+    }
+  });
+</script>
