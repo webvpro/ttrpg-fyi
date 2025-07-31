@@ -1,13 +1,54 @@
 ---
-import compendiums from '../../data/compendium-structure.json';
-const systems= Object.keys(compendiums.systems);
+import HomeLayout from "../../layouts/HomeLayout.astro";
+import compendiumStructure from "../../data/compendium-structure.json";
+import CollectionCard from "../../components/CollectionCard.astro";
+import Layout from "../../layouts/Layout.astro";
 
+// This is an index page, not a dynamic route
+// Show all systems or a default system
+const systems = Object.entries(compendiumStructure.systems);
+
+// Debug: Check if user is available
+console.log('Compendium index - User from middleware:', Astro.locals.user);
+console.log('Compendium index - Theme cookie:', Astro.cookies.get('theme')?.value);
 ---
 
-<ul>
-  {systems.map((system) => (
-    <li>
-      <a href={`/compendium/${system.toLowerCase()}/`}>{system}</a>
-    </li>
-  ))}
-</ul>
+<Layout title="Compendium" description="Browse all TTRPG systems and content">
+  <div class="container mx-auto p-4">
+    <div class="mt-16 flex justify-center items-center">
+      <h1 class="text-3xl md:text-5xl font-outfit font-semibold text-center max-w-2xl">
+        TTRPG Compendiums
+      </h1>
+    </div>
+    <p class="text-center mt-4 text-lg">
+      Browse rules, creatures, and content for various tabletop RPG systems
+    </p>
+    
+    <!-- Show all systems -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20 mt-16">
+      {systems.map(([systemKey, systemData]) => (
+        <div class="card bg-base-100 shadow-xl">
+          <div class="card-body">
+            <h2 class="card-title">{systemData.name}</h2>
+            <p>{systemData.description}</p>
+            <div class="card-actions justify-end">
+              <a href={`/compendium/${systemKey}`} class="btn btn-primary">
+                Explore {systemData.name} Compendium
+              </a>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+  
+  <!-- Debug script -->
+  <script>
+    console.log('Compendium index loaded');
+    console.log('Theme manager available:', !!window.themeManager);
+    if (window.themeManager) {
+      console.log('Current theme:', window.themeManager.getTheme());
+      console.log('Resolved theme:', window.themeManager.getResolvedTheme()); 
+    }
+  </script>
+</Layout>

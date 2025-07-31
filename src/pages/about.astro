@@ -1,99 +1,445 @@
 ---
 import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
+import { Icon } from "astro-icon/components";
 ---
 
-<Layout title="About" description="About me and my work">
-  <div
-    class="flex flex-col xl:flex-row justify-center items-center xl:gap-20 gap-6 mt-10 md:mt-20 mb-20 md:mb-32 font-outfit"
-  >
-    <div class="md:mt-0 mt-6">
-      <Image
-        src="/images/tttrp_gen_profile.png"
-        alt="TTRPG.fyi profile image"
-        height={400}
-        width={400}
-        class="rounded-xl"
-      />
-    </div>
+<Layout title="About TTRPG.fyi" description="Learn about TTRPG.fyi - your comprehensive resource for tabletop RPG players, GMs, and publishers">
+  <div class="hero min-h-screen">
+    <div class="hero-content text-center">
+      <div class="max-w-6xl">
+        
+        <!-- Main Hero Section -->
+        <div class="flex flex-col xl:flex-row justify-center items-center xl:gap-20 gap-10 mb-20">
+          
+          <!-- Profile Image -->
+          <div class="avatar">
+            <div class="w-80 rounded-xl shadow-2xl ring ring-primary ring-offset-base-100 ring-offset-2">
+              <Image
+                src="/images/tttrp_gen_profile.png"
+                alt="TTRPG.fyi - Your tabletop RPG companion"
+                height={400}
+                width={400}
+                class="rounded-xl"
+              />
+            </div>
+          </div>
 
-    <div class="max-w-lg">
-      <h1 class="text-3xl md:text-4xl lg:text-5xl font-black brightness-150">
-        I'm Antonio, a digital marketer and the founder of a marketing agency.
-      </h1>
-      <div class="space-y-7 mt-6">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
-          necessitatibus deserunt suscipit ad voluptas beatae ratione. At dicta,
-          repudiandae, mollitia placeat fuga nihil doloribus vel voluptas error
-          quae consequuntur repellendus.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
-          necessitatibus deserunt suscipit ad voluptas beatae ratione. At dicta,
-          repudiandae, mollitia placeat fuga nihil doloribus vel voluptas error
-          quae consequuntur repellendus.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
-          necessitatibus deserunt suscipit ad voluptas beatae ratione. At dicta,
-          repudiandae, mollitia placeat fuga nihil doloribus vel voluptas error
-          quae consequuntur repellendus.
-        </p>
+          <!-- Main Content -->
+          <div class="max-w-2xl text-left">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+              Welcome to <span class="text-primary">TTRPG.fyi</span>
+            </h1>
+            <h2 class="text-xl md:text-2xl font-semibold mb-8 opacity-80">
+              Your comprehensive resource for tabletop RPG excellence
+            </h2>
+            
+            <div class="prose prose-lg max-w-none">
+              <p class="text-lg mb-6">
+                TTRPG.fyi is designed for <strong>tabletop RPG enthusiasts of all experience levels</strong> - from 
+                newcomers rolling their first dice to seasoned Game Masters crafting epic campaigns, and even publishers 
+                looking to share their latest creations with the community.
+              </p>
+              
+              <p class="text-lg mb-6">
+                Our mission is simple: to help you have <em>better TTRPG experiences</em>. Whether you're seeking 
+                character creation guidance, campaign inspiration, rule clarifications, or want to discover new 
+                systems and adventures, we've got you covered.
+              </p>
+              
+              <p class="text-lg">
+                More than just a resource library, TTRPG.fyi is a hub for <strong>sharing knowledge</strong> with 
+                your gaming groups. Find tips, tools, and resources that you can immediately bring to your table 
+                to enhance everyone's fun.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+          
+          <!-- For Players -->
+          <div class="card bg-base-200 shadow-xl">
+            <div class="card-body text-center">
+              <div class="text-5xl mb-4">🎲</div>
+              <h3 class="card-title justify-center text-2xl mb-4">For Players</h3>
+              <ul class="text-left space-y-2">
+                <li class="flex items-center gap-2">
+                  <Icon name="mdi:check" class="w-4 h-4 text-primary" />
+                  Character creation guides
+                </li>
+                <li class="flex items-center gap-2">
+                  <Icon name="mdi:check" class="w-4 h-4 text-primary" />
+                  Rules references & clarifications
+                </li>
+                <li class="flex items-center gap-2">
+                  <Icon name="mdi:check" class="w-4 h-4 text-primary" />
+                  System exploration & discovery
+                </li>
+                <li class="flex items-center gap-2">
+                  <Icon name="mdi:check" class="w-4 h-4 text-primary" />
+                  Roleplay tips & techniques
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- For Game Masters -->
+          <div class="card bg-base-200 shadow-xl">
+            <div class="card-body text-center">
+              <div class="text-5xl mb-4">🎭</div>
+              <h3 class="card-title justify-center text-2xl mb-4">For Game Masters</h3>
+              <ul class="text-left space-y-2">
+                <li class="flex items-center gap-2">
+                  <Icon name="mdi:check" class="w-4 h-4 text-secondary" />
+                  Campaign planning resources
+                </li>
+                <li class="flex items-center gap-2">
+                  <Icon name="mdi:check" class="w-4 h-4 text-secondary" />
+                  NPC & encounter generators
+                </li>
+                <li class="flex items-center gap-2">
+                  <Icon name="mdi:check" class="w-4 h-4 text-secondary" />
+                  World-building guides
+                </li>
+                <li class="flex items-center gap-2">
+                  <Icon name="mdi:check" class="w-4 h-4 text-secondary" />
+                  Session management tools
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- For Publishers -->
+          <div class="card bg-base-200 shadow-xl">
+            <div class="card-body text-center">
+              <div class="text-5xl mb-4">📚</div>
+              <h3 class="card-title justify-center text-2xl mb-4">For Publishers</h3>
+              <ul class="text-left space-y-2">
+                <li class="flex items-center gap-2">
+                  <Icon name="mdi:check" class="w-4 h-4 text-accent" />
+                  Content showcase opportunities
+                </li>
+                <li class="flex items-center gap-2">
+                  <Icon name="mdi:check" class="w-4 h-4 text-accent" />
+                  Community engagement tools
+                </li>
+                <li class="flex items-center gap-2">
+                  <Icon name="mdi:check" class="w-4 h-4 text-accent" />
+                  Resource sharing platform
+                </li>
+                <li class="flex items-center gap-2">
+                  <Icon name="mdi:check" class="w-4 h-4 text-accent" />
+                  Industry insights & trends
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="stats stats-vertical lg:stats-horizontal shadow-xl mb-20">
+          <div class="stat">
+            <div class="stat-figure text-primary">
+              <Icon name="mdi:book-multiple" class="w-8 h-8" />
+            </div>
+            <div class="stat-title">Game Systems</div>
+            <div class="stat-value text-primary">50+</div>
+            <div class="stat-desc">Comprehensive coverage</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-figure text-secondary">
+              <Icon name="mdi:newspaper" class="w-8 h-8" />
+            </div>
+            <div class="stat-title">Resources</div>
+            <div class="stat-value text-secondary">1000+</div>
+            <div class="stat-desc">Tips, guides & tools</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-figure text-accent">
+              <Icon name="mdi:account-group" class="w-8 h-8" />
+            </div>
+            <div class="stat-title">Community</div>
+            <div class="stat-value text-accent">10K+</div>
+            <div class="stat-desc">Active users</div>
+          </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="card bg-gradient-to-r from-primary to-secondary text-primary-content shadow-2xl">
+          <div class="card-body text-center">
+            <h2 class="card-title text-3xl justify-center mb-4">Ready to Level Up Your TTRPG Experience?</h2>
+            <p class="text-lg mb-6">
+              Join thousands of players, GMs, and publishers who use TTRPG.fyi to enhance their tabletop adventures.
+            </p>
+            <div class="card-actions justify-center gap-4">
+              <a href="/compendium" class="btn btn-lg btn-outline btn-primary-content">
+                Browse Compendium
+              </a>
+              <a href="/posts" class="btn btn-lg btn-outline btn-primary-content">
+                Read Articles
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="flex justify-center gap-6 mt-16">
+          <div class="tooltip" data-tip="Follow us on X">
+            <a class="btn btn-circle btn-outline" href="https://www.x.com" aria-label="Follow on X/Twitter">
+              <Icon name="mdi:twitter" class="w-6 h-6" />
+            </a>
+          </div>
+          
+          <div class="tooltip" data-tip="Connect on LinkedIn">
+            <a class="btn btn-circle btn-outline" href="https://www.linkedin.com" aria-label="Connect on LinkedIn">
+              <Icon name="mdi:linkedin" class="w-6 h-6" />
+            </a>
+          </div>
+          
+          <div class="tooltip" data-tip="Subscribe on YouTube">
+            <a class="btn btn-circle btn-outline" href="https://www.youtube.com" aria-label="Subscribe on YouTube">
+              <Icon name="mdi:youtube" class="w-6 h-6" />
+            </a>
+          </div>
+          
+          <div class="tooltip" data-tip="Follow on Instagram">
+            <a class="btn btn-circle btn-outline" href="https://www.instagram.com" aria-label="Follow on Instagram">
+              <Icon name="mdi:instagram" class="w-6 h-6" />
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="mt-6 xl:mt-0 flex xl:flex-col gap-4">
-      <a class="btn btn-circle" href="https://www.x.com" aria-label="twitter">
-        <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6"
-          ><path
-            d="M13.3174 10.7749L19.1457 4H17.7646L12.7039 9.88256L8.66193 4H4L10.1122 12.8955L4 20H5.38119L10.7254 13.7878L14.994 20H19.656L13.3171 10.7749H13.3174ZM11.4257 12.9738L10.8064 12.0881L5.87886 5.03974H8.00029L11.9769 10.728L12.5962 11.6137L17.7652 19.0075H15.6438L11.4257 12.9742V12.9738Z"
-            fill="currentColor"></path></svg
-        >
-      </a>
-      <a
-        class="btn btn-circle"
-        href="https://www.linkedin.com"
-        aria-label="linkedin"
-      >
-        <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6"
-          ><path
-            fill="currentColor"
-            d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 01-1.548-1.549 1.548 1.548 0 111.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z"
-          ></path></svg
-        >
-      </a>
-      <a
-        class="btn btn-circle"
-        href="https://www.youtube.com"
-        aria-label="youtube"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 461.001 461.001"
-          class="h-6 w-6"
-        >
-          <path
-            fill="currentColor"
-            d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"
-          ></path>
-        </svg>
-      </a>
-      <a
-        class="btn btn-circle"
-        href="https://www.instagram.com"
-        aria-label="instagram"
-      >
-        <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6"
-          ><path
-            fill="currentColor"
-            d="M12 3c-2.444 0-2.75.01-3.71.054-.959.044-1.613.196-2.185.418A4.412 4.412 0 0 0 4.51 4.511c-.5.5-.809 1.002-1.039 1.594-.222.572-.374 1.226-.418 2.184C3.01 9.25 3 9.556 3 12s.01 2.75.054 3.71c.044.959.196 1.613.418 2.185.23.592.538 1.094 1.039 1.595.5.5 1.002.808 1.594 1.038.572.222 1.226.374 2.184.418C9.25 20.99 9.556 21 12 21s2.75-.01 3.71-.054c.959-.044 1.613-.196 2.185-.419a4.412 4.412 0 0 0 1.595-1.038c.5-.5.808-1.002 1.038-1.594.222-.572.374-1.226.418-2.184.044-.96.054-1.267.054-3.711s-.01-2.75-.054-3.71c-.044-.959-.196-1.613-.419-2.185A4.412 4.412 0 0 0 19.49 4.51c-.5-.5-1.002-.809-1.594-1.039-.572-.222-1.226-.374-2.184-.418C14.75 3.01 14.444 3 12 3Zm0 1.622c2.403 0 2.688.009 3.637.052.877.04 1.354.187 1.67.31.421.163.72.358 1.036.673.315.315.51.615.673 1.035.123.317.27.794.31 1.671.043.95.052 1.234.052 3.637s-.009 2.688-.052 3.637c-.04.877-.187 1.354-.31 1.67-.163.421-.358.72-.673 1.036a2.79 2.79 0 0 1-1.035.673c-.317.123-.794.27-1.671.31-.95.043-1.234.052-3.637.052s-2.688-.009-3.637-.052c-.877-.04-1.354-.187-1.67-.31a2.789 2.789 0 0 1-1.036-.673 2.79 2.79 0 0 1-.673-1.035c-.123-.317-.27-.794-.31-1.671-.043-.95-.052-1.234-.052-3.637s.009-2.688.052-3.637c.04-.877.187-1.354.31-1.67.163-.421.358-.72.673-1.036.315-.315.615-.51 1.035-.673.317-.123.794-.27 1.671-.31.95-.043 1.234-.052 3.637-.052Z"
-          ></path><path
-            fill="currentColor"
-            d="M12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-7.622a4.622 4.622 0 1 0 0 9.244 4.622 4.622 0 0 0 0-9.244Zm5.884-.182a1.08 1.08 0 1 1-2.16 0 1.08 1.08 0 0 1 2.16 0Z"
-          ></path></svg
-        >
-      </a>
     </div>
   </div>
 </Layout>
+
+<script setup lang="ts">
+import { ref, onMounted } from 'vue'
+import { Icon } from '@iconify/vue'
+
+// Declare the custom property on the Window interface
+declare global {
+  interface Window {
+    showCookieSettings: () => void;
+  }
+}
+
+// Reactive state
+const showConsent = ref(false)
+const showPreferences = ref(false)
+const consentGiven = ref(false)
+
+const preferences = ref({
+  necessary: true, // Always true
+  functionality: false,
+  analytics: false
+})
+
+// Cookie management
+const COOKIE_CONSENT_KEY = 'ttrpg-cookie-consent'
+const COOKIE_PREFERENCES_KEY = 'ttrpg-cookie-preferences'
+
+// Get cookie value
+const getCookie = (name: string): string | null => {
+  if (typeof document === 'undefined') return null
+  
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) {
+    return parts.pop()?.split(';').shift() || null
+  }
+  return null
+}
+
+// Set cookie
+const setCookie = (name: string, value: string, days: number = 365) => {
+  if (typeof document === 'undefined') return
+  
+  const expires = new Date()
+  expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000))
+  document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Lax`
+}
+
+// Load saved preferences
+const loadPreferences = () => {
+  const consent = getCookie(COOKIE_CONSENT_KEY)
+  const savedPrefs = getCookie(COOKIE_PREFERENCES_KEY)
+  
+  if (consent === 'true') {
+    consentGiven.value = true
+    showConsent.value = false
+    
+    if (savedPrefs) {
+      try {
+        const prefs = JSON.parse(savedPrefs)
+        preferences.value = { ...preferences.value, ...prefs }
+      } catch (error) {
+        console.error('Error parsing cookie preferences:', error)
+      }
+    }
+  } else {
+    showConsent.value = true
+  }
+}
+
+// Save consent and preferences
+const saveConsentAndPreferences = () => {
+  setCookie(COOKIE_CONSENT_KEY, 'true')
+  setCookie(COOKIE_PREFERENCES_KEY, JSON.stringify(preferences.value))
+  consentGiven.value = true
+  showConsent.value = false
+  showPreferences.value = false
+  
+  // Clear cookies based on preferences
+  manageCookies()
+  
+  console.log('Cookie preferences saved:', preferences.value)
+}
+
+// Manage cookies based on preferences
+const manageCookies = () => {
+  if (!preferences.value.analytics) {
+    // Clear analytics cookies
+    const analyticsCookies = ['_ga', '_gid', '_gat', '_gtag']
+    analyticsCookies.forEach(cookie => {
+      document.cookie = `${cookie}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`
+    })
+  }
+  
+  if (!preferences.value.functionality) {
+    // Clear functionality cookies (except theme)
+    const functionalityCookies = ['user-preferences', 'ttrpg-settings']
+    functionalityCookies.forEach(cookie => {
+      document.cookie = `${cookie}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`
+    })
+  }
+}
+
+// Action handlers
+const acceptAll = () => {
+  preferences.value = {
+    necessary: true,
+    functionality: true,
+    analytics: true
+  }
+  saveConsentAndPreferences()
+}
+
+const rejectAll = () => {
+  preferences.value = {
+    necessary: true,
+    functionality: false,
+    analytics: false
+  }
+  saveConsentAndPreferences()
+}
+
+const acceptAllFromPreferences = () => {
+  preferences.value = {
+    necessary: true,
+    functionality: true,
+    analytics: true
+  }
+  saveConsentAndPreferences()
+}
+
+const rejectAllFromPreferences = () => {
+  preferences.value = {
+    necessary: true,
+    functionality: false,
+    analytics: false
+  }
+  saveConsentAndPreferences()
+}
+
+const savePreferences = () => {
+  saveConsentAndPreferences()
+}
+
+const closePreferences = () => {
+  showPreferences.value = false
+}
+
+// Reset consent (for testing)
+const resetConsent = () => {
+  setCookie(COOKIE_CONSENT_KEY, '', -1)
+  setCookie(COOKIE_PREFERENCES_KEY, '', -1)
+  consentGiven.value = false
+  showConsent.value = true
+  showPreferences.value = false
+  preferences.value = {
+    necessary: true,
+    functionality: false,
+    analytics: false
+  }
+}
+
+// Expose methods for parent components
+defineExpose({
+  showSettings: () => {
+    showPreferences.value = true
+  },
+  reset: resetConsent
+})
+
+// Global function for navbar
+if (typeof window !== 'undefined') {
+  window.showCookieSettings = () => {
+    showPreferences.value = true
+  }
+}
+
+// Lifecycle
+onMounted(() => {
+  // Small delay to ensure DOM is ready
+  setTimeout(loadPreferences, 100)
+})
+</script>
+
+<style scoped>
+/* Use CSS custom properties and regular CSS instead of @apply */
+.cookie-modal {
+  border: 1px solid hsl(var(--bc) / 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .cookie-modal {
+    max-width: 95vw;
+    margin: 1rem;
+  }
+}
+
+/* Theme-specific adjustments using CSS custom properties */
+[data-theme="cyberpunk"] .cookie-modal {
+  border-color: hsl(var(--a));
+}
+
+[data-theme="retro"] .cookie-modal {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+}
+
+/* Ensure proper z-index for modals */
+.modal {
+  z-index: 9999;
+}
+
+/* Smooth fade in animation */
+.modal {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+</style>

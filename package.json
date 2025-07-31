@@ -15,6 +15,7 @@
     "@astrojs/vue": "^5.1.0",
     "@fontsource-variable/outfit": "^5.2.5",
     "@iconify/vue": "^5.0.0",
+    "@jop-software/astro-cookieconsent": "^3.0.1",
     "@tailwindcss/postcss": "^4.1.10",
     "@tailwindcss/vite": "^4.1.11",
     "@vue/tsconfig": "^0.7.0",
@@ -25,6 +26,7 @@
     "node-appwrite": "^17.0.0",
     "npm": "^11.4.2",
     "theme-change": "^2.5.0",
+    "vanilla-cookieconsent": "^3.1.0",
     "vue": "^3.5.17"
   },
   "devDependencies": {

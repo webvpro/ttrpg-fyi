@@ -12,7 +12,7 @@
       </div>
       
       <!-- Combined Search & Filter Card - STATIC -->
-      <div class="p-4 bg-base-100 border-b border-gray-200 dark:border-gray-700">
+      <div class="p-4 bg-base-100">
         <div class="card bg-base-200 shadow-sm">
           <div class="card-body p-4">
             <!-- Search and Filter Controls -->
@@ -155,41 +155,43 @@
     </div>
 
     <!-- Filters Drawer - LEFT SIDE -->
-    <div class="drawer z-30" :class="{ 'drawer-open': isFiltersDrawerOpen }">
+    <div class="drawer drawer-mobile">
       <input 
         id="filters-drawer-toggle" 
         type="checkbox" 
         class="drawer-toggle" 
-        :checked="isFiltersDrawerOpen"
-        @change="isFiltersDrawerOpen = $event.target.checked"
+        v-model="isFiltersDrawerOpen"
       />
       
       <div class="drawer-content">
         <!-- This is intentionally empty as our main content is above -->
       </div>
       
-      <div class="drawer-side z-30">
+      <div class="drawer-side">
         <label 
           for="filters-drawer-toggle" 
           class="drawer-overlay"
-          @click="closeFiltersDrawer"
         ></label>
         
-        <div class="min-h-full w-80 bg-base-200 text-base-content">
-          <!-- Drawer header with prominent close button -->
-          <div class="flex items-center justify-between p-4 border-b border-base-300 bg-base-300">
-            <h2 class="text-lg font-semibold">Filters</h2>
-            <button 
-              @click="closeFiltersDrawer" 
-              class="btn btn-sm btn-ghost btn-circle hover:btn-error"
-              aria-label="Close filters"
-            >
-              <Icon icon="mdi:close" class="w-5 h-5" />
-            </button>
+        <aside class="w-96 min-h-full bg-base-200" style="margin-top: 64px; height: calc(100vh - 64px);">
+          <!-- Drawer header -->
+          <div class="navbar bg-base-300">
+            <div class="flex-1">
+              <h2 class="text-lg font-semibold">Filters</h2>
+            </div>
+            <div class="flex-none">
+              <label 
+                for="filters-drawer-toggle" 
+                class="btn btn-sm btn-ghost btn-square"
+                aria-label="Close filters"
+              >
+                <Icon icon="mdi:close" class="w-5 h-5" />
+              </label>
+            </div>
           </div>
           
           <!-- Filters content -->
-          <div class="p-4">
+          <div class="flex-1 h-fit p-4 overflow-y-auto">
             <ItemFilters 
               :items="entries"
               :search-term="searchTerm"
@@ -201,7 +203,7 @@
           </div>
           
           <!-- Drawer footer -->
-          <div class="p-4 border-t border-base-300 bg-base-300">
+          <div class="p-4 bg-base-300 border-t border-base-300">
             <div class="flex flex-col gap-2">
               <button 
                 v-if="Object.keys(activeFilters).length > 0"
@@ -211,17 +213,17 @@
                 <Icon icon="mdi:filter-off" class="w-4 h-4 mr-2" />
                 Clear All Filters
               </button>
-              <button @click="closeFiltersDrawer" class="btn btn-primary btn-sm">
+              <label for="filters-drawer-toggle" class="btn btn-primary btn-sm">
                 <Icon icon="mdi:check" class="w-4 h-4 mr-2" />
                 Apply Filters
-              </button>
-              <button @click="closeFiltersDrawer" class="btn btn-ghost btn-sm">
+              </label>
+              <label for="filters-drawer-toggle" class="btn btn-ghost btn-sm">
                 <Icon icon="mdi:close" class="w-4 h-4 mr-2" />
                 Cancel
-              </button>
+              </label>
             </div>
           </div>
-        </div>
+        </aside>
       </div>
     </div>
     
@@ -229,7 +231,7 @@
     <div 
       v-show="selectedEntry && isDrawerOpen"
       ref="sidebarRef"
-      class="fixed top-0 right-0 w-96 h-full bg-base-100 shadow-2xl z-40 transform transition-transform duration-300 ease-in-out border-l border-base-300"
+      class="fixed z-50 top-0 right-0 w-96 h-full bg-base-100 shadow-2xl transform transition-transform duration-300 ease-in-out border-l border-base-300"
       :class="{
         'translate-x-0': isDrawerOpen,
         'translate-x-full': !isDrawerOpen
@@ -237,11 +239,11 @@
     >
       <div 
         v-if="isDrawerOpen"
-        class="fixed inset-0 bg-black bg-opacity-50 z-30 lg:hidden"
+        class="fixed inset-0 bg-black bg-opacity-50 z-50 lg:hidden"
         @click="closeDrawer"
       ></div>
       
-      <div class="relative h-full flex flex-col z-40">
+      <div class="relative h-full flex flex-col z-50">
         <div class="p-4 border-b border-base-300 bg-base-200">
           <div class="flex justify-between items-start">
             <h2 class="text-lg font-semibold">{{ selectedEntry?.title || selectedEntry?.id }}</h2>
@@ -590,11 +592,13 @@ watch(isFiltersDrawerOpen, (newVal) => {
 
 /* Ensure proper z-index stacking */
 .drawer-side {
-  z-index: 30 !important;
+  z-index: 50 !important;
+  position: fixed;
+  height: 100%;
 }
 
 .drawer-overlay {
-  z-index: 25 !important;
+  z-index: 0 !important;
 }
 
 /* Fix drawer positioning */

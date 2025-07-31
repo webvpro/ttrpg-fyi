@@ -4,7 +4,7 @@
 @source "src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}";
 
 /* Force include specific utilities that might not be detected */
-@source inline("mt-4 mb-4 p-4 text-lg font-bold bg-base-100 shadow-xl btn dropdown");
+@source inline("mt-4 bg-base-400 mb-4 p-4 text-lg font-bold bg-base-100 shadow-xl btn dropdown");
 
 /* Plugins */
 @plugin "daisyui" {
