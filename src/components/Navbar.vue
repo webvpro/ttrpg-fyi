@@ -229,7 +229,7 @@ const gameIconsLoaded = ref(false)
 
 // Navigation items with fallbacks
 const navigation = computed<NavigationItem[]>(() => [
-  { label: 'Home', href: '/', icon: 'mdi:home' },
+  { label: 'Blog', href: '/blog', icon: 'game-icons:newspaper' },
   { 
     label: 'Compendiums', 
     href: '/compendium', 

@@ -11,21 +11,58 @@ const articles = defineCollection({
     z.object({
       title: z.string(),
       description: z.string(),
-      date: z
+      publishDate: z
         .string()
         .transform((str) => format(new Date(str), "MMMM d, yyyy")),
-      image: image(),
       author: z.string(),
-      authorImage: z.string(),
+      image: image(),
+      imageAlt: z.string(),
+      tags: z.array(z.string()),
       category: z.string(),
-      featuredPost: z.boolean(),
-      topArticle: z.boolean(),
+      difficulty: z.enum(["Beginner", "Intermediate", "Advanced"]),
+      readTime: z.string(),
+      featured: z.boolean(),
+      series: z.string().optional(),
+      relatedArticles: z.array(z.string()).optional(),
+      tableOfContents: z.boolean().default(true),
+      // Legacy fields for backward compatibility
+      date: z
+        .string()
+        .transform((str) => format(new Date(str), "MMMM d, yyyy"))
+        .optional(),
+      authorImage: z.string().optional(),
+      featuredPost: z.boolean().optional(),
+      topArticle: z.boolean().optional(),
+    }),
+});
+
+// Posts collection for methodology articles
+const posts = defineCollection({
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      description: z.string(),
+      publishDate: z
+        .string()
+        .transform((str) => format(new Date(str), "MMMM d, yyyy")),
+      author: z.string(),
+      image: image(),
+      imageAlt: z.string(),
+      tags: z.array(z.string()),
+      category: z.string(),
+      difficulty: z.enum(["Beginner", "Intermediate", "Advanced"]),
+      readTime: z.string(),
+      featured: z.boolean(),
+      series: z.string().optional(),
+      relatedArticles: z.array(z.string()).optional(),
+      tableOfContents: z.boolean().default(true),
     }),
 });
 
 // Create all collections
 export const collections = {
-  posts: articles,
+  articles: articles, // Legacy articles collection
+  posts: posts,       // New methodology posts collection
   ...csrdCollections,
 };
 

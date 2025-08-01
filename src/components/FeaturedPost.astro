@@ -1,52 +1,174 @@
 ---
-import { Image } from "astro:assets";
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 
-const { featuredPost } = Astro.props;
+let featuredPost = null;
+
+try {
+  const posts = await getCollection('posts');
+  
+  if (posts && posts.length > 0) {
+    // Find featured post
+    featuredPost = posts.find(post => post?.data?.featured === true);
+    
+    // Fallback to most recent post if no featured post
+    if (!featuredPost) {
+      featuredPost = posts[0];
+    }
+  }
+} catch (error) {
+  console.error('Error loading posts:', error);
+}
 ---
 
-<div class="py-20">
-  <div
-    class="card lg:card-side p-7 ring-1 ring-neutral/20 bg-base-300/40 rounded-3xl font-outfit"
-  >
-    <Image
-      src={featuredPost.data.image}
-      alt={featuredPost.data.title}
-      format="webp"
-      loading="lazy"
-      class="w-full lg:max-w-sm xl:max-w-2xl h-96 rounded-xl object-cover"
-    />
+<section class="featured-post-section mb-8">
+  {featuredPost ? (
+    <div class="card lg:card-side bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+      <figure class="lg:w-1/2">
+        {featuredPost.data.image ? (
+          <Image 
+            src={featuredPost.data.image} 
+            alt={featuredPost.data.imageAlt || featuredPost.data.title}
+            class="w-full h-64 lg:h-full object-cover"
+            format="webp"
+            loading="lazy"
+            width={600}
+            height={256}
+          />
+        ) : (
+          <div class="w-full h-64 lg:h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
+            <div class="text-center">
+              <div class="text-6xl mb-4 opacity-60">🎲</div>
+              <p class="text-base-content/60 font-medium">Featured Article</p>
+            </div>
+          </div>
+        )}
+      </figure>
+      
+      <div class="card-body lg:w-1/2">
+        <!-- Header with badges -->
+        <div class="flex flex-wrap gap-2 mb-3">
+          <div class="badge badge-primary badge-lg font-semibold">
+            ⭐ Featured
+          </div>
+          <div class="badge badge-secondary badge-outline">
+            {featuredPost.data.category}
+          </div>
+          <div class="badge badge-accent badge-outline">
+            {featuredPost.data.difficulty}
+          </div>
+        </div>
 
-    <div class="card-body px-0 lg:ml-10">
-      <div class="badge badge-outline">Featured Post</div>
-      <h1
-        class="card-title text-2xl md:text-4xl font-black text-base-content py-4"
-      >
-        {featuredPost.data.title}
-      </h1>
-      <p class="text-base-content font-light opacity-70 text-sm md:text-lg">
-        {featuredPost.data.description}
-      </p>
+        <!-- Series indicator -->
+        {featuredPost.data.series && (
+          <div class="text-sm text-primary font-medium mb-2">
+            📚 {featuredPost.data.series}
+          </div>
+        )}
+        
+        <!-- Title -->
+        <h2 class="card-title text-xl lg:text-2xl text-base-content mb-3 line-clamp-2">
+          {featuredPost.data.title}
+        </h2>
+        
+        <!-- Description -->
+        <p class="text-base-content/70 flex-grow line-clamp-3 mb-4">
+          {featuredPost.data.description}
+        </p>
 
-      <div class="mt-4">
-        <a href={`/blog/${featuredPost.slug}`}>
-          <button
-            class="btn rounded-full btn-sm md:btn-md bg-primary/10 text-primary hover:bg-primary/15"
-          >
-            Read Article
-
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              width="24"
-              height="24"
-              ><path
-                d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z"
-              >
-              </path>
+        <!-- Meta info -->
+        <div class="flex items-center gap-4 text-sm text-base-content/60 mb-4">
+          <div class="flex items-center gap-1">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
             </svg>
-          </button>
-        </a>
+            <span>{featuredPost.data.readTime}</span>
+          </div>
+          <div class="flex items-center gap-1">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+            </svg>
+            <span>{featuredPost.data.publishDate}</span>
+          </div>
+        </div>
+
+        <!-- Tags -->
+        {featuredPost.data.tags && featuredPost.data.tags.length > 0 && (
+          <div class="flex flex-wrap gap-1 mb-4">
+            {featuredPost.data.tags.slice(0, 3).map((tag) => (
+              <div class="badge badge-ghost badge-sm">
+                #{tag}
+              </div>
+            ))}
+            {featuredPost.data.tags.length > 3 && (
+              <div class="badge badge-ghost badge-sm">
+                +{featuredPost.data.tags.length - 3} more
+              </div>
+            )}
+          </div>
+        )}
+        
+        <!-- Action buttons -->
+        <div class="card-actions justify-end">
+          <a 
+            href={`/blog/${featuredPost.slug}`} 
+            class="btn btn-primary btn-lg gap-2 group"
+          >
+            <span>Read Article</span>
+            <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+            </svg>
+          </a>
+          
+          <!-- Optional bookmark/share buttons -->
+          <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-square btn-sm">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path>
+              </svg>
+            </div>
+            <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a class="text-sm">Bookmark</a></li>
+              <li><a class="text-sm">Share</a></li>
+              <li><a class="text-sm">View Series</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  ) : (
+    <!-- Empty state with DaisyUI styling -->
+    <div class="card bg-base-200 shadow-lg">
+      <div class="card-body text-center py-16">
+        <div class="text-6xl mb-4 opacity-40">📝</div>
+        <h3 class="text-lg font-semibold text-base-content/70 mb-2">
+          No Featured Posts Yet
+        </h3>
+        <p class="text-base-content/50">
+          Featured content will appear here once articles are published.
+        </p>
+        <div class="card-actions justify-center mt-6">
+          <a href="/posts" class="btn btn-outline">
+            Browse All Posts
+          </a>
+        </div>
+      </div>
+    </div>
+  )}
+</section>
+
+<style>
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>
